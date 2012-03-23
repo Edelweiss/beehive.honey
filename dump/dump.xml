@@ -158,10 +158,18 @@
 		<field Field="status" Type="longtext" Null="NO" Key="" Extra="" />
 		<field Field="creator" Type="longtext" Null="NO" Key="" Extra="" />
 		<field Field="created" Type="datetime" Null="NO" Key="" Extra="" />
-		<key Table="correction" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="2" Null="" Index_type="BTREE" Comment="" />
-		<key Table="correction" Non_unique="1" Key_name="IDX_A29DA1B874281A5E" Seq_in_index="1" Column_name="edition_id" Collation="A" Cardinality="2" Null="" Index_type="BTREE" Comment="" />
+		<field Field="sortPage" Type="int(11)" Null="YES" Key="" Extra="" />
+		<field Field="sortSide" Type="varchar(2)" Null="YES" Key="" Extra="" />
+		<field Field="sortFragment" Type="varchar(255)" Null="YES" Key="" Extra="" />
+		<field Field="sortColumn" Type="varchar(8)" Null="YES" Key="" Extra="" />
+		<field Field="sortLine" Type="int(11)" Null="YES" Key="" Extra="" />
+		<field Field="sortSystem" Type="varchar(256)" Null="NO" Key="" Extra="" />
+		<field Field="sortUser" Type="varchar(256)" Null="YES" Key="" Extra="" />
+		<field Field="sort" Type="varchar(256)" Null="NO" Key="" Extra="" />
+		<key Table="correction" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="23" Null="" Index_type="BTREE" Comment="" />
+		<key Table="correction" Non_unique="1" Key_name="IDX_A29DA1B874281A5E" Seq_in_index="1" Column_name="edition_id" Collation="A" Cardinality="23" Null="" Index_type="BTREE" Comment="" />
 		<key Table="correction" Non_unique="1" Key_name="IDX_A29DA1B8A5F8C840" Seq_in_index="1" Column_name="compilation_id" Collation="A" Cardinality="2" Null="" Index_type="BTREE" Comment="" />
-		<options Name="correction" Engine="InnoDB" Version="10" Row_format="Compact" Rows="23" Avg_row_length="712" Data_length="16384" Max_data_length="0" Index_length="32768" Data_free="0" Auto_increment="26" Create_time="2012-03-02 09:55:00" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 11264 kB; (`edition_id`) REFER `bl/edition`(`id`); (`compilation_id" />
+		<options Name="correction" Engine="InnoDB" Version="10" Row_format="Compact" Rows="23" Avg_row_length="712" Data_length="16384" Max_data_length="0" Index_length="32768" Data_free="0" Auto_increment="24" Create_time="2012-03-22 13:55:40" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 11264 kB; (`edition_id`) REFER `bl/edition`(`id`); (`compilation_id" />
 	</table_structure>
 	<table_data name="correction">
 	<row>
@@ -182,6 +190,14 @@
 		<field name="status">unchecked</field>
 		<field name="creator">system</field>
 		<field name="created">2012-03-07 10:22:02</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">10</field>
+		<field name="sortSystem">e00146000t00000129p00000000s00f00000000c00000000l00000010</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00146000t00000129p00000000s00f00000000c00000000l00000010</field>
 	</row>
 	<row>
 		<field name="id">2</field>
@@ -201,6 +217,14 @@
 		<field name="status">unchecked</field>
 		<field name="creator">system</field>
 		<field name="created">2012-03-07 10:22:02</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide">R°</field>
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine" xsi:nil="true" />
+		<field name="sortSystem">e00175000t00067090p00000000sR°f00000000c00000000l00000000</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00175000t00067090p00000000sR°f00000000c00000000l00000000</field>
 	</row>
 	<row>
 		<field name="id">3</field>
@@ -220,6 +244,14 @@
 		<field name="status">unchecked</field>
 		<field name="creator">system</field>
 		<field name="created">2012-03-07 10:22:02</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">7</field>
+		<field name="sortSystem">e00266000t00000069p00000000s00f00000000c00000000l00000007</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00266000t00000069p00000000s00f00000000c00000000l00000007</field>
 	</row>
 	<row>
 		<field name="id">4</field>
@@ -239,6 +271,14 @@
 		<field name="status">unchecked</field>
 		<field name="creator">system</field>
 		<field name="created">2012-03-07 10:22:02</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine" xsi:nil="true" />
+		<field name="sortSystem">e00312000t00000024p00000000s00f00000000c00000000l00000000</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00312000t00000024p00000000s00f00000000c00000000l00000000</field>
 	</row>
 	<row>
 		<field name="id">5</field>
@@ -258,6 +298,14 @@
 		<field name="status">unchecked</field>
 		<field name="creator">system</field>
 		<field name="created">2012-03-07 10:22:02</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">2</field>
+		<field name="sortSystem">e00312000t00000024p00000000s00f00000000c00000000l00000002</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00312000t00000024p00000000s00f00000000c00000000l00000002</field>
 	</row>
 	<row>
 		<field name="id">6</field>
@@ -277,6 +325,14 @@
 		<field name="status">unchecked</field>
 		<field name="creator">system</field>
 		<field name="created">2012-03-07 10:22:02</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">3</field>
+		<field name="sortSystem">e00312000t00000024p00000000s00f00000000c00000000l00000003</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00312000t00000024p00000000s00f00000000c00000000l00000003</field>
 	</row>
 	<row>
 		<field name="id">7</field>
@@ -296,6 +352,14 @@
 		<field name="status">unchecked</field>
 		<field name="creator">system</field>
 		<field name="created">2012-03-07 10:22:02</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">6</field>
+		<field name="sortSystem">e00312000t00000024p00000000s00f00000000c00000000l00000006</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00312000t00000024p00000000s00f00000000c00000000l00000006</field>
 	</row>
 	<row>
 		<field name="id">8</field>
@@ -315,6 +379,14 @@
 		<field name="status">unchecked</field>
 		<field name="creator">system</field>
 		<field name="created">2012-03-07 10:22:02</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">8</field>
+		<field name="sortSystem">e00377000t00000325p00000000s00f00000000c00000000l00000008</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00377000t00000325p00000000s00f00000000c00000000l00000008</field>
 	</row>
 	<row>
 		<field name="id">9</field>
@@ -334,6 +406,14 @@
 		<field name="status">unchecked</field>
 		<field name="creator">system</field>
 		<field name="created">2012-03-07 10:22:02</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">231</field>
+		<field name="sortSystem">e00496000t00000198p00000000s00f00000000c00000000l00000231</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00496000t00000198p00000000s00f00000000c00000000l00000231</field>
 	</row>
 	<row>
 		<field name="id">10</field>
@@ -353,6 +433,14 @@
 		<field name="status">unchecked</field>
 		<field name="creator">system</field>
 		<field name="created">2012-03-07 10:22:02</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">3</field>
+		<field name="sortSystem">e00524000t00000234p00000000s00f00000000c00000000l00000003</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00524000t00000234p00000000s00f00000000c00000000l00000003</field>
 	</row>
 	<row>
 		<field name="id">11</field>
@@ -372,6 +460,14 @@
 		<field name="status">unchecked</field>
 		<field name="creator">system</field>
 		<field name="created">2012-03-07 10:22:02</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">29</field>
+		<field name="sortSystem">e00552000t00000074p00000000s00f00000000c00000000l00000029</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00552000t00000074p00000000s00f00000000c00000000l00000029</field>
 	</row>
 	<row>
 		<field name="id">12</field>
@@ -391,6 +487,14 @@
 		<field name="status">unchecked</field>
 		<field name="creator">system</field>
 		<field name="created">2012-03-07 10:22:02</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">7</field>
+		<field name="sortSystem">e00553000t00000192p00000000s00f00000000c00000000l00000007</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00553000t00000192p00000000s00f00000000c00000000l00000007</field>
 	</row>
 	<row>
 		<field name="id">13</field>
@@ -410,6 +514,14 @@
 		<field name="status">unchecked</field>
 		<field name="creator">system</field>
 		<field name="created">2012-03-07 10:22:02</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine" xsi:nil="true" />
+		<field name="sortSystem">e00584000t00001793p00000000s00f00000000c00000000l00000000</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00584000t00001793p00000000s00f00000000c00000000l00000000</field>
 	</row>
 	<row>
 		<field name="id">14</field>
@@ -429,6 +541,14 @@
 		<field name="status">unchecked</field>
 		<field name="creator">system</field>
 		<field name="created">2012-03-07 10:22:02</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">2</field>
+		<field name="sortSystem">e00603000t00000070p00000000s00f00000000c00000000l00000002</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00603000t00000070p00000000s00f00000000c00000000l00000002</field>
 	</row>
 	<row>
 		<field name="id">15</field>
@@ -448,6 +568,14 @@
 		<field name="status">unchecked</field>
 		<field name="creator">system</field>
 		<field name="created">2012-03-07 10:22:02</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">1</field>
+		<field name="sortSystem">e00636000t00000064p00000000s00f00000000c00000000l00000001</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00636000t00000064p00000000s00f00000000c00000000l00000001</field>
 	</row>
 	<row>
 		<field name="id">16</field>
@@ -467,6 +595,14 @@
 		<field name="status">unchecked</field>
 		<field name="creator">system</field>
 		<field name="created">2012-03-07 10:22:02</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">5</field>
+		<field name="sortSystem">e00636000t00000064p00000000s00f00000000c00000000l00000005</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00636000t00000064p00000000s00f00000000c00000000l00000005</field>
 	</row>
 	<row>
 		<field name="id">17</field>
@@ -486,6 +622,14 @@
 		<field name="status">unchecked</field>
 		<field name="creator">system</field>
 		<field name="created">2012-03-07 10:22:02</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">9</field>
+		<field name="sortSystem">e00636000t00000064p00000000s00f00000000c00000000l00000009</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00636000t00000064p00000000s00f00000000c00000000l00000009</field>
 	</row>
 	<row>
 		<field name="id">18</field>
@@ -505,12 +649,20 @@
 		<field name="status">unchecked</field>
 		<field name="creator">system</field>
 		<field name="created">2012-03-07 10:22:02</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine" xsi:nil="true" />
+		<field name="sortSystem">e00312000t00000013p00000000s00f00000000c00000000l00000000</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00312000t00000013p00000000s00f00000000c00000000l00000000</field>
 	</row>
 	<row>
 		<field name="id">19</field>
 		<field name="edition_id">1</field>
 		<field name="compilation_id">14</field>
-		<field name="text">Text, ext, xt, t, ...</field>
+		<field name="text">1884</field>
 		<field name="tm">9999</field>
 		<field name="folder">10</field>
 		<field name="hgv">9999a</field>
@@ -524,6 +676,14 @@
 		<field name="status">unchecked</field>
 		<field name="creator">lanz</field>
 		<field name="created">2012-03-07 10:25:17</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">1234</field>
+		<field name="sortSystem">e00000000t00001884p00000000s00f00000000c00000000l00001234</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00000000t00001884p00000000s00f00000000c00000000l00001234</field>
 	</row>
 	<row>
 		<field name="id">20</field>
@@ -543,6 +703,14 @@
 		<field name="status">unchecked</field>
 		<field name="creator">cowey</field>
 		<field name="created">2012-03-08 14:48:48</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">10</field>
+		<field name="sortSystem">e00090000t1258 A (Recto)p00000000s00f00000000c00000000l00000010</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00090000t1258 A (Recto)p00000000s00f00000000c00000000l00000010</field>
 	</row>
 	<row>
 		<field name="id">21</field>
@@ -562,6 +730,14 @@
 		<field name="status">unchecked</field>
 		<field name="creator">cowey</field>
 		<field name="created">2012-03-08 14:56:13</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">4</field>
+		<field name="sortSystem">e00445000t00000036p00000000s00f00000000c00000000l00000004</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00445000t00000036p00000000s00f00000000c00000000l00000004</field>
 	</row>
 	<row>
 		<field name="id">22</field>
@@ -581,6 +757,14 @@
 		<field name="status">unchecked</field>
 		<field name="creator">cowey</field>
 		<field name="created">2012-03-08 15:05:25</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">20</field>
+		<field name="sortSystem">e01032000t00000811p00000000s00f00000000c00000000l00000020</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e01032000t00000811p00000000s00f00000000c00000000l00000020</field>
 	</row>
 	<row>
 		<field name="id">23</field>
@@ -600,6 +784,14 @@
 		<field name="status">unchecked</field>
 		<field name="creator">cowey</field>
 		<field name="created">2012-03-08 15:14:35</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">2</field>
+		<field name="sortSystem">e00918000t00015945p00000000s00f00000000c00000000l00000002</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00918000t00015945p00000000s00f00000000c00000000l00000002</field>
 	</row>
 	</table_data>
 	<table_structure name="edition">
@@ -5817,11 +6009,11 @@
 		<field Field="version" Type="int(11)" Null="NO" Key="" Extra="" />
 		<field Field="data" Type="longtext" Null="YES" Key="" Extra="" />
 		<field Field="username" Type="varchar(255)" Null="YES" Key="MUL" Extra="" />
-		<key Table="ext_log_entries" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="59" Null="" Index_type="BTREE" Comment="" />
-		<key Table="ext_log_entries" Non_unique="1" Key_name="log_class_lookup_idx" Seq_in_index="1" Column_name="object_class" Collation="A" Cardinality="59" Null="" Index_type="BTREE" Comment="" />
-		<key Table="ext_log_entries" Non_unique="1" Key_name="log_date_lookup_idx" Seq_in_index="1" Column_name="logged_at" Collation="A" Cardinality="59" Null="" Index_type="BTREE" Comment="" />
-		<key Table="ext_log_entries" Non_unique="1" Key_name="log_user_lookup_idx" Seq_in_index="1" Column_name="username" Collation="A" Cardinality="59" Null="YES" Index_type="BTREE" Comment="" />
-		<options Name="ext_log_entries" Engine="InnoDB" Version="10" Row_format="Compact" Rows="59" Avg_row_length="833" Data_length="49152" Max_data_length="0" Index_length="49152" Data_free="0" Auto_increment="91" Create_time="2012-02-10 23:18:07" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 11264 kB" />
+		<key Table="ext_log_entries" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="67" Null="" Index_type="BTREE" Comment="" />
+		<key Table="ext_log_entries" Non_unique="1" Key_name="log_class_lookup_idx" Seq_in_index="1" Column_name="object_class" Collation="A" Cardinality="67" Null="" Index_type="BTREE" Comment="" />
+		<key Table="ext_log_entries" Non_unique="1" Key_name="log_date_lookup_idx" Seq_in_index="1" Column_name="logged_at" Collation="A" Cardinality="67" Null="" Index_type="BTREE" Comment="" />
+		<key Table="ext_log_entries" Non_unique="1" Key_name="log_user_lookup_idx" Seq_in_index="1" Column_name="username" Collation="A" Cardinality="67" Null="YES" Index_type="BTREE" Comment="" />
+		<options Name="ext_log_entries" Engine="InnoDB" Version="10" Row_format="Compact" Rows="67" Avg_row_length="978" Data_length="65536" Max_data_length="0" Index_length="49152" Data_free="0" Auto_increment="132" Create_time="2012-02-10 23:18:07" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 11264 kB" />
 	</table_structure>
 	<table_data name="ext_log_entries">
 	<row>
@@ -6724,6 +6916,416 @@
 		<field name="data">N;</field>
 		<field name="username">lanz</field>
 	</row>
+	<row>
+		<field name="id">91</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-03-22 14:57:20</field>
+		<field name="object_id">1</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">lanz</field>
+	</row>
+	<row>
+		<field name="id">92</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-03-22 14:57:20</field>
+		<field name="object_id">2</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">lanz</field>
+	</row>
+	<row>
+		<field name="id">93</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-03-22 14:57:20</field>
+		<field name="object_id">3</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">lanz</field>
+	</row>
+	<row>
+		<field name="id">94</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-03-22 14:57:20</field>
+		<field name="object_id">4</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">lanz</field>
+	</row>
+	<row>
+		<field name="id">95</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-03-22 14:57:20</field>
+		<field name="object_id">5</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">lanz</field>
+	</row>
+	<row>
+		<field name="id">96</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-03-22 14:57:20</field>
+		<field name="object_id">6</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">lanz</field>
+	</row>
+	<row>
+		<field name="id">97</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-03-22 14:57:20</field>
+		<field name="object_id">7</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">3</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">lanz</field>
+	</row>
+	<row>
+		<field name="id">98</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-03-22 14:57:20</field>
+		<field name="object_id">8</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">lanz</field>
+	</row>
+	<row>
+		<field name="id">99</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-03-22 14:57:20</field>
+		<field name="object_id">9</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">lanz</field>
+	</row>
+	<row>
+		<field name="id">100</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-03-22 14:57:20</field>
+		<field name="object_id">10</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">lanz</field>
+	</row>
+	<row>
+		<field name="id">101</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-03-22 14:57:20</field>
+		<field name="object_id">11</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">lanz</field>
+	</row>
+	<row>
+		<field name="id">102</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-03-22 14:57:20</field>
+		<field name="object_id">12</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">lanz</field>
+	</row>
+	<row>
+		<field name="id">103</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-03-22 14:57:20</field>
+		<field name="object_id">13</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">lanz</field>
+	</row>
+	<row>
+		<field name="id">104</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-03-22 14:57:20</field>
+		<field name="object_id">14</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">lanz</field>
+	</row>
+	<row>
+		<field name="id">105</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-03-22 14:57:20</field>
+		<field name="object_id">15</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">lanz</field>
+	</row>
+	<row>
+		<field name="id">106</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-03-22 14:57:20</field>
+		<field name="object_id">16</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">lanz</field>
+	</row>
+	<row>
+		<field name="id">107</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-03-22 14:57:20</field>
+		<field name="object_id">17</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">lanz</field>
+	</row>
+	<row>
+		<field name="id">108</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-03-22 14:57:20</field>
+		<field name="object_id">18</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">lanz</field>
+	</row>
+	<row>
+		<field name="id">109</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-03-22 14:57:20</field>
+		<field name="object_id">19</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">14</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">lanz</field>
+	</row>
+	<row>
+		<field name="id">110</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-03-22 14:57:20</field>
+		<field name="object_id">20</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">3</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">lanz</field>
+	</row>
+	<row>
+		<field name="id">111</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-03-22 14:57:20</field>
+		<field name="object_id">21</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">lanz</field>
+	</row>
+	<row>
+		<field name="id">112</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-03-22 15:03:27</field>
+		<field name="object_id">1</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">3</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">lanz</field>
+	</row>
+	<row>
+		<field name="id">113</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-03-22 15:03:27</field>
+		<field name="object_id">3</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">3</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">lanz</field>
+	</row>
+	<row>
+		<field name="id">114</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-03-22 15:03:27</field>
+		<field name="object_id">5</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">3</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">lanz</field>
+	</row>
+	<row>
+		<field name="id">115</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-03-22 15:03:27</field>
+		<field name="object_id">6</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">3</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">lanz</field>
+	</row>
+	<row>
+		<field name="id">116</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-03-22 15:03:27</field>
+		<field name="object_id">7</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">4</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">lanz</field>
+	</row>
+	<row>
+		<field name="id">117</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-03-22 15:03:27</field>
+		<field name="object_id">8</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">3</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">lanz</field>
+	</row>
+	<row>
+		<field name="id">118</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-03-22 15:03:27</field>
+		<field name="object_id">9</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">3</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">lanz</field>
+	</row>
+	<row>
+		<field name="id">119</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-03-22 15:03:27</field>
+		<field name="object_id">10</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">3</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">lanz</field>
+	</row>
+	<row>
+		<field name="id">120</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-03-22 15:03:27</field>
+		<field name="object_id">11</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">3</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">lanz</field>
+	</row>
+	<row>
+		<field name="id">121</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-03-22 15:03:27</field>
+		<field name="object_id">12</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">3</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">lanz</field>
+	</row>
+	<row>
+		<field name="id">122</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-03-22 15:03:27</field>
+		<field name="object_id">14</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">3</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">lanz</field>
+	</row>
+	<row>
+		<field name="id">123</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-03-22 15:03:27</field>
+		<field name="object_id">15</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">3</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">lanz</field>
+	</row>
+	<row>
+		<field name="id">124</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-03-22 15:03:27</field>
+		<field name="object_id">16</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">3</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">lanz</field>
+	</row>
+	<row>
+		<field name="id">125</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-03-22 15:03:27</field>
+		<field name="object_id">17</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">3</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">lanz</field>
+	</row>
+	<row>
+		<field name="id">126</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-03-22 15:03:27</field>
+		<field name="object_id">19</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">15</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">lanz</field>
+	</row>
+	<row>
+		<field name="id">127</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-03-22 15:03:27</field>
+		<field name="object_id">20</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">4</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">lanz</field>
+	</row>
+	<row>
+		<field name="id">128</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-03-22 15:03:27</field>
+		<field name="object_id">21</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">3</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">lanz</field>
+	</row>
+	<row>
+		<field name="id">129</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-03-22 15:03:27</field>
+		<field name="object_id">22</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">3</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">lanz</field>
+	</row>
+	<row>
+		<field name="id">130</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-03-22 15:03:27</field>
+		<field name="object_id">23</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">lanz</field>
+	</row>
+	<row>
+		<field name="id">131</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-03-22 15:04:25</field>
+		<field name="object_id">19</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">16</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">lanz</field>
+	</row>
 	</table_data>
 	<table_structure name="ext_translations">
 		<field Field="id" Type="int(11)" Null="NO" Key="PRI" Extra="auto_increment" />
@@ -7026,8 +7628,8 @@
 		<field name="roles">a:2:{i:0;s:9:&quot;ROLE_USER&quot;;i:1;s:10:&quot;ROLE_ADMIN&quot;;}</field>
 		<field name="salt">r33qwlv6s00w0w0og4sgksogsk4ww4o</field>
 		<field name="isActive">1</field>
-		<field name="currentLogin">2012-03-22 09:39:00</field>
-		<field name="lastLogin">2012-03-15 12:59:08</field>
+		<field name="currentLogin">2012-03-22 14:56:20</field>
+		<field name="lastLogin">2012-03-22 09:39:00</field>
 	</row>
 	<row>
 		<field name="id">2</field>
