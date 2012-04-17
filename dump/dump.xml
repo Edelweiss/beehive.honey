@@ -7628,8 +7628,8 @@
 		<field name="roles">a:2:{i:0;s:9:&quot;ROLE_USER&quot;;i:1;s:10:&quot;ROLE_ADMIN&quot;;}</field>
 		<field name="salt">r33qwlv6s00w0w0og4sgksogsk4ww4o</field>
 		<field name="isActive">1</field>
-		<field name="currentLogin">2012-03-22 14:56:20</field>
-		<field name="lastLogin">2012-03-22 09:39:00</field>
+		<field name="currentLogin">2012-04-17 10:11:32</field>
+		<field name="lastLogin">2012-03-22 14:56:20</field>
 	</row>
 	<row>
 		<field name="id">2</field>
