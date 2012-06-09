@@ -166,10 +166,10 @@
 		<field Field="sortSystem" Type="varchar(256)" Null="NO" Key="" Extra="" />
 		<field Field="sortUser" Type="varchar(256)" Null="YES" Key="" Extra="" />
 		<field Field="sort" Type="varchar(256)" Null="NO" Key="" Extra="" />
-		<key Table="correction" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="24" Null="" Index_type="BTREE" Comment="" />
-		<key Table="correction" Non_unique="1" Key_name="IDX_A29DA1B874281A5E" Seq_in_index="1" Column_name="edition_id" Collation="A" Cardinality="24" Null="" Index_type="BTREE" Comment="" />
+		<key Table="correction" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="29" Null="" Index_type="BTREE" Comment="" />
+		<key Table="correction" Non_unique="1" Key_name="IDX_A29DA1B874281A5E" Seq_in_index="1" Column_name="edition_id" Collation="A" Cardinality="29" Null="" Index_type="BTREE" Comment="" />
 		<key Table="correction" Non_unique="1" Key_name="IDX_A29DA1B8A5F8C840" Seq_in_index="1" Column_name="compilation_id" Collation="A" Cardinality="2" Null="" Index_type="BTREE" Comment="" />
-		<options Name="correction" Engine="InnoDB" Version="10" Row_format="Compact" Rows="24" Avg_row_length="682" Data_length="16384" Max_data_length="0" Index_length="32768" Data_free="0" Auto_increment="25" Create_time="2012-03-22 13:55:40" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 66560 kB; (`edition_id`) REFER `bl/edition`(`id`); (`compilation_id" />
+		<options Name="correction" Engine="InnoDB" Version="10" Row_format="Compact" Rows="29" Avg_row_length="564" Data_length="16384" Max_data_length="0" Index_length="32768" Data_free="0" Auto_increment="32" Create_time="2012-03-22 13:55:40" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 66560 kB; (`edition_id`) REFER `bl/edition`(`id`); (`compilation_id" />
 	</table_structure>
 	<table_data name="correction">
 	<row>
@@ -819,6 +819,141 @@
 		<field name="sortSystem">e00090000t00001261p00000000s00f00000000c00000000l00000006</field>
 		<field name="sortUser" xsi:nil="true" />
 		<field name="sort">e00090000t00001261p00000000s00f00000000c00000000l00000006</field>
+	</row>
+	<row>
+		<field name="id">25</field>
+		<field name="edition_id">5</field>
+		<field name="compilation_id">14</field>
+		<field name="text">6</field>
+		<field name="tm">5</field>
+		<field name="folder">1</field>
+		<field name="hgv">5</field>
+		<field name="ddb">p.adl;;G6</field>
+		<field name="collection">p.adl</field>
+		<field name="volume"></field>
+		<field name="document">G6</field>
+		<field name="position">13-16</field>
+		<field name="description">Vgl. J.D. Sosin, APF 50 (2004), S. 42-44, Anm. 10.</field>
+		<field name="source">73651</field>
+		<field name="status">unchecked</field>
+		<field name="creator">cowey</field>
+		<field name="created">2012-06-08 15:06:22</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">13</field>
+		<field name="sortSystem">e00020000t00000006p00000000s00f00000000c00000000l00000013</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00020000t00000006p00000000s00f00000000c00000000l00000013</field>
+	</row>
+	<row>
+		<field name="id">26</field>
+		<field name="edition_id">5</field>
+		<field name="compilation_id">14</field>
+		<field name="text">15</field>
+		<field name="tm">15</field>
+		<field name="folder">1</field>
+		<field name="hgv">15</field>
+		<field name="ddb">p.adl;;G15</field>
+		<field name="collection">p.adl</field>
+		<field name="volume"></field>
+		<field name="document">G15</field>
+		<field name="position">16-20</field>
+		<field name="description">Vgl. J.D. Sosin, APF 50 (2004), S. 42-44, Anm. 7.</field>
+		<field name="source">73651</field>
+		<field name="status">unchecked</field>
+		<field name="creator">cowey</field>
+		<field name="created">2012-06-08 15:15:25</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">16</field>
+		<field name="sortSystem">e00020000t00000015p00000000s00f00000000c00000000l00000016</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00020000t00000015p00000000s00f00000000c00000000l00000016</field>
+	</row>
+	<row>
+		<field name="id">28</field>
+		<field name="edition_id">11</field>
+		<field name="compilation_id">6</field>
+		<field name="text">44</field>
+		<field name="tm">32720</field>
+		<field name="folder">33</field>
+		<field name="hgv">32720</field>
+		<field name="ddb">sb;24;16204</field>
+		<field name="collection">sb</field>
+		<field name="volume">24</field>
+		<field name="document">16204</field>
+		<field name="position">9</field>
+		<field name="description">λι&amp;lt;νω&amp;gt;τῶν, I. Cazzaniga Parola del Passato 89 (1963), S. 128. (Die Lesung λιτῶν hat aber einen guten Sinn).</field>
+		<field name="source">44557</field>
+		<field name="status">unchecked</field>
+		<field name="creator">cowey</field>
+		<field name="created">2012-06-08 17:46:08</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">9</field>
+		<field name="sortSystem">e00045000t00000044p00000000s00f00000000c00000000l00000009</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00045000t00000044p00000000s00f00000000c00000000l00000009</field>
+	</row>
+	<row>
+		<field name="id">30</field>
+		<field name="edition_id">11</field>
+		<field name="compilation_id">7</field>
+		<field name="text">44</field>
+		<field name="tm">32720</field>
+		<field name="folder">33</field>
+		<field name="hgv">32720</field>
+		<field name="ddb">sb;24;16204</field>
+		<field name="collection">sb</field>
+		<field name="volume">24</field>
+		<field name="document">16204</field>
+		<field name="position">9</field>
+		<field name="description">Viell. ἀ̣[γαθ]ῷ̣, ebd., Anm. zu Z. 10.</field>
+		<field name="source" xsi:nil="true" />
+		<field name="status">unchecked</field>
+		<field name="creator">cowey</field>
+		<field name="created">2012-06-08 17:53:59</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">9</field>
+		<field name="sortSystem">e00045000t00000044p00000000s00f00000000c00000000l00000009</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00045000t00000044p00000000s00f00000000c00000000l00000009</field>
+	</row>
+	<row>
+		<field name="id">31</field>
+		<field name="edition_id">11</field>
+		<field name="compilation_id">7</field>
+		<field name="text">44</field>
+		<field name="tm">32720</field>
+		<field name="folder">33</field>
+		<field name="hgv">32720</field>
+		<field name="ddb">sb;24;16204</field>
+		<field name="collection">sb</field>
+		<field name="volume">24</field>
+		<field name="document">16204</field>
+		<field name="position">9</field>
+		<field name="description">Die Lesung λιτῶν ist richtig (anders: B.L. 5, S. 6), S. Daris, Chr.d'Ég. 47 (1972), S. 222.</field>
+		<field name="source">48823</field>
+		<field name="status">unchecked</field>
+		<field name="creator">cowey</field>
+		<field name="created">2012-06-08 18:01:55</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">9</field>
+		<field name="sortSystem">e00045000t00000044p00000000s00f00000000c00000000l00000009</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00045000t00000044p00000000s00f00000000c00000000l00000009</field>
 	</row>
 	</table_data>
 	<table_structure name="edition">
@@ -6036,11 +6171,11 @@
 		<field Field="version" Type="int(11)" Null="NO" Key="" Extra="" />
 		<field Field="data" Type="longtext" Null="YES" Key="" Extra="" />
 		<field Field="username" Type="varchar(255)" Null="YES" Key="MUL" Extra="" />
-		<key Table="ext_log_entries" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="73" Null="" Index_type="BTREE" Comment="" />
-		<key Table="ext_log_entries" Non_unique="1" Key_name="log_class_lookup_idx" Seq_in_index="1" Column_name="object_class" Collation="A" Cardinality="4" Null="" Index_type="BTREE" Comment="" />
-		<key Table="ext_log_entries" Non_unique="1" Key_name="log_date_lookup_idx" Seq_in_index="1" Column_name="logged_at" Collation="A" Cardinality="73" Null="" Index_type="BTREE" Comment="" />
-		<key Table="ext_log_entries" Non_unique="1" Key_name="log_user_lookup_idx" Seq_in_index="1" Column_name="username" Collation="A" Cardinality="8" Null="YES" Index_type="BTREE" Comment="" />
-		<options Name="ext_log_entries" Engine="InnoDB" Version="10" Row_format="Compact" Rows="73" Avg_row_length="897" Data_length="65536" Max_data_length="0" Index_length="49152" Data_free="0" Auto_increment="134" Create_time="2012-02-10 23:18:07" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 66560 kB" />
+		<key Table="ext_log_entries" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="118" Null="" Index_type="BTREE" Comment="" />
+		<key Table="ext_log_entries" Non_unique="1" Key_name="log_class_lookup_idx" Seq_in_index="1" Column_name="object_class" Collation="A" Cardinality="6" Null="" Index_type="BTREE" Comment="" />
+		<key Table="ext_log_entries" Non_unique="1" Key_name="log_date_lookup_idx" Seq_in_index="1" Column_name="logged_at" Collation="A" Cardinality="118" Null="" Index_type="BTREE" Comment="" />
+		<key Table="ext_log_entries" Non_unique="1" Key_name="log_user_lookup_idx" Seq_in_index="1" Column_name="username" Collation="A" Cardinality="13" Null="YES" Index_type="BTREE" Comment="" />
+		<options Name="ext_log_entries" Engine="InnoDB" Version="10" Row_format="Compact" Rows="118" Avg_row_length="555" Data_length="65536" Max_data_length="0" Index_length="49152" Data_free="0" Auto_increment="149" Create_time="2012-02-10 23:18:07" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 66560 kB" />
 	</table_structure>
 	<table_data name="ext_log_entries">
 	<row>
@@ -6890,7 +7025,7 @@
 		<field name="object_id">25</field>
 		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
 		<field name="version">2</field>
-		<field name="data">N;</field>
+		<field name="data">a:0:{}</field>
 		<field name="username">hoogendijk</field>
 	</row>
 	<row>
@@ -7373,6 +7508,156 @@
 		<field name="data">a:3:{s:8:&quot;position&quot;;s:3:&quot;6-8&quot;;s:11:&quot;description&quot;;s:41:&quot;Vgl. J.D. Sosin, APF 50 (2004), S. 42-44.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
 		<field name="username">cowey</field>
 	</row>
+	<row>
+		<field name="id">134</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-06-08 15:06:22</field>
+		<field name="object_id">25</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:5:&quot;13-16&quot;;s:11:&quot;description&quot;;s:41:&quot;Vgl. J.D. Sosin, APF 50 (2004), S. 42-44.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">135</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-06-08 15:08:14</field>
+		<field name="object_id">25</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">3</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">136</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-06-08 15:12:10</field>
+		<field name="object_id">25</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">4</field>
+		<field name="data">a:1:{s:11:&quot;description&quot;;s:50:&quot;Vgl. J.D. Sosin, APF 50 (2004), S. 42-44, Anm. 10.&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">137</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-06-08 15:15:25</field>
+		<field name="object_id">26</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:5:&quot;16-20&quot;;s:11:&quot;description&quot;;s:49:&quot;Vgl. J.D. Sosin, APF 50 (2004), S. 42-44, Anm. 7.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">138</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-06-08 17:30:47</field>
+		<field name="object_id">27</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;N;s:11:&quot;description&quot;;s:17:&quot;Nd. P. Abinn. 62.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">139</field>
+		<field name="action">remove</field>
+		<field name="logged_at">2012-06-08 17:43:22</field>
+		<field name="object_id">27</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">N;</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">140</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-06-08 17:46:08</field>
+		<field name="object_id">28</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:1:&quot;9&quot;;s:11:&quot;description&quot;;s:109:&quot;λι&lt;νω&gt;τῶν, I. Cazzaniga Parola del Passato 89 (1963), S. 128. (Die Lesung hat aber einen guten Sinn).&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">141</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-06-08 17:46:33</field>
+		<field name="object_id">28</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:1:{s:11:&quot;description&quot;;s:127:&quot;λι&amp;lt;νω&amp;gt;τῶν, I. Cazzaniga Parola del Passato 89 (1963), S. 128. (Die Lesung λιτῶν hat aber einen guten Sinn).&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">142</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-06-08 17:49:46</field>
+		<field name="object_id">28</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">3</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">143</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-06-08 17:51:31</field>
+		<field name="object_id">29</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:1:&quot;9&quot;;s:11:&quot;description&quot;;s:6:&quot;Viell.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">144</field>
+		<field name="action">remove</field>
+		<field name="logged_at">2012-06-08 17:53:03</field>
+		<field name="object_id">29</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">N;</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">145</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-06-08 17:53:59</field>
+		<field name="object_id">30</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:1:&quot;9&quot;;s:11:&quot;description&quot;;s:6:&quot;Viell.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">146</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-06-08 17:56:16</field>
+		<field name="object_id">30</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:1:{s:11:&quot;description&quot;;s:47:&quot;Viell. ἀ̣[γαθ]ῷ̣, ebd., Anm. zu Z. 10.&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">147</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-06-08 18:01:55</field>
+		<field name="object_id">31</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:1:&quot;9&quot;;s:11:&quot;description&quot;;s:98:&quot;Die Lesung λιτῶν ist richtig (anders: B.L. 5, S. 6), S. Daris, Chr.d'Ég. 47 (1972), S. 222.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">148</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-06-08 18:05:22</field>
+		<field name="object_id">31</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">cowey</field>
+	</row>
 	</table_data>
 	<table_structure name="ext_translations">
 		<field Field="id" Type="int(11)" Null="NO" Key="PRI" Extra="auto_increment" />
@@ -7687,8 +7972,8 @@
 		<field name="roles">a:2:{i:0;s:9:&quot;ROLE_USER&quot;;i:1;s:10:&quot;ROLE_ADMIN&quot;;}</field>
 		<field name="salt">gxq3tr9zm1c8g4848wcow0okksocg0o</field>
 		<field name="isActive">1</field>
-		<field name="currentLogin">2012-05-31 14:02:11</field>
-		<field name="lastLogin">2012-05-23 14:55:38</field>
+		<field name="currentLogin">2012-06-08 18:40:13</field>
+		<field name="lastLogin">2012-06-08 18:39:40</field>
 	</row>
 	<row>
 		<field name="id">3</field>
