@@ -700,7 +700,7 @@
 		<field name="position">10</field>
 		<field name="description">οὐλαὶ πο̣[σὶ   ̣  ̣  ̣]ιδε: viell. οὐλαὶ πο̣[λλαὶ   ̣  ̣  ̣]ιδε, N. Quenouile, APF 48 (2002), S. 85.</field>
 		<field name="source">71371</field>
-		<field name="status">unchecked</field>
+		<field name="status">finalised</field>
 		<field name="creator">cowey</field>
 		<field name="created">2012-03-08 14:48:48</field>
 		<field name="sortPage" xsi:nil="true" />
@@ -6171,11 +6171,11 @@
 		<field Field="version" Type="int(11)" Null="NO" Key="" Extra="" />
 		<field Field="data" Type="longtext" Null="YES" Key="" Extra="" />
 		<field Field="username" Type="varchar(255)" Null="YES" Key="MUL" Extra="" />
-		<key Table="ext_log_entries" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="118" Null="" Index_type="BTREE" Comment="" />
-		<key Table="ext_log_entries" Non_unique="1" Key_name="log_class_lookup_idx" Seq_in_index="1" Column_name="object_class" Collation="A" Cardinality="6" Null="" Index_type="BTREE" Comment="" />
-		<key Table="ext_log_entries" Non_unique="1" Key_name="log_date_lookup_idx" Seq_in_index="1" Column_name="logged_at" Collation="A" Cardinality="118" Null="" Index_type="BTREE" Comment="" />
-		<key Table="ext_log_entries" Non_unique="1" Key_name="log_user_lookup_idx" Seq_in_index="1" Column_name="username" Collation="A" Cardinality="13" Null="YES" Index_type="BTREE" Comment="" />
-		<options Name="ext_log_entries" Engine="InnoDB" Version="10" Row_format="Compact" Rows="118" Avg_row_length="555" Data_length="65536" Max_data_length="0" Index_length="49152" Data_free="0" Auto_increment="149" Create_time="2012-02-10 23:18:07" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 65536 kB" />
+		<key Table="ext_log_entries" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="127" Null="" Index_type="BTREE" Comment="" />
+		<key Table="ext_log_entries" Non_unique="1" Key_name="log_class_lookup_idx" Seq_in_index="1" Column_name="object_class" Collation="A" Cardinality="7" Null="" Index_type="BTREE" Comment="" />
+		<key Table="ext_log_entries" Non_unique="1" Key_name="log_date_lookup_idx" Seq_in_index="1" Column_name="logged_at" Collation="A" Cardinality="127" Null="" Index_type="BTREE" Comment="" />
+		<key Table="ext_log_entries" Non_unique="1" Key_name="log_user_lookup_idx" Seq_in_index="1" Column_name="username" Collation="A" Cardinality="14" Null="YES" Index_type="BTREE" Comment="" />
+		<options Name="ext_log_entries" Engine="InnoDB" Version="10" Row_format="Compact" Rows="127" Avg_row_length="516" Data_length="65536" Max_data_length="0" Index_length="49152" Data_free="0" Auto_increment="152" Create_time="2012-02-10 23:18:07" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 65536 kB" />
 	</table_structure>
 	<table_data name="ext_log_entries">
 	<row>
@@ -7658,6 +7658,36 @@
 		<field name="data">a:0:{}</field>
 		<field name="username">cowey</field>
 	</row>
+	<row>
+		<field name="id">149</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-06-12 08:17:16</field>
+		<field name="object_id">20</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">6</field>
+		<field name="data">a:1:{s:6:&quot;status&quot;;s:9:&quot;finalised&quot;;}</field>
+		<field name="username">lanz</field>
+	</row>
+	<row>
+		<field name="id">150</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-06-12 10:36:22</field>
+		<field name="object_id">31</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">3</field>
+		<field name="data">a:1:{s:7:&quot;cleared&quot;;O:8:&quot;DateTime&quot;:3:{s:4:&quot;date&quot;;s:19:&quot;2012-06-12 10:36:22&quot;;s:13:&quot;timezone_type&quot;;i:3;s:8:&quot;timezone&quot;;s:13:&quot;Europe/Berlin&quot;;}}</field>
+		<field name="username">lanz</field>
+	</row>
+	<row>
+		<field name="id">151</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-06-12 10:36:30</field>
+		<field name="object_id">31</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">4</field>
+		<field name="data">a:1:{s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">lanz</field>
+	</row>
 	</table_data>
 	<table_structure name="ext_translations">
 		<field Field="id" Type="int(11)" Null="NO" Key="PRI" Extra="auto_increment" />
@@ -7960,8 +7990,8 @@
 		<field name="roles">a:2:{i:0;s:9:&quot;ROLE_USER&quot;;i:1;s:10:&quot;ROLE_ADMIN&quot;;}</field>
 		<field name="salt">r33qwlv6s00w0w0og4sgksogsk4ww4o</field>
 		<field name="isActive">1</field>
-		<field name="currentLogin">2012-04-17 10:11:32</field>
-		<field name="lastLogin">2012-03-22 14:56:20</field>
+		<field name="currentLogin">2012-06-12 07:59:56</field>
+		<field name="lastLogin">2012-04-17 10:11:32</field>
 	</row>
 	<row>
 		<field name="id">2</field>
