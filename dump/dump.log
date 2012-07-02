@@ -1,8 +1,8 @@
-Sun Jul  1 12:08:00 CEST 2012
+Mon Jul  2 08:55:55 CEST 2012
 ---- initialise
-PATH: /usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin
-CLASSPATH: :/Users/Admin/Library/saxon/saxon9he.jar
-today: 2012.07.01
+PATH: /usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/X11/bin:/usr/local/jruby/bin:/usr/local/pgsql/bin:/usr/local/apache-maven/bin:/usr/local/bin:/usr/local/git/bin
+CLASSPATH: :/Users/Admin/Library/saxon/saxon9he.jar:/Users/Admin/Library/saxon/saxon9he.jar
+today: 2012.07.02
 sql: /Users/Admin/beehive.data/dump/dump.sql
 xml: /Users/Admin/beehive.data/dump/dump.xml
 database: bl

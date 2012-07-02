@@ -34,9 +34,9 @@ git --git-dir "$repo/.git" fetch >> $log 2>&1
 echo "---- git merge" >> $log
 git --git-dir "$repo/.git" merge origin/master >> $log 2>&1
 echo "---- mysqldump sql" >> $log
-mysqldump --single-transaction --password=$gloin --user=$user $database > $sql
+mysqldump --single-transaction --password=$gloin --user=$user --ignore-table=$database.user $database > $sql
 echo "---- mysqldump xml" >> $log
-mysqldump --single-transaction --password=$gloin --user=$user --xml $database > $xml
+mysqldump --single-transaction --password=$gloin --user=$user --ignore-table=$database.user --xml $database > $xml
 echo "---- git add" >> $log
 cd $repo
 git add dump >> $log 2>&1

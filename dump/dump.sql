@@ -243,41 +243,6 @@ LOCK TABLES `task` WRITE;
 INSERT INTO `task` VALUES (1,1,'hgv','add Bemerkung HGV (via James?) Zum Datum vgl. P. Oxy. 68. 4681, Anm. zu Z. 9-11. or whole remark?',NULL),(2,2,'hgv','add HGV: Abbildung: J.-L. Fournet, in: Des Alexandries II, S. 79.',NULL),(3,3,'ddb','add comlete remark, followed by [BL 13], in DDbDP commentary-line via SoSOL',NULL),(4,4,'hgv','already in HGV','2012-01-01 00:00:00'),(5,5,'hgv','already in HGV','2012-01-01 00:00:00'),(6,5,'tm','identities for Trismegistos (form wil be functional ca. february 2012) Theodoros 378673 =  387422; Leukadios 378678 = 387455 and perhaps = 374820.',NULL),(7,6,'hgv','add line-nr. in HGV-remark?',NULL),(8,6,'tm','inform Trismegistos',NULL),(9,7,'hgv','add line-nr. in HGV-remark?',NULL),(10,7,'tm','inform Trismegistos',NULL),(11,8,'ddb','add via SoSOL: <:πολιτευομένου= K.A. Worp in: P. Oxy. 68. 4687, Anm. zu Z. 8-9 (BL 13)|ed| πρίνκιπος:>',NULL),(12,9,'ddb','Add via SoSOL &lt;:&lt;:τὰ βασιλ[ικὰ πράσ]σοντ[ες]= J.-M. Bertrand in: La circulation de l’information, S. 99-100 (BL 13)|alt|τὰ βασιλ̣[ικὰ πραγματευόμενοι](?)=P.Hib. 2, Anm.<:|ed| τὰ βασιλ̣[ικὰ ca.? ]σοντ[ ca.? ]:>',NULL),(13,10,'tm','Identities for TM People',NULL),(14,10,'ddb','add SoSOL: <: ῥιπαρίῳ=bestätigt in P. Oxy. 68. 4684, Anm. zu Z. 3 und 4685, Einl. (BL 13)|ed|ῥιπαρίῳ:>',NULL),(15,11,'ddb','Add SoSOL: <:Ὡρείω]ν̣= J.-Y. Strasser, B.C.H. 128-129 (2004-2005), S. 427, Anm. 36 (BL 13)|ed|]ν̣:>',NULL),(16,12,'ddb','Add SoSOL: the whole for commentary line',NULL),(17,13,'hgv','already in HGV, but ‘vorzuziehen’ not made clear!!',NULL),(18,14,'ddb','Add SoSOL: <:ἐν Ὀξυρύγχ(ων)=P. Oxy. 68. 4701, Anm. zu Z. 2 (BL 13)|ed| ἐν Ὀξυρυγχ(ιτῶν):>',NULL),(19,15,'ddb','Add SoSOL: <: [ὑπατείας Φλ]= P. Oxy. 68. 4688, Anm. zu Z. 2 (BL 13)|corr|<:[μετὰ τὴν ὑπατείαν Φλ]=BL 7.103|ed|[ ca.? ὑπατείας Φλ]:>:> ugly with half word Fl, but clear',NULL),(20,16,'ddb','Add SoSOL: <:[ ca.11 ]= P. Oxy. 68. 4697, Anm. zu Z. 6-7 (BL 13)|ed|[ἐναπόγραφος]:> misleading with 2nd bracket, probably impossible without 2nd bracket',NULL),(21,17,'hgv','Date HGV',NULL),(22,17,'ddb','Add SoSOL: <:ἐνάτης=P. Oxy. 68. 4688, Anm. zu Z. 2 (BL 13)<:δ[ε]κ̣άτης=BL 7.103|ed|ἐνάτης:>:>',NULL),(24,19,'apis','Eine neue Aufgabe - Horridoh!!!',NULL),(25,20,'ddb','Enter correction into DDb through the editor.',NULL),(26,21,'ddb','Enter into DDb through the editor',NULL),(27,22,'ddb','Enter into DDb through the editor',NULL),(28,23,'ddb','Enter correction into DDb through the editor',NULL),(29,23,'hgv','HGV has already made relevant correction to localisation.','2012-03-08 15:16:00'),(31,20,'bl','Make sure that there is consistency between the beginning and end of the cited passage before and after the arrow (JC)',NULL),(36,19,'apis','noch eine neue',NULL);
 /*!40000 ALTER TABLE `task` ENABLE KEYS */;
 UNLOCK TABLES;
-
---
--- Table structure for table `user`
---
-
-DROP TABLE IF EXISTS `user`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `user` (
-  `id` int(11) NOT NULL auto_increment,
-  `username` varchar(255) NOT NULL,
-  `password` varchar(255) NOT NULL,
-  `email` varchar(255) NOT NULL,
-  `name` varchar(255) NOT NULL,
-  `roles` longtext NOT NULL COMMENT '(DC2Type:array)',
-  `salt` varchar(40) NOT NULL,
-  `isActive` tinyint(1) NOT NULL,
-  `currentLogin` datetime NOT NULL,
-  `lastLogin` datetime NOT NULL,
-  PRIMARY KEY  (`id`),
-  UNIQUE KEY `UNIQ_8D93D649F85E0677` (`username`),
-  UNIQUE KEY `UNIQ_8D93D649E7927C74` (`email`),
-  UNIQUE KEY `UNIQ_8D93D6495E237E06` (`name`)
-) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8;
-/*!40101 SET character_set_client = @saved_cs_client */;
-
---
--- Dumping data for table `user`
---
-
-LOCK TABLES `user` WRITE;
-/*!40000 ALTER TABLE `user` DISABLE KEYS */;
-INSERT INTO `user` VALUES (1,'lanz','V6ABIQeXd52sAO8w+CtjaFXmSvsI/fhgBBA+YGqhszIEyFzIe+MnslNh+O2BRxv6ODyg72M7lVCZtZ01VTincA==','carmen_lanz@ossiriand.de','Carmen Lanz','a:2:{i:0;s:9:\"ROLE_USER\";i:1;s:10:\"ROLE_ADMIN\";}','r33qwlv6s00w0w0og4sgksogsk4ww4o',1,'2012-06-27 12:24:06','2012-06-26 21:48:08'),(2,'cowey','b2UPWOvIu2yvFkeidqQMyRYiYcb5qt0lPOaKSvK/xl7ArdyMzK1Mo9h60kjJfyt/WfCjji/32xHMqVisJDOyGQ==','james.cowey@urz.uni-heidelberg.de','James Cowey','a:2:{i:0;s:9:\"ROLE_USER\";i:1;s:10:\"ROLE_ADMIN\";}','gxq3tr9zm1c8g4848wcow0okksocg0o',1,'2012-06-28 17:21:16','2012-06-27 15:42:59'),(3,'jördens','CaVsNA1CAi5+RRfzyNiT7/lhu4jWLCwzUgs+lMGtXN6VO+Zk/leNJUDeTh4S0xkYpjKzWXr3dYkektqj2vzN+A==','andrea.joerdens@zaw.uni-heidelberg.de','Andrea Jördens','a:1:{i:0;s:9:\"ROLE_USER\";}','kc5i5o0g7xsoc4gwcsg0kgk0gggwk8w',1,'2012-03-07 10:22:01','2012-03-07 10:22:01'),(4,'ast','FfdDTf67Rj62yhZRAoRosDesiY7NmurQtbBRAhjyWgu5LCCMSmrEhxHcgRGO+sGSGFQzBeONyed7jw/Un2bDWA==','rodney.ast@zaw.uni-heidelberg.de','Rodney Ast','a:1:{i:0;s:9:\"ROLE_USER\";}','cbkc5xp2luogsss0gckckkw84wcwso4',1,'2012-03-07 10:22:01','2012-03-07 10:22:01'),(5,'hoogendijk','E9k53/SEnt1BOufyExoVjsV6/XnuIYpxlo9UbzNOsg3gdcgL9suZqsijIXZbA7IOX8wPUvh7d4S+J6SlWlHL+Q==','f_a_j_hoogendijk@library.leidenuniv.nl','Cisca Hoogendijk','a:1:{i:0;s:9:\"ROLE_USER\";}','hb2p66cga2gwo4k800wco8w8kss0c8k',1,'2012-03-15 13:13:34','2012-03-14 15:58:07');
-/*!40000 ALTER TABLE `user` ENABLE KEYS */;
-UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -288,4 +253,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2012-07-01 12:08:02
+-- Dump completed on 2012-07-02  8:55:59
