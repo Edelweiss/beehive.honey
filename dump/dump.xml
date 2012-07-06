@@ -10,7 +10,7 @@
 		<field Field="fascicle" Type="int(11)" Null="YES" Key="" Extra="" />
 		<field Field="title" Type="longtext" Null="NO" Key="" Extra="" />
 		<key Table="compilation" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="14" Null="" Index_type="BTREE" Comment="" />
-		<options Name="compilation" Engine="InnoDB" Version="10" Row_format="Compact" Rows="14" Avg_row_length="1170" Data_length="16384" Max_data_length="0" Index_length="0" Data_free="0" Auto_increment="15" Create_time="2012-02-15 17:44:52" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 24576 kB" />
+		<options Name="compilation" Engine="InnoDB" Version="10" Row_format="Compact" Rows="14" Avg_row_length="1170" Data_length="16384" Max_data_length="0" Index_length="0" Data_free="0" Auto_increment="15" Create_time="2012-02-15 17:44:52" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 22528 kB" />
 	</table_structure>
 	<table_data name="compilation">
 	<row>
@@ -167,10 +167,10 @@
 		<field Field="sortUser" Type="varchar(256)" Null="YES" Key="" Extra="" />
 		<field Field="sort" Type="varchar(256)" Null="NO" Key="" Extra="" />
 		<field Field="compilationPage" Type="varchar(64)" Null="YES" Key="" Extra="" />
-		<key Table="correction" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="7" Null="" Index_type="BTREE" Comment="" />
-		<key Table="correction" Non_unique="1" Key_name="IDX_A29DA1B874281A5E" Seq_in_index="1" Column_name="edition_id" Collation="A" Cardinality="7" Null="" Index_type="BTREE" Comment="" />
-		<key Table="correction" Non_unique="1" Key_name="IDX_A29DA1B8A5F8C840" Seq_in_index="1" Column_name="compilation_id" Collation="A" Cardinality="0" Null="" Index_type="BTREE" Comment="" />
-		<options Name="correction" Engine="InnoDB" Version="10" Row_format="Compact" Rows="7" Avg_row_length="7021" Data_length="49152" Max_data_length="0" Index_length="32768" Data_free="0" Auto_increment="50" Create_time="2012-07-04 12:42:44" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 24576 kB; (`edition_id`) REFER `bl/edition`(`id`); (`compilation_id" />
+		<key Table="correction" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="89" Null="" Index_type="BTREE" Comment="" />
+		<key Table="correction" Non_unique="1" Key_name="IDX_A29DA1B874281A5E" Seq_in_index="1" Column_name="edition_id" Collation="A" Cardinality="89" Null="" Index_type="BTREE" Comment="" />
+		<key Table="correction" Non_unique="1" Key_name="IDX_A29DA1B8A5F8C840" Seq_in_index="1" Column_name="compilation_id" Collation="A" Cardinality="5" Null="" Index_type="BTREE" Comment="" />
+		<options Name="correction" Engine="InnoDB" Version="10" Row_format="Compact" Rows="89" Avg_row_length="552" Data_length="49152" Max_data_length="0" Index_length="32768" Data_free="0" Auto_increment="67" Create_time="2012-07-04 12:42:44" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 22528 kB; (`edition_id`) REFER `bl/edition`(`id`); (`compilation_id" />
 	</table_structure>
 	<table_data name="correction">
 	<row>
@@ -1489,6 +1489,482 @@
 		<field name="sort">e00101000t00002728p00000000s00f00000000c00000000l00000005</field>
 		<field name="compilationPage" xsi:nil="true" />
 	</row>
+	<row>
+		<field name="id">50</field>
+		<field name="edition_id">45</field>
+		<field name="compilation_id">14</field>
+		<field name="text">2728</field>
+		<field name="tm">69800</field>
+		<field name="folder">70</field>
+		<field name="hgv">69800</field>
+		<field name="ddb">bgu;17;2728</field>
+		<field name="collection">bgu</field>
+		<field name="volume">17</field>
+		<field name="document">2728</field>
+		<field name="position">7-8</field>
+		<field name="description">τὸ | [     ] περὶ πεδίον → τὸ | περιπέδιον (l. τὴν περιπέτειαν), D. Hagedorn, ZPE 138 (2002), S. 115-116.</field>
+		<field name="source">71105</field>
+		<field name="status">unchecked</field>
+		<field name="creator">cowey</field>
+		<field name="created">2012-07-05 12:09:08</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">7</field>
+		<field name="sortSystem">e00101000t00002728p00000000s00f00000000c00000000l00000007</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00101000t00002728p00000000s00f00000000c00000000l00000007</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">51</field>
+		<field name="edition_id">55</field>
+		<field name="compilation_id">14</field>
+		<field name="text">52</field>
+		<field name="tm">22589</field>
+		<field name="folder">23</field>
+		<field name="hgv">22589</field>
+		<field name="ddb">p.bodl;1;52</field>
+		<field name="collection">p.bodl</field>
+		<field name="volume">1</field>
+		<field name="document">52</field>
+		<field name="position" xsi:nil="true" />
+		<field name="description">Zu datieren: 11.3.457 n.Chr. (gegen B.L. 11, S. 45), N. Gonis, ZPE 138 (2002), S. 140.</field>
+		<field name="source">71084</field>
+		<field name="status">unchecked</field>
+		<field name="creator">cowey</field>
+		<field name="created">2012-07-05 13:29:44</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine" xsi:nil="true" />
+		<field name="sortSystem">e00147000t00000052p00000000s00f00000000c00000000l00000000</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00147000t00000052p00000000s00f00000000c00000000l00000000</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">52</field>
+		<field name="edition_id">142</field>
+		<field name="compilation_id">14</field>
+		<field name="text">55</field>
+		<field name="tm">39221</field>
+		<field name="folder">40</field>
+		<field name="hgv">39221</field>
+		<field name="ddb">cpr;14;55</field>
+		<field name="collection">cpr</field>
+		<field name="volume">14</field>
+		<field name="document">55</field>
+		<field name="position">1</field>
+		<field name="description">ηὗρά → wohl ηὗρόν; weniger wahrscheinlich ist ηὗρώ (nach dem Photo), F. Morelli, ZPE 138 (2002), S. 166, Anm. 7.</field>
+		<field name="source">71307</field>
+		<field name="status">unchecked</field>
+		<field name="creator">cowey</field>
+		<field name="created">2012-07-05 13:32:43</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">1</field>
+		<field name="sortSystem">e00321000t00000055p00000000s00f00000000c00000000l00000001</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00321000t00000055p00000000s00f00000000c00000000l00000001</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">53</field>
+		<field name="edition_id">142</field>
+		<field name="compilation_id">14</field>
+		<field name="text">55</field>
+		<field name="tm">39221</field>
+		<field name="folder">40</field>
+		<field name="hgv">39221</field>
+		<field name="ddb">cpr;14;55</field>
+		<field name="collection">cpr</field>
+		<field name="volume">14</field>
+		<field name="document">55</field>
+		<field name="position">2</field>
+		<field name="description">διμίου σταυροῦ → Διμίου Σταυροῦ (l. Τιμίου Σταυροῦ), wohl der Name eines Klosters (vgl. Stud. Pal. 10. 219, Z. 9), F. Morelli, ZPE 138 (2002), S. 159-160.</field>
+		<field name="source">71307</field>
+		<field name="status">unchecked</field>
+		<field name="creator">cowey</field>
+		<field name="created">2012-07-05 13:34:51</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">2</field>
+		<field name="sortSystem">e00321000t00000055p00000000s00f00000000c00000000l00000002</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00321000t00000055p00000000s00f00000000c00000000l00000002</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">54</field>
+		<field name="edition_id">142</field>
+		<field name="compilation_id">14</field>
+		<field name="text">55</field>
+		<field name="tm">39221</field>
+		<field name="folder">40</field>
+		<field name="hgv">39221</field>
+		<field name="ddb">cpr;14;55</field>
+		<field name="collection">cpr</field>
+		<field name="volume">14</field>
+		<field name="document">55</field>
+		<field name="position">3</field>
+		<field name="description">Ζίννις ist im Norden des Fayyums unweit von Phanu zu lokalisieren, F. Morelli, ZPE 138 (2002), S. 166-167.</field>
+		<field name="source">71307</field>
+		<field name="status">unchecked</field>
+		<field name="creator">cowey</field>
+		<field name="created">2012-07-05 13:44:32</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">3</field>
+		<field name="sortSystem">e00321000t00000055p00000000s00f00000000c00000000l00000003</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00321000t00000055p00000000s00f00000000c00000000l00000003</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">55</field>
+		<field name="edition_id">142</field>
+		<field name="compilation_id">14</field>
+		<field name="text">55</field>
+		<field name="tm">39221</field>
+		<field name="folder">40</field>
+		<field name="hgv">39221</field>
+		<field name="ddb">cpr;14;55</field>
+		<field name="collection">cpr</field>
+		<field name="volume">14</field>
+		<field name="document">55</field>
+		<field name="position">3</field>
+		<field name="description">το[  ̣ ]  ̣  ̣θεοῦ → τοῦ θεοῦ (nach dem Photo), F. Morelli, ZPE 138 (2002), S. 166, Anm. 8.</field>
+		<field name="source">71307</field>
+		<field name="status">unchecked</field>
+		<field name="creator">cowey</field>
+		<field name="created">2012-07-05 13:46:56</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">3</field>
+		<field name="sortSystem">e00321000t00000055p00000000s00f00000000c00000000l00000003</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00321000t00000055p00000000s00f00000000c00000000l00000003</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">56</field>
+		<field name="edition_id">142</field>
+		<field name="compilation_id">14</field>
+		<field name="text">55</field>
+		<field name="tm">39221</field>
+		<field name="folder">40</field>
+		<field name="hgv">39221</field>
+		<field name="ddb">cpr;14;55</field>
+		<field name="collection">cpr</field>
+		<field name="volume">14</field>
+		<field name="document">55</field>
+		<field name="position">4</field>
+		<field name="description">Βερενικίς entspricht Βερενικὶς Αἰγιαλοῦ, F. Morelli, ZPE 138 (2002), S. 167.</field>
+		<field name="source">71307</field>
+		<field name="status">unchecked</field>
+		<field name="creator">cowey</field>
+		<field name="created">2012-07-05 13:48:31</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">4</field>
+		<field name="sortSystem">e00321000t00000055p00000000s00f00000000c00000000l00000004</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00321000t00000055p00000000s00f00000000c00000000l00000004</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">57</field>
+		<field name="edition_id">163</field>
+		<field name="compilation_id">14</field>
+		<field name="text">49</field>
+		<field name="tm">10956</field>
+		<field name="folder">11</field>
+		<field name="hgv">10956</field>
+		<field name="ddb">p.flor;1;49</field>
+		<field name="collection">p.flor</field>
+		<field name="volume">1</field>
+		<field name="document">49</field>
+		<field name="position">R° 7</field>
+		<field name="description">Ἀπολ̣λ̣ω̣[ν]ίου: viell. Γ̣υ̣μ̣ν̣α̣σ̣ί̣ου (am Original geprüft von I. Andorlini), F. Reiter, ZPE 138 (2002), S. 129, Anm. 2.</field>
+		<field name="source">71392</field>
+		<field name="status">unchecked</field>
+		<field name="creator">cowey</field>
+		<field name="created">2012-07-05 13:59:42</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide">R°</field>
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">7</field>
+		<field name="sortSystem">e00375000t00000049p00000000sR°f00000000c00000000l00000007</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00375000t00000049p00000000sR°f00000000c00000000l00000007</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">58</field>
+		<field name="edition_id">188</field>
+		<field name="compilation_id">14</field>
+		<field name="text">30</field>
+		<field name="tm">11312</field>
+		<field name="folder">12</field>
+		<field name="hgv">11312</field>
+		<field name="ddb">p.graux;3;30</field>
+		<field name="collection">p.graux</field>
+		<field name="volume">3</field>
+		<field name="document">30</field>
+		<field name="position">VII 13</field>
+		<field name="description">ἑξαμή(νου) → ἐξ ἀλλη(λεγγύης) (nach dem Photo), D. Hagedorn, ZPE 138 (2002), S. 116.</field>
+		<field name="source">71105</field>
+		<field name="status">unchecked</field>
+		<field name="creator">cowey</field>
+		<field name="created">2012-07-05 14:34:10</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn">VII</field>
+		<field name="sortLine">13</field>
+		<field name="sortSystem">e00443000t00000030p00000000s00f00000000c00000007l00000013</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00443000t00000030p00000000s00f00000000c00000007l00000013</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">59</field>
+		<field name="edition_id">244</field>
+		<field name="compilation_id">14</field>
+		<field name="text">88</field>
+		<field name="tm">37303</field>
+		<field name="folder">38</field>
+		<field name="hgv">37303</field>
+		<field name="ddb">p.laur;3;88</field>
+		<field name="collection">p.laur</field>
+		<field name="volume">3</field>
+		<field name="document">88</field>
+		<field name="position" xsi:nil="true" />
+		<field name="description">Nd.: F. Morelli, ZPE 138 (2002), S. 154-155. Abdruck in S.B. 28 vorgesehen.</field>
+		<field name="source">71307</field>
+		<field name="status">unchecked</field>
+		<field name="creator">cowey</field>
+		<field name="created">2012-07-05 14:39:51</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine" xsi:nil="true" />
+		<field name="sortSystem">e00552000t00000088p00000000s00f00000000c00000000l00000000</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00552000t00000088p00000000s00f00000000c00000000l00000000</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">60</field>
+		<field name="edition_id">245</field>
+		<field name="compilation_id">14</field>
+		<field name="text">182</field>
+		<field name="tm">37310</field>
+		<field name="folder">38</field>
+		<field name="hgv">37310</field>
+		<field name="ddb">p.laur;4;182</field>
+		<field name="collection">p.laur</field>
+		<field name="volume">4</field>
+		<field name="document">182</field>
+		<field name="position" xsi:nil="true" />
+		<field name="description">Nd.: F. Morelli, ZPE 138 (2002), S. 155-156. Abdruck in S.B. 28 vorgesehen.</field>
+		<field name="source">71307</field>
+		<field name="status">unchecked</field>
+		<field name="creator">cowey</field>
+		<field name="created">2012-07-05 14:43:51</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine" xsi:nil="true" />
+		<field name="sortSystem">e00553000t00000182p00000000s00f00000000c00000000l00000000</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00553000t00000182p00000000s00f00000000c00000000l00000000</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">61</field>
+		<field name="edition_id">357</field>
+		<field name="compilation_id">14</field>
+		<field name="text">2412</field>
+		<field name="tm">16928</field>
+		<field name="folder">17</field>
+		<field name="hgv">16928</field>
+		<field name="ddb">p.oxy;24;2412</field>
+		<field name="collection">p.oxy</field>
+		<field name="volume">24</field>
+		<field name="document">2412</field>
+		<field name="position">125</field>
+		<field name="description">Nur ιγ (ἔτους) τιμῆς (πυρ.) steht in der Zeile (am Original geprüft von N. Gonis), F. Reiter, ZPE 138 (2002), S. 131, Anm. 19.</field>
+		<field name="source">71392</field>
+		<field name="status">unchecked</field>
+		<field name="creator">cowey</field>
+		<field name="created">2012-07-05 14:54:47</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">125</field>
+		<field name="sortSystem">e00767000t00002412p00000000s00f00000000c00000000l00000125</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00767000t00002412p00000000s00f00000000c00000000l00000125</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">62</field>
+		<field name="edition_id">384</field>
+		<field name="compilation_id">14</field>
+		<field name="text">4059</field>
+		<field name="tm">22537</field>
+		<field name="folder">23</field>
+		<field name="hgv">22537</field>
+		<field name="ddb">p.oxy;60;4059</field>
+		<field name="collection">p.oxy</field>
+		<field name="volume">60</field>
+		<field name="document">4059</field>
+		<field name="position">14</field>
+		<field name="description">̣  ̣  ̣  ̣  ̣  ̣  ̣η̣ς̣ → κ̣α̣τ̣α̣σ̣κ̣ε̣υ̣ῆ̣ς̣ δη|[μοσίου, -ας, -ων (nach dem Photo), D. Hagedorn, ZPE 138 (2002), S. 117.</field>
+		<field name="source">71105</field>
+		<field name="status">unchecked</field>
+		<field name="creator">cowey</field>
+		<field name="created">2012-07-05 14:58:16</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">14</field>
+		<field name="sortSystem">e00794000t00004059p00000000s00f00000000c00000000l00000014</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00794000t00004059p00000000s00f00000000c00000000l00000014</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">63</field>
+		<field name="edition_id">409</field>
+		<field name="compilation_id">14</field>
+		<field name="text">181</field>
+		<field name="tm">37490</field>
+		<field name="folder">38</field>
+		<field name="hgv">37490</field>
+		<field name="ddb">p.prag;2;181</field>
+		<field name="collection">p.prag</field>
+		<field name="volume">2</field>
+		<field name="document">181</field>
+		<field name="position" xsi:nil="true" />
+		<field name="description">Herkunft vermutlich Arsinoites (vgl. Stud. Pal. 10. 219), F. Morelli, ZPE 138 (2002), S. 164.</field>
+		<field name="source">71307</field>
+		<field name="status">unchecked</field>
+		<field name="creator">cowey</field>
+		<field name="created">2012-07-05 15:00:30</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine" xsi:nil="true" />
+		<field name="sortSystem">e00846000t00000181p00000000s00f00000000c00000000l00000000</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00846000t00000181p00000000s00f00000000c00000000l00000000</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">64</field>
+		<field name="edition_id">425</field>
+		<field name="compilation_id">14</field>
+		<field name="text">194</field>
+		<field name="tm">12970</field>
+		<field name="folder">13</field>
+		<field name="hgv">12970a</field>
+		<field name="ddb">p.ryl;2;194</field>
+		<field name="collection">p.ryl</field>
+		<field name="volume">2</field>
+		<field name="document">194</field>
+		<field name="position" xsi:nil="true" />
+		<field name="description">Möglicherweise aus dem Hermopolites, F. Reiter, ZPE 138 (2002), S. 132, Anm. 32.</field>
+		<field name="source">71392</field>
+		<field name="status">unchecked</field>
+		<field name="creator">cowey</field>
+		<field name="created">2012-07-05 15:03:48</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine" xsi:nil="true" />
+		<field name="sortSystem">e00891000t00000194p00000000s00f00000000c00000000l00000000</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00891000t00000194p00000000s00f00000000c00000000l00000000</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">65</field>
+		<field name="edition_id">429</field>
+		<field name="compilation_id">14</field>
+		<field name="text">3972</field>
+		<field name="tm">39633</field>
+		<field name="folder">40</field>
+		<field name="hgv">39633</field>
+		<field name="ddb">sb;1;3972</field>
+		<field name="collection">sb</field>
+		<field name="volume">1</field>
+		<field name="document">3972</field>
+		<field name="position" xsi:nil="true" />
+		<field name="description">Stammt wohl aus dem Arsinoites, F. Morelli, ZPE 138 (2002), S. 162.</field>
+		<field name="source">71307</field>
+		<field name="status">unchecked</field>
+		<field name="creator">cowey</field>
+		<field name="created">2012-07-05 15:09:28</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine" xsi:nil="true" />
+		<field name="sortSystem">e00905000t00003972p00000000s00f00000000c00000000l00000000</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00905000t00003972p00000000s00f00000000c00000000l00000000</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">66</field>
+		<field name="edition_id">429</field>
+		<field name="compilation_id">14</field>
+		<field name="text">5299</field>
+		<field name="tm">38383</field>
+		<field name="folder">39</field>
+		<field name="hgv">38383</field>
+		<field name="ddb">sb;1;5299</field>
+		<field name="collection">sb</field>
+		<field name="volume">1</field>
+		<field name="document">5299</field>
+		<field name="position" xsi:nil="true" />
+		<field name="description">Stammt wohl aus dem Arsinoites, F. Morelli, ZPE 138 (2002), S. 162.</field>
+		<field name="source">71307</field>
+		<field name="status">unchecked</field>
+		<field name="creator">cowey</field>
+		<field name="created">2012-07-05 15:10:51</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine" xsi:nil="true" />
+		<field name="sortSystem">e00905000t00005299p00000000s00f00000000c00000000l00000000</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00905000t00005299p00000000s00f00000000c00000000l00000000</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
 	</table_data>
 	<table_structure name="edition">
 		<field Field="id" Type="int(11)" Null="NO" Key="PRI" Extra="auto_increment" />
@@ -1499,7 +1975,7 @@
 		<field Field="volume" Type="longtext" Null="YES" Key="" Extra="" />
 		<field Field="remark" Type="longtext" Null="YES" Key="" Extra="" />
 		<key Table="edition" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="580" Null="" Index_type="BTREE" Comment="" />
-		<options Name="edition" Engine="InnoDB" Version="10" Row_format="Compact" Rows="580" Avg_row_length="112" Data_length="65536" Max_data_length="0" Index_length="0" Data_free="0" Auto_increment="578" Create_time="2012-02-22 08:47:30" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 24576 kB" />
+		<options Name="edition" Engine="InnoDB" Version="10" Row_format="Compact" Rows="580" Avg_row_length="112" Data_length="65536" Max_data_length="0" Index_length="0" Data_free="0" Auto_increment="578" Create_time="2012-02-22 08:47:30" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 22528 kB" />
 	</table_structure>
 	<table_data name="edition">
 	<row>
@@ -6705,11 +7181,11 @@
 		<field Field="version" Type="int(11)" Null="NO" Key="" Extra="" />
 		<field Field="data" Type="longtext" Null="YES" Key="" Extra="" />
 		<field Field="username" Type="varchar(255)" Null="YES" Key="MUL" Extra="" />
-		<key Table="ext_log_entries" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="167" Null="" Index_type="BTREE" Comment="" />
-		<key Table="ext_log_entries" Non_unique="1" Key_name="log_class_lookup_idx" Seq_in_index="1" Column_name="object_class" Collation="A" Cardinality="3" Null="" Index_type="BTREE" Comment="" />
-		<key Table="ext_log_entries" Non_unique="1" Key_name="log_date_lookup_idx" Seq_in_index="1" Column_name="logged_at" Collation="A" Cardinality="167" Null="" Index_type="BTREE" Comment="" />
-		<key Table="ext_log_entries" Non_unique="1" Key_name="log_user_lookup_idx" Seq_in_index="1" Column_name="username" Collation="A" Cardinality="6" Null="YES" Index_type="BTREE" Comment="" />
-		<options Name="ext_log_entries" Engine="InnoDB" Version="10" Row_format="Compact" Rows="167" Avg_row_length="490" Data_length="81920" Max_data_length="0" Index_length="49152" Data_free="0" Auto_increment="209" Create_time="2012-02-10 23:18:07" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 24576 kB" />
+		<key Table="ext_log_entries" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="251" Null="" Index_type="BTREE" Comment="" />
+		<key Table="ext_log_entries" Non_unique="1" Key_name="log_class_lookup_idx" Seq_in_index="1" Column_name="object_class" Collation="A" Cardinality="4" Null="" Index_type="BTREE" Comment="" />
+		<key Table="ext_log_entries" Non_unique="1" Key_name="log_date_lookup_idx" Seq_in_index="1" Column_name="logged_at" Collation="A" Cardinality="251" Null="" Index_type="BTREE" Comment="" />
+		<key Table="ext_log_entries" Non_unique="1" Key_name="log_user_lookup_idx" Seq_in_index="1" Column_name="username" Collation="A" Cardinality="9" Null="YES" Index_type="BTREE" Comment="" />
+		<options Name="ext_log_entries" Engine="InnoDB" Version="10" Row_format="Compact" Rows="251" Avg_row_length="326" Data_length="81920" Max_data_length="0" Index_length="49152" Data_free="0" Auto_increment="229" Create_time="2012-02-10 23:18:07" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 22528 kB" />
 	</table_structure>
 	<table_data name="ext_log_entries">
 	<row>
@@ -8792,6 +9268,206 @@
 		<field name="data">a:1:{s:11:&quot;description&quot;;s:463:&quot;προσῆλθεν, τῇ αὐτῇ | μεγαλοπρέ(πεια) ἐν τ ̣  ̣  ̣  ̣ γράφοις καὶ →  προσῆλθεν τῇ αὐτο̣ῦ̣ (oder αὐτῶ̣ν̣?) | μεγαλοπρε(πείᾳ) ἐν π̣ρ̣ο̣σ̣γράφοις κατὰ (nach dem Photo), D. Hagedorn, ZPE 138 (2002), S. 115, Anm. 12, aber ἐν τ ̣  ̣  ̣  ̣ γράφοις → ἐν τ̣ο̣ῖ̣ς̣ ἀ̣γράφοις, K. Worp, ZPE 140 (2002), S. 164.&quot;;}</field>
 		<field name="username">cowey</field>
 	</row>
+	<row>
+		<field name="id">209</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-07-05 12:09:08</field>
+		<field name="object_id">50</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:3:&quot;7-8&quot;;s:11:&quot;description&quot;;s:152:&quot;τὸ | [     ] περὶ πεδίον → τὸ | περιπέδιον (l. τὴν περιπέτειαν), D. Hagedorn, ZPE 138 (2002), S. 115-116.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">210</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-07-05 12:09:24</field>
+		<field name="object_id">50</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">211</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-07-05 13:29:44</field>
+		<field name="object_id">51</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;N;s:11:&quot;description&quot;;s:86:&quot;Zu datieren: 11.3.457 n.Chr. (gegen B.L. 11, S. 45), N. Gonis, ZPE 138 (2002), S. 140.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">212</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-07-05 13:32:43</field>
+		<field name="object_id">52</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:1:&quot;1&quot;;s:11:&quot;description&quot;;s:134:&quot;ηὗρά → wohl ηὗρόν; weniger wahrscheinlich ist ηὗρώ (nach dem Photo), F. Morelli, ZPE 138 (2002), S. 166, Anm. 7.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">213</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-07-05 13:34:51</field>
+		<field name="object_id">53</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:1:&quot;2&quot;;s:11:&quot;description&quot;;s:201:&quot;διμίου σταυροῦ → Διμίου Σταυροῦ (l. Τιμίου Σταυροῦ), wohl der Name eines Klosters (vgl. Stud. Pal. 10. 219, Z. 9), F. Morelli, ZPE 138 (2002), S. 159-160.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">214</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-07-05 13:44:32</field>
+		<field name="object_id">54</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:1:&quot;3&quot;;s:11:&quot;description&quot;;s:182:&quot;Ζίννις ist im Norden des Fayyums unweit von Phanu zu lokalisieren, l.c., S. 166-167; το[  ̣ ]  ̣  ̣θεοῦ → τοῦ θεοῦ (nach dem Photo), l.c., S. 166, Anm. 8.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">215</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-07-05 13:44:44</field>
+		<field name="object_id">54</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:1:{s:11:&quot;description&quot;;s:204:&quot;Ζίννις ist im Norden des Fayyums unweit von Phanu zu lokalisieren, F. Morelli, ZPE 138 (2002), S. 166-167; το[  ̣ ]  ̣  ̣θεοῦ → τοῦ θεοῦ (nach dem Photo), l.c., S. 166, Anm. 8.&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">216</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-07-05 13:46:07</field>
+		<field name="object_id">54</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">3</field>
+		<field name="data">a:1:{s:11:&quot;description&quot;;s:113:&quot;Ζίννις ist im Norden des Fayyums unweit von Phanu zu lokalisieren, F. Morelli, ZPE 138 (2002), S. 166-167.&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">217</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-07-05 13:46:56</field>
+		<field name="object_id">55</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:1:&quot;3&quot;;s:11:&quot;description&quot;;s:112:&quot;το[  ̣ ]  ̣  ̣θεοῦ → τοῦ θεοῦ (nach dem Photo), F. Morelli, ZPE 138 (2002), S. 166, Anm. 8.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">218</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-07-05 13:48:32</field>
+		<field name="object_id">56</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:1:&quot;4&quot;;s:11:&quot;description&quot;;s:106:&quot;Βερενικίς entspricht Βερενικὶς Αἰγιαλοῦ, F. Morelli, ZPE 138 (2002), S. 167.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">219</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-07-05 13:59:42</field>
+		<field name="object_id">57</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:5:&quot;R° 7&quot;;s:11:&quot;description&quot;;s:156:&quot;Ἀπολ̣λ̣ω̣[ν]ίου: viell. Γ̣υ̣μ̣ν̣α̣σ̣ί̣ου (am Original geprüft von I. Andorlini), F. Reiter, ZPE 138 (2002), S. 129, Anm. 2.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">220</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-07-05 14:34:10</field>
+		<field name="object_id">58</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:6:&quot;VII 13&quot;;s:11:&quot;description&quot;;s:112:&quot;ἑξαμή(νου) → ἐξ ἀλλη(λεγγύης) (nach dem Photo), D. Hagedorn, ZPE 138 (2002), S. 116.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">221</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-07-05 14:39:51</field>
+		<field name="object_id">59</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;N;s:11:&quot;description&quot;;s:75:&quot;Nd.: F. Morelli, ZPE 138 (2002), S. 154-155. Abdruck in S.B. 28 vorgesehen.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">222</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-07-05 14:43:51</field>
+		<field name="object_id">60</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;N;s:11:&quot;description&quot;;s:75:&quot;Nd.: F. Morelli, ZPE 138 (2002), S. 155-156. Abdruck in S.B. 28 vorgesehen.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">223</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-07-05 14:54:47</field>
+		<field name="object_id">61</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:3:&quot;125&quot;;s:11:&quot;description&quot;;s:144:&quot;Nur ιγ (ἔτους) τιμῆς (πυρ.) steht in der Zeile (am Original geprüft von N. Gonis), F. Reiter, ZPE 138 (2002), S. 131, Anm. 19.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">224</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-07-05 14:58:16</field>
+		<field name="object_id">62</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:2:&quot;14&quot;;s:11:&quot;description&quot;;s:169:&quot;̣  ̣  ̣  ̣  ̣  ̣  ̣η̣ς̣ → κ̣α̣τ̣α̣σ̣κ̣ε̣υ̣ῆ̣ς̣ δη|[μοσίου, -ας, -ων (nach dem Photo), D. Hagedorn, ZPE 138 (2002), S. 117.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">225</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-07-05 15:00:30</field>
+		<field name="object_id">63</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;N;s:11:&quot;description&quot;;s:93:&quot;Herkunft vermutlich Arsinoites (vgl. Stud. Pal. 10. 219), F. Morelli, ZPE 138 (2002), S. 164.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">226</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-07-05 15:03:48</field>
+		<field name="object_id">64</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;N;s:11:&quot;description&quot;;s:81:&quot;Möglicherweise aus dem Hermopolites, F. Reiter, ZPE 138 (2002), S. 132, Anm. 32.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">227</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-07-05 15:09:28</field>
+		<field name="object_id">65</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;N;s:11:&quot;description&quot;;s:67:&quot;Stammt wohl aus dem Arsinoites, F. Morelli, ZPE 138 (2002), S. 162.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">228</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-07-05 15:10:51</field>
+		<field name="object_id">66</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;N;s:11:&quot;description&quot;;s:67:&quot;Stammt wohl aus dem Arsinoites, F. Morelli, ZPE 138 (2002), S. 162.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
 	</table_data>
 	<table_structure name="ext_translations">
 		<field Field="id" Type="int(11)" Null="NO" Key="PRI" Extra="auto_increment" />
@@ -8808,7 +9484,7 @@
 		<key Table="ext_translations" Non_unique="1" Key_name="translations_lookup_idx" Seq_in_index="1" Column_name="locale" Collation="A" Cardinality="0" Null="" Index_type="BTREE" Comment="" />
 		<key Table="ext_translations" Non_unique="1" Key_name="translations_lookup_idx" Seq_in_index="2" Column_name="object_class" Collation="A" Cardinality="0" Null="" Index_type="BTREE" Comment="" />
 		<key Table="ext_translations" Non_unique="1" Key_name="translations_lookup_idx" Seq_in_index="3" Column_name="foreign_key" Collation="A" Cardinality="0" Null="" Index_type="BTREE" Comment="" />
-		<options Name="ext_translations" Engine="InnoDB" Version="10" Row_format="Compact" Rows="0" Avg_row_length="0" Data_length="16384" Max_data_length="0" Index_length="32768" Data_free="0" Auto_increment="1" Create_time="2012-02-10 23:18:07" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 24576 kB" />
+		<options Name="ext_translations" Engine="InnoDB" Version="10" Row_format="Compact" Rows="0" Avg_row_length="0" Data_length="16384" Max_data_length="0" Index_length="32768" Data_free="0" Auto_increment="1" Create_time="2012-02-10 23:18:07" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 22528 kB" />
 	</table_structure>
 	<table_data name="ext_translations">
 	</table_data>
@@ -8820,7 +9496,7 @@
 		<field Field="phrase" Type="longtext" Null="NO" Key="" Extra="" />
 		<key Table="index_entry" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="3" Null="" Index_type="BTREE" Comment="" />
 		<key Table="index_entry" Non_unique="1" Key_name="IDX_D9E81DE694AE086B" Seq_in_index="1" Column_name="correction_id" Collation="A" Cardinality="3" Null="" Index_type="BTREE" Comment="" />
-		<options Name="index_entry" Engine="InnoDB" Version="10" Row_format="Compact" Rows="3" Avg_row_length="5461" Data_length="16384" Max_data_length="0" Index_length="16384" Data_free="0" Auto_increment="10" Create_time="2012-03-14 14:57:46" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 24576 kB; (`correction_id`) REFER `bl/correction`(`id`)" />
+		<options Name="index_entry" Engine="InnoDB" Version="10" Row_format="Compact" Rows="3" Avg_row_length="5461" Data_length="16384" Max_data_length="0" Index_length="16384" Data_free="0" Auto_increment="10" Create_time="2012-03-14 14:57:46" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 22528 kB; (`correction_id`) REFER `bl/correction`(`id`)" />
 	</table_structure>
 	<table_data name="index_entry">
 	<row>
@@ -8853,7 +9529,7 @@
 		<field Field="cleared" Type="datetime" Null="YES" Key="" Extra="" />
 		<key Table="task" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="30" Null="" Index_type="BTREE" Comment="" />
 		<key Table="task" Non_unique="1" Key_name="IDX_527EDB2594AE086B" Seq_in_index="1" Column_name="correction_id" Collation="A" Cardinality="30" Null="" Index_type="BTREE" Comment="" />
-		<options Name="task" Engine="InnoDB" Version="10" Row_format="Compact" Rows="30" Avg_row_length="546" Data_length="16384" Max_data_length="0" Index_length="16384" Data_free="0" Auto_increment="37" Create_time="2012-02-22 09:27:05" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 24576 kB; (`correction_id`) REFER `bl/correction`(`id`)" />
+		<options Name="task" Engine="InnoDB" Version="10" Row_format="Compact" Rows="30" Avg_row_length="546" Data_length="16384" Max_data_length="0" Index_length="16384" Data_free="0" Auto_increment="37" Create_time="2012-02-22 09:27:05" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 22528 kB; (`correction_id`) REFER `bl/correction`(`id`)" />
 	</table_structure>
 	<table_data name="task">
 	<row>
