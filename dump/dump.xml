@@ -3122,8 +3122,8 @@
 		<field Field="collection" Type="longtext" Null="NO" Key="" Extra="" />
 		<field Field="volume" Type="longtext" Null="YES" Key="" Extra="" />
 		<field Field="remark" Type="longtext" Null="YES" Key="" Extra="" />
-		<key Table="edition" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="580" Null="" Index_type="BTREE" Comment="" />
-		<options Name="edition" Engine="InnoDB" Version="10" Row_format="Compact" Rows="580" Avg_row_length="112" Data_length="65536" Max_data_length="0" Index_length="0" Data_free="0" Auto_increment="578" Create_time="2012-02-22 08:47:30" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 19456 kB" />
+		<key Table="edition" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="583" Null="" Index_type="BTREE" Comment="" />
+		<options Name="edition" Engine="InnoDB" Version="10" Row_format="Compact" Rows="583" Avg_row_length="112" Data_length="65536" Max_data_length="0" Index_length="0" Data_free="0" Auto_increment="579" Create_time="2012-02-22 08:47:30" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 19456 kB" />
 	</table_structure>
 	<table_data name="edition">
 	<row>
@@ -8318,6 +8318,15 @@
 		<field name="collection">Tavolette Varie</field>
 		<field name="volume" xsi:nil="true" />
 		<field name="remark" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">578</field>
+		<field name="sort">1161000</field>
+		<field name="title">O. Bawit</field>
+		<field name="material">Ostrakon</field>
+		<field name="collection">O. Bawit</field>
+		<field name="volume"></field>
+		<field name="remark"></field>
 	</row>
 	</table_data>
 	<table_structure name="ext_log_entries">
