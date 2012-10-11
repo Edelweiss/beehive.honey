@@ -10,7 +10,7 @@
 		<field Field="fascicle" Type="int(11)" Null="YES" Key="" Extra="" />
 		<field Field="title" Type="longtext" Null="NO" Key="" Extra="" />
 		<key Table="compilation" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="14" Null="" Index_type="BTREE" Comment="" />
-		<options Name="compilation" Engine="InnoDB" Version="10" Row_format="Compact" Rows="14" Avg_row_length="1170" Data_length="16384" Max_data_length="0" Index_length="0" Data_free="0" Auto_increment="15" Create_time="2012-02-15 17:44:52" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 17408 kB" />
+		<options Name="compilation" Engine="InnoDB" Version="10" Row_format="Compact" Rows="14" Avg_row_length="1170" Data_length="16384" Max_data_length="0" Index_length="0" Data_free="0" Auto_increment="15" Create_time="2012-02-15 17:44:52" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 16384 kB" />
 	</table_structure>
 	<table_data name="compilation">
 	<row>
@@ -167,10 +167,10 @@
 		<field Field="sortUser" Type="varchar(256)" Null="YES" Key="" Extra="" />
 		<field Field="sort" Type="varchar(256)" Null="NO" Key="" Extra="" />
 		<field Field="compilationPage" Type="varchar(64)" Null="YES" Key="" Extra="" />
-		<key Table="correction" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="298" Null="" Index_type="BTREE" Comment="" />
-		<key Table="correction" Non_unique="1" Key_name="IDX_A29DA1B874281A5E" Seq_in_index="1" Column_name="edition_id" Collation="A" Cardinality="298" Null="" Index_type="BTREE" Comment="" />
-		<key Table="correction" Non_unique="1" Key_name="IDX_A29DA1B8A5F8C840" Seq_in_index="1" Column_name="compilation_id" Collation="A" Cardinality="13" Null="" Index_type="BTREE" Comment="" />
-		<options Name="correction" Engine="InnoDB" Version="10" Row_format="Compact" Rows="297" Avg_row_length="441" Data_length="131072" Max_data_length="0" Index_length="32768" Data_free="0" Auto_increment="302" Create_time="2012-07-04 12:42:44" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 17408 kB; (`edition_id`) REFER `bl/edition`(`id`); (`compilation_id" />
+		<key Table="correction" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="280" Null="" Index_type="BTREE" Comment="" />
+		<key Table="correction" Non_unique="1" Key_name="IDX_A29DA1B874281A5E" Seq_in_index="1" Column_name="edition_id" Collation="A" Cardinality="280" Null="" Index_type="BTREE" Comment="" />
+		<key Table="correction" Non_unique="1" Key_name="IDX_A29DA1B8A5F8C840" Seq_in_index="1" Column_name="compilation_id" Collation="A" Cardinality="12" Null="" Index_type="BTREE" Comment="" />
+		<options Name="correction" Engine="InnoDB" Version="10" Row_format="Compact" Rows="283" Avg_row_length="578" Data_length="163840" Max_data_length="0" Index_length="32768" Data_free="0" Auto_increment="363" Create_time="2012-07-04 12:42:44" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 16384 kB; (`edition_id`) REFER `bl/edition`(`id`); (`compilation_id" />
 	</table_structure>
 	<table_data name="correction">
 	<row>
@@ -8270,13 +8270,13 @@
 		<field name="edition_id">398</field>
 		<field name="compilation_id">14</field>
 		<field name="text">53</field>
-		<field name="tm" xsi:nil="true" />
-		<field name="folder" xsi:nil="true" />
-		<field name="hgv" xsi:nil="true" />
-		<field name="ddb" xsi:nil="true" />
-		<field name="collection" xsi:nil="true" />
-		<field name="volume" xsi:nil="true" />
-		<field name="document" xsi:nil="true" />
+		<field name="tm">8755</field>
+		<field name="folder">9</field>
+		<field name="hgv">8755</field>
+		<field name="ddb">p.petaus;;53dupl</field>
+		<field name="collection">p.petaus</field>
+		<field name="volume"></field>
+		<field name="document">53dupl</field>
 		<field name="position">11</field>
 		<field name="description">Zu κριθολογηθῆναι, „the process which removed adulterating substances, especially barley, from wheat“, vgl. Ph. Mayerson, B.A.S.P. 41 (2004), S. 127-137.</field>
 		<field name="source" xsi:nil="true" />
@@ -8461,6 +8461,1602 @@
 		<field name="sort">e00760000t00001659p00000000s00f00000000c00000000l00000000</field>
 		<field name="compilationPage" xsi:nil="true" />
 	</row>
+	<row>
+		<field name="id">302</field>
+		<field name="edition_id">167</field>
+		<field name="compilation_id">14</field>
+		<field name="text">App. II 118</field>
+		<field name="tm">21024</field>
+		<field name="folder">22</field>
+		<field name="hgv">21024</field>
+		<field name="ddb">p.fuad.i.univ;;AppII,118r</field>
+		<field name="collection">p.fuad.i.univ</field>
+		<field name="volume"></field>
+		<field name="document">AppII,118r</field>
+		<field name="position" xsi:nil="true" />
+		<field name="description">Terminus ante quem: wohl Sommer 225 n.Chr. (vgl. auch B.L. 10, S. 77), J.D. Thomas, B.A.S.P. 41 (2004), S. 143-144.</field>
+		<field name="source" xsi:nil="true" />
+		<field name="status">unchecked</field>
+		<field name="creator">hoogendijk</field>
+		<field name="created">2012-10-10 12:14:15</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine" xsi:nil="true" />
+		<field name="sortSystem">e00385000tApp. II 118p00000000s00f00000000c00000000l00000000</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00385000tApp. II 118p00000000s00f00000000c00000000l00000000</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">303</field>
+		<field name="edition_id">477</field>
+		<field name="compilation_id">14</field>
+		<field name="text">773</field>
+		<field name="tm">30361</field>
+		<field name="folder">31</field>
+		<field name="hgv">30361</field>
+		<field name="ddb">p.stras;8;773</field>
+		<field name="collection">p.stras</field>
+		<field name="volume">8</field>
+		<field name="document">773</field>
+		<field name="position" xsi:nil="true" />
+		<field name="description">Terminus ante quem: wohl Sommer 225 n.Chr., J.D. Thomas, B.A.S.P. 41 (2004), S. 143-144.</field>
+		<field name="source" xsi:nil="true" />
+		<field name="status">unchecked</field>
+		<field name="creator">hoogendijk</field>
+		<field name="created">2012-10-10 12:15:34</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine" xsi:nil="true" />
+		<field name="sortSystem">e01002000t00000773p00000000s00f00000000c00000000l00000000</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e01002000t00000773p00000000s00f00000000c00000000l00000000</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">304</field>
+		<field name="edition_id">438</field>
+		<field name="compilation_id">14</field>
+		<field name="text">12235</field>
+		<field name="tm">30259</field>
+		<field name="folder">31</field>
+		<field name="hgv">30259</field>
+		<field name="ddb">sb;16;12235</field>
+		<field name="collection">sb</field>
+		<field name="volume">16</field>
+		<field name="document">12235</field>
+		<field name="position" xsi:nil="true" />
+		<field name="description">Terminus ante quem: wohl Sommer 225 n.Chr., J.D. Thomas, B.A.S.P. 41 (2004), S. 143-144.</field>
+		<field name="source" xsi:nil="true" />
+		<field name="status">unchecked</field>
+		<field name="creator">hoogendijk</field>
+		<field name="created">2012-10-10 12:16:42</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine" xsi:nil="true" />
+		<field name="sortSystem">e00914000t00012235p00000000s00f00000000c00000000l00000000</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00914000t00012235p00000000s00f00000000c00000000l00000000</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">305</field>
+		<field name="edition_id">440</field>
+		<field name="compilation_id">14</field>
+		<field name="text">14292</field>
+		<field name="tm">32169</field>
+		<field name="folder">33</field>
+		<field name="hgv">32169</field>
+		<field name="ddb">sb;20;14292</field>
+		<field name="collection">sb</field>
+		<field name="volume">20</field>
+		<field name="document">14292</field>
+		<field name="position" xsi:nil="true" />
+		<field name="description">Terminus ante quem: viell. Sommer 225 n.Chr., J.D. Thomas, B.A.S.P. 41 (2004), S. 143-145.</field>
+		<field name="source" xsi:nil="true" />
+		<field name="status">unchecked</field>
+		<field name="creator">hoogendijk</field>
+		<field name="created">2012-10-10 12:17:39</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine" xsi:nil="true" />
+		<field name="sortSystem">e00916000t00014292p00000000s00f00000000c00000000l00000000</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00916000t00014292p00000000s00f00000000c00000000l00000000</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">306</field>
+		<field name="edition_id">440</field>
+		<field name="compilation_id">14</field>
+		<field name="text">14292</field>
+		<field name="tm">32169</field>
+		<field name="folder">33</field>
+		<field name="hgv">32169</field>
+		<field name="ddb">sb;20;14292</field>
+		<field name="collection">sb</field>
+		<field name="volume">20</field>
+		<field name="document">14292</field>
+		<field name="position">6</field>
+		<field name="description">]ης: nicht κρατίστ]ης oder λαμπροτάτ]ης (ed.pr., Einl.); viell. φροντιστ]ής, J.D. Thomas, B.A.S.P. 41 (2004), S. 145, Anm. 27.</field>
+		<field name="source" xsi:nil="true" />
+		<field name="status">unchecked</field>
+		<field name="creator">hoogendijk</field>
+		<field name="created">2012-10-10 12:18:20</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">6</field>
+		<field name="sortSystem">e00916000t00014292p00000000s00f00000000c00000000l00000006</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00916000t00014292p00000000s00f00000000c00000000l00000006</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">307</field>
+		<field name="edition_id">39</field>
+		<field name="compilation_id">14</field>
+		<field name="text">2126</field>
+		<field name="tm">18129</field>
+		<field name="folder">19</field>
+		<field name="hgv">18129</field>
+		<field name="ddb">sb;14;11403</field>
+		<field name="collection">sb</field>
+		<field name="volume">14</field>
+		<field name="document">11403</field>
+		<field name="position">I 1</field>
+		<field name="description">προ̣σ(τάτῃ) → πρ̣α̣γ̣(ματευτῇ), H. Maehler bei J.D. Thomas, J.Jur.P. 18 (1974), S. 241.</field>
+		<field name="source" xsi:nil="true" />
+		<field name="status">unchecked</field>
+		<field name="creator">hoogendijk</field>
+		<field name="created">2012-10-10 12:29:48</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn">I</field>
+		<field name="sortLine">1</field>
+		<field name="sortSystem">e00095000t00002126p00000000s00f00000000c00000001l00000001</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00095000t00002126p00000000s00f00000000c00000001l00000001</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">308</field>
+		<field name="edition_id">39</field>
+		<field name="compilation_id">14</field>
+		<field name="text">2126</field>
+		<field name="tm">18129</field>
+		<field name="folder">19</field>
+		<field name="hgv">18129</field>
+		<field name="ddb">sb;14;11403</field>
+		<field name="collection">sb</field>
+		<field name="volume">14</field>
+		<field name="document">11403</field>
+		<field name="position" xsi:nil="true" />
+		<field name="description">Zu datieren: wohl 232/233 (vgl. schon J.D. Thomas, J.Jur.P. 18, 1974, S. 243); auch möglich ist 235/236 oder 238/239 n.Chr., J.D. Thomas, B.A.S.P. 41 (2004), S. 145.</field>
+		<field name="source" xsi:nil="true" />
+		<field name="status">unchecked</field>
+		<field name="creator">hoogendijk</field>
+		<field name="created">2012-10-10 12:32:35</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine" xsi:nil="true" />
+		<field name="sortSystem">e00095000t00002126p00000000s00f00000000c00000000l00000000</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00095000t00002126p00000000s00f00000000c00000000l00000000</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">309</field>
+		<field name="edition_id">39</field>
+		<field name="compilation_id">14</field>
+		<field name="text">2126</field>
+		<field name="tm">18129</field>
+		<field name="folder">19</field>
+		<field name="hgv">18129</field>
+		<field name="ddb">sb;14;11403</field>
+		<field name="collection">sb</field>
+		<field name="volume">14</field>
+		<field name="document">11403</field>
+		<field name="position" xsi:nil="true" />
+		<field name="description">Zu datieren: wohl 232/233 (vgl. schon J.D. Thomas, J.Jur.P. 18, 1974, S. 243); auch möglich ist 235/236 oder 238/239 n.Chr., J.D. Thomas, B.A.S.P. 41 (2004), S. 145.</field>
+		<field name="source" xsi:nil="true" />
+		<field name="status">unchecked</field>
+		<field name="creator">hoogendijk</field>
+		<field name="created">2012-10-10 12:33:06</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine" xsi:nil="true" />
+		<field name="sortSystem">e00095000t00002126p00000000s00f00000000c00000000l00000000</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00095000t00002126p00000000s00f00000000c00000000l00000000</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">310</field>
+		<field name="edition_id">39</field>
+		<field name="compilation_id">14</field>
+		<field name="text">2126</field>
+		<field name="tm">18129</field>
+		<field name="folder">19</field>
+		<field name="hgv">18129</field>
+		<field name="ddb">sb;14;11403</field>
+		<field name="collection">sb</field>
+		<field name="volume">14</field>
+		<field name="document">11403</field>
+		<field name="position" xsi:nil="true" />
+		<field name="description">Neben der Datierung 232/233 ist auch 235/236 oder 238/239 n.Chr. möglich, J.D. Thomas, B.A.S.P. 41 (2004), S. 145.</field>
+		<field name="source" xsi:nil="true" />
+		<field name="status">unchecked</field>
+		<field name="creator">hoogendijk</field>
+		<field name="created">2012-10-10 12:44:55</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine" xsi:nil="true" />
+		<field name="sortSystem">e00095000t00002126p00000000s00f00000000c00000000l00000000</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00095000t00002126p00000000s00f00000000c00000000l00000000</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">311</field>
+		<field name="edition_id">349</field>
+		<field name="compilation_id">14</field>
+		<field name="text">1577-1578</field>
+		<field name="tm">31764</field>
+		<field name="folder">32</field>
+		<field name="hgv">31764</field>
+		<field name="ddb">p.oxy;12;1577</field>
+		<field name="collection">p.oxy</field>
+		<field name="volume">12</field>
+		<field name="document">1577</field>
+		<field name="position" xsi:nil="true" />
+		<field name="description">Der Vorschlag (ed.pr., S. 281), daß beide Texten auf demselben Landgut der Claudia Isidora alias Apia verweisen, wird bestätigt, J.D. Thomas, B.A.S.P. 41 (2004), S. 147.</field>
+		<field name="source" xsi:nil="true" />
+		<field name="status">unchecked</field>
+		<field name="creator">hoogendijk</field>
+		<field name="created">2012-10-10 12:46:35</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine" xsi:nil="true" />
+		<field name="sortSystem">e00759000t1577-1578p00000000s00f00000000c00000000l00000000</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00759000t1577-1578p00000000s00f00000000c00000000l00000000</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">312</field>
+		<field name="edition_id">349</field>
+		<field name="compilation_id">14</field>
+		<field name="text">1578</field>
+		<field name="tm">31765</field>
+		<field name="folder">32</field>
+		<field name="hgv">31765</field>
+		<field name="ddb">p.oxy;12;1578</field>
+		<field name="collection">p.oxy</field>
+		<field name="volume">12</field>
+		<field name="document">1578</field>
+		<field name="position" xsi:nil="true" />
+		<field name="description">Zu datieren: 23.11. (Kol. II) und 16.12. (Kol. III) 220 oder 224 n.Chr., J.D. Thomas, B.A.S.P. 41 (2004), S. 147-148.</field>
+		<field name="source" xsi:nil="true" />
+		<field name="status">unchecked</field>
+		<field name="creator">hoogendijk</field>
+		<field name="created">2012-10-10 12:47:47</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine" xsi:nil="true" />
+		<field name="sortSystem">e00759000t00001578p00000000s00f00000000c00000000l00000000</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00759000t00001578p00000000s00f00000000c00000000l00000000</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">313</field>
+		<field name="edition_id">349</field>
+		<field name="compilation_id">14</field>
+		<field name="text">1577-1578</field>
+		<field name="tm">31764</field>
+		<field name="folder">32</field>
+		<field name="hgv">31764</field>
+		<field name="ddb">p.oxy;12;1577</field>
+		<field name="collection">p.oxy</field>
+		<field name="volume">12</field>
+		<field name="document">1577</field>
+		<field name="position" xsi:nil="true" />
+		<field name="description">Zu datieren: 30.1.219 oder 223 n.Chr. J.D. Thomas, B.A.S.P. 41 (2004), S. 148.</field>
+		<field name="source" xsi:nil="true" />
+		<field name="status">unchecked</field>
+		<field name="creator">hoogendijk</field>
+		<field name="created">2012-10-10 12:49:07</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine" xsi:nil="true" />
+		<field name="sortSystem">e00759000t1577-1578p00000000s00f00000000c00000000l00000000</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00759000t1577-1578p00000000s00f00000000c00000000l00000000</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">314</field>
+		<field name="edition_id">350</field>
+		<field name="compilation_id">14</field>
+		<field name="text">1930</field>
+		<field name="tm">21941</field>
+		<field name="folder">22</field>
+		<field name="hgv">21941</field>
+		<field name="ddb">p.oxy;14;1630</field>
+		<field name="collection">p.oxy</field>
+		<field name="volume">14</field>
+		<field name="document">1630</field>
+		<field name="position" xsi:nil="true" />
+		<field name="description">Wenn der Text auf Claudia Isidora alias Apia verweist, ist er zu datieren auf 25.1.222 (nicht 226, B.L. 10, S. 143) n.Chr., J.D. Thomas, B.A.S.P. 41 (2004), S. 148.</field>
+		<field name="source" xsi:nil="true" />
+		<field name="status">unchecked</field>
+		<field name="creator">hoogendijk</field>
+		<field name="created">2012-10-11 09:39:41</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine" xsi:nil="true" />
+		<field name="sortSystem">e00760000t00001930p00000000s00f00000000c00000000l00000000</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00760000t00001930p00000000s00f00000000c00000000l00000000</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">315</field>
+		<field name="edition_id">350</field>
+		<field name="compilation_id">14</field>
+		<field name="text">1930</field>
+		<field name="tm">21941</field>
+		<field name="folder">22</field>
+		<field name="hgv">21941</field>
+		<field name="ddb">p.oxy;14;1630</field>
+		<field name="collection">p.oxy</field>
+		<field name="volume">14</field>
+		<field name="document">1630</field>
+		<field name="position">4</field>
+		<field name="description">Die Erg. [τῆς καὶ Ἀπίας (ed.pr., Anm. zu Z. 4) ist nicht notwendig; erg. viell.: [(ἀρούρας) ., ἃς ἔχουσι παρ᾽ α]ὐτῆς &lt;ἐν&gt; μι̣[σθώσ]ει, J.D. Thomas, B.A.S.P. 41 (2004), S. 148 mit Anm. 37.</field>
+		<field name="source" xsi:nil="true" />
+		<field name="status">unchecked</field>
+		<field name="creator">hoogendijk</field>
+		<field name="created">2012-10-11 09:40:30</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">4</field>
+		<field name="sortSystem">e00760000t00001930p00000000s00f00000000c00000000l00000004</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00760000t00001930p00000000s00f00000000c00000000l00000004</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">316</field>
+		<field name="edition_id">344</field>
+		<field name="compilation_id">14</field>
+		<field name="text">919</field>
+		<field name="tm">20381</field>
+		<field name="folder">21</field>
+		<field name="hgv">20381</field>
+		<field name="ddb">p.oxy;6;919</field>
+		<field name="collection">p.oxy</field>
+		<field name="volume">6</field>
+		<field name="document">919</field>
+		<field name="position" xsi:nil="true" />
+		<field name="description">Der Datierung 21.6. (statt 7.) 159 n.Chr. wird zugestimmt (vgl. B.L. 7, S. 132; B.L. 11, S. 145), J.D. Thomas, B.A.S.P. 41 (2004), S. 149 mit Anm. 44.</field>
+		<field name="source" xsi:nil="true" />
+		<field name="status">unchecked</field>
+		<field name="creator">hoogendijk</field>
+		<field name="created">2012-10-11 09:41:54</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine" xsi:nil="true" />
+		<field name="sortSystem">e00754000t00000919p00000000s00f00000000c00000000l00000000</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00754000t00000919p00000000s00f00000000c00000000l00000000</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">317</field>
+		<field name="edition_id">310</field>
+		<field name="compilation_id">14</field>
+		<field name="text">707</field>
+		<field name="tm">21386</field>
+		<field name="folder">22</field>
+		<field name="hgv">21386</field>
+		<field name="ddb">p.mich;15;707</field>
+		<field name="collection">p.mich</field>
+		<field name="volume">15</field>
+		<field name="document">707</field>
+		<field name="position" xsi:nil="true" />
+		<field name="description">Zu datieren: nach 185 n.Chr. (ed.pr.; gegen B.L. 12, S. 124) und letztens Mitte 3. Jahrh. n.Chr.; Klaudia Isidora (vgl. B.L. 11, S. 134) ist viell. zu identifizieren mit der Klaudia Isidora in P. Oxy. 6. 919, J.D. Thomas, B.A.S.P. 41 (2004), S. 152-153, mit Anm. 56 und 57.</field>
+		<field name="source" xsi:nil="true" />
+		<field name="status">unchecked</field>
+		<field name="creator">hoogendijk</field>
+		<field name="created">2012-10-11 09:43:00</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine" xsi:nil="true" />
+		<field name="sortSystem">e00674000t00000707p00000000s00f00000000c00000000l00000000</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00674000t00000707p00000000s00f00000000c00000000l00000000</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">318</field>
+		<field name="edition_id">310</field>
+		<field name="compilation_id">14</field>
+		<field name="text">707</field>
+		<field name="tm">21386</field>
+		<field name="folder">22</field>
+		<field name="hgv">21386</field>
+		<field name="ddb">p.mich;15;707</field>
+		<field name="collection">p.mich</field>
+		<field name="volume">15</field>
+		<field name="document">707</field>
+		<field name="position" xsi:nil="true" />
+		<field name="description">Zu datieren: nach 185 n.Chr. (ed.pr.; gegen B.L. 12, S. 124) und letztens Mitte 3. Jahrh. n.Chr.; Klaudia Isidora (vgl. B.L. 11, S. 134) ist viell. zu identifizieren mit der Klaudia Isidora in P. Oxy. 6. 919, J.D. Thomas, B.A.S.P. 41 (2004), S. 152-153, mit Anm. 56 und 57.</field>
+		<field name="source" xsi:nil="true" />
+		<field name="status">unchecked</field>
+		<field name="creator">hoogendijk</field>
+		<field name="created">2012-10-11 09:43:19</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine" xsi:nil="true" />
+		<field name="sortSystem">e00674000t00000707p00000000s00f00000000c00000000l00000000</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00674000t00000707p00000000s00f00000000c00000000l00000000</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">319</field>
+		<field name="edition_id">29</field>
+		<field name="compilation_id">14</field>
+		<field name="text">36</field>
+		<field name="tm">9083</field>
+		<field name="folder">10</field>
+		<field name="hgv">9083</field>
+		<field name="ddb">chr.mitt;;125dupl</field>
+		<field name="collection">chr.mitt</field>
+		<field name="volume"></field>
+		<field name="document">125dupl</field>
+		<field name="position" xsi:nil="true" />
+		<field name="description">Zu datieren: um 101/102 n.Chr., J. Whitehorne, B.A.S.P. 41 (2004), S. 162.</field>
+		<field name="source" xsi:nil="true" />
+		<field name="status">unchecked</field>
+		<field name="creator">hoogendijk</field>
+		<field name="created">2012-10-11 09:45:36</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine" xsi:nil="true" />
+		<field name="sortSystem">e00085000t00000036p00000000s00f00000000c00000000l00000000</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00085000t00000036p00000000s00f00000000c00000000l00000000</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">320</field>
+		<field name="edition_id">30</field>
+		<field name="compilation_id">14</field>
+		<field name="text">436</field>
+		<field name="tm">9168</field>
+		<field name="folder">10</field>
+		<field name="hgv">9168</field>
+		<field name="ddb">bgu;2;436dupl</field>
+		<field name="collection">bgu</field>
+		<field name="volume">2</field>
+		<field name="document">436dupl</field>
+		<field name="position" xsi:nil="true" />
+		<field name="description">Zu datieren: um 101/102 n.Chr., J. Whitehorne, B.A.S.P. 41 (2004), S. 162.</field>
+		<field name="source" xsi:nil="true" />
+		<field name="status">unchecked</field>
+		<field name="creator">hoogendijk</field>
+		<field name="created">2012-10-11 09:47:08</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine" xsi:nil="true" />
+		<field name="sortSystem">e00086000t00000436p00000000s00f00000000c00000000l00000000</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00086000t00000436p00000000s00f00000000c00000000l00000000</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">321</field>
+		<field name="edition_id">425</field>
+		<field name="compilation_id">14</field>
+		<field name="text">81</field>
+		<field name="tm">13006</field>
+		<field name="folder">14</field>
+		<field name="hgv">13006</field>
+		<field name="ddb">p.ryl;2;81</field>
+		<field name="collection">p.ryl</field>
+		<field name="volume">2</field>
+		<field name="document">81</field>
+		<field name="position" xsi:nil="true" />
+		<field name="description">Zu datieren: 11.7.107 n.Chr., J. Whitehorne, B.A.S.P. 41 (2004), S. 163.</field>
+		<field name="source" xsi:nil="true" />
+		<field name="status">unchecked</field>
+		<field name="creator">hoogendijk</field>
+		<field name="created">2012-10-11 09:48:26</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine" xsi:nil="true" />
+		<field name="sortSystem">e00891000t00000081p00000000s00f00000000c00000000l00000000</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00891000t00000081p00000000s00f00000000c00000000l00000000</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">322</field>
+		<field name="edition_id">29</field>
+		<field name="compilation_id">14</field>
+		<field name="text">157</field>
+		<field name="tm">28227</field>
+		<field name="folder">29</field>
+		<field name="hgv">28227</field>
+		<field name="ddb">bgu;1;157</field>
+		<field name="collection">bgu</field>
+		<field name="volume">1</field>
+		<field name="document">157</field>
+		<field name="position" xsi:nil="true" />
+		<field name="description">Zu datieren: nach 212 n.Chr., J. Whitehorne, B.A.S.P. 41 (2004), S. 166 mit Anm. 40.</field>
+		<field name="source" xsi:nil="true" />
+		<field name="status">unchecked</field>
+		<field name="creator">hoogendijk</field>
+		<field name="created">2012-10-11 09:49:55</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine" xsi:nil="true" />
+		<field name="sortSystem">e00085000t00000157p00000000s00f00000000c00000000l00000000</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00085000t00000157p00000000s00f00000000c00000000l00000000</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">323</field>
+		<field name="edition_id">449</field>
+		<field name="compilation_id">14</field>
+		<field name="text">222</field>
+		<field name="tm">31227</field>
+		<field name="folder">32</field>
+		<field name="hgv">31227</field>
+		<field name="ddb">psi;3;222</field>
+		<field name="collection">psi</field>
+		<field name="volume">3</field>
+		<field name="document">222</field>
+		<field name="position" xsi:nil="true" />
+		<field name="description">Zu datieren: um 292 n.Chr., J. Whitehorne, B.A.S.P. 41 (2004), S. 167 mit Anm. 42.</field>
+		<field name="source" xsi:nil="true" />
+		<field name="status">unchecked</field>
+		<field name="creator">hoogendijk</field>
+		<field name="created">2012-10-11 09:51:51</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine" xsi:nil="true" />
+		<field name="sortSystem">e00947000t00000222p00000000s00f00000000c00000000l00000000</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00947000t00000222p00000000s00f00000000c00000000l00000000</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">324</field>
+		<field name="edition_id">341</field>
+		<field name="compilation_id">14</field>
+		<field name="text">254</field>
+		<field name="tm">20524</field>
+		<field name="folder">21</field>
+		<field name="hgv">20524</field>
+		<field name="ddb">p.oxy;2;254</field>
+		<field name="collection">p.oxy</field>
+		<field name="volume">2</field>
+		<field name="document">254</field>
+		<field name="position" xsi:nil="true" />
+		<field name="description">Datierung in 33/34 n.Chr. ist nicht auszuschließen, L. Capponi, B.A.S.P. 41 (2004), S. 174, Anm. 7.</field>
+		<field name="source" xsi:nil="true" />
+		<field name="status">unchecked</field>
+		<field name="creator">hoogendijk</field>
+		<field name="created">2012-10-11 09:53:00</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine" xsi:nil="true" />
+		<field name="sortSystem">e00751000t00000254p00000000s00f00000000c00000000l00000000</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00751000t00000254p00000000s00f00000000c00000000l00000000</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">325</field>
+		<field name="edition_id">29</field>
+		<field name="compilation_id">14</field>
+		<field name="text">315</field>
+		<field name="tm">41059</field>
+		<field name="folder">42</field>
+		<field name="hgv">41059</field>
+		<field name="ddb">bgu;1;315</field>
+		<field name="collection">bgu</field>
+		<field name="volume">1</field>
+		<field name="document">315</field>
+		<field name="position">4</field>
+		<field name="description">ἐν Ἀρσινόῃ (B.L. 11, S. 16) → ἐν Ἀρσινόης, sc. πόλει, P. Tebt. 2, S. 370; nach dem Photo zugestimmt von N. Gonis, B.A.S.P. 41 (2004), S. 182.</field>
+		<field name="source" xsi:nil="true" />
+		<field name="status">unchecked</field>
+		<field name="creator">hoogendijk</field>
+		<field name="created">2012-10-11 10:02:30</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">4</field>
+		<field name="sortSystem">e00085000t00000315p00000000s00f00000000c00000000l00000004</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00085000t00000315p00000000s00f00000000c00000000l00000004</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">326</field>
+		<field name="edition_id">31</field>
+		<field name="compilation_id">14</field>
+		<field name="text">985</field>
+		<field name="tm">9426</field>
+		<field name="folder">10</field>
+		<field name="hgv">9426</field>
+		<field name="ddb">bgu;3;985</field>
+		<field name="collection">bgu</field>
+		<field name="volume">3</field>
+		<field name="document">985</field>
+		<field name="position">3</field>
+		<field name="description">Die Erg. Σωτηρίου (B.L. 11, S. 23) ist abzulehnen, N. Gonis, B.A.S.P. 41 (2004), S. 182.</field>
+		<field name="source" xsi:nil="true" />
+		<field name="status">unchecked</field>
+		<field name="creator">hoogendijk</field>
+		<field name="created">2012-10-11 10:03:42</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">3</field>
+		<field name="sortSystem">e00087000t00000985p00000000s00f00000000c00000000l00000003</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00087000t00000985p00000000s00f00000000c00000000l00000003</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">327</field>
+		<field name="edition_id">173</field>
+		<field name="compilation_id">14</field>
+		<field name="text">27</field>
+		<field name="tm">11222</field>
+		<field name="folder">12</field>
+		<field name="hgv">11222</field>
+		<field name="ddb">p.gen.2;1;27</field>
+		<field name="collection">p.gen.2</field>
+		<field name="volume">1</field>
+		<field name="document">27</field>
+		<field name="position">15</field>
+		<field name="description">ὡς ἔ̣σ̣τ̣ι̣ (vgl. B.L. 11, S. 83) ist Äquivalent von ὡς ὑπάρχει, N. Gonis, B.A.S.P. 41 (2004), S. 182.</field>
+		<field name="source" xsi:nil="true" />
+		<field name="status">unchecked</field>
+		<field name="creator">hoogendijk</field>
+		<field name="created">2012-10-11 10:06:03</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">15</field>
+		<field name="sortSystem">e00405000t00000027p00000000s00f00000000c00000000l00000015</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00405000t00000027p00000000s00f00000000c00000000l00000015</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">328</field>
+		<field name="edition_id">243</field>
+		<field name="compilation_id">14</field>
+		<field name="text">48</field>
+		<field name="tm">39267</field>
+		<field name="folder">40</field>
+		<field name="hgv">39267</field>
+		<field name="ddb">p.laur;2;48</field>
+		<field name="collection">p.laur</field>
+		<field name="volume">2</field>
+		<field name="document">48</field>
+		<field name="position">1</field>
+		<field name="description">παρ᾽&lt;ούσ&gt;οις, l. παρούσης → παρόση̣ς, l. παρούσης (nach dem Photo), N. Gonis, B.A.S.P. 41 (2004), S. 183 (vgl. B.L. 11, S. 106).</field>
+		<field name="source" xsi:nil="true" />
+		<field name="status">unchecked</field>
+		<field name="creator">hoogendijk</field>
+		<field name="created">2012-10-11 10:07:27</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">1</field>
+		<field name="sortSystem">e00551000t00000048p00000000s00f00000000c00000000l00000001</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00551000t00000048p00000000s00f00000000c00000000l00000001</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">329</field>
+		<field name="edition_id">442</field>
+		<field name="compilation_id">14</field>
+		<field name="text">16122</field>
+		<field name="tm">79325</field>
+		<field name="folder">80</field>
+		<field name="hgv">79325</field>
+		<field name="ddb">p.eirene;1;34</field>
+		<field name="collection">p.eirene</field>
+		<field name="volume">1</field>
+		<field name="document">34</field>
+		<field name="position">2</field>
+		<field name="description">Πέτρ(ου) Ἀββ(ᾶ) Θωμᾶ → πέτρ(ας) αββ(α) Θωμᾶ, N. Gonis, B.A.S.P. 41 (2004), S. 183, Anm. 6.</field>
+		<field name="source" xsi:nil="true" />
+		<field name="status">unchecked</field>
+		<field name="creator">hoogendijk</field>
+		<field name="created">2012-10-11 10:10:38</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">2</field>
+		<field name="sortSystem">e00918000t00016122p00000000s00f00000000c00000000l00000002</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00918000t00016122p00000000s00f00000000c00000000l00000002</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">330</field>
+		<field name="edition_id">344</field>
+		<field name="compilation_id">14</field>
+		<field name="text">922</field>
+		<field name="tm">37133</field>
+		<field name="folder">38</field>
+		<field name="hgv">37133</field>
+		<field name="ddb">p.oxy;6;922</field>
+		<field name="collection">p.oxy</field>
+		<field name="volume">6</field>
+		<field name="document">922</field>
+		<field name="position" xsi:nil="true" />
+		<field name="description">Die Ber. in B.L. 11, S. 146, ist abzulehnen; mit ed.pr. zu datieren auf spätes 6. /frühes 7. Jahrh., N. Gonis, B.A.S.P. 41 (2004), S. 183.</field>
+		<field name="source" xsi:nil="true" />
+		<field name="status">unchecked</field>
+		<field name="creator">hoogendijk</field>
+		<field name="created">2012-10-11 10:13:04</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine" xsi:nil="true" />
+		<field name="sortSystem">e00754000t00000922p00000000s00f00000000c00000000l00000000</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00754000t00000922p00000000s00f00000000c00000000l00000000</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">331</field>
+		<field name="edition_id">409</field>
+		<field name="compilation_id">14</field>
+		<field name="text">158</field>
+		<field name="tm">35484</field>
+		<field name="folder">36</field>
+		<field name="hgv">35484</field>
+		<field name="ddb">p.prag;2;158</field>
+		<field name="collection">p.prag</field>
+		<field name="volume">2</field>
+		<field name="document">158</field>
+		<field name="position">3</field>
+		<field name="description">ἀγροτηρίου, l. ἀκρωτηρίου (B.L. 11, S. 181): auch möglich ist ἁγιαστηρίου (nach dem Photo), J.R. Rea bei N. Gonis, B.A.S.P. 41 (2004), S. 184.</field>
+		<field name="source" xsi:nil="true" />
+		<field name="status">unchecked</field>
+		<field name="creator">hoogendijk</field>
+		<field name="created">2012-10-11 10:14:31</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">3</field>
+		<field name="sortSystem">e00846000t00000158p00000000s00f00000000c00000000l00000003</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00846000t00000158p00000000s00f00000000c00000000l00000003</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">332</field>
+		<field name="edition_id">411</field>
+		<field name="compilation_id">14</field>
+		<field name="text">102</field>
+		<field name="tm">32798</field>
+		<field name="folder">33</field>
+		<field name="hgv">32798</field>
+		<field name="ddb">p.princ;2;102</field>
+		<field name="collection">p.princ</field>
+		<field name="volume">2</field>
+		<field name="document">102</field>
+		<field name="position">15</field>
+		<field name="description">Die Lesung μ`η ´[ο]νος (B.L. 11, S. 183) wird angezweifelt (nach dem Photo), N. Gonis, B.A.S.P. 41 (2004), S. 184.</field>
+		<field name="source" xsi:nil="true" />
+		<field name="status">unchecked</field>
+		<field name="creator">hoogendijk</field>
+		<field name="created">2012-10-11 10:44:21</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">15</field>
+		<field name="sortSystem">e00856000t00000102p00000000s00f00000000c00000000l00000015</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00856000t00000102p00000000s00f00000000c00000000l00000015</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">333</field>
+		<field name="edition_id">467</field>
+		<field name="compilation_id">14</field>
+		<field name="text">69</field>
+		<field name="tm">20110</field>
+		<field name="folder">21</field>
+		<field name="hgv">20110</field>
+		<field name="ddb">p.sorb;2;69</field>
+		<field name="collection">p.sorb</field>
+		<field name="volume">2</field>
+		<field name="document">69</field>
+		<field name="position">54 B 3</field>
+		<field name="description">ἀπεκδ(ίκου): die Ber. in B.L. 11, S. 253 ist nicht notwendig; viell. “ex-ekdikos” (vgl. C.P.R. 24. 8, Anm. zu Z. 1), N. Gonis, B.A.S.P. 41 (2004), S. 184.</field>
+		<field name="source" xsi:nil="true" />
+		<field name="status">unchecked</field>
+		<field name="creator">hoogendijk</field>
+		<field name="created">2012-10-11 10:46:19</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment">B</field>
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">54</field>
+		<field name="sortSystem">e00986000t00000069p00000000s00f0000000Bc00000000l00000054</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00986000t00000069p00000000s00f0000000Bc00000000l00000054</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">334</field>
+		<field name="edition_id">438</field>
+		<field name="compilation_id">14</field>
+		<field name="text">12229</field>
+		<field name="tm">32577</field>
+		<field name="folder">33</field>
+		<field name="hgv">32577</field>
+		<field name="ddb">sb;16;12229</field>
+		<field name="collection">sb</field>
+		<field name="volume">16</field>
+		<field name="document">12229</field>
+		<field name="position">1</field>
+		<field name="description">Οἀλέριος (B.L. 11, S. 216; kein Druckfehler): viell. Οὐ̣αλέριος, N. Gonis, B.A.S.P. 41 (2004), S. 184 (fehlerhaft zu Z. 3).</field>
+		<field name="source" xsi:nil="true" />
+		<field name="status">unchecked</field>
+		<field name="creator">hoogendijk</field>
+		<field name="created">2012-10-11 10:48:46</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">1</field>
+		<field name="sortSystem">e00914000t00012229p00000000s00f00000000c00000000l00000001</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00914000t00012229p00000000s00f00000000c00000000l00000001</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">335</field>
+		<field name="edition_id">422</field>
+		<field name="compilation_id">14</field>
+		<field name="text">5</field>
+		<field name="tm">39922</field>
+		<field name="folder">40</field>
+		<field name="hgv">39922</field>
+		<field name="ddb">p.ross.georg;4;5</field>
+		<field name="collection">p.ross.georg</field>
+		<field name="volume">4</field>
+		<field name="document">5</field>
+		<field name="position">42</field>
+		<field name="description">Ab Z. 42 nicht von einer neuen Hand (B.L. 11, S. 188), aber in einem anderen Schreibstil geschrieben, N. Gonis, B.A.S.P. 41 (2004), S. 185.</field>
+		<field name="source" xsi:nil="true" />
+		<field name="status">unchecked</field>
+		<field name="creator">hoogendijk</field>
+		<field name="created">2012-10-11 10:50:32</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">42</field>
+		<field name="sortSystem">e00883000t00000005p00000000s00f00000000c00000000l00000042</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00883000t00000005p00000000s00f00000000c00000000l00000042</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">336</field>
+		<field name="edition_id">484</field>
+		<field name="compilation_id">14</field>
+		<field name="text">899</field>
+		<field name="tm">41247</field>
+		<field name="folder">42</field>
+		<field name="hgv">41247</field>
+		<field name="ddb">stud.pal;8;899</field>
+		<field name="collection">stud.pal</field>
+		<field name="volume">8</field>
+		<field name="document">899</field>
+		<field name="position">2</field>
+		<field name="description">τῆ(ς) θεοφυλάκτου (B.L. 11, S. 261) → τ(ο)ῦ θεοφυλάκτου (vgl. schon ed.pr.), N. Gonis, B.A.S.P. 41 (2004), S. 185-186.</field>
+		<field name="source" xsi:nil="true" />
+		<field name="status">unchecked</field>
+		<field name="creator">hoogendijk</field>
+		<field name="created">2012-10-11 10:51:48</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">2</field>
+		<field name="sortSystem">e01020000t00000899p00000000s00f00000000c00000000l00000002</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e01020000t00000899p00000000s00f00000000c00000000l00000002</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">337</field>
+		<field name="edition_id">47</field>
+		<field name="compilation_id">14</field>
+		<field name="text">1</field>
+		<field name="tm">10150</field>
+		<field name="folder">11</field>
+		<field name="hgv">10150</field>
+		<field name="ddb">p.berl.frisk;;1</field>
+		<field name="collection">p.berl.frisk</field>
+		<field name="volume"></field>
+		<field name="document">1</field>
+		<field name="position">XXVI 19, 20</field>
+		<field name="description">(ἀρτάβας) (B.L. 11, S. 39) → (ἀρτάβης), N. Gonis, B.A.S.P. 41 (2004), S. 186.</field>
+		<field name="source" xsi:nil="true" />
+		<field name="status">unchecked</field>
+		<field name="creator">hoogendijk</field>
+		<field name="created">2012-10-11 10:54:01</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn">XXVI</field>
+		<field name="sortLine">19</field>
+		<field name="sortSystem">e00125000t00000001p00000000s00f00000000c00000026l00000019</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00125000t00000001p00000000s00f00000000c00000026l00000019</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">338</field>
+		<field name="edition_id">185</field>
+		<field name="compilation_id">14</field>
+		<field name="text">39</field>
+		<field name="tm">11292</field>
+		<field name="folder">12</field>
+		<field name="hgv">11292</field>
+		<field name="ddb">p.got;;39</field>
+		<field name="collection">p.got</field>
+		<field name="volume"></field>
+		<field name="document">39</field>
+		<field name="position">6</field>
+		<field name="description">τὰς νῦν (B.L. 11, S. 85) → τὰ νῦν, N. Gonis, B.A.S.P. 41 (2004), S. 186.</field>
+		<field name="source" xsi:nil="true" />
+		<field name="status">unchecked</field>
+		<field name="creator">hoogendijk</field>
+		<field name="created">2012-10-11 10:54:58</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">6</field>
+		<field name="sortSystem">e00435000t00000039p00000000s00f00000000c00000000l00000006</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00435000t00000039p00000000s00f00000000c00000000l00000006</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">339</field>
+		<field name="edition_id">351</field>
+		<field name="compilation_id">14</field>
+		<field name="text">2002</field>
+		<field name="tm">22091</field>
+		<field name="folder">23</field>
+		<field name="hgv">22091</field>
+		<field name="ddb">p.oxy;16;2002</field>
+		<field name="collection">p.oxy</field>
+		<field name="volume">16</field>
+		<field name="document">2002</field>
+		<field name="position">2</field>
+		<field name="description">περιβλέπ]τ̣(ης) (B.L. 11, S. 157) → περιβλέπ]τ̣(ου), N. Gonis, B.A.S.P. 41 (2004), S. 186.</field>
+		<field name="source" xsi:nil="true" />
+		<field name="status">unchecked</field>
+		<field name="creator">hoogendijk</field>
+		<field name="created">2012-10-11 10:59:56</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">2</field>
+		<field name="sortSystem">e00761000t00002002p00000000s00f00000000c00000000l00000002</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00761000t00002002p00000000s00f00000000c00000000l00000002</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">340</field>
+		<field name="edition_id">413</field>
+		<field name="compilation_id">14</field>
+		<field name="text">119</field>
+		<field name="tm">15451</field>
+		<field name="folder">16</field>
+		<field name="hgv">15451</field>
+		<field name="ddb">p.rain.cent;;119</field>
+		<field name="collection">p.rain.cent</field>
+		<field name="volume"></field>
+		<field name="document">119</field>
+		<field name="position">4</field>
+		<field name="description">ἐ̣[παγωμένων (B.L. 11, S. 185) → ἐ̣[παγομένων, N. Gonis, B.A.S.P. 41 (2004), S. 186.</field>
+		<field name="source" xsi:nil="true" />
+		<field name="status">unchecked</field>
+		<field name="creator">hoogendijk</field>
+		<field name="created">2012-10-11 11:01:15</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">4</field>
+		<field name="sortSystem">e00860000t00000119p00000000s00f00000000c00000000l00000004</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00860000t00000119p00000000s00f00000000c00000000l00000004</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">341</field>
+		<field name="edition_id">428</field>
+		<field name="compilation_id">14</field>
+		<field name="text">59</field>
+		<field name="tm">13075</field>
+		<field name="folder">14</field>
+		<field name="hgv">13075</field>
+		<field name="ddb">p.sakaon;;59</field>
+		<field name="collection">p.sakaon</field>
+		<field name="volume"></field>
+		<field name="document">59</field>
+		<field name="position">16</field>
+		<field name="description">ἐπερωτη(θεντείς) (B.L. 11, S. 192) → ἐπερωτη(θείς), N. Gonis, B.A.S.P. 41 (2004), S. 186.</field>
+		<field name="source" xsi:nil="true" />
+		<field name="status">unchecked</field>
+		<field name="creator">hoogendijk</field>
+		<field name="created">2012-10-11 11:03:08</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">16</field>
+		<field name="sortSystem">e00900000t00000059p00000000s00f00000000c00000000l00000016</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00900000t00000059p00000000s00f00000000c00000000l00000016</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">342</field>
+		<field name="edition_id">428</field>
+		<field name="compilation_id">14</field>
+		<field name="text">59</field>
+		<field name="tm">13075</field>
+		<field name="folder">14</field>
+		<field name="hgv">13075</field>
+		<field name="ddb">p.sakaon;;59</field>
+		<field name="collection">p.sakaon</field>
+		<field name="volume"></field>
+		<field name="document">59</field>
+		<field name="position">16</field>
+		<field name="description">ἐπερωτη(θεντείς) (B.L. 11, S. 192) → ἐπερωτη(θείς), N. Gonis, B.A.S.P. 41 (2004), S. 186.</field>
+		<field name="source" xsi:nil="true" />
+		<field name="status">unchecked</field>
+		<field name="creator">hoogendijk</field>
+		<field name="created">2012-10-11 11:03:22</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">16</field>
+		<field name="sortSystem">e00900000t00000059p00000000s00f00000000c00000000l00000016</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00900000t00000059p00000000s00f00000000c00000000l00000016</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">343</field>
+		<field name="edition_id">489</field>
+		<field name="compilation_id">14</field>
+		<field name="text">83</field>
+		<field name="tm">31046</field>
+		<field name="folder">32</field>
+		<field name="hgv">31046</field>
+		<field name="ddb">stud.pal;20;83</field>
+		<field name="collection">stud.pal</field>
+		<field name="volume">20</field>
+		<field name="document">83</field>
+		<field name="position">IV 10</field>
+		<field name="description">(ἄρουρας) (B.L. 11, S. 267) → (ἀρούρης), N. Gonis, B.A.S.P. 41 (2004), S. 186.</field>
+		<field name="source" xsi:nil="true" />
+		<field name="status">unchecked</field>
+		<field name="creator">hoogendijk</field>
+		<field name="created">2012-10-11 11:04:35</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn">IV</field>
+		<field name="sortLine">10</field>
+		<field name="sortSystem">e01025000t00000083p00000000s00f00000000c00000004l00000010</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e01025000t00000083p00000000s00f00000000c00000004l00000010</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">344</field>
+		<field name="edition_id">495</field>
+		<field name="compilation_id">14</field>
+		<field name="text">815</field>
+		<field name="tm">7752</field>
+		<field name="folder">8</field>
+		<field name="hgv">7752</field>
+		<field name="ddb">p.tebt;3.1;815</field>
+		<field name="collection">p.tebt</field>
+		<field name="volume">3.1</field>
+		<field name="document">815</field>
+		<field name="position">Fr. 10, I  7</field>
+		<field name="description">[σ]τραηγία̣ι (B.L. 11, S. 280) → [σ]τρατηγία̣ι (Druckfehler), N. Gonis, B.A.S.P. 41 (2004), S. 186-187.</field>
+		<field name="source" xsi:nil="true" />
+		<field name="status">unchecked</field>
+		<field name="creator">hoogendijk</field>
+		<field name="created">2012-10-11 11:06:54</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment">10</field>
+		<field name="sortColumn">I</field>
+		<field name="sortLine">10</field>
+		<field name="sortSystem">e01032000t00000815p00000000s00f00000010c00000001l00000010</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e01032000t00000815p00000000s00f00000010c00000001l00000010</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">345</field>
+		<field name="edition_id">439</field>
+		<field name="compilation_id">14</field>
+		<field name="text">13104-13106</field>
+		<field name="tm">36275</field>
+		<field name="folder">37</field>
+		<field name="hgv">36275</field>
+		<field name="ddb">sb;18;13104</field>
+		<field name="collection">sb</field>
+		<field name="volume">18</field>
+		<field name="document">13104</field>
+		<field name="position" xsi:nil="true" />
+		<field name="description">Weil S.B. 20. 14093 zum selben Dossier gehört (B.L. 10, S. 217), zu datieren in die 2. Hälfte des 7. Jahrh. n.Chr. (vgl. B.L. 11, S. 227 zu S.B. 20. 14093), N. Gonis, B.A.S.P. 41 (2004), S. 187.</field>
+		<field name="source" xsi:nil="true" />
+		<field name="status">unchecked</field>
+		<field name="creator">hoogendijk</field>
+		<field name="created">2012-10-11 11:08:36</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine" xsi:nil="true" />
+		<field name="sortSystem">e00915000t13104-13106p00000000s00f00000000c00000000l00000000</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00915000t13104-13106p00000000s00f00000000c00000000l00000000</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">347</field>
+		<field name="edition_id">439</field>
+		<field name="compilation_id">14</field>
+		<field name="text">13152</field>
+		<field name="tm">36278</field>
+		<field name="folder">37</field>
+		<field name="hgv">36278</field>
+		<field name="ddb">sb;18;13152</field>
+		<field name="collection">sb</field>
+		<field name="volume">18</field>
+		<field name="document">13152</field>
+		<field name="position" xsi:nil="true" />
+		<field name="description">Siehe die Ber. zu S.B. 18. 13104-13106.</field>
+		<field name="source" xsi:nil="true" />
+		<field name="status">unchecked</field>
+		<field name="creator">hoogendijk</field>
+		<field name="created">2012-10-11 11:10:26</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine" xsi:nil="true" />
+		<field name="sortSystem">e00915000t00013152p00000000s00f00000000c00000000l00000000</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00915000t00013152p00000000s00f00000000c00000000l00000000</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">349</field>
+		<field name="edition_id">440</field>
+		<field name="compilation_id">14</field>
+		<field name="text">14092</field>
+		<field name="tm">38422</field>
+		<field name="folder">39</field>
+		<field name="hgv">38422</field>
+		<field name="ddb">sb;20;14092</field>
+		<field name="collection">sb</field>
+		<field name="volume">20</field>
+		<field name="document">14092</field>
+		<field name="position" xsi:nil="true" />
+		<field name="description">Siehe die Ber. zu S.B. 18. 13104-13106.</field>
+		<field name="source" xsi:nil="true" />
+		<field name="status">unchecked</field>
+		<field name="creator">hoogendijk</field>
+		<field name="created">2012-10-11 11:11:43</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine" xsi:nil="true" />
+		<field name="sortSystem">e00916000t00014092p00000000s00f00000000c00000000l00000000</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00916000t00014092p00000000s00f00000000c00000000l00000000</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">350</field>
+		<field name="edition_id">440</field>
+		<field name="compilation_id">14</field>
+		<field name="text">14093</field>
+		<field name="tm">38423</field>
+		<field name="folder">39</field>
+		<field name="hgv">38423</field>
+		<field name="ddb">sb;20;14093</field>
+		<field name="collection">sb</field>
+		<field name="volume">20</field>
+		<field name="document">14093</field>
+		<field name="position" xsi:nil="true" />
+		<field name="description">Gehört zum selben Dossier wie S.B. 18. 13104-13106, 13152 und 20. 14092 (s. B.L. 10, S. 217 zu S.B. 18. 13104-13106), N. Gonis, B.A.S.P. 41 (2004), S. 187.</field>
+		<field name="source" xsi:nil="true" />
+		<field name="status">unchecked</field>
+		<field name="creator">hoogendijk</field>
+		<field name="created">2012-10-11 11:12:44</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine" xsi:nil="true" />
+		<field name="sortSystem">e00916000t00014093p00000000s00f00000000c00000000l00000000</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00916000t00014093p00000000s00f00000000c00000000l00000000</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">351</field>
+		<field name="edition_id">369</field>
+		<field name="compilation_id">14</field>
+		<field name="text">3169</field>
+		<field name="tm">15931</field>
+		<field name="folder">16</field>
+		<field name="hgv">15931</field>
+		<field name="ddb">p.oxy;44;3169</field>
+		<field name="collection">p.oxy</field>
+		<field name="volume">44</field>
+		<field name="document">3169</field>
+		<field name="position" xsi:nil="true" />
+		<field name="description">Zu datieren: 200-212 n.Chr., P. Mich. 18, S. 222 mit Anm. 4.</field>
+		<field name="source" xsi:nil="true" />
+		<field name="status">unchecked</field>
+		<field name="creator">hoogendijk</field>
+		<field name="created">2012-10-11 11:13:54</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine" xsi:nil="true" />
+		<field name="sortSystem">e00779000t00003169p00000000s00f00000000c00000000l00000000</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00779000t00003169p00000000s00f00000000c00000000l00000000</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">352</field>
+		<field name="edition_id">438</field>
+		<field name="compilation_id">14</field>
+		<field name="text">12943</field>
+		<field name="tm">36015</field>
+		<field name="folder">37</field>
+		<field name="hgv">36015</field>
+		<field name="ddb">sb;16;12943</field>
+		<field name="collection">sb</field>
+		<field name="volume">16</field>
+		<field name="document">12943</field>
+		<field name="position" xsi:nil="true" />
+		<field name="description">Zu datieren: 7. statt 6. Jahrh. n.Chr., N. Gonis, B.A.S.P. 42 (2005), S. 41.</field>
+		<field name="source" xsi:nil="true" />
+		<field name="status">unchecked</field>
+		<field name="creator">hoogendijk</field>
+		<field name="created">2012-10-11 11:21:29</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine" xsi:nil="true" />
+		<field name="sortSystem">e00914000t00012943p00000000s00f00000000c00000000l00000000</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00914000t00012943p00000000s00f00000000c00000000l00000000</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">353</field>
+		<field name="edition_id">438</field>
+		<field name="compilation_id">14</field>
+		<field name="text">12943</field>
+		<field name="tm">36015</field>
+		<field name="folder">37</field>
+		<field name="hgv">36015</field>
+		<field name="ddb">sb;16;12943</field>
+		<field name="collection">sb</field>
+		<field name="volume">16</field>
+		<field name="document">12943</field>
+		<field name="position">1</field>
+		<field name="description">Die Erg. Αὐρ(ήλιος) → ἐγώ und γράφων → γράφω{ν}, N. Gonis, B.A.S.P. 42 (2005), S. 41.</field>
+		<field name="source" xsi:nil="true" />
+		<field name="status">unchecked</field>
+		<field name="creator">hoogendijk</field>
+		<field name="created">2012-10-11 11:22:57</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">1</field>
+		<field name="sortSystem">e00914000t00012943p00000000s00f00000000c00000000l00000001</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00914000t00012943p00000000s00f00000000c00000000l00000001</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">354</field>
+		<field name="edition_id">438</field>
+		<field name="compilation_id">14</field>
+		<field name="text">12943</field>
+		<field name="tm">36015</field>
+		<field name="folder">37</field>
+		<field name="hgv">36015</field>
+		<field name="ddb">sb;16;12943</field>
+		<field name="collection">sb</field>
+		<field name="volume">16</field>
+		<field name="document">12943</field>
+		<field name="position">2</field>
+		<field name="description">Die Erg. [χαίρειν wird abgelehnt, N. Gonis, B.A.S.P. 42 (2005), S. 41, Anm. 1.</field>
+		<field name="source" xsi:nil="true" />
+		<field name="status">unchecked</field>
+		<field name="creator">hoogendijk</field>
+		<field name="created">2012-10-11 11:23:31</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">2</field>
+		<field name="sortSystem">e00914000t00012943p00000000s00f00000000c00000000l00000002</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00914000t00012943p00000000s00f00000000c00000000l00000002</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">355</field>
+		<field name="edition_id">330</field>
+		<field name="compilation_id">14</field>
+		<field name="text">31</field>
+		<field name="tm">78535</field>
+		<field name="folder">79</field>
+		<field name="hgv">78535</field>
+		<field name="ddb">p.mon.apollo;1;31</field>
+		<field name="collection">p.mon.apollo</field>
+		<field name="volume">1</field>
+		<field name="document">31</field>
+		<field name="position">1</field>
+		<field name="description">τον̣[ → το (l. τῷ) ν̣[ oder τον̣ [ (l. τῷ), N. Gonis, B.A.S.P. 42 (2005), S. 42, Anm. 2.</field>
+		<field name="source" xsi:nil="true" />
+		<field name="status">unchecked</field>
+		<field name="creator">hoogendijk</field>
+		<field name="created">2012-10-11 11:25:04</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">1</field>
+		<field name="sortSystem">e00718000t00000031p00000000s00f00000000c00000000l00000001</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00718000t00000031p00000000s00f00000000c00000000l00000001</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">358</field>
+		<field name="edition_id">433</field>
+		<field name="compilation_id">14</field>
+		<field name="text">9590</field>
+		<field name="tm">38829</field>
+		<field name="folder">39</field>
+		<field name="hgv">38829</field>
+		<field name="ddb">sb;6;9590</field>
+		<field name="collection">sb</field>
+		<field name="volume">6</field>
+		<field name="document">9590</field>
+		<field name="position" xsi:nil="true" />
+		<field name="description">Zu datieren: wohl 7./8. Jahrh. n.Chr. (vgl. B.L. 12, S. 198), N. Gonis, B.A.S.P. 42 (2005), S. 44, Anm. 10.</field>
+		<field name="source" xsi:nil="true" />
+		<field name="status">unchecked</field>
+		<field name="creator">hoogendijk</field>
+		<field name="created">2012-10-11 11:37:46</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine" xsi:nil="true" />
+		<field name="sortSystem">e00909000t00009590p00000000s00f00000000c00000000l00000000</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00909000t00009590p00000000s00f00000000c00000000l00000000</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">359</field>
+		<field name="edition_id">176</field>
+		<field name="compilation_id">14</field>
+		<field name="text">15</field>
+		<field name="tm">38401</field>
+		<field name="folder">39</field>
+		<field name="hgv">38401</field>
+		<field name="ddb">p.gen.2;1;15</field>
+		<field name="collection">p.gen.2</field>
+		<field name="volume">1</field>
+		<field name="document">15</field>
+		<field name="position" xsi:nil="true" />
+		<field name="description">Zu datieren: viell. ein weniges später als 6./7. Jahrh. n.Chr. (nach dem Photo), N. Gonis, B.A.S.P. 42 (2005), S. 43, Anm. 8.</field>
+		<field name="source" xsi:nil="true" />
+		<field name="status">unchecked</field>
+		<field name="creator">hoogendijk</field>
+		<field name="created">2012-10-11 11:42:23</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine" xsi:nil="true" />
+		<field name="sortSystem">e00408000t00000015p00000000s00f00000000c00000000l00000000</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00408000t00000015p00000000s00f00000000c00000000l00000000</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">360</field>
+		<field name="edition_id">136</field>
+		<field name="compilation_id">14</field>
+		<field name="text">64</field>
+		<field name="tm">35895</field>
+		<field name="folder">36</field>
+		<field name="hgv">35895</field>
+		<field name="ddb">cpr;8;64</field>
+		<field name="collection">cpr</field>
+		<field name="volume">8</field>
+		<field name="document">64</field>
+		<field name="position" xsi:nil="true" />
+		<field name="description">Zu datieren: Anfang des 7. Jahrh. n.Chr. (vgl. B.L. 8, S. 115 zu Z. 1) (nach dem Photo), N. Gonis, B.A.S.P. 42 (2005), S. 43, Anm. 8.</field>
+		<field name="source" xsi:nil="true" />
+		<field name="status">unchecked</field>
+		<field name="creator">hoogendijk</field>
+		<field name="created">2012-10-11 11:43:37</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine" xsi:nil="true" />
+		<field name="sortSystem">e00315000t00000064p00000000s00f00000000c00000000l00000000</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00315000t00000064p00000000s00f00000000c00000000l00000000</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">361</field>
+		<field name="edition_id">570</field>
+		<field name="compilation_id">14</field>
+		<field name="text">2070</field>
+		<field name="tm">72743</field>
+		<field name="folder">73</field>
+		<field name="hgv">72743</field>
+		<field name="ddb">o.bodl;2;2070</field>
+		<field name="collection">o.bodl</field>
+		<field name="volume">2</field>
+		<field name="document">2070</field>
+		<field name="position">4</field>
+		<field name="description">ἰ(νδικτίονος) ι → ἰ(νδικτίωνος) ια, N. Gonis, ZPE 147 (2004), S. 162.</field>
+		<field name="source">73154</field>
+		<field name="status">unchecked</field>
+		<field name="creator">cowey</field>
+		<field name="created">2012-10-11 11:55:48</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">4</field>
+		<field name="sortSystem">e01251000t00002070p00000000s00f00000000c00000000l00000004</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e01251000t00002070p00000000s00f00000000c00000000l00000004</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">362</field>
+		<field name="edition_id">489</field>
+		<field name="compilation_id">14</field>
+		<field name="text">227</field>
+		<field name="tm">38803</field>
+		<field name="folder">39</field>
+		<field name="hgv">38803</field>
+		<field name="ddb">stud.pal;20;227</field>
+		<field name="collection">stud.pal</field>
+		<field name="volume">20</field>
+		<field name="document">227</field>
+		<field name="position" xsi:nil="true" />
+		<field name="description">Zu datieren auf das 7. Jahrh. n.Chr., Z.M. Packman, Z.P.E. 90 (1992), S. 158.</field>
+		<field name="source" xsi:nil="true" />
+		<field name="status">unchecked</field>
+		<field name="creator">hoogendijk</field>
+		<field name="created">2012-10-11 12:02:46</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine" xsi:nil="true" />
+		<field name="sortSystem">e01025000t00000227p00000000s00f00000000c00000000l00000000</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e01025000t00000227p00000000s00f00000000c00000000l00000000</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
 	</table_data>
 	<table_structure name="edition">
 		<field Field="id" Type="int(11)" Null="NO" Key="PRI" Extra="auto_increment" />
@@ -8471,7 +10067,7 @@
 		<field Field="volume" Type="longtext" Null="YES" Key="" Extra="" />
 		<field Field="remark" Type="longtext" Null="YES" Key="" Extra="" />
 		<key Table="edition" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="586" Null="" Index_type="BTREE" Comment="" />
-		<options Name="edition" Engine="InnoDB" Version="10" Row_format="Compact" Rows="586" Avg_row_length="111" Data_length="65536" Max_data_length="0" Index_length="0" Data_free="0" Auto_increment="580" Create_time="2012-02-22 08:47:30" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 17408 kB" />
+		<options Name="edition" Engine="InnoDB" Version="10" Row_format="Compact" Rows="586" Avg_row_length="111" Data_length="65536" Max_data_length="0" Index_length="0" Data_free="0" Auto_increment="580" Create_time="2012-02-22 08:47:30" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 16384 kB" />
 	</table_structure>
 	<table_data name="edition">
 	<row>
@@ -10052,11 +11648,11 @@
 	<row>
 		<field name="id">176</field>
 		<field name="sort">408000</field>
-		<field name="title">P. Genf 12</field>
+		<field name="title">P. Genf 1, 2</field>
 		<field name="material">Papyrus</field>
 		<field name="collection">P. Genf</field>
-		<field name="volume">12</field>
-		<field name="remark" xsi:nil="true" />
+		<field name="volume">2</field>
+		<field name="remark"></field>
 	</row>
 	<row>
 		<field name="id">177</field>
@@ -12671,11 +14267,11 @@
 	<row>
 		<field name="id">467</field>
 		<field name="sort">986000</field>
-		<field name="title">P. Sorb. 2 (69)</field>
+		<field name="title">P. Sorb. 2</field>
 		<field name="material">Papyrus</field>
 		<field name="collection">P. Sorb.</field>
 		<field name="volume">2</field>
-		<field name="remark">69</field>
+		<field name="remark"></field>
 	</row>
 	<row>
 		<field name="id">468</field>
@@ -13695,11 +15291,11 @@
 		<field Field="version" Type="int(11)" Null="NO" Key="" Extra="" />
 		<field Field="data" Type="longtext" Null="YES" Key="" Extra="" />
 		<field Field="username" Type="varchar(255)" Null="YES" Key="MUL" Extra="" />
-		<key Table="ext_log_entries" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="851" Null="" Index_type="BTREE" Comment="" />
-		<key Table="ext_log_entries" Non_unique="1" Key_name="log_class_lookup_idx" Seq_in_index="1" Column_name="object_class" Collation="A" Cardinality="1" Null="" Index_type="BTREE" Comment="" />
-		<key Table="ext_log_entries" Non_unique="1" Key_name="log_date_lookup_idx" Seq_in_index="1" Column_name="logged_at" Collation="A" Cardinality="851" Null="" Index_type="BTREE" Comment="" />
-		<key Table="ext_log_entries" Non_unique="1" Key_name="log_user_lookup_idx" Seq_in_index="1" Column_name="username" Collation="A" Cardinality="9" Null="YES" Index_type="BTREE" Comment="" />
-		<options Name="ext_log_entries" Engine="InnoDB" Version="10" Row_format="Compact" Rows="851" Avg_row_length="327" Data_length="278528" Max_data_length="0" Index_length="114688" Data_free="0" Auto_increment="827" Create_time="2012-02-10 23:18:07" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 17408 kB" />
+		<key Table="ext_log_entries" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="891" Null="" Index_type="BTREE" Comment="" />
+		<key Table="ext_log_entries" Non_unique="1" Key_name="log_class_lookup_idx" Seq_in_index="1" Column_name="object_class" Collation="A" Cardinality="2" Null="" Index_type="BTREE" Comment="" />
+		<key Table="ext_log_entries" Non_unique="1" Key_name="log_date_lookup_idx" Seq_in_index="1" Column_name="logged_at" Collation="A" Cardinality="891" Null="" Index_type="BTREE" Comment="" />
+		<key Table="ext_log_entries" Non_unique="1" Key_name="log_user_lookup_idx" Seq_in_index="1" Column_name="username" Collation="A" Cardinality="10" Null="YES" Index_type="BTREE" Comment="" />
+		<options Name="ext_log_entries" Engine="InnoDB" Version="10" Row_format="Compact" Rows="963" Avg_row_length="357" Data_length="344064" Max_data_length="0" Index_length="196608" Data_free="0" Auto_increment="963" Create_time="2012-02-10 23:18:07" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 16384 kB" />
 	</table_structure>
 	<table_data name="ext_log_entries">
 	<row>
@@ -21962,6 +23558,1366 @@
 		<field name="data">a:3:{s:8:&quot;position&quot;;N;s:11:&quot;description&quot;;s:102:&quot;Zu datieren nach 10.11.218 und letztens im Sommer 221 n.Chr., J.D. Thomas, B.A.S.P. 41 (2004), S. 143.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
 		<field name="username">hoogendijk</field>
 	</row>
+	<row>
+		<field name="id">827</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-10 12:14:15</field>
+		<field name="object_id">300</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:4:&quot;date&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">828</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-10 12:14:15</field>
+		<field name="object_id">302</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;N;s:11:&quot;description&quot;;s:115:&quot;Terminus ante quem: wohl Sommer 225 n.Chr. (vgl. auch B.L. 10, S. 77), J.D. Thomas, B.A.S.P. 41 (2004), S. 143-144.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">829</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-10 12:15:35</field>
+		<field name="object_id">301</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:4:&quot;date&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">830</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-10 12:15:35</field>
+		<field name="object_id">303</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;N;s:11:&quot;description&quot;;s:88:&quot;Terminus ante quem: wohl Sommer 225 n.Chr., J.D. Thomas, B.A.S.P. 41 (2004), S. 143-144.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">831</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-10 12:16:42</field>
+		<field name="object_id">302</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:4:&quot;date&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">832</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-10 12:16:42</field>
+		<field name="object_id">304</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;N;s:11:&quot;description&quot;;s:88:&quot;Terminus ante quem: wohl Sommer 225 n.Chr., J.D. Thomas, B.A.S.P. 41 (2004), S. 143-144.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">833</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-10 12:17:39</field>
+		<field name="object_id">303</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:4:&quot;date&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">834</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-10 12:17:39</field>
+		<field name="object_id">305</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;N;s:11:&quot;description&quot;;s:90:&quot;Terminus ante quem: viell. Sommer 225 n.Chr., J.D. Thomas, B.A.S.P. 41 (2004), S. 143-145.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">835</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-10 12:18:20</field>
+		<field name="object_id">304</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:1:&quot;x&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">836</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-10 12:18:20</field>
+		<field name="object_id">306</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:1:&quot;6&quot;;s:11:&quot;description&quot;;s:158:&quot;]ης: nicht κρατίστ]ης oder λαμπροτάτ]ης (ed.pr., Einl.); viell. φροντιστ]ής, J.D. Thomas, B.A.S.P. 41 (2004), S. 145, Anm. 27.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">837</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-10 12:29:48</field>
+		<field name="object_id">305</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:72:&quot;give crossreference under BGU 2126; col. I was not even printed in SB 14&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">838</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-10 12:29:48</field>
+		<field name="object_id">306</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:1:&quot;x&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">839</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-10 12:29:48</field>
+		<field name="object_id">307</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:3:&quot;I 1&quot;;s:11:&quot;description&quot;;s:114:&quot;προ̣σ(τάτῃ) → πρ̣α̣γ̣(ματευτῇ), H. Maehler bei J.D. Thomas, J.Jur.P. 18 (1974), S. 241.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">840</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-10 12:32:35</field>
+		<field name="object_id">308</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;N;s:11:&quot;description&quot;;s:166:&quot;Zu datieren: wohl 232/233 (vgl. schon J.D. Thomas, J.Jur.P. 18, 1974, S. 243); auch möglich ist 235/236 oder 238/239 n.Chr., J.D. Thomas, B.A.S.P. 41 (2004), S. 145.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">841</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-10 12:33:06</field>
+		<field name="object_id">307</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:27:&quot;add crossreference BGU - SB&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">842</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-10 12:33:06</field>
+		<field name="object_id">309</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;N;s:11:&quot;description&quot;;s:166:&quot;Zu datieren: wohl 232/233 (vgl. schon J.D. Thomas, J.Jur.P. 18, 1974, S. 243); auch möglich ist 235/236 oder 238/239 n.Chr., J.D. Thomas, B.A.S.P. 41 (2004), S. 145.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">843</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-10-10 12:38:28</field>
+		<field name="object_id">295</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">844</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-10-10 12:38:35</field>
+		<field name="object_id">295</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">3</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">845</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-10-10 12:38:53</field>
+		<field name="object_id">295</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">4</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">846</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-10 12:44:55</field>
+		<field name="object_id">310</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;N;s:11:&quot;description&quot;;s:115:&quot;Neben der Datierung 232/233 ist auch 235/236 oder 238/239 n.Chr. möglich, J.D. Thomas, B.A.S.P. 41 (2004), S. 145.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">847</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-10 12:46:35</field>
+		<field name="object_id">311</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;N;s:11:&quot;description&quot;;s:171:&quot;Der Vorschlag (ed.pr., S. 281), daß beide Texten auf demselben Landgut der Claudia Isidora alias Apia verweisen, wird bestätigt, J.D. Thomas, B.A.S.P. 41 (2004), S. 147.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">848</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-10 12:47:48</field>
+		<field name="object_id">312</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;N;s:11:&quot;description&quot;;s:117:&quot;Zu datieren: 23.11. (Kol. II) und 16.12. (Kol. III) 220 oder 224 n.Chr., J.D. Thomas, B.A.S.P. 41 (2004), S. 147-148.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">849</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-10 12:49:07</field>
+		<field name="object_id">313</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;N;s:11:&quot;description&quot;;s:78:&quot;Zu datieren: 30.1.219 oder 223 n.Chr. J.D. Thomas, B.A.S.P. 41 (2004), S. 148.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">850</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 09:39:41</field>
+		<field name="object_id">308</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:1:&quot;x&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">851</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 09:39:41</field>
+		<field name="object_id">314</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;N;s:11:&quot;description&quot;;s:164:&quot;Wenn der Text auf Claudia Isidora alias Apia verweist, ist er zu datieren auf 25.1.222 (nicht 226, B.L. 10, S. 143) n.Chr., J.D. Thomas, B.A.S.P. 41 (2004), S. 148.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">852</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 09:40:30</field>
+		<field name="object_id">309</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:1:&quot;x&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">853</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 09:40:30</field>
+		<field name="object_id">315</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:1:&quot;4&quot;;s:11:&quot;description&quot;;s:243:&quot;Die Erg. [τῆς καὶ Ἀπίας (ed.pr., Anm. zu Z. 4) ist nicht notwendig; erg. viell.: [(ἀρούρας) ., ἃς ἔχουσι παρ᾽ α]ὐτῆς &lt;ἐν&gt; μι̣[σθώσ]ει, J.D. Thomas, B.A.S.P. 41 (2004), S. 148 mit Anm. 37.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">854</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 09:41:54</field>
+		<field name="object_id">310</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:1:&quot;x&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">855</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 09:41:54</field>
+		<field name="object_id">316</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;N;s:11:&quot;description&quot;;s:150:&quot;Der Datierung 21.6. (statt 7.) 159 n.Chr. wird zugestimmt (vgl. B.L. 7, S. 132; B.L. 11, S. 145), J.D. Thomas, B.A.S.P. 41 (2004), S. 149 mit Anm. 44.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">856</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 09:43:00</field>
+		<field name="object_id">311</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:1:&quot;x&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">857</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 09:43:00</field>
+		<field name="object_id">317</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;N;s:11:&quot;description&quot;;s:273:&quot;Zu datieren: nach 185 n.Chr. (ed.pr.; gegen B.L. 12, S. 124) und letztens Mitte 3. Jahrh. n.Chr.; Klaudia Isidora (vgl. B.L. 11, S. 134) ist viell. zu identifizieren mit der Klaudia Isidora in P. Oxy. 6. 919, J.D. Thomas, B.A.S.P. 41 (2004), S. 152-153, mit Anm. 56 und 57.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">858</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 09:43:19</field>
+		<field name="object_id">312</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:1:&quot;x&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">859</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 09:43:19</field>
+		<field name="object_id">313</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:6:&quot;people&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">860</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 09:43:19</field>
+		<field name="object_id">318</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;N;s:11:&quot;description&quot;;s:273:&quot;Zu datieren: nach 185 n.Chr. (ed.pr.; gegen B.L. 12, S. 124) und letztens Mitte 3. Jahrh. n.Chr.; Klaudia Isidora (vgl. B.L. 11, S. 134) ist viell. zu identifizieren mit der Klaudia Isidora in P. Oxy. 6. 919, J.D. Thomas, B.A.S.P. 41 (2004), S. 152-153, mit Anm. 56 und 57.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">861</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 09:45:36</field>
+		<field name="object_id">314</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:1:&quot;x&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">862</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 09:45:36</field>
+		<field name="object_id">319</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;N;s:11:&quot;description&quot;;s:74:&quot;Zu datieren: um 101/102 n.Chr., J. Whitehorne, B.A.S.P. 41 (2004), S. 162.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">863</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 09:47:08</field>
+		<field name="object_id">315</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:1:&quot;x&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">864</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 09:47:08</field>
+		<field name="object_id">320</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;N;s:11:&quot;description&quot;;s:74:&quot;Zu datieren: um 101/102 n.Chr., J. Whitehorne, B.A.S.P. 41 (2004), S. 162.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">865</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 09:48:26</field>
+		<field name="object_id">316</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:1:&quot;x&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">866</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 09:48:26</field>
+		<field name="object_id">321</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;N;s:11:&quot;description&quot;;s:72:&quot;Zu datieren: 11.7.107 n.Chr., J. Whitehorne, B.A.S.P. 41 (2004), S. 163.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">867</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 09:49:55</field>
+		<field name="object_id">317</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:1:&quot;x&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">868</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 09:49:55</field>
+		<field name="object_id">322</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;N;s:11:&quot;description&quot;;s:84:&quot;Zu datieren: nach 212 n.Chr., J. Whitehorne, B.A.S.P. 41 (2004), S. 166 mit Anm. 40.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">869</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 09:51:51</field>
+		<field name="object_id">318</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:1:&quot;x&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">870</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 09:51:51</field>
+		<field name="object_id">323</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;N;s:11:&quot;description&quot;;s:82:&quot;Zu datieren: um 292 n.Chr., J. Whitehorne, B.A.S.P. 41 (2004), S. 167 mit Anm. 42.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">871</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 09:53:00</field>
+		<field name="object_id">319</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:1:&quot;x&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">872</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 09:53:00</field>
+		<field name="object_id">324</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;N;s:11:&quot;description&quot;;s:100:&quot;Datierung in 33/34 n.Chr. ist nicht auszuschließen, L. Capponi, B.A.S.P. 41 (2004), S. 174, Anm. 7.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">873</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 10:02:30</field>
+		<field name="object_id">320</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:1:&quot;x&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">874</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 10:02:30</field>
+		<field name="object_id">325</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:1:&quot;4&quot;;s:11:&quot;description&quot;;s:172:&quot;ἐν Ἀρσινόῃ (B.L. 11, S. 16) → ἐν Ἀρσινόης, sc. πόλει, P. Tebt. 2, S. 370; nach dem Photo zugestimmt von N. Gonis, B.A.S.P. 41 (2004), S. 182.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">875</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 10:03:42</field>
+		<field name="object_id">321</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:1:&quot;x&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">876</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 10:03:42</field>
+		<field name="object_id">326</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:1:&quot;3&quot;;s:11:&quot;description&quot;;s:96:&quot;Die Erg. Σωτηρίου (B.L. 11, S. 23) ist abzulehnen, N. Gonis, B.A.S.P. 41 (2004), S. 182.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">877</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 10:06:03</field>
+		<field name="object_id">322</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:11:&quot;commentary?&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">878</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 10:06:03</field>
+		<field name="object_id">327</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:2:&quot;15&quot;;s:11:&quot;description&quot;;s:126:&quot;ὡς ἔ̣σ̣τ̣ι̣ (vgl. B.L. 11, S. 83) ist Äquivalent von ὡς ὑπάρχει, N. Gonis, B.A.S.P. 41 (2004), S. 182.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">879</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 10:07:28</field>
+		<field name="object_id">323</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:1:&quot;x&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">880</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 10:07:28</field>
+		<field name="object_id">328</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:1:&quot;1&quot;;s:11:&quot;description&quot;;s:165:&quot;παρ᾽&lt;ούσ&gt;οις, l. παρούσης → παρόση̣ς, l. παρούσης (nach dem Photo), N. Gonis, B.A.S.P. 41 (2004), S. 183 (vgl. B.L. 11, S. 106).&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">881</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 10:10:39</field>
+		<field name="object_id">324</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:13:&quot;topo, Kloster&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">882</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 10:10:39</field>
+		<field name="object_id">325</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:1:&quot;x&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">883</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 10:10:39</field>
+		<field name="object_id">329</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:1:&quot;2&quot;;s:11:&quot;description&quot;;s:124:&quot;Πέτρ(ου) Ἀββ(ᾶ) Θωμᾶ → πέτρ(ας) αββ(α) Θωμᾶ, N. Gonis, B.A.S.P. 41 (2004), S. 183, Anm. 6.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">884</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 10:13:05</field>
+		<field name="object_id">326</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:1:&quot;x&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">885</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 10:13:05</field>
+		<field name="object_id">327</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:26:&quot;people (no identification)&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">886</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 10:13:05</field>
+		<field name="object_id">330</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;N;s:11:&quot;description&quot;;s:140:&quot;Die Ber. in B.L. 11, S. 146, ist abzulehnen; mit ed.pr. zu datieren auf spätes 6. /frühes 7. Jahrh., N. Gonis, B.A.S.P. 41 (2004), S. 183.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">887</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 10:14:31</field>
+		<field name="object_id">328</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:1:&quot;x&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">888</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 10:14:31</field>
+		<field name="object_id">331</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:1:&quot;3&quot;;s:11:&quot;description&quot;;s:177:&quot;ἀγροτηρίου, l. ἀκρωτηρίου (B.L. 11, S. 181): auch möglich ist ἁγιαστηρίου (nach dem Photo), J.R. Rea bei N. Gonis, B.A.S.P. 41 (2004), S. 184.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">889</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 10:44:21</field>
+		<field name="object_id">329</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:1:&quot;x&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">890</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 10:44:21</field>
+		<field name="object_id">332</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:2:&quot;15&quot;;s:11:&quot;description&quot;;s:121:&quot;Die Lesung μ`η ´[ο]νος (B.L. 11, S. 183) wird angezweifelt (nach dem Photo), N. Gonis, B.A.S.P. 41 (2004), S. 184.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">891</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 10:46:19</field>
+		<field name="object_id">330</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:1:&quot;x&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">892</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 10:46:19</field>
+		<field name="object_id">333</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:6:&quot;54 B 3&quot;;s:11:&quot;description&quot;;s:168:&quot;ἀπεκδ(ίκου): die Ber. in B.L. 11, S. 253 ist nicht notwendig; viell. “ex-ekdikos” (vgl. C.P.R. 24. 8, Anm. zu Z. 1), N. Gonis, B.A.S.P. 41 (2004), S. 184.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">893</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 10:48:47</field>
+		<field name="object_id">331</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:1:&quot;x&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">894</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 10:48:47</field>
+		<field name="object_id">334</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:1:&quot;1&quot;;s:11:&quot;description&quot;;s:143:&quot;Οἀλέριος (B.L. 11, S. 216; kein Druckfehler): viell. Οὐ̣αλέριος, N. Gonis, B.A.S.P. 41 (2004), S. 184 (fehlerhaft zu Z. 3).&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">895</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 10:50:32</field>
+		<field name="object_id">332</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:1:&quot;x&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">896</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 10:50:32</field>
+		<field name="object_id">335</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:2:&quot;42&quot;;s:11:&quot;description&quot;;s:139:&quot;Ab Z. 42 nicht von einer neuen Hand (B.L. 11, S. 188), aber in einem anderen Schreibstil geschrieben, N. Gonis, B.A.S.P. 41 (2004), S. 185.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">897</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 10:51:48</field>
+		<field name="object_id">333</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:1:&quot;x&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">898</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 10:51:48</field>
+		<field name="object_id">336</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:1:&quot;2&quot;;s:11:&quot;description&quot;;s:150:&quot;τῆ(ς) θεοφυλάκτου (B.L. 11, S. 261) → τ(ο)ῦ θεοφυλάκτου (vgl. schon ed.pr.), N. Gonis, B.A.S.P. 41 (2004), S. 185-186.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">899</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 10:54:01</field>
+		<field name="object_id">334</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:1:&quot;x&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">900</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 10:54:01</field>
+		<field name="object_id">337</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:11:&quot;XXVI 19, 20&quot;;s:11:&quot;description&quot;;s:95:&quot;(ἀρτάβας) (B.L. 11, S. 39) → (ἀρτάβης), N. Gonis, B.A.S.P. 41 (2004), S. 186.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">901</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 10:54:58</field>
+		<field name="object_id">335</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:1:&quot;x&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">902</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 10:54:58</field>
+		<field name="object_id">338</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:1:&quot;6&quot;;s:11:&quot;description&quot;;s:89:&quot;τὰς νῦν (B.L. 11, S. 85) → τὰ νῦν, N. Gonis, B.A.S.P. 41 (2004), S. 186.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">903</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 10:59:56</field>
+		<field name="object_id">336</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:1:&quot;x&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">904</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 10:59:56</field>
+		<field name="object_id">339</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:1:&quot;2&quot;;s:11:&quot;description&quot;;s:116:&quot;περιβλέπ]τ̣(ης) (B.L. 11, S. 157) → περιβλέπ]τ̣(ου), N. Gonis, B.A.S.P. 41 (2004), S. 186.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">905</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 11:01:15</field>
+		<field name="object_id">337</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:1:&quot;x&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">906</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 11:01:15</field>
+		<field name="object_id">340</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:1:&quot;4&quot;;s:11:&quot;description&quot;;s:110:&quot;ἐ̣[παγωμένων (B.L. 11, S. 185) → ἐ̣[παγομένων, N. Gonis, B.A.S.P. 41 (2004), S. 186.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">907</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 11:03:09</field>
+		<field name="object_id">341</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:2:&quot;16&quot;;s:11:&quot;description&quot;;s:118:&quot;ἐπερωτη(θεντείς) (B.L. 11, S. 192) → ἐπερωτη(θείς), N. Gonis, B.A.S.P. 41 (2004), S. 186.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">908</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 11:03:22</field>
+		<field name="object_id">338</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:1:&quot;x&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">909</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 11:03:22</field>
+		<field name="object_id">342</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:2:&quot;16&quot;;s:11:&quot;description&quot;;s:118:&quot;ἐπερωτη(θεντείς) (B.L. 11, S. 192) → ἐπερωτη(θείς), N. Gonis, B.A.S.P. 41 (2004), S. 186.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">910</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 11:04:36</field>
+		<field name="object_id">339</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:1:&quot;x&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">911</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 11:04:36</field>
+		<field name="object_id">343</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:5:&quot;IV 10&quot;;s:11:&quot;description&quot;;s:96:&quot;(ἄρουρας) (B.L. 11, S. 267) → (ἀρούρης), N. Gonis, B.A.S.P. 41 (2004), S. 186.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">912</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 11:06:55</field>
+		<field name="object_id">340</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:1:&quot;x&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">913</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 11:06:55</field>
+		<field name="object_id">344</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:12:&quot;Fr. 10, I  7&quot;;s:11:&quot;description&quot;;s:126:&quot;[σ]τραηγία̣ι (B.L. 11, S. 280) → [σ]τρατηγία̣ι (Druckfehler), N. Gonis, B.A.S.P. 41 (2004), S. 186-187.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">914</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 11:08:36</field>
+		<field name="object_id">341</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:1:&quot;x&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">915</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 11:08:36</field>
+		<field name="object_id">342</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:8:&quot;dossier?&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">916</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 11:08:36</field>
+		<field name="object_id">345</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;N;s:11:&quot;description&quot;;s:196:&quot;Weil S.B. 20. 14093 zum selben Dossier gehört (B.L. 10, S. 217), zu datieren in die 2. Hälfte des 7. Jahrh. n.Chr. (vgl. B.L. 11, S. 227 zu S.B. 20. 14093), N. Gonis, B.A.S.P. 41 (2004), S. 187.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">917</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 11:09:54</field>
+		<field name="object_id">343</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:8:&quot;dossier?&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">918</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 11:09:54</field>
+		<field name="object_id">346</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;N;s:11:&quot;description&quot;;s:39:&quot;Siehe die Ber. zu S.B. 18. 13104-13106.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">919</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 11:10:26</field>
+		<field name="object_id">344</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:1:&quot;x&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">920</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 11:10:26</field>
+		<field name="object_id">345</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:8:&quot;dossier?&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">921</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 11:10:26</field>
+		<field name="object_id">347</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;N;s:11:&quot;description&quot;;s:39:&quot;Siehe die Ber. zu S.B. 18. 13104-13106.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">922</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 11:11:12</field>
+		<field name="object_id">346</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:1:&quot;x&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">923</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 11:11:12</field>
+		<field name="object_id">347</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:8:&quot;dossier?&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">924</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 11:11:12</field>
+		<field name="object_id">348</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;N;s:11:&quot;description&quot;;s:39:&quot;Siehe die Ber. zu S.B. 18. 13104-13106.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">925</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 11:11:43</field>
+		<field name="object_id">348</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:1:&quot;x&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">926</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 11:11:43</field>
+		<field name="object_id">349</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:8:&quot;dossier?&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">927</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 11:11:43</field>
+		<field name="object_id">349</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;N;s:11:&quot;description&quot;;s:39:&quot;Siehe die Ber. zu S.B. 18. 13104-13106.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">928</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 11:12:44</field>
+		<field name="object_id">350</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:1:&quot;x&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">929</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 11:12:44</field>
+		<field name="object_id">351</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:8:&quot;dossier?&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">930</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 11:12:44</field>
+		<field name="object_id">350</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;N;s:11:&quot;description&quot;;s:156:&quot;Gehört zum selben Dossier wie S.B. 18. 13104-13106, 13152 und 20. 14092 (s. B.L. 10, S. 217 zu S.B. 18. 13104-13106), N. Gonis, B.A.S.P. 41 (2004), S. 187.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">931</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 11:13:54</field>
+		<field name="object_id">352</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:1:&quot;x&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">932</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 11:13:54</field>
+		<field name="object_id">351</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;N;s:11:&quot;description&quot;;s:60:&quot;Zu datieren: 200-212 n.Chr., P. Mich. 18, S. 222 mit Anm. 4.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">933</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 11:21:29</field>
+		<field name="object_id">352</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;N;s:11:&quot;description&quot;;s:76:&quot;Zu datieren: 7. statt 6. Jahrh. n.Chr., N. Gonis, B.A.S.P. 42 (2005), S. 41.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">934</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 11:22:57</field>
+		<field name="object_id">353</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:1:&quot;x&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">935</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 11:22:57</field>
+		<field name="object_id">353</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;N;s:11:&quot;description&quot;;s:114:&quot;Die Erg. Αὐρ(ήλιος) → ἐγώ und γράφων → γράφω{ν}, N. Gonis, B.A.S.P. 42 (2005), S. 41.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">936</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 11:23:32</field>
+		<field name="object_id">354</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:1:&quot;x&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">937</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 11:23:32</field>
+		<field name="object_id">354</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:1:&quot;2&quot;;s:11:&quot;description&quot;;s:85:&quot;Die Erg. [χαίρειν wird abgelehnt, N. Gonis, B.A.S.P. 42 (2005), S. 41, Anm. 1.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">938</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 11:25:04</field>
+		<field name="object_id">355</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:1:&quot;x&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">939</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 11:25:04</field>
+		<field name="object_id">355</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:1:&quot;1&quot;;s:11:&quot;description&quot;;s:108:&quot;τον̣[ → το (l. τῷ) ν̣[ oder τον̣ [ (l. τῷ), N. Gonis, B.A.S.P. 42 (2005), S. 42, Anm. 2.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">940</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 11:27:47</field>
+		<field name="object_id">356</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:1:&quot;x&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">941</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 11:27:47</field>
+		<field name="object_id">356</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;N;s:11:&quot;description&quot;;s:107:&quot;Zu datieren: wohl 7./8. Jahrh. n.Chr. (vgl. B.L. 12, S. 198), N. Gonis, B.A.S.P. 42 (2005), S. 44, Anm. 10.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">942</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 11:33:11</field>
+		<field name="object_id">357</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:1:&quot;x&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">943</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 11:33:11</field>
+		<field name="object_id">357</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;N;s:11:&quot;description&quot;;s:133:&quot;Zu datieren: Anfang des 7. Jahrh. n.Chr. (vgl. B.L. 8, S. 115 zu Z. 1) (nach dem Photo), N. Gonis, B.A.S.P. 42 (2005), S. 43, Anm. 8.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">944</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 11:37:46</field>
+		<field name="object_id">358</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:1:&quot;x&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">945</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 11:37:46</field>
+		<field name="object_id">358</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;N;s:11:&quot;description&quot;;s:107:&quot;Zu datieren: wohl 7./8. Jahrh. n.Chr. (vgl. B.L. 12, S. 198), N. Gonis, B.A.S.P. 42 (2005), S. 44, Anm. 10.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">946</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 11:42:23</field>
+		<field name="object_id">359</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;N;s:11:&quot;description&quot;;s:126:&quot;Zu datieren: viell. ein weniges später als 6./7. Jahrh. n.Chr. (nach dem Photo), N. Gonis, B.A.S.P. 42 (2005), S. 43, Anm. 8.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">947</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 11:43:37</field>
+		<field name="object_id">359</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:1:&quot;x&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">948</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 11:43:37</field>
+		<field name="object_id">360</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;N;s:11:&quot;description&quot;;s:133:&quot;Zu datieren: Anfang des 7. Jahrh. n.Chr. (vgl. B.L. 8, S. 115 zu Z. 1) (nach dem Photo), N. Gonis, B.A.S.P. 42 (2005), S. 43, Anm. 8.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">949</field>
+		<field name="action">remove</field>
+		<field name="logged_at">2012-10-11 11:44:25</field>
+		<field name="object_id">357</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">2</field>
+		<field name="data">N;</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">950</field>
+		<field name="action">remove</field>
+		<field name="logged_at">2012-10-11 11:44:25</field>
+		<field name="object_id">357</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">N;</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">951</field>
+		<field name="action">remove</field>
+		<field name="logged_at">2012-10-11 11:45:08</field>
+		<field name="object_id">356</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">2</field>
+		<field name="data">N;</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">952</field>
+		<field name="action">remove</field>
+		<field name="logged_at">2012-10-11 11:45:08</field>
+		<field name="object_id">356</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">N;</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">953</field>
+		<field name="action">remove</field>
+		<field name="logged_at">2012-10-11 11:46:27</field>
+		<field name="object_id">346</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">2</field>
+		<field name="data">N;</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">954</field>
+		<field name="action">remove</field>
+		<field name="logged_at">2012-10-11 11:46:27</field>
+		<field name="object_id">347</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">2</field>
+		<field name="data">N;</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">955</field>
+		<field name="action">remove</field>
+		<field name="logged_at">2012-10-11 11:46:27</field>
+		<field name="object_id">348</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">N;</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">956</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-10-11 11:49:44</field>
+		<field name="object_id">353</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:1:{s:8:&quot;position&quot;;s:1:&quot;1&quot;;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">957</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 11:55:48</field>
+		<field name="object_id">360</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:44:&quot;Enter correction into DDb through the editor&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">958</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 11:55:48</field>
+		<field name="object_id">361</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:1:&quot;4&quot;;s:11:&quot;description&quot;;s:98:&quot;ἰ(νδικτίονος) ι → ἰ(νδικτίωνος) ια, N. Gonis, ZPE 147 (2004), S. 162.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">959</field>
+		<field name="action">remove</field>
+		<field name="logged_at">2012-10-11 11:58:48</field>
+		<field name="object_id">343</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">2</field>
+		<field name="data">N;</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">960</field>
+		<field name="action">remove</field>
+		<field name="logged_at">2012-10-11 11:58:48</field>
+		<field name="object_id">346</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">N;</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">961</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 12:02:47</field>
+		<field name="object_id">361</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:1:&quot;x&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
+	<row>
+		<field name="id">962</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-10-11 12:02:47</field>
+		<field name="object_id">362</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;N;s:11:&quot;description&quot;;s:77:&quot;Zu datieren auf das 7. Jahrh. n.Chr., Z.M. Packman, Z.P.E. 90 (1992), S. 158.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">hoogendijk</field>
+	</row>
 	</table_data>
 	<table_structure name="ext_translations">
 		<field Field="id" Type="int(11)" Null="NO" Key="PRI" Extra="auto_increment" />
@@ -21978,7 +24934,7 @@
 		<key Table="ext_translations" Non_unique="1" Key_name="translations_lookup_idx" Seq_in_index="1" Column_name="locale" Collation="A" Cardinality="0" Null="" Index_type="BTREE" Comment="" />
 		<key Table="ext_translations" Non_unique="1" Key_name="translations_lookup_idx" Seq_in_index="2" Column_name="object_class" Collation="A" Cardinality="0" Null="" Index_type="BTREE" Comment="" />
 		<key Table="ext_translations" Non_unique="1" Key_name="translations_lookup_idx" Seq_in_index="3" Column_name="foreign_key" Collation="A" Cardinality="0" Null="" Index_type="BTREE" Comment="" />
-		<options Name="ext_translations" Engine="InnoDB" Version="10" Row_format="Compact" Rows="0" Avg_row_length="0" Data_length="16384" Max_data_length="0" Index_length="32768" Data_free="0" Auto_increment="1" Create_time="2012-02-10 23:18:07" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 17408 kB" />
+		<options Name="ext_translations" Engine="InnoDB" Version="10" Row_format="Compact" Rows="0" Avg_row_length="0" Data_length="16384" Max_data_length="0" Index_length="32768" Data_free="0" Auto_increment="1" Create_time="2012-02-10 23:18:07" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 16384 kB" />
 	</table_structure>
 	<table_data name="ext_translations">
 	</table_data>
@@ -21988,9 +24944,9 @@
 		<field Field="type" Type="varchar(64)" Null="NO" Key="" Extra="" />
 		<field Field="topic" Type="varchar(64)" Null="NO" Key="" Extra="" />
 		<field Field="phrase" Type="longtext" Null="NO" Key="" Extra="" />
-		<key Table="index_entry" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="6" Null="" Index_type="BTREE" Comment="" />
-		<key Table="index_entry" Non_unique="1" Key_name="IDX_D9E81DE694AE086B" Seq_in_index="1" Column_name="correction_id" Collation="A" Cardinality="6" Null="" Index_type="BTREE" Comment="" />
-		<options Name="index_entry" Engine="InnoDB" Version="10" Row_format="Compact" Rows="6" Avg_row_length="2730" Data_length="16384" Max_data_length="0" Index_length="16384" Data_free="0" Auto_increment="14" Create_time="2012-03-14 14:57:46" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 17408 kB; (`correction_id`) REFER `bl/correction`(`id`)" />
+		<key Table="index_entry" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="9" Null="" Index_type="BTREE" Comment="" />
+		<key Table="index_entry" Non_unique="1" Key_name="IDX_D9E81DE694AE086B" Seq_in_index="1" Column_name="correction_id" Collation="A" Cardinality="9" Null="" Index_type="BTREE" Comment="" />
+		<options Name="index_entry" Engine="InnoDB" Version="10" Row_format="Compact" Rows="9" Avg_row_length="1820" Data_length="16384" Max_data_length="0" Index_length="16384" Data_free="0" Auto_increment="17" Create_time="2012-03-14 14:57:46" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 16384 kB; (`correction_id`) REFER `bl/correction`(`id`)" />
 	</table_structure>
 	<table_data name="index_entry">
 	<row>
@@ -22035,6 +24991,27 @@
 		<field name="topic">Allgemeiner Wortindex</field>
 		<field name="phrase">οὐδός (οδω Pap.) [neu für pap.]</field>
 	</row>
+	<row>
+		<field name="id">14</field>
+		<field name="correction_id">331</field>
+		<field name="type">Neues Wort</field>
+		<field name="topic">Allgemeiner Wortindex</field>
+		<field name="phrase">ἁγιαστήριον (neu für pap)</field>
+	</row>
+	<row>
+		<field name="id">15</field>
+		<field name="correction_id">333</field>
+		<field name="type">Neues Wort</field>
+		<field name="topic">Zivil- und Militärverwaltung</field>
+		<field name="phrase">ἀπέκδικος</field>
+	</row>
+	<row>
+		<field name="id">16</field>
+		<field name="correction_id">333</field>
+		<field name="type">Neues Wort</field>
+		<field name="topic">Allgemeiner Wortindex</field>
+		<field name="phrase">ἀπέκδικος</field>
+	</row>
 	</table_data>
 	<table_structure name="task">
 		<field Field="id" Type="int(11)" Null="NO" Key="PRI" Extra="auto_increment" />
@@ -22042,9 +25019,9 @@
 		<field Field="category" Type="varchar(64)" Null="NO" Key="" Extra="" />
 		<field Field="description" Type="longtext" Null="NO" Key="" Extra="" />
 		<field Field="cleared" Type="datetime" Null="YES" Key="" Extra="" />
-		<key Table="task" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="288" Null="" Index_type="BTREE" Comment="" />
-		<key Table="task" Non_unique="1" Key_name="IDX_527EDB2594AE086B" Seq_in_index="1" Column_name="correction_id" Collation="A" Cardinality="288" Null="" Index_type="BTREE" Comment="" />
-		<options Name="task" Engine="InnoDB" Version="10" Row_format="Compact" Rows="288" Avg_row_length="56" Data_length="16384" Max_data_length="0" Index_length="16384" Data_free="0" Auto_increment="300" Create_time="2012-02-22 09:27:05" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 17408 kB; (`correction_id`) REFER `bl/correction`(`id`)" />
+		<key Table="task" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="297" Null="" Index_type="BTREE" Comment="" />
+		<key Table="task" Non_unique="1" Key_name="IDX_527EDB2594AE086B" Seq_in_index="1" Column_name="correction_id" Collation="A" Cardinality="297" Null="" Index_type="BTREE" Comment="" />
+		<options Name="task" Engine="InnoDB" Version="10" Row_format="Compact" Rows="297" Avg_row_length="165" Data_length="49152" Max_data_length="0" Index_length="16384" Data_free="0" Auto_increment="362" Create_time="2012-02-22 09:27:05" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 16384 kB; (`correction_id`) REFER `bl/correction`(`id`)" />
 	</table_structure>
 	<table_data name="task">
 	<row>
@@ -24061,6 +27038,405 @@
 		<field name="correction_id">301</field>
 		<field name="category">hgv</field>
 		<field name="description">date</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">300</field>
+		<field name="correction_id">302</field>
+		<field name="category">hgv</field>
+		<field name="description">date</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">301</field>
+		<field name="correction_id">303</field>
+		<field name="category">hgv</field>
+		<field name="description">date</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">302</field>
+		<field name="correction_id">304</field>
+		<field name="category">hgv</field>
+		<field name="description">date</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">303</field>
+		<field name="correction_id">305</field>
+		<field name="category">hgv</field>
+		<field name="description">date</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">304</field>
+		<field name="correction_id">306</field>
+		<field name="category">ddb</field>
+		<field name="description">x</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">305</field>
+		<field name="correction_id">307</field>
+		<field name="category">hgv</field>
+		<field name="description">give crossreference under BGU 2126; col. I was not even printed in SB 14</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">306</field>
+		<field name="correction_id">307</field>
+		<field name="category">ddb</field>
+		<field name="description">x</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">307</field>
+		<field name="correction_id">309</field>
+		<field name="category">hgv</field>
+		<field name="description">add crossreference BGU - SB</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">308</field>
+		<field name="correction_id">314</field>
+		<field name="category">hgv</field>
+		<field name="description">x</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">309</field>
+		<field name="correction_id">315</field>
+		<field name="category">ddb</field>
+		<field name="description">x</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">310</field>
+		<field name="correction_id">316</field>
+		<field name="category">hgv</field>
+		<field name="description">x</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">311</field>
+		<field name="correction_id">317</field>
+		<field name="category">hgv</field>
+		<field name="description">x</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">312</field>
+		<field name="correction_id">318</field>
+		<field name="category">hgv</field>
+		<field name="description">x</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">313</field>
+		<field name="correction_id">318</field>
+		<field name="category">tm</field>
+		<field name="description">people</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">314</field>
+		<field name="correction_id">319</field>
+		<field name="category">hgv</field>
+		<field name="description">x</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">315</field>
+		<field name="correction_id">320</field>
+		<field name="category">hgv</field>
+		<field name="description">x</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">316</field>
+		<field name="correction_id">321</field>
+		<field name="category">hgv</field>
+		<field name="description">x</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">317</field>
+		<field name="correction_id">322</field>
+		<field name="category">hgv</field>
+		<field name="description">x</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">318</field>
+		<field name="correction_id">323</field>
+		<field name="category">hgv</field>
+		<field name="description">x</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">319</field>
+		<field name="correction_id">324</field>
+		<field name="category">hgv</field>
+		<field name="description">x</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">320</field>
+		<field name="correction_id">325</field>
+		<field name="category">ddb</field>
+		<field name="description">x</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">321</field>
+		<field name="correction_id">326</field>
+		<field name="category">ddb</field>
+		<field name="description">x</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">322</field>
+		<field name="correction_id">327</field>
+		<field name="category">ddb</field>
+		<field name="description">commentary?</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">323</field>
+		<field name="correction_id">328</field>
+		<field name="category">ddb</field>
+		<field name="description">x</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">324</field>
+		<field name="correction_id">329</field>
+		<field name="category">tm</field>
+		<field name="description">topo, Kloster</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">325</field>
+		<field name="correction_id">329</field>
+		<field name="category">ddb</field>
+		<field name="description">x</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">326</field>
+		<field name="correction_id">330</field>
+		<field name="category">hgv</field>
+		<field name="description">x</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">327</field>
+		<field name="correction_id">330</field>
+		<field name="category">tm</field>
+		<field name="description">people (no identification)</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">328</field>
+		<field name="correction_id">331</field>
+		<field name="category">ddb</field>
+		<field name="description">x</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">329</field>
+		<field name="correction_id">332</field>
+		<field name="category">ddb</field>
+		<field name="description">x</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">330</field>
+		<field name="correction_id">333</field>
+		<field name="category">ddb</field>
+		<field name="description">x</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">331</field>
+		<field name="correction_id">334</field>
+		<field name="category">ddb</field>
+		<field name="description">x</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">332</field>
+		<field name="correction_id">335</field>
+		<field name="category">ddb</field>
+		<field name="description">x</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">333</field>
+		<field name="correction_id">336</field>
+		<field name="category">ddb</field>
+		<field name="description">x</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">334</field>
+		<field name="correction_id">337</field>
+		<field name="category">ddb</field>
+		<field name="description">x</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">335</field>
+		<field name="correction_id">338</field>
+		<field name="category">ddb</field>
+		<field name="description">x</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">336</field>
+		<field name="correction_id">339</field>
+		<field name="category">ddb</field>
+		<field name="description">x</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">337</field>
+		<field name="correction_id">340</field>
+		<field name="category">ddb</field>
+		<field name="description">x</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">338</field>
+		<field name="correction_id">342</field>
+		<field name="category">ddb</field>
+		<field name="description">x</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">339</field>
+		<field name="correction_id">343</field>
+		<field name="category">ddb</field>
+		<field name="description">x</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">340</field>
+		<field name="correction_id">344</field>
+		<field name="category">ddb</field>
+		<field name="description">x</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">341</field>
+		<field name="correction_id">345</field>
+		<field name="category">hgv</field>
+		<field name="description">x</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">342</field>
+		<field name="correction_id">345</field>
+		<field name="category">tm</field>
+		<field name="description">dossier?</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">344</field>
+		<field name="correction_id">347</field>
+		<field name="category">hgv</field>
+		<field name="description">x</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">345</field>
+		<field name="correction_id">347</field>
+		<field name="category">tm</field>
+		<field name="description">dossier?</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">348</field>
+		<field name="correction_id">349</field>
+		<field name="category">hgv</field>
+		<field name="description">x</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">349</field>
+		<field name="correction_id">349</field>
+		<field name="category">tm</field>
+		<field name="description">dossier?</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">350</field>
+		<field name="correction_id">350</field>
+		<field name="category">hgv</field>
+		<field name="description">x</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">351</field>
+		<field name="correction_id">350</field>
+		<field name="category">tm</field>
+		<field name="description">dossier?</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">352</field>
+		<field name="correction_id">351</field>
+		<field name="category">hgv</field>
+		<field name="description">x</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">353</field>
+		<field name="correction_id">353</field>
+		<field name="category">ddb</field>
+		<field name="description">x</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">354</field>
+		<field name="correction_id">354</field>
+		<field name="category">ddb</field>
+		<field name="description">x</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">355</field>
+		<field name="correction_id">355</field>
+		<field name="category">ddb</field>
+		<field name="description">x</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">358</field>
+		<field name="correction_id">358</field>
+		<field name="category">hgv</field>
+		<field name="description">x</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">359</field>
+		<field name="correction_id">360</field>
+		<field name="category">hgv</field>
+		<field name="description">x</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">360</field>
+		<field name="correction_id">361</field>
+		<field name="category">ddb</field>
+		<field name="description">Enter correction into DDb through the editor</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">361</field>
+		<field name="correction_id">362</field>
+		<field name="category">hgv</field>
+		<field name="description">x</field>
 		<field name="cleared" xsi:nil="true" />
 	</row>
 	</table_data>
