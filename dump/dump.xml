@@ -167,10 +167,10 @@
 		<field Field="sortUser" Type="varchar(256)" Null="YES" Key="" Extra="" />
 		<field Field="sort" Type="varchar(256)" Null="NO" Key="" Extra="" />
 		<field Field="compilationPage" Type="varchar(64)" Null="YES" Key="" Extra="" />
-		<key Table="correction" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="538" Null="" Index_type="BTREE" Comment="" />
-		<key Table="correction" Non_unique="1" Key_name="IDX_A29DA1B874281A5E" Seq_in_index="1" Column_name="edition_id" Collation="A" Cardinality="538" Null="" Index_type="BTREE" Comment="" />
-		<key Table="correction" Non_unique="1" Key_name="IDX_A29DA1B8A5F8C840" Seq_in_index="1" Column_name="compilation_id" Collation="A" Cardinality="12" Null="" Index_type="BTREE" Comment="" />
-		<options Name="correction" Engine="InnoDB" Version="10" Row_format="Compact" Rows="532" Avg_row_length="431" Data_length="229376" Max_data_length="0" Index_length="32768" Data_free="0" Auto_increment="554" Create_time="2012-07-04 12:42:44" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 7168 kB; (`edition_id`) REFER `bl/edition`(`id`); (`compilation_id`" />
+		<key Table="correction" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="556" Null="" Index_type="BTREE" Comment="" />
+		<key Table="correction" Non_unique="1" Key_name="IDX_A29DA1B874281A5E" Seq_in_index="1" Column_name="edition_id" Collation="A" Cardinality="556" Null="" Index_type="BTREE" Comment="" />
+		<key Table="correction" Non_unique="1" Key_name="IDX_A29DA1B8A5F8C840" Seq_in_index="1" Column_name="compilation_id" Collation="A" Cardinality="13" Null="" Index_type="BTREE" Comment="" />
+		<options Name="correction" Engine="InnoDB" Version="10" Row_format="Compact" Rows="540" Avg_row_length="424" Data_length="229376" Max_data_length="0" Index_length="32768" Data_free="0" Auto_increment="554" Create_time="2012-07-04 12:42:44" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 7168 kB; (`edition_id`) REFER `bl/edition`(`id`); (`compilation_id`" />
 	</table_structure>
 	<table_data name="correction">
 	<row>
@@ -3323,7 +3323,7 @@
 		<field name="document">313</field>
 		<field name="position">12</field>
 		<field name="description">Für einen Schiffseigentümer Ptoleminos vgl. P. Oxy. 68. 4685 V°, Anm. zu Z. 2.</field>
-		<field name="source">0</field>
+		<field name="source" xsi:nil="true" />
 		<field name="status">unchecked</field>
 		<field name="creator">hoogendijk</field>
 		<field name="created">2012-10-02 10:55:37</field>
@@ -10967,7 +10967,7 @@
 		<field name="document">141</field>
 		<field name="position" xsi:nil="true" />
 		<field name="description">Zum archäologischen Kontext vgl. R.P. Stephan - A. Verhoogt, B.A.S.P. 42 (2005), S. 189-201.</field>
-		<field name="source" xsi:nil="true" />
+		<field name="source">74543</field>
 		<field name="status">unchecked</field>
 		<field name="creator">hoogendijk</field>
 		<field name="created">2012-10-16 14:06:13</field>
@@ -10995,7 +10995,7 @@
 		<field name="document">510</field>
 		<field name="position" xsi:nil="true" />
 		<field name="description">Zum archäologischen Kontext vgl. R.P. Stephan - A. Verhoogt, B.A.S.P. 42 (2005), S. 189-201.</field>
-		<field name="source" xsi:nil="true" />
+		<field name="source">74543</field>
 		<field name="status">unchecked</field>
 		<field name="creator">hoogendijk</field>
 		<field name="created">2012-10-16 14:07:09</field>
@@ -11462,13 +11462,13 @@
 		<field name="edition_id">68</field>
 		<field name="compilation_id">14</field>
 		<field name="text">67333</field>
-		<field name="tm" xsi:nil="true" />
-		<field name="folder" xsi:nil="true" />
-		<field name="hgv" xsi:nil="true" />
-		<field name="ddb" xsi:nil="true" />
-		<field name="collection" xsi:nil="true" />
-		<field name="volume" xsi:nil="true" />
-		<field name="document" xsi:nil="true" />
+		<field name="tm">36546</field>
+		<field name="folder">37</field>
+		<field name="hgv">36546</field>
+		<field name="ddb">p.cair.masp;3;67333</field>
+		<field name="collection">p.cair.masp</field>
+		<field name="volume">3</field>
+		<field name="document">67333</field>
 		<field name="position" xsi:nil="true" />
 		<field name="description">→ Vollständiger Nd. nach dem Photo: P. Köln 10. 421, Appendice 1 (S. 199-202).</field>
 		<field name="source" xsi:nil="true" />
@@ -11630,16 +11630,16 @@
 		<field name="edition_id">128</field>
 		<field name="compilation_id">14</field>
 		<field name="text">29</field>
-		<field name="tm">0</field>
-		<field name="folder">0</field>
-		<field name="hgv" xsi:nil="true" />
-		<field name="ddb" xsi:nil="true" />
-		<field name="collection" xsi:nil="true" />
-		<field name="volume" xsi:nil="true" />
-		<field name="document" xsi:nil="true" />
+		<field name="tm">4527</field>
+		<field name="folder">5</field>
+		<field name="hgv">4527</field>
+		<field name="ddb">bgu;6;1211</field>
+		<field name="collection">bgu</field>
+		<field name="volume">6</field>
+		<field name="document">1211</field>
 		<field name="position" xsi:nil="true" />
 		<field name="description">Nd. mit italienischer Übersetzung: M. Rolandi, Aegyptus 85 (2005), S. 260.</field>
-		<field name="source" xsi:nil="true" />
+		<field name="source">74491</field>
 		<field name="status">unchecked</field>
 		<field name="creator">hoogendijk</field>
 		<field name="created">2012-10-16 15:25:00</field>
@@ -20619,11 +20619,11 @@
 		<field Field="version" Type="int(11)" Null="NO" Key="" Extra="" />
 		<field Field="data" Type="longtext" Null="YES" Key="" Extra="" />
 		<field Field="username" Type="varchar(255)" Null="YES" Key="MUL" Extra="" />
-		<key Table="ext_log_entries" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="1389" Null="" Index_type="BTREE" Comment="" />
-		<key Table="ext_log_entries" Non_unique="1" Key_name="log_class_lookup_idx" Seq_in_index="1" Column_name="object_class" Collation="A" Cardinality="4" Null="" Index_type="BTREE" Comment="" />
-		<key Table="ext_log_entries" Non_unique="1" Key_name="log_date_lookup_idx" Seq_in_index="1" Column_name="logged_at" Collation="A" Cardinality="1389" Null="" Index_type="BTREE" Comment="" />
-		<key Table="ext_log_entries" Non_unique="1" Key_name="log_user_lookup_idx" Seq_in_index="1" Column_name="username" Collation="A" Cardinality="11" Null="YES" Index_type="BTREE" Comment="" />
-		<options Name="ext_log_entries" Engine="InnoDB" Version="10" Row_format="Compact" Rows="1106" Avg_row_length="444" Data_length="491520" Max_data_length="0" Index_length="245760" Data_free="0" Auto_increment="1406" Create_time="2012-02-10 23:18:07" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 7168 kB" />
+		<key Table="ext_log_entries" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="994" Null="" Index_type="BTREE" Comment="" />
+		<key Table="ext_log_entries" Non_unique="1" Key_name="log_class_lookup_idx" Seq_in_index="1" Column_name="object_class" Collation="A" Cardinality="3" Null="" Index_type="BTREE" Comment="" />
+		<key Table="ext_log_entries" Non_unique="1" Key_name="log_date_lookup_idx" Seq_in_index="1" Column_name="logged_at" Collation="A" Cardinality="994" Null="" Index_type="BTREE" Comment="" />
+		<key Table="ext_log_entries" Non_unique="1" Key_name="log_user_lookup_idx" Seq_in_index="1" Column_name="username" Collation="A" Cardinality="8" Null="YES" Index_type="BTREE" Comment="" />
+		<options Name="ext_log_entries" Engine="InnoDB" Version="10" Row_format="Compact" Rows="1364" Avg_row_length="360" Data_length="491520" Max_data_length="0" Index_length="245760" Data_free="0" Auto_increment="1416" Create_time="2012-02-10 23:18:07" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 7168 kB" />
 	</table_structure>
 	<table_data name="ext_log_entries">
 	<row>
@@ -34675,6 +34675,106 @@ app.crit.) (am Original), F. Mitthof, ZPE 139 (2002), S. 140.&quot;;s:6:&quot;st
 		<field name="object_id">259</field>
 		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
 		<field name="version">5</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">1406</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-10-22 09:55:05</field>
+		<field name="object_id">413</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">1407</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-10-22 09:55:08</field>
+		<field name="object_id">413</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">3</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">1408</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-10-22 09:55:29</field>
+		<field name="object_id">413</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">4</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">1409</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-10-22 09:57:46</field>
+		<field name="object_id">419</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">1410</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-10-22 09:57:55</field>
+		<field name="object_id">419</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">3</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">1411</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-10-22 09:58:00</field>
+		<field name="object_id">419</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">4</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">1412</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-10-22 10:02:24</field>
+		<field name="object_id">419</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">5</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">1413</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-10-22 10:04:43</field>
+		<field name="object_id">115</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">5</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">1414</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-10-22 11:26:32</field>
+		<field name="object_id">395</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">1415</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-10-22 11:27:33</field>
+		<field name="object_id">396</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
 		<field name="data">a:0:{}</field>
 		<field name="username">cowey</field>
 	</row>
