@@ -167,10 +167,10 @@
 		<field Field="sortUser" Type="varchar(256)" Null="YES" Key="" Extra="" />
 		<field Field="sort" Type="varchar(256)" Null="NO" Key="" Extra="" />
 		<field Field="compilationPage" Type="varchar(64)" Null="YES" Key="" Extra="" />
-		<key Table="correction" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="575" Null="" Index_type="BTREE" Comment="" />
-		<key Table="correction" Non_unique="1" Key_name="IDX_A29DA1B874281A5E" Seq_in_index="1" Column_name="edition_id" Collation="A" Cardinality="575" Null="" Index_type="BTREE" Comment="" />
+		<key Table="correction" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="594" Null="" Index_type="BTREE" Comment="" />
+		<key Table="correction" Non_unique="1" Key_name="IDX_A29DA1B874281A5E" Seq_in_index="1" Column_name="edition_id" Collation="A" Cardinality="594" Null="" Index_type="BTREE" Comment="" />
 		<key Table="correction" Non_unique="1" Key_name="IDX_A29DA1B8A5F8C840" Seq_in_index="1" Column_name="compilation_id" Collation="A" Cardinality="10" Null="" Index_type="BTREE" Comment="" />
-		<options Name="correction" Engine="InnoDB" Version="10" Row_format="Compact" Rows="566" Avg_row_length="434" Data_length="245760" Max_data_length="0" Index_length="32768" Data_free="0" Auto_increment="592" Create_time="2012-07-04 12:42:44" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 7168 kB; (`edition_id`) REFER `bl/edition`(`id`); (`compilation_id`" />
+		<options Name="correction" Engine="InnoDB" Version="10" Row_format="Compact" Rows="603" Avg_row_length="407" Data_length="245760" Max_data_length="0" Index_length="32768" Data_free="0" Auto_increment="592" Create_time="2012-07-04 12:42:44" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 7168 kB; (`edition_id`) REFER `bl/edition`(`id`); (`compilation_id`" />
 	</table_structure>
 	<table_data name="correction">
 	<row>
@@ -12665,17 +12665,17 @@
 		<field name="id">457</field>
 		<field name="edition_id">569</field>
 		<field name="compilation_id">14</field>
-		<field name="text">(S. 66)  18</field>
-		<field name="tm" xsi:nil="true" />
-		<field name="folder" xsi:nil="true" />
-		<field name="hgv" xsi:nil="true" />
-		<field name="ddb" xsi:nil="true" />
-		<field name="collection" xsi:nil="true" />
-		<field name="volume" xsi:nil="true" />
-		<field name="document" xsi:nil="true" />
+		<field name="text">(S. 66) 18</field>
+		<field name="tm">70467</field>
+		<field name="folder">71</field>
+		<field name="hgv">70467</field>
+		<field name="ddb">o.ashm;;18</field>
+		<field name="collection">o.ashm</field>
+		<field name="volume"></field>
+		<field name="document">18</field>
 		<field name="position">4</field>
 		<field name="description">στα(τίωνος) (B.L. 3, S. 269) ist richtig (gegen B.L. 7, S. 295), R. Duttenhöfer, Aeg. 86 (2006), S. 108, Anm. 2.</field>
-		<field name="source" xsi:nil="true" />
+		<field name="source">75526</field>
 		<field name="status">unchecked</field>
 		<field name="creator">hoogendijk</field>
 		<field name="created">2012-10-17 12:13:35</field>
@@ -12684,9 +12684,9 @@
 		<field name="sortFragment" xsi:nil="true" />
 		<field name="sortColumn" xsi:nil="true" />
 		<field name="sortLine">4</field>
-		<field name="sortSystem">e01250000p00000000t(S. 66)  18s00f00000000c00000000l00000004</field>
+		<field name="sortSystem">e01250000p00000000t(S. 66) 18s00f00000000c00000000l00000004</field>
 		<field name="sortUser" xsi:nil="true" />
-		<field name="sort">e01250000p00000000t(S. 66)  18s00f00000000c00000000l00000004</field>
+		<field name="sort">e01250000p00000000t(S. 66) 18s00f00000000c00000000l00000004</field>
 		<field name="compilationPage" xsi:nil="true" />
 	</row>
 	<row>
@@ -12890,16 +12890,16 @@
 		<field name="edition_id">570</field>
 		<field name="compilation_id">14</field>
 		<field name="text">1700</field>
-		<field name="tm" xsi:nil="true" />
-		<field name="folder" xsi:nil="true" />
-		<field name="hgv" xsi:nil="true" />
-		<field name="ddb" xsi:nil="true" />
-		<field name="collection" xsi:nil="true" />
-		<field name="volume" xsi:nil="true" />
-		<field name="document" xsi:nil="true" />
+		<field name="tm">72384</field>
+		<field name="folder">73</field>
+		<field name="hgv">72384</field>
+		<field name="ddb">o.bodl;2;1700</field>
+		<field name="collection">o.bodl</field>
+		<field name="volume">2</field>
+		<field name="document">1700</field>
 		<field name="position">2</field>
 		<field name="description">παρολκη̣μ̣ά̣τ̣ω̣ν̣ → wohl παρόλκω̣ν̣ (von πάρολκος, „Schiffsslepper, Treidler“), R. Duttenhöfer, Aeg. 86 (2006), S. 111, Anm. 7.</field>
-		<field name="source" xsi:nil="true" />
+		<field name="source">75526</field>
 		<field name="status">unchecked</field>
 		<field name="creator">hoogendijk</field>
 		<field name="created">2012-10-17 13:06:04</field>
@@ -12917,7 +12917,7 @@
 		<field name="id">466</field>
 		<field name="edition_id">569</field>
 		<field name="compilation_id">14</field>
-		<field name="text">(S. 75)  72</field>
+		<field name="text">(S. 75) 72</field>
 		<field name="tm">70521</field>
 		<field name="folder">71</field>
 		<field name="hgv">70521</field>
@@ -12927,7 +12927,7 @@
 		<field name="document">72</field>
 		<field name="position">1-2</field>
 		<field name="description">[οἱ ἐπί] | παρό̣λκων (B.L. 3, S. 269) → [(οἱ) ἐπὶ τῶν] | παρό̣λκων (von πάρολκος, „Schiffsslepper, Treidler“), R. Duttenhöfer, Aeg. 86 (2006), S. 111, Anm. 7.</field>
-		<field name="source" xsi:nil="true" />
+		<field name="source">75526</field>
 		<field name="status">unchecked</field>
 		<field name="creator">hoogendijk</field>
 		<field name="created">2012-10-17 13:08:34</field>
@@ -12936,9 +12936,9 @@
 		<field name="sortFragment" xsi:nil="true" />
 		<field name="sortColumn" xsi:nil="true" />
 		<field name="sortLine">1</field>
-		<field name="sortSystem">e01250000p00000000t(S. 75)  72s00f00000000c00000000l00000001</field>
+		<field name="sortSystem">e01250000p00000000t(S. 75) 72s00f00000000c00000000l00000001</field>
 		<field name="sortUser" xsi:nil="true" />
-		<field name="sort">e01250000p00000000t(S. 75)  72s00f00000000c00000000l00000001</field>
+		<field name="sort">e01250000p00000000t(S. 75) 72s00f00000000c00000000l00000001</field>
 		<field name="compilationPage" xsi:nil="true" />
 	</row>
 	<row>
@@ -13169,17 +13169,17 @@
 		<field name="id">475</field>
 		<field name="edition_id">582</field>
 		<field name="compilation_id">14</field>
-		<field name="text">1  (S. xviii)</field>
-		<field name="tm" xsi:nil="true" />
-		<field name="folder" xsi:nil="true" />
-		<field name="hgv" xsi:nil="true" />
-		<field name="ddb" xsi:nil="true" />
-		<field name="collection" xsi:nil="true" />
-		<field name="volume" xsi:nil="true" />
-		<field name="document" xsi:nil="true" />
+		<field name="text">1 (S. xviii)</field>
+		<field name="tm">73149</field>
+		<field name="folder">74</field>
+		<field name="hgv">73149</field>
+		<field name="ddb">o.bodl;3;1pgxviii</field>
+		<field name="collection">o.bodl</field>
+		<field name="volume">3</field>
+		<field name="document">1pgxviii</field>
 		<field name="position">3</field>
 		<field name="description">Phanophis, βοηθός in 129-132 n.Chr., ist wohl identisch mit dem gleichnamigen πράκτωρ ἀργυρικῶν in 155-156 n.Chr. (nach den Handschriften), vgl. R. Duttenhöfer, Aeg. 86 (2006), S.114-115.</field>
-		<field name="source" xsi:nil="true" />
+		<field name="source">75526</field>
 		<field name="status">unchecked</field>
 		<field name="creator">hoogendijk</field>
 		<field name="created">2012-10-17 13:43:19</field>
@@ -13188,9 +13188,9 @@
 		<field name="sortFragment" xsi:nil="true" />
 		<field name="sortColumn" xsi:nil="true" />
 		<field name="sortLine">3</field>
-		<field name="sortSystem">e01252000t1  (S. xviii)p00000000s00f00000000c00000000l00000003</field>
+		<field name="sortSystem">e01252000t1 (S. xviii)p00000000s00f00000000c00000000l00000003</field>
 		<field name="sortUser" xsi:nil="true" />
-		<field name="sort">e01252000t1  (S. xviii)p00000000s00f00000000c00000000l00000003</field>
+		<field name="sort">e01252000t1 (S. xviii)p00000000s00f00000000c00000000l00000003</field>
 		<field name="compilationPage" xsi:nil="true" />
 	</row>
 	<row>
@@ -13564,14 +13564,14 @@
 		<field name="text">99</field>
 		<field name="tm">70876</field>
 		<field name="folder">71</field>
-		<field name="hgv" xsi:nil="true" />
-		<field name="ddb" xsi:nil="true" />
-		<field name="collection" xsi:nil="true" />
-		<field name="volume" xsi:nil="true" />
-		<field name="document" xsi:nil="true" />
+		<field name="hgv">70876</field>
+		<field name="ddb">o.berenike;1;99</field>
+		<field name="collection">o.berenike</field>
+		<field name="volume">1</field>
+		<field name="document">99</field>
 		<field name="position">1</field>
 		<field name="description">Ὀκταίου: οκταϊου Pap. (nach dem Photo), G. Messeri, Aeg. 86 (2006), S. 157.</field>
-		<field name="source" xsi:nil="true" />
+		<field name="source">75586</field>
 		<field name="status">unchecked</field>
 		<field name="creator">hoogendijk</field>
 		<field name="created">2012-10-17 14:10:17</field>
@@ -13627,7 +13627,7 @@
 		<field name="document">99</field>
 		<field name="position">2</field>
 		<field name="description">] . με̣λο̣ → ]ο̣μολο (Form von ὁμολογέω) (nach dem Photo), G. Messeri, Aeg. 86 (2006), S. 157.</field>
-		<field name="source" xsi:nil="true" />
+		<field name="source">75586</field>
 		<field name="status">unchecked</field>
 		<field name="creator">hoogendijk</field>
 		<field name="created">2012-10-17 14:12:35</field>
@@ -13655,7 +13655,7 @@
 		<field name="document">99</field>
 		<field name="position">4-5</field>
 		<field name="description">δο]ῦναί μυ (l. μοι) (ed.pr., Anm. zur Z.) → wohl ] ὄνου μυ|[όχρου (nach dem Photo); der Gen. hängt wohl ab von τιμή (Lücke Anfang Z. 4); in der Lücke von Z. 5 hätte der Zahl gestanden, G. Messeri, Aeg. 86 (2006), S. 157.</field>
-		<field name="source" xsi:nil="true" />
+		<field name="source">75586</field>
 		<field name="status">unchecked</field>
 		<field name="creator">hoogendijk</field>
 		<field name="created">2012-10-17 14:13:19</field>
@@ -13683,7 +13683,7 @@
 		<field name="document">101</field>
 		<field name="position" xsi:nil="true" />
 		<field name="description">Nd. mit italienischer Übersetzung (nach dem Photo): G. Messeri, Aeg. 86 (2006), S. 157-158.</field>
-		<field name="source" xsi:nil="true" />
+		<field name="source">75586</field>
 		<field name="status">unchecked</field>
 		<field name="creator">hoogendijk</field>
 		<field name="created">2012-10-17 14:15:07</field>
@@ -13711,7 +13711,7 @@
 		<field name="document">101</field>
 		<field name="position">1</field>
 		<field name="description">[ ± 22 ] . . . . . ἔλα̣βα̣ → [ ± 16 ]φ . χ(αίρειν) πα̣ρέλαβα (l. παρέλαβον) (nach dem Photo), G. Messeri, Aeg. 86 (2006), S. 157.</field>
-		<field name="source" xsi:nil="true" />
+		<field name="source">75586</field>
 		<field name="status">unchecked</field>
 		<field name="creator">hoogendijk</field>
 		<field name="created">2012-10-17 14:15:47</field>
@@ -13739,7 +13739,7 @@
 		<field name="document">101</field>
 		<field name="position">2</field>
 		<field name="description">Zu lesen am Anfang: π]α̣ρὰ σοῦ und am Ende: οἴνου (nach dem Photo), G. Messeri, Aeg. 86 (2006), S. 157.</field>
-		<field name="source" xsi:nil="true" />
+		<field name="source">75586</field>
 		<field name="status">unchecked</field>
 		<field name="creator">hoogendijk</field>
 		<field name="created">2012-10-17 14:16:32</field>
@@ -13767,7 +13767,7 @@
 		<field name="document">101</field>
 		<field name="position">3</field>
 		<field name="description">κείμε̣ν̣α ± 15 → κεράμ̣ια πεντήκοντ̣α̣ ε γ̣ό̣μο̣(υς) (nach dem Photo), G. Messeri, Aeg. 86 (2006), S. 157.</field>
-		<field name="source" xsi:nil="true" />
+		<field name="source">75586</field>
 		<field name="status">unchecked</field>
 		<field name="creator">hoogendijk</field>
 		<field name="created">2012-10-17 14:17:08</field>
@@ -13795,7 +13795,7 @@
 		<field name="document">101</field>
 		<field name="position">4</field>
 		<field name="description">± 8 αὐτο . ς → καὶ̣ . . . . . . ἄρτου̣ς (nach dem Photo), G. Messeri, Aeg. 86 (2006), S. 157.</field>
-		<field name="source" xsi:nil="true" />
+		<field name="source">75586</field>
 		<field name="status">unchecked</field>
 		<field name="creator">hoogendijk</field>
 		<field name="created">2012-10-17 14:17:33</field>
@@ -13813,17 +13813,17 @@
 		<field name="id">498</field>
 		<field name="edition_id">569</field>
 		<field name="compilation_id">14</field>
-		<field name="text">(S. 124)  292</field>
-		<field name="tm" xsi:nil="true" />
-		<field name="folder" xsi:nil="true" />
-		<field name="hgv" xsi:nil="true" />
-		<field name="ddb" xsi:nil="true" />
-		<field name="collection" xsi:nil="true" />
-		<field name="volume" xsi:nil="true" />
-		<field name="document" xsi:nil="true" />
+		<field name="text">(S. 124) 292</field>
+		<field name="tm">45033</field>
+		<field name="folder">46</field>
+		<field name="hgv">45033</field>
+		<field name="ddb">o.petr;;292</field>
+		<field name="collection">o.petr</field>
+		<field name="volume"></field>
+		<field name="document">292</field>
 		<field name="position" xsi:nil="true" />
 		<field name="description">Von derselben Hand geschrieben wie O. Berenike 1. 106; zu datieren 54-62 n.Chr., G. Messeri, Aeg. 86 (2006), S. 159.</field>
-		<field name="source" xsi:nil="true" />
+		<field name="source">75586</field>
 		<field name="status">unchecked</field>
 		<field name="creator">hoogendijk</field>
 		<field name="created">2012-10-17 14:18:19</field>
@@ -13832,9 +13832,9 @@
 		<field name="sortFragment" xsi:nil="true" />
 		<field name="sortColumn" xsi:nil="true" />
 		<field name="sortLine" xsi:nil="true" />
-		<field name="sortSystem">e01250000p00000000t(S. 124)  292s00f00000000c00000000l00000000</field>
+		<field name="sortSystem">e01250000p00000000t(S. 124) 292s00f00000000c00000000l00000000</field>
 		<field name="sortUser" xsi:nil="true" />
-		<field name="sort">e01250000p00000000t(S. 124)  292s00f00000000c00000000l00000000</field>
+		<field name="sort">e01250000p00000000t(S. 124) 292s00f00000000c00000000l00000000</field>
 		<field name="compilationPage" xsi:nil="true" />
 	</row>
 	<row>
@@ -13851,7 +13851,7 @@
 		<field name="document">106</field>
 		<field name="position" xsi:nil="true" />
 		<field name="description">Von derselben Hand geschrieben wie O. Tait 1. 292, G. Messeri, Aeg. 86 (2006), S. 159.</field>
-		<field name="source" xsi:nil="true" />
+		<field name="source">75586</field>
 		<field name="status">unchecked</field>
 		<field name="creator">hoogendijk</field>
 		<field name="created">2012-10-17 14:19:18</field>
@@ -13879,7 +13879,7 @@
 		<field name="document">106</field>
 		<field name="position">1</field>
 		<field name="description">Τράτου → Γράτου (nach dem Photo), G. Messeri, Aeg. 86 (2006), S. 159.</field>
-		<field name="source" xsi:nil="true" />
+		<field name="source">75586</field>
 		<field name="status">unchecked</field>
 		<field name="creator">hoogendijk</field>
 		<field name="created">2012-10-17 14:20:20</field>
@@ -13897,17 +13897,17 @@
 		<field name="id">501</field>
 		<field name="edition_id">569</field>
 		<field name="compilation_id">14</field>
-		<field name="text">(S. 124)  292</field>
-		<field name="tm" xsi:nil="true" />
-		<field name="folder" xsi:nil="true" />
-		<field name="hgv" xsi:nil="true" />
-		<field name="ddb" xsi:nil="true" />
-		<field name="collection" xsi:nil="true" />
-		<field name="volume" xsi:nil="true" />
-		<field name="document" xsi:nil="true" />
+		<field name="text">(S. 124) 292</field>
+		<field name="tm">45033</field>
+		<field name="folder">46</field>
+		<field name="hgv">45033</field>
+		<field name="ddb">o.petr;;292</field>
+		<field name="collection">o.petr</field>
+		<field name="volume"></field>
+		<field name="document">292</field>
 		<field name="position">1</field>
 		<field name="description">Τράτου (ed.pr. und B.L. 10, S. 301) → Γράτου (nach dem Photo), G. Messeri, Aeg. 86 (2006), S. 159.</field>
-		<field name="source" xsi:nil="true" />
+		<field name="source">75586</field>
 		<field name="status">unchecked</field>
 		<field name="creator">hoogendijk</field>
 		<field name="created">2012-10-17 14:22:32</field>
@@ -13916,9 +13916,9 @@
 		<field name="sortFragment" xsi:nil="true" />
 		<field name="sortColumn" xsi:nil="true" />
 		<field name="sortLine">1</field>
-		<field name="sortSystem">e01250000p00000000t(S. 124)  292s00f00000000c00000000l00000001</field>
+		<field name="sortSystem">e01250000p00000000t(S. 124) 292s00f00000000c00000000l00000001</field>
 		<field name="sortUser" xsi:nil="true" />
-		<field name="sort">e01250000p00000000t(S. 124)  292s00f00000000c00000000l00000001</field>
+		<field name="sort">e01250000p00000000t(S. 124) 292s00f00000000c00000000l00000001</field>
 		<field name="compilationPage" xsi:nil="true" />
 	</row>
 	<row>
@@ -13935,7 +13935,7 @@
 		<field name="document">106</field>
 		<field name="position">3-4</field>
 		<field name="description">ἀπὸ | Κό̣π̣[του → ἀπὸ | κατ[αγωγῆς, G. Messeri, Aeg. 86 (2006), S. 159.</field>
-		<field name="source" xsi:nil="true" />
+		<field name="source">75586</field>
 		<field name="status">unchecked</field>
 		<field name="creator">hoogendijk</field>
 		<field name="created">2012-10-17 14:26:44</field>
@@ -13954,16 +13954,16 @@
 		<field name="edition_id">569</field>
 		<field name="compilation_id">14</field>
 		<field name="text">(S. 124) 292</field>
-		<field name="tm" xsi:nil="true" />
-		<field name="folder" xsi:nil="true" />
-		<field name="hgv" xsi:nil="true" />
-		<field name="ddb" xsi:nil="true" />
-		<field name="collection" xsi:nil="true" />
-		<field name="volume" xsi:nil="true" />
-		<field name="document" xsi:nil="true" />
+		<field name="tm">45033</field>
+		<field name="folder">46</field>
+		<field name="hgv">45033</field>
+		<field name="ddb">o.petr;;292</field>
+		<field name="collection">o.petr</field>
+		<field name="volume"></field>
+		<field name="document">292</field>
 		<field name="position">5</field>
 		<field name="description">σ̣ὺ̣ν̣ κα̣ταγωγίῳ → ἀπὸ κα̣ταγωγῆς (nach dem Photo), G. Messeri, Aeg. 86 (2006), S. 159.</field>
-		<field name="source" xsi:nil="true" />
+		<field name="source">75586</field>
 		<field name="status">unchecked</field>
 		<field name="creator">hoogendijk</field>
 		<field name="created">2012-10-17 14:27:44</field>
@@ -13982,16 +13982,16 @@
 		<field name="edition_id">569</field>
 		<field name="compilation_id">14</field>
 		<field name="text">(S. 124) 292</field>
-		<field name="tm" xsi:nil="true" />
-		<field name="folder" xsi:nil="true" />
-		<field name="hgv" xsi:nil="true" />
-		<field name="ddb" xsi:nil="true" />
-		<field name="collection" xsi:nil="true" />
-		<field name="volume" xsi:nil="true" />
-		<field name="document" xsi:nil="true" />
+		<field name="tm">45033</field>
+		<field name="folder">46</field>
+		<field name="hgv">45033</field>
+		<field name="ddb">o.petr;;292</field>
+		<field name="collection">o.petr</field>
+		<field name="volume"></field>
+		<field name="document">292</field>
 		<field name="position">7</field>
 		<field name="description">Με . . . . . . . . . → Νέρ̣[ωνος] τοῦ κυ[ρίου (nach dem Photo), G. Messeri, Aeg. 86 (2006), S. 159.</field>
-		<field name="source" xsi:nil="true" />
+		<field name="source">75586</field>
 		<field name="status">unchecked</field>
 		<field name="creator">hoogendijk</field>
 		<field name="created">2012-10-17 14:28:34</field>
@@ -14009,17 +14009,17 @@
 		<field name="id">505</field>
 		<field name="edition_id">569</field>
 		<field name="compilation_id">14</field>
-		<field name="text">(S. 117)  257</field>
-		<field name="tm" xsi:nil="true" />
-		<field name="folder" xsi:nil="true" />
-		<field name="hgv" xsi:nil="true" />
-		<field name="ddb" xsi:nil="true" />
-		<field name="collection" xsi:nil="true" />
-		<field name="volume" xsi:nil="true" />
-		<field name="document" xsi:nil="true" />
+		<field name="text">(S. 117) 257</field>
+		<field name="tm">44998</field>
+		<field name="folder">45</field>
+		<field name="hgv">44998</field>
+		<field name="ddb">o.petr;;257</field>
+		<field name="collection">o.petr</field>
+		<field name="volume"></field>
+		<field name="document">257</field>
 		<field name="position">7</field>
 		<field name="description">. . . δώρου → Θεοδώρου (am Original), G. Messeri, Aeg. 86 (2006), S. 160, Anm. 10.</field>
-		<field name="source" xsi:nil="true" />
+		<field name="source">75526</field>
 		<field name="status">unchecked</field>
 		<field name="creator">hoogendijk</field>
 		<field name="created">2012-10-17 14:31:07</field>
@@ -14028,9 +14028,9 @@
 		<field name="sortFragment" xsi:nil="true" />
 		<field name="sortColumn" xsi:nil="true" />
 		<field name="sortLine">7</field>
-		<field name="sortSystem">e01250000p00000000t(S. 117)  257s00f00000000c00000000l00000007</field>
+		<field name="sortSystem">e01250000p00000000t(S. 117) 257s00f00000000c00000000l00000007</field>
 		<field name="sortUser" xsi:nil="true" />
-		<field name="sort">e01250000p00000000t(S. 117)  257s00f00000000c00000000l00000007</field>
+		<field name="sort">e01250000p00000000t(S. 117) 257s00f00000000c00000000l00000007</field>
 		<field name="compilationPage" xsi:nil="true" />
 	</row>
 	<row>
@@ -14065,17 +14065,17 @@
 		<field name="id">507</field>
 		<field name="edition_id">569</field>
 		<field name="compilation_id">14</field>
-		<field name="text">9S. 117)  257</field>
-		<field name="tm" xsi:nil="true" />
-		<field name="folder" xsi:nil="true" />
-		<field name="hgv" xsi:nil="true" />
-		<field name="ddb" xsi:nil="true" />
-		<field name="collection" xsi:nil="true" />
-		<field name="volume" xsi:nil="true" />
-		<field name="document" xsi:nil="true" />
+		<field name="text">(S. 117) 257</field>
+		<field name="tm">44998</field>
+		<field name="folder">45</field>
+		<field name="hgv">44998</field>
+		<field name="ddb">o.petr;;257</field>
+		<field name="collection">o.petr</field>
+		<field name="volume"></field>
+		<field name="document">257</field>
 		<field name="position">3</field>
 		<field name="description">Νο̣ρβανοῦ [λόγ]ο[ν (B.L. 3, S. 160) → Νο̣ρβανοῦ Πτολεμαί̣ο̣υ̣ λ̣όγο(ν) (am Original), G. Messeri, Aeg. 86 (2006), S. 161, vgl. auch H. Cuvigny in: Coptos (B.L. 12, S. 337), S. 166. Gaius Norbanus Ptolemaeus ist identisch mit dem in O. Tait. 1 (S. 114). 244, B.G.U. 5. 1210, Z. 134, B.G.U. 11. 2059 II, Z. 1, P. Fouad 21, Z. 5 und P. Oxy. 45. 3250, Z. 4, vgl. G. Messeri, l.c., S. 161-162.</field>
-		<field name="source" xsi:nil="true" />
+		<field name="source">75586</field>
 		<field name="status">unchecked</field>
 		<field name="creator">hoogendijk</field>
 		<field name="created">2012-10-18 09:38:47</field>
@@ -14084,23 +14084,23 @@
 		<field name="sortFragment" xsi:nil="true" />
 		<field name="sortColumn" xsi:nil="true" />
 		<field name="sortLine">3</field>
-		<field name="sortSystem">e01250000p00000000t9S. 117)  257s00f00000000c00000000l00000003</field>
+		<field name="sortSystem">e01250000p00000000t(S. 117) 257s00f00000000c00000000l00000003</field>
 		<field name="sortUser" xsi:nil="true" />
-		<field name="sort">e01250000p00000000t9S. 117)  257s00f00000000c00000000l00000003</field>
+		<field name="sort">e01250000p00000000t(S. 117) 257s00f00000000c00000000l00000003</field>
 		<field name="compilationPage" xsi:nil="true" />
 	</row>
 	<row>
 		<field name="id">509</field>
 		<field name="edition_id">569</field>
 		<field name="compilation_id">14</field>
-		<field name="text">(S. 114)  244</field>
-		<field name="tm" xsi:nil="true" />
-		<field name="folder" xsi:nil="true" />
-		<field name="hgv" xsi:nil="true" />
-		<field name="ddb" xsi:nil="true" />
-		<field name="collection" xsi:nil="true" />
-		<field name="volume" xsi:nil="true" />
-		<field name="document" xsi:nil="true" />
+		<field name="text">(S. 114) 244</field>
+		<field name="tm">44985</field>
+		<field name="folder">45</field>
+		<field name="hgv">44985</field>
+		<field name="ddb">o.petr;;244</field>
+		<field name="collection">o.petr</field>
+		<field name="volume"></field>
+		<field name="document">244</field>
 		<field name="position">3</field>
 		<field name="description">Zur Identität des Gaius Norbanus siehe die Ber. zu O. Tait 1 (S. 117). 257, Z. 3.</field>
 		<field name="source" xsi:nil="true" />
@@ -14112,9 +14112,9 @@
 		<field name="sortFragment" xsi:nil="true" />
 		<field name="sortColumn" xsi:nil="true" />
 		<field name="sortLine">3</field>
-		<field name="sortSystem">e01250000p00000000t(S. 114)  244s00f00000000c00000000l00000003</field>
+		<field name="sortSystem">e01250000p00000000t(S. 114) 244s00f00000000c00000000l00000003</field>
 		<field name="sortUser" xsi:nil="true" />
-		<field name="sort">e01250000p00000000t(S. 114)  244s00f00000000c00000000l00000003</field>
+		<field name="sort">e01250000p00000000t(S. 114) 244s00f00000000c00000000l00000003</field>
 		<field name="compilationPage" xsi:nil="true" />
 	</row>
 	<row>
@@ -21683,11 +21683,11 @@
 		<field Field="version" Type="int(11)" Null="NO" Key="" Extra="" />
 		<field Field="data" Type="longtext" Null="YES" Key="" Extra="" />
 		<field Field="username" Type="varchar(255)" Null="YES" Key="MUL" Extra="" />
-		<key Table="ext_log_entries" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="1294" Null="" Index_type="BTREE" Comment="" />
-		<key Table="ext_log_entries" Non_unique="1" Key_name="log_class_lookup_idx" Seq_in_index="1" Column_name="object_class" Collation="A" Cardinality="1" Null="" Index_type="BTREE" Comment="" />
-		<key Table="ext_log_entries" Non_unique="1" Key_name="log_date_lookup_idx" Seq_in_index="1" Column_name="logged_at" Collation="A" Cardinality="107" Null="" Index_type="BTREE" Comment="" />
-		<key Table="ext_log_entries" Non_unique="1" Key_name="log_user_lookup_idx" Seq_in_index="1" Column_name="username" Collation="A" Cardinality="6" Null="YES" Index_type="BTREE" Comment="" />
-		<options Name="ext_log_entries" Engine="InnoDB" Version="10" Row_format="Compact" Rows="1369" Avg_row_length="371" Data_length="507904" Max_data_length="0" Index_length="245760" Data_free="0" Auto_increment="1528" Create_time="2012-02-10 23:18:07" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 7168 kB" />
+		<key Table="ext_log_entries" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="2000" Null="" Index_type="BTREE" Comment="" />
+		<key Table="ext_log_entries" Non_unique="1" Key_name="log_class_lookup_idx" Seq_in_index="1" Column_name="object_class" Collation="A" Cardinality="2" Null="" Index_type="BTREE" Comment="" />
+		<key Table="ext_log_entries" Non_unique="1" Key_name="log_date_lookup_idx" Seq_in_index="1" Column_name="logged_at" Collation="A" Cardinality="166" Null="" Index_type="BTREE" Comment="" />
+		<key Table="ext_log_entries" Non_unique="1" Key_name="log_user_lookup_idx" Seq_in_index="1" Column_name="username" Collation="A" Cardinality="10" Null="YES" Index_type="BTREE" Comment="" />
+		<options Name="ext_log_entries" Engine="InnoDB" Version="10" Row_format="Compact" Rows="2004" Avg_row_length="261" Data_length="524288" Max_data_length="0" Index_length="245760" Data_free="0" Auto_increment="1591" Create_time="2012-02-10 23:18:07" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 7168 kB" />
 	</table_structure>
 	<table_data name="ext_log_entries">
 	<row>
@@ -36960,6 +36960,636 @@ app.crit.) (am Original), F. Mitthof, ZPE 139 (2002), S. 140.&quot;;s:6:&quot;st
 		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
 		<field name="version">1</field>
 		<field name="data">a:3:{s:8:&quot;position&quot;;N;s:11:&quot;description&quot;;s:85:&quot;Zur Interpretation vgl. D. Hagedorn, ZPE 145 (2003), 226-227 (zur P.Vindob. G 24562).&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">1528</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-10-25 14:16:57</field>
+		<field name="object_id">457</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">1529</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-10-25 14:16:59</field>
+		<field name="object_id">457</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">3</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">1530</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-10-25 14:17:10</field>
+		<field name="object_id">457</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">4</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">1531</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-10-25 14:17:45</field>
+		<field name="object_id">457</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">5</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">1532</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-10-25 14:21:10</field>
+		<field name="object_id">498</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">1533</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-10-25 14:22:05</field>
+		<field name="object_id">498</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">3</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">1534</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-10-25 14:22:28</field>
+		<field name="object_id">498</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">4</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">1535</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-10-25 14:22:31</field>
+		<field name="object_id">498</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">5</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">1536</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-10-25 14:22:39</field>
+		<field name="object_id">498</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">6</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">1537</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-10-25 14:23:18</field>
+		<field name="object_id">498</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">7</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">1538</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-10-25 14:23:36</field>
+		<field name="object_id">501</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">1539</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-10-25 14:23:52</field>
+		<field name="object_id">501</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">3</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">1540</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-10-25 14:23:59</field>
+		<field name="object_id">501</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">4</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">1541</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-10-25 14:24:07</field>
+		<field name="object_id">501</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">5</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">1542</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-10-25 14:24:19</field>
+		<field name="object_id">501</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">6</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">1543</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-10-25 14:25:34</field>
+		<field name="object_id">503</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">1544</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-10-25 14:25:40</field>
+		<field name="object_id">503</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">3</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">1545</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-10-25 14:25:44</field>
+		<field name="object_id">503</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">4</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">1546</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-10-25 14:25:49</field>
+		<field name="object_id">503</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">5</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">1547</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-10-25 14:26:25</field>
+		<field name="object_id">504</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">1548</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-10-25 14:26:29</field>
+		<field name="object_id">504</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">3</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">1549</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-10-25 14:26:34</field>
+		<field name="object_id">504</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">4</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">1550</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-10-25 14:26:39</field>
+		<field name="object_id">504</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">5</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">1551</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-10-25 14:32:24</field>
+		<field name="object_id">505</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">1552</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-10-25 14:32:30</field>
+		<field name="object_id">505</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">3</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">1553</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-10-25 14:32:34</field>
+		<field name="object_id">505</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">4</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">1554</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-10-25 14:32:43</field>
+		<field name="object_id">505</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">5</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">1555</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-10-25 14:33:14</field>
+		<field name="object_id">505</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">6</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">1556</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-10-25 14:33:45</field>
+		<field name="object_id">507</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">1557</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-10-25 14:33:51</field>
+		<field name="object_id">507</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">3</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">1558</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-10-25 14:33:55</field>
+		<field name="object_id">507</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">4</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">1559</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-10-25 14:33:59</field>
+		<field name="object_id">507</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">5</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">1560</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-10-25 14:34:04</field>
+		<field name="object_id">507</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">6</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">1561</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-10-25 14:34:35</field>
+		<field name="object_id">507</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">7</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">1562</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-10-25 14:35:24</field>
+		<field name="object_id">509</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">1563</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-10-25 14:35:29</field>
+		<field name="object_id">509</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">3</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">1564</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-10-25 14:35:45</field>
+		<field name="object_id">509</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">4</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">1565</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-10-25 14:36:18</field>
+		<field name="object_id">509</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">5</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">1566</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-10-25 14:38:09</field>
+		<field name="object_id">465</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">1567</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-10-25 14:38:17</field>
+		<field name="object_id">465</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">3</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">1568</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-10-25 14:38:20</field>
+		<field name="object_id">465</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">4</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">1569</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-10-25 14:38:34</field>
+		<field name="object_id">465</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">5</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">1570</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-10-25 14:40:37</field>
+		<field name="object_id">475</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">1571</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-10-25 14:40:45</field>
+		<field name="object_id">475</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">3</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">1572</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-10-25 14:40:50</field>
+		<field name="object_id">475</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">4</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">1573</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-10-25 14:41:02</field>
+		<field name="object_id">475</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">5</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">1574</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-10-25 14:41:25</field>
+		<field name="object_id">475</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">6</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">1575</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-10-25 14:42:00</field>
+		<field name="object_id">466</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">1576</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-10-25 14:42:26</field>
+		<field name="object_id">457</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">6</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">1577</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-10-25 14:42:35</field>
+		<field name="object_id">466</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">3</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">1578</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-10-25 15:01:19</field>
+		<field name="object_id">489</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">1579</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-10-25 15:01:35</field>
+		<field name="object_id">489</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">3</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">1580</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-10-25 15:01:46</field>
+		<field name="object_id">489</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">4</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">1581</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-10-25 15:02:37</field>
+		<field name="object_id">491</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">1582</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-10-25 15:02:48</field>
+		<field name="object_id">492</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">1583</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-10-25 15:03:18</field>
+		<field name="object_id">493</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">1584</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-10-25 15:03:38</field>
+		<field name="object_id">494</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">1585</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-10-25 15:03:50</field>
+		<field name="object_id">495</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">1586</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-10-25 15:04:05</field>
+		<field name="object_id">496</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">1587</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-10-25 15:04:14</field>
+		<field name="object_id">497</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">1588</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-10-25 15:04:29</field>
+		<field name="object_id">499</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">1589</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-10-25 15:04:38</field>
+		<field name="object_id">500</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">1590</field>
+		<field name="action">update</field>
+		<field name="logged_at">2012-10-25 15:04:49</field>
+		<field name="object_id">502</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:0:{}</field>
 		<field name="username">cowey</field>
 	</row>
 	</table_data>
