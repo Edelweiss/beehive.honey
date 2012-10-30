@@ -10,7 +10,7 @@
 		<field Field="fascicle" Type="int(11)" Null="YES" Key="" Extra="" />
 		<field Field="title" Type="longtext" Null="NO" Key="" Extra="" />
 		<key Table="compilation" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="14" Null="" Index_type="BTREE" Comment="" />
-		<options Name="compilation" Engine="InnoDB" Version="10" Row_format="Compact" Rows="14" Avg_row_length="1170" Data_length="16384" Max_data_length="0" Index_length="0" Data_free="0" Auto_increment="15" Create_time="2012-02-15 17:44:52" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 16384 kB" />
+		<options Name="compilation" Engine="InnoDB" Version="10" Row_format="Compact" Rows="14" Avg_row_length="1170" Data_length="16384" Max_data_length="0" Index_length="0" Data_free="0" Auto_increment="15" Create_time="2012-02-15 17:44:52" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 14336 kB" />
 	</table_structure>
 	<table_data name="compilation">
 	<row>
@@ -167,10 +167,10 @@
 		<field Field="sortUser" Type="varchar(256)" Null="YES" Key="" Extra="" />
 		<field Field="sort" Type="varchar(256)" Null="NO" Key="" Extra="" />
 		<field Field="compilationPage" Type="varchar(64)" Null="YES" Key="" Extra="" />
-		<key Table="correction" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="596" Null="" Index_type="BTREE" Comment="" />
-		<key Table="correction" Non_unique="1" Key_name="IDX_A29DA1B874281A5E" Seq_in_index="1" Column_name="edition_id" Collation="A" Cardinality="596" Null="" Index_type="BTREE" Comment="" />
+		<key Table="correction" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="566" Null="" Index_type="BTREE" Comment="" />
+		<key Table="correction" Non_unique="1" Key_name="IDX_A29DA1B874281A5E" Seq_in_index="1" Column_name="edition_id" Collation="A" Cardinality="566" Null="" Index_type="BTREE" Comment="" />
 		<key Table="correction" Non_unique="1" Key_name="IDX_A29DA1B8A5F8C840" Seq_in_index="1" Column_name="compilation_id" Collation="A" Cardinality="10" Null="" Index_type="BTREE" Comment="" />
-		<options Name="correction" Engine="InnoDB" Version="10" Row_format="Compact" Rows="596" Avg_row_length="412" Data_length="245760" Max_data_length="0" Index_length="32768" Data_free="0" Auto_increment="592" Create_time="2012-07-04 12:42:44" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 16384 kB; (`edition_id`) REFER `bl/edition`(`id`); (`compilation_id" />
+		<options Name="correction" Engine="InnoDB" Version="10" Row_format="Compact" Rows="538" Avg_row_length="456" Data_length="245760" Max_data_length="0" Index_length="32768" Data_free="0" Auto_increment="592" Create_time="2012-07-04 12:42:44" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 14336 kB; (`edition_id`) REFER `bl/edition`(`id`); (`compilation_id" />
 	</table_structure>
 	<table_data name="correction">
 	<row>
@@ -16423,7 +16423,7 @@
 		<field Field="volume" Type="longtext" Null="YES" Key="" Extra="" />
 		<field Field="remark" Type="longtext" Null="YES" Key="" Extra="" />
 		<key Table="edition" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="598" Null="" Index_type="BTREE" Comment="" />
-		<options Name="edition" Engine="InnoDB" Version="10" Row_format="Compact" Rows="598" Avg_row_length="109" Data_length="65536" Max_data_length="0" Index_length="0" Data_free="0" Auto_increment="584" Create_time="2012-02-22 08:47:30" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 16384 kB" />
+		<options Name="edition" Engine="InnoDB" Version="10" Row_format="Compact" Rows="598" Avg_row_length="109" Data_length="65536" Max_data_length="0" Index_length="0" Data_free="0" Auto_increment="584" Create_time="2012-02-22 08:47:30" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 14336 kB" />
 	</table_structure>
 	<table_data name="edition">
 	<row>
@@ -21683,11 +21683,11 @@
 		<field Field="version" Type="int(11)" Null="NO" Key="" Extra="" />
 		<field Field="data" Type="longtext" Null="YES" Key="" Extra="" />
 		<field Field="username" Type="varchar(255)" Null="YES" Key="MUL" Extra="" />
-		<key Table="ext_log_entries" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="1624" Null="" Index_type="BTREE" Comment="" />
-		<key Table="ext_log_entries" Non_unique="1" Key_name="log_class_lookup_idx" Seq_in_index="1" Column_name="object_class" Collation="A" Cardinality="2" Null="" Index_type="BTREE" Comment="" />
-		<key Table="ext_log_entries" Non_unique="1" Key_name="log_date_lookup_idx" Seq_in_index="1" Column_name="logged_at" Collation="A" Cardinality="135" Null="" Index_type="BTREE" Comment="" />
-		<key Table="ext_log_entries" Non_unique="1" Key_name="log_user_lookup_idx" Seq_in_index="1" Column_name="username" Collation="A" Cardinality="8" Null="YES" Index_type="BTREE" Comment="" />
-		<options Name="ext_log_entries" Engine="InnoDB" Version="10" Row_format="Compact" Rows="1880" Avg_row_length="278" Data_length="524288" Max_data_length="0" Index_length="245760" Data_free="0" Auto_increment="1591" Create_time="2012-02-10 23:18:07" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 16384 kB" />
+		<key Table="ext_log_entries" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="1306" Null="" Index_type="BTREE" Comment="" />
+		<key Table="ext_log_entries" Non_unique="1" Key_name="log_class_lookup_idx" Seq_in_index="1" Column_name="object_class" Collation="A" Cardinality="1" Null="" Index_type="BTREE" Comment="" />
+		<key Table="ext_log_entries" Non_unique="1" Key_name="log_date_lookup_idx" Seq_in_index="1" Column_name="logged_at" Collation="A" Cardinality="108" Null="" Index_type="BTREE" Comment="" />
+		<key Table="ext_log_entries" Non_unique="1" Key_name="log_user_lookup_idx" Seq_in_index="1" Column_name="username" Collation="A" Cardinality="6" Null="YES" Index_type="BTREE" Comment="" />
+		<options Name="ext_log_entries" Engine="InnoDB" Version="10" Row_format="Compact" Rows="1469" Avg_row_length="356" Data_length="524288" Max_data_length="0" Index_length="245760" Data_free="0" Auto_increment="1591" Create_time="2012-02-10 23:18:07" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 14336 kB" />
 	</table_structure>
 	<table_data name="ext_log_entries">
 	<row>
@@ -37608,7 +37608,7 @@ app.crit.) (am Original), F. Mitthof, ZPE 139 (2002), S. 140.&quot;;s:6:&quot;st
 		<key Table="ext_translations" Non_unique="1" Key_name="translations_lookup_idx" Seq_in_index="1" Column_name="locale" Collation="A" Cardinality="0" Null="" Index_type="BTREE" Comment="" />
 		<key Table="ext_translations" Non_unique="1" Key_name="translations_lookup_idx" Seq_in_index="2" Column_name="object_class" Collation="A" Cardinality="0" Null="" Index_type="BTREE" Comment="" />
 		<key Table="ext_translations" Non_unique="1" Key_name="translations_lookup_idx" Seq_in_index="3" Column_name="foreign_key" Collation="A" Cardinality="0" Null="" Index_type="BTREE" Comment="" />
-		<options Name="ext_translations" Engine="InnoDB" Version="10" Row_format="Compact" Rows="0" Avg_row_length="0" Data_length="16384" Max_data_length="0" Index_length="32768" Data_free="0" Auto_increment="1" Create_time="2012-02-10 23:18:07" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 16384 kB" />
+		<options Name="ext_translations" Engine="InnoDB" Version="10" Row_format="Compact" Rows="0" Avg_row_length="0" Data_length="16384" Max_data_length="0" Index_length="32768" Data_free="0" Auto_increment="1" Create_time="2012-02-10 23:18:07" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 14336 kB" />
 	</table_structure>
 	<table_data name="ext_translations">
 	</table_data>
@@ -37620,7 +37620,7 @@ app.crit.) (am Original), F. Mitthof, ZPE 139 (2002), S. 140.&quot;;s:6:&quot;st
 		<field Field="phrase" Type="longtext" Null="NO" Key="" Extra="" />
 		<key Table="index_entry" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="19" Null="" Index_type="BTREE" Comment="" />
 		<key Table="index_entry" Non_unique="1" Key_name="IDX_D9E81DE694AE086B" Seq_in_index="1" Column_name="correction_id" Collation="A" Cardinality="19" Null="" Index_type="BTREE" Comment="" />
-		<options Name="index_entry" Engine="InnoDB" Version="10" Row_format="Compact" Rows="19" Avg_row_length="862" Data_length="16384" Max_data_length="0" Index_length="16384" Data_free="0" Auto_increment="28" Create_time="2012-03-14 14:57:46" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 16384 kB; (`correction_id`) REFER `bl/correction`(`id`)" />
+		<options Name="index_entry" Engine="InnoDB" Version="10" Row_format="Compact" Rows="19" Avg_row_length="862" Data_length="16384" Max_data_length="0" Index_length="16384" Data_free="0" Auto_increment="28" Create_time="2012-03-14 14:57:46" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 14336 kB; (`correction_id`) REFER `bl/correction`(`id`)" />
 	</table_structure>
 	<table_data name="index_entry">
 	<row>
@@ -37765,7 +37765,7 @@ app.crit.) (am Original), F. Mitthof, ZPE 139 (2002), S. 140.&quot;;s:6:&quot;st
 		<field Field="cleared" Type="datetime" Null="YES" Key="" Extra="" />
 		<key Table="task" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="103" Null="" Index_type="BTREE" Comment="" />
 		<key Table="task" Non_unique="1" Key_name="IDX_527EDB2594AE086B" Seq_in_index="1" Column_name="correction_id" Collation="A" Cardinality="103" Null="" Index_type="BTREE" Comment="" />
-		<options Name="task" Engine="InnoDB" Version="10" Row_format="Compact" Rows="103" Avg_row_length="636" Data_length="65536" Max_data_length="0" Index_length="16384" Data_free="0" Auto_increment="585" Create_time="2012-02-22 09:27:05" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 16384 kB; (`correction_id`) REFER `bl/correction`(`id`)" />
+		<options Name="task" Engine="InnoDB" Version="10" Row_format="Compact" Rows="103" Avg_row_length="636" Data_length="65536" Max_data_length="0" Index_length="16384" Data_free="0" Auto_increment="585" Create_time="2012-02-22 09:27:05" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 14336 kB; (`correction_id`) REFER `bl/correction`(`id`)" />
 	</table_structure>
 	<table_data name="task">
 	<row>
