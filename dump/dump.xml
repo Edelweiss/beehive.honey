@@ -167,10 +167,10 @@
 		<field Field="sortUser" Type="varchar(256)" Null="YES" Key="" Extra="" />
 		<field Field="sort" Type="varchar(256)" Null="NO" Key="" Extra="" />
 		<field Field="compilationPage" Type="varchar(64)" Null="YES" Key="" Extra="" />
-		<key Table="correction" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="780" Null="" Index_type="BTREE" Comment="" />
-		<key Table="correction" Non_unique="1" Key_name="IDX_A29DA1B874281A5E" Seq_in_index="1" Column_name="edition_id" Collation="A" Cardinality="780" Null="" Index_type="BTREE" Comment="" />
-		<key Table="correction" Non_unique="1" Key_name="IDX_A29DA1B8A5F8C840" Seq_in_index="1" Column_name="compilation_id" Collation="A" Cardinality="10" Null="" Index_type="BTREE" Comment="" />
-		<options Name="correction" Engine="InnoDB" Version="10" Row_format="Compact" Rows="777" Avg_row_length="421" Data_length="327680" Max_data_length="0" Index_length="32768" Data_free="0" Auto_increment="761" Create_time="2012-07-04 12:42:44" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 16384 kB; (`edition_id`) REFER `bl/edition`(`id`); (`compilation_id" />
+		<key Table="correction" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="734" Null="" Index_type="BTREE" Comment="" />
+		<key Table="correction" Non_unique="1" Key_name="IDX_A29DA1B874281A5E" Seq_in_index="1" Column_name="edition_id" Collation="A" Cardinality="734" Null="" Index_type="BTREE" Comment="" />
+		<key Table="correction" Non_unique="1" Key_name="IDX_A29DA1B8A5F8C840" Seq_in_index="1" Column_name="compilation_id" Collation="A" Cardinality="9" Null="" Index_type="BTREE" Comment="" />
+		<options Name="correction" Engine="InnoDB" Version="10" Row_format="Compact" Rows="704" Avg_row_length="465" Data_length="327680" Max_data_length="0" Index_length="32768" Data_free="0" Auto_increment="761" Create_time="2012-07-04 12:42:44" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 16384 kB; (`edition_id`) REFER `bl/edition`(`id`); (`compilation_id" />
 	</table_structure>
 	<table_data name="correction">
 	<row>
@@ -26317,11 +26317,11 @@
 		<field Field="version" Type="int(11)" Null="NO" Key="" Extra="" />
 		<field Field="data" Type="longtext" Null="YES" Key="" Extra="" />
 		<field Field="username" Type="varchar(255)" Null="YES" Key="MUL" Extra="" />
-		<key Table="ext_log_entries" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="2163" Null="" Index_type="BTREE" Comment="" />
-		<key Table="ext_log_entries" Non_unique="1" Key_name="log_class_lookup_idx" Seq_in_index="1" Column_name="object_class" Collation="A" Cardinality="6" Null="" Index_type="BTREE" Comment="" />
-		<key Table="ext_log_entries" Non_unique="1" Key_name="log_date_lookup_idx" Seq_in_index="1" Column_name="logged_at" Collation="A" Cardinality="2163" Null="" Index_type="BTREE" Comment="" />
-		<key Table="ext_log_entries" Non_unique="1" Key_name="log_user_lookup_idx" Seq_in_index="1" Column_name="username" Collation="A" Cardinality="10" Null="YES" Index_type="BTREE" Comment="" />
-		<options Name="ext_log_entries" Engine="InnoDB" Version="10" Row_format="Compact" Rows="2230" Avg_row_length="712" Data_length="1589248" Max_data_length="0" Index_length="327680" Data_free="0" Auto_increment="2421" Create_time="2012-02-10 23:18:07" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 16384 kB" />
+		<key Table="ext_log_entries" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="2896" Null="" Index_type="BTREE" Comment="" />
+		<key Table="ext_log_entries" Non_unique="1" Key_name="log_class_lookup_idx" Seq_in_index="1" Column_name="object_class" Collation="A" Cardinality="10" Null="" Index_type="BTREE" Comment="" />
+		<key Table="ext_log_entries" Non_unique="1" Key_name="log_date_lookup_idx" Seq_in_index="1" Column_name="logged_at" Collation="A" Cardinality="2896" Null="" Index_type="BTREE" Comment="" />
+		<key Table="ext_log_entries" Non_unique="1" Key_name="log_user_lookup_idx" Seq_in_index="1" Column_name="username" Collation="A" Cardinality="18" Null="YES" Index_type="BTREE" Comment="" />
+		<options Name="ext_log_entries" Engine="InnoDB" Version="10" Row_format="Compact" Rows="2599" Avg_row_length="611" Data_length="1589248" Max_data_length="0" Index_length="327680" Data_free="0" Auto_increment="2442" Create_time="2012-02-10 23:18:07" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 16384 kB" />
 	</table_structure>
 	<table_data name="ext_log_entries">
 	<row>
@@ -50531,6 +50531,216 @@ app.crit.) (am Original), F. Mitthof, ZPE 139 (2002), S. 140.&quot;;s:6:&quot;st
 		<field name="data">a:2:{s:11:&quot;description&quot;;s:33:&quot;Enter into DDb through the editor&quot;;s:7:&quot;cleared&quot;;N;}</field>
 		<field name="username">klett</field>
 	</row>
+	<row>
+		<field name="id">2421</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-12-18 09:17:42</field>
+		<field name="object_id">713</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:1:&quot;x&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">loon</field>
+	</row>
+	<row>
+		<field name="id">2422</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-12-18 09:22:49</field>
+		<field name="object_id">714</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:1:&quot;x&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">loon</field>
+	</row>
+	<row>
+		<field name="id">2423</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-12-18 09:23:03</field>
+		<field name="object_id">715</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:1:&quot;x&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">loon</field>
+	</row>
+	<row>
+		<field name="id">2424</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-12-18 09:27:55</field>
+		<field name="object_id">716</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:1:&quot;x&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">loon</field>
+	</row>
+	<row>
+		<field name="id">2425</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-12-18 09:57:59</field>
+		<field name="object_id">717</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:4:&quot;date&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">loon</field>
+	</row>
+	<row>
+		<field name="id">2426</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-12-18 09:58:14</field>
+		<field name="object_id">718</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:4:&quot;date&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">loon</field>
+	</row>
+	<row>
+		<field name="id">2427</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-12-18 10:14:02</field>
+		<field name="object_id">719</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:1:&quot;x&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">loon</field>
+	</row>
+	<row>
+		<field name="id">2428</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-12-18 10:17:20</field>
+		<field name="object_id">720</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:4:&quot;date&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">loon</field>
+	</row>
+	<row>
+		<field name="id">2429</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-12-18 10:18:26</field>
+		<field name="object_id">721</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:1:&quot;x&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">loon</field>
+	</row>
+	<row>
+		<field name="id">2430</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-12-18 10:18:38</field>
+		<field name="object_id">722</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:1:&quot;x&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">loon</field>
+	</row>
+	<row>
+		<field name="id">2431</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-12-18 10:20:50</field>
+		<field name="object_id">723</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:1:&quot;x&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">loon</field>
+	</row>
+	<row>
+		<field name="id">2432</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-12-18 10:21:03</field>
+		<field name="object_id">724</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:1:&quot;x&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">loon</field>
+	</row>
+	<row>
+		<field name="id">2433</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-12-18 10:21:03</field>
+		<field name="object_id">725</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:1:&quot;x&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">loon</field>
+	</row>
+	<row>
+		<field name="id">2434</field>
+		<field name="action">remove</field>
+		<field name="logged_at">2012-12-18 10:21:11</field>
+		<field name="object_id">725</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">2</field>
+		<field name="data">N;</field>
+		<field name="username">loon</field>
+	</row>
+	<row>
+		<field name="id">2435</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-12-18 10:24:55</field>
+		<field name="object_id">726</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:1:&quot;x&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">loon</field>
+	</row>
+	<row>
+		<field name="id">2436</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-12-18 10:25:36</field>
+		<field name="object_id">727</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:1:&quot;x&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">loon</field>
+	</row>
+	<row>
+		<field name="id">2437</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-12-18 10:26:04</field>
+		<field name="object_id">728</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:1:&quot;x&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">loon</field>
+	</row>
+	<row>
+		<field name="id">2438</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-12-18 10:26:13</field>
+		<field name="object_id">729</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:1:&quot;x&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">loon</field>
+	</row>
+	<row>
+		<field name="id">2439</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-12-18 10:26:26</field>
+		<field name="object_id">730</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:1:&quot;x&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">loon</field>
+	</row>
+	<row>
+		<field name="id">2440</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-12-18 10:26:52</field>
+		<field name="object_id">731</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:1:&quot;x&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">loon</field>
+	</row>
+	<row>
+		<field name="id">2441</field>
+		<field name="action">create</field>
+		<field name="logged_at">2012-12-18 10:48:46</field>
+		<field name="object_id">732</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:1:&quot;x&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">loon</field>
+	</row>
 	</table_data>
 	<table_structure name="ext_translations">
 		<field Field="id" Type="int(11)" Null="NO" Key="PRI" Extra="auto_increment" />
@@ -50744,9 +50954,9 @@ app.crit.) (am Original), F. Mitthof, ZPE 139 (2002), S. 140.&quot;;s:6:&quot;st
 		<field Field="category" Type="varchar(64)" Null="NO" Key="" Extra="" />
 		<field Field="description" Type="longtext" Null="NO" Key="" Extra="" />
 		<field Field="cleared" Type="datetime" Null="YES" Key="" Extra="" />
-		<key Table="task" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="472" Null="" Index_type="BTREE" Comment="" />
-		<key Table="task" Non_unique="1" Key_name="IDX_527EDB2594AE086B" Seq_in_index="1" Column_name="correction_id" Collation="A" Cardinality="472" Null="" Index_type="BTREE" Comment="" />
-		<options Name="task" Engine="InnoDB" Version="10" Row_format="Compact" Rows="472" Avg_row_length="138" Data_length="65536" Max_data_length="0" Index_length="16384" Data_free="0" Auto_increment="713" Create_time="2012-02-22 09:27:05" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 16384 kB; (`correction_id`) REFER `bl/correction`(`id`)" />
+		<key Table="task" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="529" Null="" Index_type="BTREE" Comment="" />
+		<key Table="task" Non_unique="1" Key_name="IDX_527EDB2594AE086B" Seq_in_index="1" Column_name="correction_id" Collation="A" Cardinality="529" Null="" Index_type="BTREE" Comment="" />
+		<options Name="task" Engine="InnoDB" Version="10" Row_format="Compact" Rows="529" Avg_row_length="123" Data_length="65536" Max_data_length="0" Index_length="16384" Data_free="0" Auto_increment="733" Create_time="2012-02-22 09:27:05" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 16384 kB; (`correction_id`) REFER `bl/correction`(`id`)" />
 	</table_structure>
 	<table_data name="task">
 	<row>
@@ -55556,6 +55766,139 @@ app.crit.) (am Original), F. Mitthof, ZPE 139 (2002), S. 140.&quot;;s:6:&quot;st
 		<field name="correction_id">760</field>
 		<field name="category">ddb</field>
 		<field name="description">Enter into DDb through the editor</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">713</field>
+		<field name="correction_id">720</field>
+		<field name="category">ddb</field>
+		<field name="description">x</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">714</field>
+		<field name="correction_id">708</field>
+		<field name="category">ddb</field>
+		<field name="description">x</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">715</field>
+		<field name="correction_id">710</field>
+		<field name="category">ddb</field>
+		<field name="description">x</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">716</field>
+		<field name="correction_id">733</field>
+		<field name="category">ddb</field>
+		<field name="description">x</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">717</field>
+		<field name="correction_id">313</field>
+		<field name="category">hgv</field>
+		<field name="description">date</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">718</field>
+		<field name="correction_id">312</field>
+		<field name="category">hgv</field>
+		<field name="description">date</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">719</field>
+		<field name="correction_id">341</field>
+		<field name="category">ddb</field>
+		<field name="description">x</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">720</field>
+		<field name="correction_id">352</field>
+		<field name="category">hgv</field>
+		<field name="description">date</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">721</field>
+		<field name="correction_id">753</field>
+		<field name="category">ddb</field>
+		<field name="description">x</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">722</field>
+		<field name="correction_id">752</field>
+		<field name="category">ddb</field>
+		<field name="description">x</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">723</field>
+		<field name="correction_id">749</field>
+		<field name="category">ddb</field>
+		<field name="description">x</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">724</field>
+		<field name="correction_id">750</field>
+		<field name="category">ddb</field>
+		<field name="description">x</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">726</field>
+		<field name="correction_id">754</field>
+		<field name="category">ddb</field>
+		<field name="description">x</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">727</field>
+		<field name="correction_id">755</field>
+		<field name="category">ddb</field>
+		<field name="description">x</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">728</field>
+		<field name="correction_id">704</field>
+		<field name="category">ddb</field>
+		<field name="description">x</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">729</field>
+		<field name="correction_id">705</field>
+		<field name="category">ddb</field>
+		<field name="description">x</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">730</field>
+		<field name="correction_id">706</field>
+		<field name="category">ddb</field>
+		<field name="description">x</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">731</field>
+		<field name="correction_id">707</field>
+		<field name="category">ddb</field>
+		<field name="description">x</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">732</field>
+		<field name="correction_id">747</field>
+		<field name="category">ddb</field>
+		<field name="description">x</field>
 		<field name="cleared" xsi:nil="true" />
 	</row>
 	</table_data>
