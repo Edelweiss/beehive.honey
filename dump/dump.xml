@@ -10,7 +10,7 @@
 		<field Field="fascicle" Type="int(11)" Null="YES" Key="" Extra="" />
 		<field Field="title" Type="longtext" Null="NO" Key="" Extra="" />
 		<key Table="compilation" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="14" Null="" Index_type="BTREE" Comment="" />
-		<options Name="compilation" Engine="InnoDB" Version="10" Row_format="Compact" Rows="14" Avg_row_length="1170" Data_length="16384" Max_data_length="0" Index_length="0" Data_free="0" Auto_increment="15" Create_time="2012-02-15 17:44:52" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 8192 kB" />
+		<options Name="compilation" Engine="InnoDB" Version="10" Row_format="Compact" Rows="14" Avg_row_length="1170" Data_length="16384" Max_data_length="0" Index_length="0" Data_free="0" Auto_increment="15" Create_time="2012-02-15 17:44:52" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 7168 kB" />
 	</table_structure>
 	<table_data name="compilation">
 	<row>
@@ -167,10 +167,10 @@
 		<field Field="sortUser" Type="varchar(256)" Null="YES" Key="" Extra="" />
 		<field Field="sort" Type="varchar(256)" Null="NO" Key="" Extra="" />
 		<field Field="compilationPage" Type="varchar(64)" Null="YES" Key="" Extra="" />
-		<key Table="correction" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="777" Null="" Index_type="BTREE" Comment="" />
-		<key Table="correction" Non_unique="1" Key_name="IDX_A29DA1B874281A5E" Seq_in_index="1" Column_name="edition_id" Collation="A" Cardinality="777" Null="" Index_type="BTREE" Comment="" />
-		<key Table="correction" Non_unique="1" Key_name="IDX_A29DA1B8A5F8C840" Seq_in_index="1" Column_name="compilation_id" Collation="A" Cardinality="11" Null="" Index_type="BTREE" Comment="" />
-		<options Name="correction" Engine="InnoDB" Version="10" Row_format="Compact" Rows="756" Avg_row_length="433" Data_length="327680" Max_data_length="0" Index_length="32768" Data_free="0" Auto_increment="765" Create_time="2012-07-04 12:42:44" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 8192 kB; (`edition_id`) REFER `bl/edition`(`id`); (`compilation_id`" />
+		<key Table="correction" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="742" Null="" Index_type="BTREE" Comment="" />
+		<key Table="correction" Non_unique="1" Key_name="IDX_A29DA1B874281A5E" Seq_in_index="1" Column_name="edition_id" Collation="A" Cardinality="742" Null="" Index_type="BTREE" Comment="" />
+		<key Table="correction" Non_unique="1" Key_name="IDX_A29DA1B8A5F8C840" Seq_in_index="1" Column_name="compilation_id" Collation="A" Cardinality="10" Null="" Index_type="BTREE" Comment="" />
+		<options Name="correction" Engine="InnoDB" Version="10" Row_format="Compact" Rows="794" Avg_row_length="412" Data_length="327680" Max_data_length="0" Index_length="32768" Data_free="0" Auto_increment="765" Create_time="2012-07-04 12:42:44" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 7168 kB; (`edition_id`) REFER `bl/edition`(`id`); (`compilation_id`" />
 	</table_structure>
 	<table_data name="correction">
 	<row>
@@ -21157,7 +21157,7 @@
 		<field Field="volume" Type="longtext" Null="YES" Key="" Extra="" />
 		<field Field="remark" Type="longtext" Null="YES" Key="" Extra="" />
 		<key Table="edition" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="601" Null="" Index_type="BTREE" Comment="" />
-		<options Name="edition" Engine="InnoDB" Version="10" Row_format="Compact" Rows="601" Avg_row_length="109" Data_length="65536" Max_data_length="0" Index_length="0" Data_free="0" Auto_increment="585" Create_time="2012-02-22 08:47:30" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 8192 kB" />
+		<options Name="edition" Engine="InnoDB" Version="10" Row_format="Compact" Rows="601" Avg_row_length="109" Data_length="65536" Max_data_length="0" Index_length="0" Data_free="0" Auto_increment="585" Create_time="2012-02-22 08:47:30" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 7168 kB" />
 	</table_structure>
 	<table_data name="edition">
 	<row>
@@ -26426,11 +26426,11 @@
 		<field Field="version" Type="int(11)" Null="NO" Key="" Extra="" />
 		<field Field="data" Type="longtext" Null="YES" Key="" Extra="" />
 		<field Field="username" Type="varchar(255)" Null="YES" Key="MUL" Extra="" />
-		<key Table="ext_log_entries" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="2425" Null="" Index_type="BTREE" Comment="" />
+		<key Table="ext_log_entries" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="2450" Null="" Index_type="BTREE" Comment="" />
 		<key Table="ext_log_entries" Non_unique="1" Key_name="log_class_lookup_idx" Seq_in_index="1" Column_name="object_class" Collation="A" Cardinality="8" Null="" Index_type="BTREE" Comment="" />
-		<key Table="ext_log_entries" Non_unique="1" Key_name="log_date_lookup_idx" Seq_in_index="1" Column_name="logged_at" Collation="A" Cardinality="2425" Null="" Index_type="BTREE" Comment="" />
+		<key Table="ext_log_entries" Non_unique="1" Key_name="log_date_lookup_idx" Seq_in_index="1" Column_name="logged_at" Collation="A" Cardinality="2450" Null="" Index_type="BTREE" Comment="" />
 		<key Table="ext_log_entries" Non_unique="1" Key_name="log_user_lookup_idx" Seq_in_index="1" Column_name="username" Collation="A" Cardinality="14" Null="YES" Index_type="BTREE" Comment="" />
-		<options Name="ext_log_entries" Engine="InnoDB" Version="10" Row_format="Compact" Rows="2619" Avg_row_length="606" Data_length="1589248" Max_data_length="0" Index_length="327680" Data_free="0" Auto_increment="2454" Create_time="2012-02-10 23:18:07" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 8192 kB" />
+		<options Name="ext_log_entries" Engine="InnoDB" Version="10" Row_format="Compact" Rows="2194" Avg_row_length="724" Data_length="1589248" Max_data_length="0" Index_length="327680" Data_free="0" Auto_increment="2455" Create_time="2012-02-10 23:18:07" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 7168 kB" />
 	</table_structure>
 	<table_data name="ext_log_entries">
 	<row>
@@ -50972,6 +50972,16 @@ app.crit.) (am Original), F. Mitthof, ZPE 139 (2002), S. 140.&quot;;s:6:&quot;st
 		<field name="data">a:2:{s:11:&quot;description&quot;;s:33:&quot;Enter into DDb through the editor&quot;;s:7:&quot;cleared&quot;;N;}</field>
 		<field name="username">klett</field>
 	</row>
+	<row>
+		<field name="id">2454</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-01-11 12:12:12</field>
+		<field name="object_id">737</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:1:&quot;X&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">loon</field>
+	</row>
 	</table_data>
 	<table_structure name="ext_translations">
 		<field Field="id" Type="int(11)" Null="NO" Key="PRI" Extra="auto_increment" />
@@ -50988,7 +50998,7 @@ app.crit.) (am Original), F. Mitthof, ZPE 139 (2002), S. 140.&quot;;s:6:&quot;st
 		<key Table="ext_translations" Non_unique="1" Key_name="translations_lookup_idx" Seq_in_index="1" Column_name="locale" Collation="A" Cardinality="0" Null="" Index_type="BTREE" Comment="" />
 		<key Table="ext_translations" Non_unique="1" Key_name="translations_lookup_idx" Seq_in_index="2" Column_name="object_class" Collation="A" Cardinality="0" Null="" Index_type="BTREE" Comment="" />
 		<key Table="ext_translations" Non_unique="1" Key_name="translations_lookup_idx" Seq_in_index="3" Column_name="foreign_key" Collation="A" Cardinality="0" Null="" Index_type="BTREE" Comment="" />
-		<options Name="ext_translations" Engine="InnoDB" Version="10" Row_format="Compact" Rows="0" Avg_row_length="0" Data_length="16384" Max_data_length="0" Index_length="32768" Data_free="0" Auto_increment="1" Create_time="2012-02-10 23:18:07" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 8192 kB" />
+		<options Name="ext_translations" Engine="InnoDB" Version="10" Row_format="Compact" Rows="0" Avg_row_length="0" Data_length="16384" Max_data_length="0" Index_length="32768" Data_free="0" Auto_increment="1" Create_time="2012-02-10 23:18:07" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 7168 kB" />
 	</table_structure>
 	<table_data name="ext_translations">
 	</table_data>
@@ -51000,7 +51010,7 @@ app.crit.) (am Original), F. Mitthof, ZPE 139 (2002), S. 140.&quot;;s:6:&quot;st
 		<field Field="phrase" Type="longtext" Null="NO" Key="" Extra="" />
 		<key Table="index_entry" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="25" Null="" Index_type="BTREE" Comment="" />
 		<key Table="index_entry" Non_unique="1" Key_name="IDX_D9E81DE694AE086B" Seq_in_index="1" Column_name="correction_id" Collation="A" Cardinality="25" Null="" Index_type="BTREE" Comment="" />
-		<options Name="index_entry" Engine="InnoDB" Version="10" Row_format="Compact" Rows="25" Avg_row_length="655" Data_length="16384" Max_data_length="0" Index_length="16384" Data_free="0" Auto_increment="34" Create_time="2012-03-14 14:57:46" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 8192 kB; (`correction_id`) REFER `bl/correction`(`id`)" />
+		<options Name="index_entry" Engine="InnoDB" Version="10" Row_format="Compact" Rows="25" Avg_row_length="655" Data_length="16384" Max_data_length="0" Index_length="16384" Data_free="0" Auto_increment="34" Create_time="2012-03-14 14:57:46" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 7168 kB; (`correction_id`) REFER `bl/correction`(`id`)" />
 	</table_structure>
 	<table_data name="index_entry">
 	<row>
@@ -51185,9 +51195,9 @@ app.crit.) (am Original), F. Mitthof, ZPE 139 (2002), S. 140.&quot;;s:6:&quot;st
 		<field Field="category" Type="varchar(64)" Null="NO" Key="" Extra="" />
 		<field Field="description" Type="longtext" Null="NO" Key="" Extra="" />
 		<field Field="cleared" Type="datetime" Null="YES" Key="" Extra="" />
-		<key Table="task" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="541" Null="" Index_type="BTREE" Comment="" />
-		<key Table="task" Non_unique="1" Key_name="IDX_527EDB2594AE086B" Seq_in_index="1" Column_name="correction_id" Collation="A" Cardinality="541" Null="" Index_type="BTREE" Comment="" />
-		<options Name="task" Engine="InnoDB" Version="10" Row_format="Compact" Rows="541" Avg_row_length="121" Data_length="65536" Max_data_length="0" Index_length="16384" Data_free="0" Auto_increment="737" Create_time="2012-02-22 09:27:05" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 8192 kB; (`correction_id`) REFER `bl/correction`(`id`)" />
+		<key Table="task" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="544" Null="" Index_type="BTREE" Comment="" />
+		<key Table="task" Non_unique="1" Key_name="IDX_527EDB2594AE086B" Seq_in_index="1" Column_name="correction_id" Collation="A" Cardinality="544" Null="" Index_type="BTREE" Comment="" />
+		<options Name="task" Engine="InnoDB" Version="10" Row_format="Compact" Rows="544" Avg_row_length="120" Data_length="65536" Max_data_length="0" Index_length="16384" Data_free="0" Auto_increment="738" Create_time="2012-02-22 09:27:05" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 7168 kB; (`correction_id`) REFER `bl/correction`(`id`)" />
 	</table_structure>
 	<table_data name="task">
 	<row>
@@ -56158,6 +56168,13 @@ app.crit.) (am Original), F. Mitthof, ZPE 139 (2002), S. 140.&quot;;s:6:&quot;st
 		<field name="correction_id">764</field>
 		<field name="category">ddb</field>
 		<field name="description">Enter into DDb through the editor</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">737</field>
+		<field name="correction_id">693</field>
+		<field name="category">ddb</field>
+		<field name="description">X</field>
 		<field name="cleared" xsi:nil="true" />
 	</row>
 	</table_data>
