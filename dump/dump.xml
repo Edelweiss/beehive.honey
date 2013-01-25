@@ -167,10 +167,10 @@
 		<field Field="sortUser" Type="varchar(256)" Null="YES" Key="" Extra="" />
 		<field Field="sort" Type="varchar(256)" Null="NO" Key="" Extra="" />
 		<field Field="compilationPage" Type="varchar(64)" Null="YES" Key="" Extra="" />
-		<key Table="correction" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="756" Null="" Index_type="BTREE" Comment="" />
-		<key Table="correction" Non_unique="1" Key_name="IDX_A29DA1B874281A5E" Seq_in_index="1" Column_name="edition_id" Collation="A" Cardinality="756" Null="" Index_type="BTREE" Comment="" />
-		<key Table="correction" Non_unique="1" Key_name="IDX_A29DA1B8A5F8C840" Seq_in_index="1" Column_name="compilation_id" Collation="A" Cardinality="10" Null="" Index_type="BTREE" Comment="" />
-		<options Name="correction" Engine="InnoDB" Version="10" Row_format="Compact" Rows="742" Avg_row_length="441" Data_length="327680" Max_data_length="0" Index_length="32768" Data_free="0" Auto_increment="778" Create_time="2012-07-04 12:42:44" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 8192 kB; (`edition_id`) REFER `bl/edition`(`id`); (`compilation_id`" />
+		<key Table="correction" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="718" Null="" Index_type="BTREE" Comment="" />
+		<key Table="correction" Non_unique="1" Key_name="IDX_A29DA1B874281A5E" Seq_in_index="1" Column_name="edition_id" Collation="A" Cardinality="718" Null="" Index_type="BTREE" Comment="" />
+		<key Table="correction" Non_unique="1" Key_name="IDX_A29DA1B8A5F8C840" Seq_in_index="1" Column_name="compilation_id" Collation="A" Cardinality="9" Null="" Index_type="BTREE" Comment="" />
+		<options Name="correction" Engine="InnoDB" Version="10" Row_format="Compact" Rows="765" Avg_row_length="428" Data_length="327680" Max_data_length="0" Index_length="32768" Data_free="0" Auto_increment="781" Create_time="2012-07-04 12:42:44" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 8192 kB; (`edition_id`) REFER `bl/edition`(`id`); (`compilation_id`" />
 	</table_structure>
 	<table_data name="correction">
 	<row>
@@ -21511,6 +21511,90 @@
 		<field name="sort">e00523000t00000201p00000000s00f00000000c00000000l00000005</field>
 		<field name="compilationPage" xsi:nil="true" />
 	</row>
+	<row>
+		<field name="id">778</field>
+		<field name="edition_id">244</field>
+		<field name="compilation_id">14</field>
+		<field name="text">72</field>
+		<field name="tm">11608</field>
+		<field name="folder">12</field>
+		<field name="hgv">11608</field>
+		<field name="ddb">p.laur;3;72</field>
+		<field name="collection">p.laur</field>
+		<field name="volume">3</field>
+		<field name="document">72</field>
+		<field name="position">11</field>
+		<field name="description">διὰ μι[σθ]ώ̣σεων ἀνυπολόγως καὶ ἀκινδύνως → διὰ μι[σθ]ώ̣σεων ἀνυπολόγων καὶ ἀκινδύνων (nach dem Photo), N. Gonis, ZPE 143 (2003), S. 162.</field>
+		<field name="source">71979</field>
+		<field name="status">unchecked</field>
+		<field name="creator">cowey</field>
+		<field name="created">2013-01-24 15:44:12</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">11</field>
+		<field name="sortSystem">e00552000t00000072p00000000s00f00000000c00000000l00000011</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00552000t00000072p00000000s00f00000000c00000000l00000011</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">779</field>
+		<field name="edition_id">584</field>
+		<field name="compilation_id">14</field>
+		<field name="text">22</field>
+		<field name="tm">115553</field>
+		<field name="folder">116</field>
+		<field name="hgv">115553</field>
+		<field name="ddb">p.worp;;22</field>
+		<field name="collection">p.worp</field>
+		<field name="volume"></field>
+		<field name="document">22</field>
+		<field name="position">8</field>
+		<field name="description">... δη(  ): viell. ἥμισ(υ) δη(  ), T. Kruse, APF 56 (2010), S. 180.</field>
+		<field name="source">78260</field>
+		<field name="status">unchecked</field>
+		<field name="creator">klett</field>
+		<field name="created">2013-01-25 11:43:08</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">8</field>
+		<field name="sortSystem">e00609100t00000022p00000000s00f00000000c00000000l00000008</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00609100t00000022p00000000s00f00000000c00000000l00000008</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">780</field>
+		<field name="edition_id">584</field>
+		<field name="compilation_id">14</field>
+		<field name="text">23</field>
+		<field name="tm">115554</field>
+		<field name="folder">116</field>
+		<field name="hgv">115554</field>
+		<field name="ddb">p.worp;;23</field>
+		<field name="collection">p.worp</field>
+		<field name="volume"></field>
+		<field name="document">23</field>
+		<field name="position">6</field>
+		<field name="description">Πουβλίου → Πουπλίου, T. Kruse, APF 56 (2010), S. 180.</field>
+		<field name="source">78260</field>
+		<field name="status">unchecked</field>
+		<field name="creator">klett</field>
+		<field name="created">2013-01-25 11:55:42</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">6</field>
+		<field name="sortSystem">e00609100t00000023p00000000s00f00000000c00000000l00000006</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00609100t00000023p00000000s00f00000000c00000000l00000006</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
 	</table_data>
 	<table_structure name="edition">
 		<field Field="id" Type="int(11)" Null="NO" Key="PRI" Extra="auto_increment" />
@@ -26790,11 +26874,11 @@
 		<field Field="version" Type="int(11)" Null="NO" Key="" Extra="" />
 		<field Field="data" Type="longtext" Null="YES" Key="" Extra="" />
 		<field Field="username" Type="varchar(255)" Null="YES" Key="MUL" Extra="" />
-		<key Table="ext_log_entries" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="2297" Null="" Index_type="BTREE" Comment="" />
-		<key Table="ext_log_entries" Non_unique="1" Key_name="log_class_lookup_idx" Seq_in_index="1" Column_name="object_class" Collation="A" Cardinality="6" Null="" Index_type="BTREE" Comment="" />
-		<key Table="ext_log_entries" Non_unique="1" Key_name="log_date_lookup_idx" Seq_in_index="1" Column_name="logged_at" Collation="A" Cardinality="2297" Null="" Index_type="BTREE" Comment="" />
-		<key Table="ext_log_entries" Non_unique="1" Key_name="log_user_lookup_idx" Seq_in_index="1" Column_name="username" Collation="A" Cardinality="14" Null="YES" Index_type="BTREE" Comment="" />
-		<options Name="ext_log_entries" Engine="InnoDB" Version="10" Row_format="Compact" Rows="2758" Avg_row_length="576" Data_length="1589248" Max_data_length="0" Index_length="327680" Data_free="0" Auto_increment="2481" Create_time="2012-02-10 23:18:07" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 8192 kB" />
+		<key Table="ext_log_entries" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="2998" Null="" Index_type="BTREE" Comment="" />
+		<key Table="ext_log_entries" Non_unique="1" Key_name="log_class_lookup_idx" Seq_in_index="1" Column_name="object_class" Collation="A" Cardinality="7" Null="" Index_type="BTREE" Comment="" />
+		<key Table="ext_log_entries" Non_unique="1" Key_name="log_date_lookup_idx" Seq_in_index="1" Column_name="logged_at" Collation="A" Cardinality="2998" Null="" Index_type="BTREE" Comment="" />
+		<key Table="ext_log_entries" Non_unique="1" Key_name="log_user_lookup_idx" Seq_in_index="1" Column_name="username" Collation="A" Cardinality="18" Null="YES" Index_type="BTREE" Comment="" />
+		<options Name="ext_log_entries" Engine="InnoDB" Version="10" Row_format="Compact" Rows="2857" Avg_row_length="556" Data_length="1589248" Max_data_length="0" Index_length="327680" Data_free="0" Auto_increment="2487" Create_time="2012-02-10 23:18:07" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 8192 kB" />
 	</table_structure>
 	<table_data name="ext_log_entries">
 	<row>
@@ -51606,6 +51690,66 @@ app.crit.) (am Original), F. Mitthof, ZPE 139 (2002), S. 140.&quot;;s:6:&quot;st
 		<field name="data">a:3:{s:8:&quot;position&quot;;s:3:&quot;5-6&quot;;s:11:&quot;description&quot;;s:170:&quot;εἰ ἐπιτρέψεις | [ὄτι] γαμήσω → wohl εἰ ἐπιτρέψεις | [ἵνα] γαμήσω (oder [καί]), N. Gonis, ZPE 143 (2003), S. 161.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
 		<field name="username">cowey</field>
 	</row>
+	<row>
+		<field name="id">2481</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-01-24 15:44:13</field>
+		<field name="object_id">748</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:44:&quot;Enter correction into DDb through the editor&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">2482</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-01-24 15:44:13</field>
+		<field name="object_id">778</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:2:&quot;11&quot;;s:11:&quot;description&quot;;s:223:&quot;διὰ μι[σθ]ώ̣σεων ἀνυπολόγως καὶ ἀκινδύνως → διὰ μι[σθ]ώ̣σεων ἀνυπολόγων καὶ ἀκινδύνων (nach dem Photo), N. Gonis, ZPE 143 (2003), S. 162.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">2483</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-01-25 11:43:09</field>
+		<field name="object_id">779</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:1:&quot;8&quot;;s:11:&quot;description&quot;;s:77:&quot;... δη(  ): viell. ἥμισ(υ) δη(  ), T. Kruse, APF 56 (2010), S. 180.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">klett</field>
+	</row>
+	<row>
+		<field name="id">2484</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-01-25 11:44:16</field>
+		<field name="object_id">749</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:33:&quot;Enter into DDb through the editor&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">klett</field>
+	</row>
+	<row>
+		<field name="id">2485</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-01-25 11:55:42</field>
+		<field name="object_id">780</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:1:&quot;6&quot;;s:11:&quot;description&quot;;s:71:&quot;Πουβλίου → Πουπλίου, T. Kruse, APF 56 (2010), S. 180.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">klett</field>
+	</row>
+	<row>
+		<field name="id">2486</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-01-25 11:56:04</field>
+		<field name="object_id">750</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:33:&quot;Enter into DDb through the editor&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">klett</field>
+	</row>
 	</table_data>
 	<table_structure name="ext_translations">
 		<field Field="id" Type="int(11)" Null="NO" Key="PRI" Extra="auto_increment" />
@@ -51819,9 +51963,9 @@ app.crit.) (am Original), F. Mitthof, ZPE 139 (2002), S. 140.&quot;;s:6:&quot;st
 		<field Field="category" Type="varchar(64)" Null="NO" Key="" Extra="" />
 		<field Field="description" Type="longtext" Null="NO" Key="" Extra="" />
 		<field Field="cleared" Type="datetime" Null="YES" Key="" Extra="" />
-		<key Table="task" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="574" Null="" Index_type="BTREE" Comment="" />
-		<key Table="task" Non_unique="1" Key_name="IDX_527EDB2594AE086B" Seq_in_index="1" Column_name="correction_id" Collation="A" Cardinality="574" Null="" Index_type="BTREE" Comment="" />
-		<options Name="task" Engine="InnoDB" Version="10" Row_format="Compact" Rows="574" Avg_row_length="114" Data_length="65536" Max_data_length="0" Index_length="16384" Data_free="0" Auto_increment="748" Create_time="2012-02-22 09:27:05" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 8192 kB; (`correction_id`) REFER `bl/correction`(`id`)" />
+		<key Table="task" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="583" Null="" Index_type="BTREE" Comment="" />
+		<key Table="task" Non_unique="1" Key_name="IDX_527EDB2594AE086B" Seq_in_index="1" Column_name="correction_id" Collation="A" Cardinality="583" Null="" Index_type="BTREE" Comment="" />
+		<options Name="task" Engine="InnoDB" Version="10" Row_format="Compact" Rows="583" Avg_row_length="112" Data_length="65536" Max_data_length="0" Index_length="16384" Data_free="0" Auto_increment="751" Create_time="2012-02-22 09:27:05" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 8192 kB; (`correction_id`) REFER `bl/correction`(`id`)" />
 	</table_structure>
 	<table_data name="task">
 	<row>
@@ -56867,6 +57011,27 @@ app.crit.) (am Original), F. Mitthof, ZPE 139 (2002), S. 140.&quot;;s:6:&quot;st
 	<row>
 		<field name="id">747</field>
 		<field name="correction_id">777</field>
+		<field name="category">ddb</field>
+		<field name="description">Enter into DDb through the editor</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">748</field>
+		<field name="correction_id">778</field>
+		<field name="category">ddb</field>
+		<field name="description">Enter correction into DDb through the editor</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">749</field>
+		<field name="correction_id">779</field>
+		<field name="category">ddb</field>
+		<field name="description">Enter into DDb through the editor</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">750</field>
+		<field name="correction_id">780</field>
 		<field name="category">ddb</field>
 		<field name="description">Enter into DDb through the editor</field>
 		<field name="cleared" xsi:nil="true" />
