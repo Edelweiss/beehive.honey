@@ -10,7 +10,7 @@
 		<field Field="fascicle" Type="int(11)" Null="YES" Key="" Extra="" />
 		<field Field="title" Type="longtext" Null="NO" Key="" Extra="" />
 		<key Table="compilation" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="14" Null="" Index_type="BTREE" Comment="" />
-		<options Name="compilation" Engine="InnoDB" Version="10" Row_format="Compact" Rows="14" Avg_row_length="1170" Data_length="16384" Max_data_length="0" Index_length="0" Data_free="0" Auto_increment="15" Create_time="2012-02-15 17:44:52" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 6144 kB" />
+		<options Name="compilation" Engine="InnoDB" Version="10" Row_format="Compact" Rows="14" Avg_row_length="1170" Data_length="16384" Max_data_length="0" Index_length="0" Data_free="0" Auto_increment="15" Create_time="2012-02-15 17:44:52" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 7168 kB" />
 	</table_structure>
 	<table_data name="compilation">
 	<row>
@@ -167,10 +167,10 @@
 		<field Field="sortUser" Type="varchar(256)" Null="YES" Key="" Extra="" />
 		<field Field="sort" Type="varchar(256)" Null="NO" Key="" Extra="" />
 		<field Field="compilationPage" Type="varchar(64)" Null="YES" Key="" Extra="" />
-		<key Table="correction" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="867" Null="" Index_type="BTREE" Comment="" />
-		<key Table="correction" Non_unique="1" Key_name="IDX_A29DA1B874281A5E" Seq_in_index="1" Column_name="edition_id" Collation="A" Cardinality="867" Null="" Index_type="BTREE" Comment="" />
-		<key Table="correction" Non_unique="1" Key_name="IDX_A29DA1B8A5F8C840" Seq_in_index="1" Column_name="compilation_id" Collation="A" Cardinality="10" Null="" Index_type="BTREE" Comment="" />
-		<options Name="correction" Engine="InnoDB" Version="10" Row_format="Compact" Rows="864" Avg_row_length="417" Data_length="360448" Max_data_length="0" Index_length="32768" Data_free="0" Auto_increment="877" Create_time="2012-07-04 12:42:44" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 6144 kB; (`edition_id`) REFER `bl/edition`(`id`); (`compilation_id`" />
+		<key Table="correction" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="870" Null="" Index_type="BTREE" Comment="" />
+		<key Table="correction" Non_unique="1" Key_name="IDX_A29DA1B874281A5E" Seq_in_index="1" Column_name="edition_id" Collation="A" Cardinality="870" Null="" Index_type="BTREE" Comment="" />
+		<key Table="correction" Non_unique="1" Key_name="IDX_A29DA1B8A5F8C840" Seq_in_index="1" Column_name="compilation_id" Collation="A" Cardinality="11" Null="" Index_type="BTREE" Comment="" />
+		<options Name="correction" Engine="InnoDB" Version="10" Row_format="Compact" Rows="892" Avg_row_length="422" Data_length="376832" Max_data_length="0" Index_length="32768" Data_free="0" Auto_increment="908" Create_time="2012-07-04 12:42:44" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 7168 kB; (`edition_id`) REFER `bl/edition`(`id`); (`compilation_id`" />
 	</table_structure>
 	<table_data name="correction">
 	<row>
@@ -24282,6 +24282,874 @@
 		<field name="sort">e00584000t00001892p00000000s00f00000000c00000000l00000001</field>
 		<field name="compilationPage" xsi:nil="true" />
 	</row>
+	<row>
+		<field name="id">877</field>
+		<field name="edition_id">268</field>
+		<field name="compilation_id">14</field>
+		<field name="text">5</field>
+		<field name="tm">16814</field>
+		<field name="folder">17</field>
+		<field name="hgv">16814</field>
+		<field name="ddb">p.wisc;1;5</field>
+		<field name="collection">p.wisc</field>
+		<field name="volume">1</field>
+		<field name="document">5</field>
+		<field name="position">31</field>
+		<field name="description">ἐ̣ὰ̣ν δὲ πά̣θ̣ῃ δ̣ι̣ὰ νυκτὸς χρ̣[ε]ί̣[α]ν → ἐ̣ὰ̣ν δέ πο̣τ̣ε δ̣ι̣ὰ νυκτὸς χρ̣[ῄζ]ῃ̣ (nach dem Photo), D. Hagedorn, ZPE 142 (2003), S. 145.</field>
+		<field name="source">72001</field>
+		<field name="status">unchecked</field>
+		<field name="creator">cowey</field>
+		<field name="created">2013-02-21 12:42:13</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">31</field>
+		<field name="sortSystem">e00597000t00000005p00000000s00f00000000c00000000l00000031</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00597000t00000005p00000000s00f00000000c00000000l00000031</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">878</field>
+		<field name="edition_id">268</field>
+		<field name="compilation_id">14</field>
+		<field name="text">7</field>
+		<field name="tm">16815</field>
+		<field name="folder">17</field>
+		<field name="hgv">16815</field>
+		<field name="ddb">pap.choix;;21</field>
+		<field name="collection">pap.choix</field>
+		<field name="volume"></field>
+		<field name="document">21</field>
+		<field name="position">23</field>
+		<field name="description">χ[ρόνῳ] → ἔτ̣[ει] (nach dem Photo), D. Hagedorn, ZPE 142 (2003), S. 145.</field>
+		<field name="source">72001</field>
+		<field name="status">unchecked</field>
+		<field name="creator">cowey</field>
+		<field name="created">2013-02-21 12:46:00</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">23</field>
+		<field name="sortSystem">e00597000t00000007p00000000s00f00000000c00000000l00000023</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00597000t00000007p00000000s00f00000000c00000000l00000023</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">879</field>
+		<field name="edition_id">268</field>
+		<field name="compilation_id">14</field>
+		<field name="text">7</field>
+		<field name="tm">16815</field>
+		<field name="folder">17</field>
+		<field name="hgv">16815</field>
+		<field name="ddb">pap.choix;;21</field>
+		<field name="collection">pap.choix</field>
+		<field name="volume"></field>
+		<field name="document">21</field>
+		<field name="position">35-36</field>
+		<field name="description">μετρου̣|[μέν]ω̣ν̣ → μετρούν|[τω]ν (nach dem Photo), D. Hagedorn, ZPE 142 (2003), S. 145.</field>
+		<field name="source">72001</field>
+		<field name="status">unchecked</field>
+		<field name="creator">cowey</field>
+		<field name="created">2013-02-21 12:47:20</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">35</field>
+		<field name="sortSystem">e00597000t00000007p00000000s00f00000000c00000000l00000035</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00597000t00000007p00000000s00f00000000c00000000l00000035</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">880</field>
+		<field name="edition_id">268</field>
+		<field name="compilation_id">14</field>
+		<field name="text">29</field>
+		<field name="tm">16829</field>
+		<field name="folder">17</field>
+		<field name="hgv">16829</field>
+		<field name="ddb">p.wisc;1;29</field>
+		<field name="collection">p.wisc</field>
+		<field name="volume">1</field>
+		<field name="document">29</field>
+		<field name="position">V° 14</field>
+		<field name="description">σ̣χοινίον λά`κ´(ου) → σ̣χοινιοπλόκ(ῳ) (nach dem Photo), D. Hagedorn, ZPE 142 (2003), S. 146.</field>
+		<field name="source">72001</field>
+		<field name="status">unchecked</field>
+		<field name="creator">cowey</field>
+		<field name="created">2013-02-21 12:50:25</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide">V°</field>
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">14</field>
+		<field name="sortSystem">e00597000t00000029p00000000sV°f00000000c00000000l00000014</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00597000t00000029p00000000sV°f00000000c00000000l00000014</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">881</field>
+		<field name="edition_id">268</field>
+		<field name="compilation_id">14</field>
+		<field name="text">32</field>
+		<field name="tm">13708</field>
+		<field name="folder">14</field>
+		<field name="hgv">13708</field>
+		<field name="ddb">pap.choix;;27</field>
+		<field name="collection">pap.choix</field>
+		<field name="volume"></field>
+		<field name="document">27</field>
+		<field name="position">6</field>
+		<field name="description">[κώ]μην → [ὁρ]μήν, D. Hagedorn,  ZPE 142 (2003), S. 146.</field>
+		<field name="source">72001</field>
+		<field name="status">unchecked</field>
+		<field name="creator">cowey</field>
+		<field name="created">2013-02-21 14:47:25</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">6</field>
+		<field name="sortSystem">e00597000t00000032p00000000s00f00000000c00000000l00000006</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00597000t00000032p00000000s00f00000000c00000000l00000006</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">882</field>
+		<field name="edition_id">268</field>
+		<field name="compilation_id">14</field>
+		<field name="text">32</field>
+		<field name="tm">13708</field>
+		<field name="folder">14</field>
+		<field name="hgv">13708</field>
+		<field name="ddb">pap.choix;;27</field>
+		<field name="collection">pap.choix</field>
+		<field name="volume"></field>
+		<field name="document">27</field>
+		<field name="position">7</field>
+		<field name="description">στρατηγῶν ἄριστε ist besser als Abschluß des vorgehenden als Beginn eines neuen Satzes aufzufassen, D. Hagedorn,  ZPE 142 (2003), S. 146, Anm. 11.</field>
+		<field name="source">72001</field>
+		<field name="status">unchecked</field>
+		<field name="creator">cowey</field>
+		<field name="created">2013-02-21 14:52:44</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">7</field>
+		<field name="sortSystem">e00597000t00000032p00000000s00f00000000c00000000l00000007</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00597000t00000032p00000000s00f00000000c00000000l00000007</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">883</field>
+		<field name="edition_id">268</field>
+		<field name="compilation_id">14</field>
+		<field name="text">33</field>
+		<field name="tm">13709</field>
+		<field name="folder">14</field>
+		<field name="hgv">13709</field>
+		<field name="ddb">p.wisc;1;33</field>
+		<field name="collection">p.wisc</field>
+		<field name="volume">1</field>
+		<field name="document">33</field>
+		<field name="position">14</field>
+		<field name="description">κ̣[α]θέωρα τὸν τῶν δύο μερίδων σ̣τρατηγ̣ό̣ν̣ → κ̣[α]ὶ Θέωνα τὸν τῶν δύο μερίδων σ̣τρατηγ̣ό̣ν̣ (nach dem Photo), D. Hagedorn,  ZPE 142 (2003), S. 146.</field>
+		<field name="source">72001</field>
+		<field name="status">unchecked</field>
+		<field name="creator">cowey</field>
+		<field name="created">2013-02-21 14:54:39</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">14</field>
+		<field name="sortSystem">e00597000t00000033p00000000s00f00000000c00000000l00000014</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00597000t00000033p00000000s00f00000000c00000000l00000014</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">884</field>
+		<field name="edition_id">274</field>
+		<field name="compilation_id">14</field>
+		<field name="text">33a</field>
+		<field name="tm">43133</field>
+		<field name="folder">44</field>
+		<field name="hgv">43133a</field>
+		<field name="ddb">p.leid.inst;;33</field>
+		<field name="collection">p.leid.inst</field>
+		<field name="volume"></field>
+		<field name="document">33</field>
+		<field name="position">5</field>
+		<field name="description">ἐπιστ(ατείας) → ἐπιστ(ολαφόρων), D. Hagedorn, ZPE 142 (2003), S. 145.</field>
+		<field name="source">72001</field>
+		<field name="status">unchecked</field>
+		<field name="creator">cowey</field>
+		<field name="created">2013-02-21 15:08:55</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">5</field>
+		<field name="sortSystem">e00603000t0000033ap00000000s00f00000000c00000000l00000005</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00603000t0000033ap00000000s00f00000000c00000000l00000005</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">885</field>
+		<field name="edition_id">289</field>
+		<field name="compilation_id">14</field>
+		<field name="text">81</field>
+		<field name="tm">33514</field>
+		<field name="folder">34</field>
+		<field name="hgv">33514</field>
+		<field name="ddb">p.mil;2;81</field>
+		<field name="collection">p.mil</field>
+		<field name="volume">2</field>
+		<field name="document">81</field>
+		<field name="position">4-7</field>
+		<field name="description">πρὸ παντὸς πολλο̣ῦ̣ ἀσπά|ζομαι εὐχόμενος υἱαί|νειν ἐπὶ μήκιστᾳ χρό|νον → πρὸ παντὸς πολλά σε̣ ἀσπά|ζομαι εὐχόμενος υἱαί|νειν ἐπὶ μήκιστο̣ν χρό|νον (nach dem Photo), N. Gonis, ZPE 142 (2003), S. 167-168.</field>
+		<field name="source">71982</field>
+		<field name="status">unchecked</field>
+		<field name="creator">cowey</field>
+		<field name="created">2013-02-21 15:11:55</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">4</field>
+		<field name="sortSystem">e00636000t00000081p00000000s00f00000000c00000000l00000004</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00636000t00000081p00000000s00f00000000c00000000l00000004</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">886</field>
+		<field name="edition_id">295</field>
+		<field name="compilation_id">14</field>
+		<field name="text">38</field>
+		<field name="tm">37343</field>
+		<field name="folder">38</field>
+		<field name="hgv">37343</field>
+		<field name="ddb">p.michael;;38</field>
+		<field name="collection">p.michael</field>
+		<field name="volume"></field>
+		<field name="document">38</field>
+		<field name="position">9</field>
+		<field name="description">→ [ἵνα] μὴ δόξω μηδὲ εἰς τοῦτό σε λυπεῖν (am Original), N. Gonis, ZPE 142 (2003), S. 164, Anm. 3.</field>
+		<field name="source">71982</field>
+		<field name="status">unchecked</field>
+		<field name="creator">cowey</field>
+		<field name="created">2013-02-21 16:53:31</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">9</field>
+		<field name="sortSystem">e00655000t00000038p00000000s00f00000000c00000000l00000009</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00655000t00000038p00000000s00f00000000c00000000l00000009</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">887</field>
+		<field name="edition_id">349</field>
+		<field name="compilation_id">14</field>
+		<field name="text">1453</field>
+		<field name="tm">21854</field>
+		<field name="folder">22</field>
+		<field name="hgv">21854</field>
+		<field name="ddb">p.oxy;12;1453</field>
+		<field name="collection">p.oxy</field>
+		<field name="volume">12</field>
+		<field name="document">1453</field>
+		<field name="position" xsi:nil="true" />
+		<field name="description">Zur Datierung vgl. Chr. Bennett, ZPE 142 (2003), S. 229-230.</field>
+		<field name="source">71818</field>
+		<field name="status">unchecked</field>
+		<field name="creator">cowey</field>
+		<field name="created">2013-02-21 16:57:59</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine" xsi:nil="true" />
+		<field name="sortSystem">e00759000t00001453p00000000s00f00000000c00000000l00000000</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00759000t00001453p00000000s00f00000000c00000000l00000000</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">888</field>
+		<field name="edition_id">427</field>
+		<field name="compilation_id">14</field>
+		<field name="text">601</field>
+		<field name="tm">13020</field>
+		<field name="folder">14</field>
+		<field name="hgv">13020</field>
+		<field name="ddb">p.ryl;4;601</field>
+		<field name="collection">p.ryl</field>
+		<field name="volume">4</field>
+		<field name="document">601</field>
+		<field name="position" xsi:nil="true" />
+		<field name="description">Zur Datierung vgl. Chr. Bennett, ZPE 142 (2003), S. 229-230.</field>
+		<field name="source">71818</field>
+		<field name="status">unchecked</field>
+		<field name="creator">cowey</field>
+		<field name="created">2013-02-21 16:59:05</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine" xsi:nil="true" />
+		<field name="sortSystem">e00893000t00000601p00000000s00f00000000c00000000l00000000</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00893000t00000601p00000000s00f00000000c00000000l00000000</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">889</field>
+		<field name="edition_id">429</field>
+		<field name="compilation_id">14</field>
+		<field name="text">5348</field>
+		<field name="tm">23170</field>
+		<field name="folder">24</field>
+		<field name="hgv">23170</field>
+		<field name="ddb">sb;1;5348</field>
+		<field name="collection">sb</field>
+		<field name="volume">1</field>
+		<field name="document">5348</field>
+		<field name="position">5</field>
+		<field name="description">Ψενεσῖνος → Ψενοσίριος (nach dem Photo), D. Hagedorn, ZPE 142 (2003), S. 144, Anm. 3.</field>
+		<field name="source">72001</field>
+		<field name="status">unchecked</field>
+		<field name="creator">cowey</field>
+		<field name="created">2013-02-21 17:22:30</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">5</field>
+		<field name="sortSystem">e00905000t00005348p00000000s00f00000000c00000000l00000005</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00905000t00005348p00000000s00f00000000c00000000l00000005</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">890</field>
+		<field name="edition_id">429</field>
+		<field name="compilation_id">14</field>
+		<field name="text">5352</field>
+		<field name="tm">23171</field>
+		<field name="folder">24</field>
+		<field name="hgv">23171</field>
+		<field name="ddb">sb;1;5352</field>
+		<field name="collection">sb</field>
+		<field name="volume">1</field>
+		<field name="document">5352</field>
+		<field name="position" xsi:nil="true" />
+		<field name="description">Nd.: D. Hagedorn, ZPE 142 (2003), S. 144. Abdruck in S.B. 28 vorgesehen.</field>
+		<field name="source">72001</field>
+		<field name="status">unchecked</field>
+		<field name="creator">cowey</field>
+		<field name="created">2013-02-21 17:24:49</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine" xsi:nil="true" />
+		<field name="sortSystem">e00905000t00005352p00000000s00f00000000c00000000l00000000</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00905000t00005352p00000000s00f00000000c00000000l00000000</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">891</field>
+		<field name="edition_id">433</field>
+		<field name="compilation_id">14</field>
+		<field name="text">8983</field>
+		<field name="tm">14063</field>
+		<field name="folder">15</field>
+		<field name="hgv">14063</field>
+		<field name="ddb">sb;6;8983</field>
+		<field name="collection">sb</field>
+		<field name="volume">6</field>
+		<field name="document">8983</field>
+		<field name="position">2</field>
+		<field name="description">Ἀντω(νίνου) Σεβαστ(οῦ) → Ἀντωνίνου Σεβαστοῦ und Φα(μενὼ)θ → Φαμενὼθ (nach dem Photo), D. Hagedorn, ZPE 142 (2003), S. 145.</field>
+		<field name="source">72001</field>
+		<field name="status">unchecked</field>
+		<field name="creator">cowey</field>
+		<field name="created">2013-02-21 17:29:36</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">2</field>
+		<field name="sortSystem">e00909000t00008983p00000000s00f00000000c00000000l00000002</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00909000t00008983p00000000s00f00000000c00000000l00000002</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">892</field>
+		<field name="edition_id">433</field>
+		<field name="compilation_id">14</field>
+		<field name="text">8983</field>
+		<field name="tm">14063</field>
+		<field name="folder">15</field>
+		<field name="hgv">14063</field>
+		<field name="ddb">sb;6;8983</field>
+		<field name="collection">sb</field>
+		<field name="volume">6</field>
+		<field name="document">8983</field>
+		<field name="position">5</field>
+		<field name="description">ε  ̣ ( ) = → ἐπ(ιστολαφόρων) = δεσμ(οφυλάκων) = (nach dem Photo). Zu Beginn der Zeile viell. ]β̣̅ (Reste eines Tagesdatums) statt  ̣ ( ), D. Hagedorn, ZPE 142 (2003), S. 145 mit Anm. 9</field>
+		<field name="source">72001</field>
+		<field name="status">unchecked</field>
+		<field name="creator">cowey</field>
+		<field name="created">2013-02-21 17:31:11</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">5</field>
+		<field name="sortSystem">e00909000t00008983p00000000s00f00000000c00000000l00000005</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00909000t00008983p00000000s00f00000000c00000000l00000005</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">893</field>
+		<field name="edition_id">433</field>
+		<field name="compilation_id">14</field>
+		<field name="text">8983</field>
+		<field name="tm">14063</field>
+		<field name="folder">15</field>
+		<field name="hgv">14063</field>
+		<field name="ddb">sb;6;8983</field>
+		<field name="collection">sb</field>
+		<field name="volume">6</field>
+		<field name="document">8983</field>
+		<field name="position">7</field>
+		<field name="description">] φυλα( ) → ]  ̣  ̣  ᾿Ε̣[π]εὶφ κα  ̄ (nach dem Photo), D. Hagedorn, ZPE 142 (2003), S. 145.</field>
+		<field name="source">72001</field>
+		<field name="status">unchecked</field>
+		<field name="creator">cowey</field>
+		<field name="created">2013-02-21 17:37:52</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">7</field>
+		<field name="sortSystem">e00909000t00008983p00000000s00f00000000c00000000l00000007</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00909000t00008983p00000000s00f00000000c00000000l00000007</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">894</field>
+		<field name="edition_id">436</field>
+		<field name="compilation_id">14</field>
+		<field name="text">10799</field>
+		<field name="tm">16075</field>
+		<field name="folder">17</field>
+		<field name="hgv">16075</field>
+		<field name="ddb">sb;12;10799</field>
+		<field name="collection">sb</field>
+		<field name="volume">12</field>
+		<field name="document">10799</field>
+		<field name="position">2-4</field>
+		<field name="description">μὲ ἀγωνία περὶ ὑμῶν. ἐ̣π̣ὶ στρα̣|τευόμεθα, ἐν τῶι πλοίωι πεπύκ̣α̣μεν | ὀκτὼ ἡμέρας → μὲ (l. μὴ) ἀγωνία περὶ ὑμῶν (l. ἡ-) ὅ̣τ̣ι στρα̣|τευόμεθα. ἐν τῶι πλοίωι πεπύκ̣α̣μεν | ὀκτὼ ἡμέρας (nach dem Photo) (Vgl. S.B. 8, S. 361 und ed.pr., Anm. zur Z. 2), N. Gonis, ZPE 142 (2003), S. 169-170.</field>
+		<field name="source">71982</field>
+		<field name="status">unchecked</field>
+		<field name="creator">cowey</field>
+		<field name="created">2013-02-21 17:40:53</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">2</field>
+		<field name="sortSystem">e00912000t00010799p00000000s00f00000000c00000000l00000002</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00912000t00010799p00000000s00f00000000c00000000l00000002</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">895</field>
+		<field name="edition_id">436</field>
+		<field name="compilation_id">14</field>
+		<field name="text">10799</field>
+		<field name="tm">16075</field>
+		<field name="folder">17</field>
+		<field name="hgv">16075</field>
+		<field name="ddb">sb;12;10799</field>
+		<field name="collection">sb</field>
+		<field name="volume">12</field>
+		<field name="document">10799</field>
+		<field name="position">6-7</field>
+		<field name="description">ἐπιδ̣άν → ἐπὶ λ̣ί̣αν (nach dem Photo), N. Gonis, ZPE 142 (2003), S. 169-170.</field>
+		<field name="source">71982</field>
+		<field name="status">unchecked</field>
+		<field name="creator">cowey</field>
+		<field name="created">2013-02-21 17:47:36</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">6</field>
+		<field name="sortSystem">e00912000t00010799p00000000s00f00000000c00000000l00000006</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00912000t00010799p00000000s00f00000000c00000000l00000006</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">896</field>
+		<field name="edition_id">436</field>
+		<field name="compilation_id">14</field>
+		<field name="text">10799</field>
+		<field name="tm">16075</field>
+		<field name="folder">17</field>
+		<field name="hgv">16075</field>
+		<field name="ddb">sb;12;10799</field>
+		<field name="collection">sb</field>
+		<field name="volume">12</field>
+		<field name="document">10799</field>
+		<field name="position">12</field>
+		<field name="description">γνάφην → γναφήν (vgl. S.B. 13, S. 97), N. Gonis, ZPE 142 (2003), S. 169-170.</field>
+		<field name="source">71982</field>
+		<field name="status">unchecked</field>
+		<field name="creator">cowey</field>
+		<field name="created">2013-02-21 18:08:37</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">12</field>
+		<field name="sortSystem">e00912000t00010799p00000000s00f00000000c00000000l00000012</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00912000t00010799p00000000s00f00000000c00000000l00000012</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">897</field>
+		<field name="edition_id">436</field>
+		<field name="compilation_id">14</field>
+		<field name="text">10799</field>
+		<field name="tm">16075</field>
+		<field name="folder">17</field>
+		<field name="hgv">16075</field>
+		<field name="ddb">sb;12;10799</field>
+		<field name="collection">sb</field>
+		<field name="volume">12</field>
+		<field name="document">10799</field>
+		<field name="position">15</field>
+		<field name="description">ταχὺ ὡς → ταχύως (l. ταχέως), N. Gonis, ZPE 142 (2003), S. 169-170.</field>
+		<field name="source">71982</field>
+		<field name="status">unchecked</field>
+		<field name="creator">cowey</field>
+		<field name="created">2013-02-21 18:09:59</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">15</field>
+		<field name="sortSystem">e00912000t00010799p00000000s00f00000000c00000000l00000015</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00912000t00010799p00000000s00f00000000c00000000l00000015</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">898</field>
+		<field name="edition_id">436</field>
+		<field name="compilation_id">14</field>
+		<field name="text">10799</field>
+		<field name="tm">16075</field>
+		<field name="folder">17</field>
+		<field name="hgv">16075</field>
+		<field name="ddb">sb;12;10799</field>
+		<field name="collection">sb</field>
+		<field name="volume">12</field>
+		<field name="document">10799</field>
+		<field name="position">16</field>
+		<field name="description">Σεβατοῦ → Σεβαστοῦ (nach dem Photo), N. Gonis, ZPE 142 (2003), S. 169-170.</field>
+		<field name="source">71982</field>
+		<field name="status">unchecked</field>
+		<field name="creator">cowey</field>
+		<field name="created">2013-02-21 18:15:13</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">16</field>
+		<field name="sortSystem">e00912000t00010799p00000000s00f00000000c00000000l00000016</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00912000t00010799p00000000s00f00000000c00000000l00000016</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">899</field>
+		<field name="edition_id">436</field>
+		<field name="compilation_id">14</field>
+		<field name="text">11017</field>
+		<field name="tm">16369</field>
+		<field name="folder">17</field>
+		<field name="hgv">16369</field>
+		<field name="ddb">sb;12;11017</field>
+		<field name="collection">sb</field>
+		<field name="volume">12</field>
+		<field name="document">11017</field>
+		<field name="position">11</field>
+		<field name="description">εἴ τι λυπόν σοι διδοῖ ἀσφάλισ(ον) → εἴ τι λυπόν σοι διδοῖ, ἄφος (l. ἄφες) (nach dem Photo), N. Gonis, ZPE 142 (2003), S. 170.</field>
+		<field name="source">71982</field>
+		<field name="status">unchecked</field>
+		<field name="creator">cowey</field>
+		<field name="created">2013-02-21 18:17:48</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">11</field>
+		<field name="sortSystem">e00912000t00011017p00000000s00f00000000c00000000l00000011</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00912000t00011017p00000000s00f00000000c00000000l00000011</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">900</field>
+		<field name="edition_id">436</field>
+		<field name="compilation_id">14</field>
+		<field name="text">11017</field>
+		<field name="tm">16369</field>
+		<field name="folder">17</field>
+		<field name="hgv">16369</field>
+		<field name="ddb">sb;12;11017</field>
+		<field name="collection">sb</field>
+		<field name="volume">12</field>
+		<field name="document">11017</field>
+		<field name="position">13</field>
+		<field name="description">δώσωι τῶι ενυκιον εἴ τι  ̣  ̣ ἐάν → δώσωι τὼι ἐνύκιον (l. τὸ ἐνοίκιον). εἴ τι δὲ ἐάν, N. Gonis, ZPE 142 (2003), S. 170.</field>
+		<field name="source">71982</field>
+		<field name="status">unchecked</field>
+		<field name="creator">cowey</field>
+		<field name="created">2013-02-21 18:18:39</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">13</field>
+		<field name="sortSystem">e00912000t00011017p00000000s00f00000000c00000000l00000013</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00912000t00011017p00000000s00f00000000c00000000l00000013</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">901</field>
+		<field name="edition_id">439</field>
+		<field name="compilation_id">14</field>
+		<field name="text">13849</field>
+		<field name="tm">18252</field>
+		<field name="folder">19</field>
+		<field name="hgv">18252</field>
+		<field name="ddb">sb;18;13849</field>
+		<field name="collection">sb</field>
+		<field name="volume">18</field>
+		<field name="document">13849</field>
+		<field name="position" xsi:nil="true" />
+		<field name="description">Zur Datierung vgl. Chr. Bennett, ZPE 142 (2003), S. 228-229.</field>
+		<field name="source">71982</field>
+		<field name="status">unchecked</field>
+		<field name="creator">cowey</field>
+		<field name="created">2013-02-21 18:29:45</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine" xsi:nil="true" />
+		<field name="sortSystem">e00915000t00013849p00000000s00f00000000c00000000l00000000</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00915000t00013849p00000000s00f00000000c00000000l00000000</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">902</field>
+		<field name="edition_id">440</field>
+		<field name="compilation_id">14</field>
+		<field name="text">14692</field>
+		<field name="tm">38509</field>
+		<field name="folder">39</field>
+		<field name="hgv">38509</field>
+		<field name="ddb">sb;20;14692</field>
+		<field name="collection">sb</field>
+		<field name="volume">20</field>
+		<field name="document">14692</field>
+		<field name="position">3</field>
+		<field name="description">τετρακ(ερατίου) → τετρακ(εράτου), J.-L. Fournet, ZPE 142 (2003), S. 194.</field>
+		<field name="source">71947</field>
+		<field name="status">unchecked</field>
+		<field name="creator">cowey</field>
+		<field name="created">2013-02-21 18:35:06</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">3</field>
+		<field name="sortSystem">e00916000t00014692p00000000s00f00000000c00000000l00000003</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00916000t00014692p00000000s00f00000000c00000000l00000003</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">903</field>
+		<field name="edition_id">440</field>
+		<field name="compilation_id">14</field>
+		<field name="text">14694</field>
+		<field name="tm">38511</field>
+		<field name="folder">39</field>
+		<field name="hgv">38511</field>
+		<field name="ddb">sb;20;14694</field>
+		<field name="collection">sb</field>
+		<field name="volume">20</field>
+		<field name="document">14694</field>
+		<field name="position">1</field>
+		<field name="description">Ἀγενῇ → Ἀγενη (undeklinierbar, vgl. Παυλη), J.-L. Fournet, ZPE 142 (2003), S. 194.</field>
+		<field name="source">71947</field>
+		<field name="status">unchecked</field>
+		<field name="creator">cowey</field>
+		<field name="created">2013-02-21 18:36:55</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">1</field>
+		<field name="sortSystem">e00916000t00014694p00000000s00f00000000c00000000l00000001</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00916000t00014694p00000000s00f00000000c00000000l00000001</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">904</field>
+		<field name="edition_id">440</field>
+		<field name="compilation_id">14</field>
+		<field name="text">14694</field>
+		<field name="tm">38511</field>
+		<field name="folder">39</field>
+		<field name="hgv">38511</field>
+		<field name="ddb">sb;20;14694</field>
+		<field name="collection">sb</field>
+		<field name="volume">20</field>
+		<field name="document">14694</field>
+		<field name="position">2</field>
+		<field name="description">ἐλ(αίου) ξ(έστας) δ, (γίνονται) τέσσαλας → ἐλ(αίου) ξ(έστας) δ , τέσσ(ερας) ἥμει(συ) (oder ἥμει[συ]), J.-L. Fournet, ZPE 142 (2003), S. 194.</field>
+		<field name="source">71947</field>
+		<field name="status">unchecked</field>
+		<field name="creator">cowey</field>
+		<field name="created">2013-02-21 18:37:59</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">2</field>
+		<field name="sortSystem">e00916000t00014694p00000000s00f00000000c00000000l00000002</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00916000t00014694p00000000s00f00000000c00000000l00000002</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">905</field>
+		<field name="edition_id">440</field>
+		<field name="compilation_id">14</field>
+		<field name="text">14695</field>
+		<field name="tm">38512</field>
+		<field name="folder">39</field>
+		<field name="hgv">38512</field>
+		<field name="ddb">sb;20;14695</field>
+		<field name="collection">sb</field>
+		<field name="volume">20</field>
+		<field name="document">14695</field>
+		<field name="position">1</field>
+		<field name="description">Ἀγενῇ → Ἀγενη (undeklinierbar), J.-L. Fournet, ZPE 142 (2003), S. 194.</field>
+		<field name="source">71947</field>
+		<field name="status">unchecked</field>
+		<field name="creator">cowey</field>
+		<field name="created">2013-02-21 18:49:44</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">1</field>
+		<field name="sortSystem">e00916000t00014695p00000000s00f00000000c00000000l00000001</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00916000t00014695p00000000s00f00000000c00000000l00000001</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">906</field>
+		<field name="edition_id">440</field>
+		<field name="compilation_id">14</field>
+		<field name="text">14696</field>
+		<field name="tm">38513</field>
+		<field name="folder">39</field>
+		<field name="hgv">38513</field>
+		<field name="ddb">sb;20;14696</field>
+		<field name="collection">sb</field>
+		<field name="volume">20</field>
+		<field name="document">14696</field>
+		<field name="position">1</field>
+		<field name="description">Φαμ(ενὼ)θ δ ιδ ἰ̣[ν]δ̣(ικτίωνος) · → Φαμ(ενὼ)θ δ ἰ(ν)δ(ικτίωνος) γ, J.-L. Fournet, ZPE 142 (2003), S. 194-195.</field>
+		<field name="source">71947</field>
+		<field name="status">unchecked</field>
+		<field name="creator">cowey</field>
+		<field name="created">2013-02-21 18:52:48</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">1</field>
+		<field name="sortSystem">e00916000t00014696p00000000s00f00000000c00000000l00000001</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00916000t00014696p00000000s00f00000000c00000000l00000001</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">907</field>
+		<field name="edition_id">440</field>
+		<field name="compilation_id">14</field>
+		<field name="text">14696</field>
+		<field name="tm">38513</field>
+		<field name="folder">39</field>
+		<field name="hgv">38513</field>
+		<field name="ddb">sb;20;14696</field>
+		<field name="collection">sb</field>
+		<field name="volume">20</field>
+		<field name="document">14696</field>
+		<field name="position">2</field>
+		<field name="description">ἁγία Μαρία μ( ) δ(ιπλᾶ) λ φορ(ά)δ(ος) δευ̣[τέ]|ρας → αναμαριαμ( ) (l. Ἄν&lt;ν&gt;α Μαριάμ(ου) oder ἄπ̣α Μαρίαμ(ος)) ἁλ(ὸς) φορ(ὰς) δ δέσ̣[σε]|ρας, J.-L. Fournet, ZPE 142 (2003), S. 194-195.</field>
+		<field name="source">71947</field>
+		<field name="status">unchecked</field>
+		<field name="creator">cowey</field>
+		<field name="created">2013-02-21 18:53:50</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">2</field>
+		<field name="sortSystem">e00916000t00014696p00000000s00f00000000c00000000l00000002</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00916000t00014696p00000000s00f00000000c00000000l00000002</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
 	</table_data>
 	<table_structure name="edition">
 		<field Field="id" Type="int(11)" Null="NO" Key="PRI" Extra="auto_increment" />
@@ -24292,7 +25160,7 @@
 		<field Field="volume" Type="longtext" Null="YES" Key="" Extra="" />
 		<field Field="remark" Type="longtext" Null="YES" Key="" Extra="" />
 		<key Table="edition" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="613" Null="" Index_type="BTREE" Comment="" />
-		<options Name="edition" Engine="InnoDB" Version="10" Row_format="Compact" Rows="613" Avg_row_length="106" Data_length="65536" Max_data_length="0" Index_length="0" Data_free="0" Auto_increment="589" Create_time="2012-02-22 08:47:30" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 6144 kB" />
+		<options Name="edition" Engine="InnoDB" Version="10" Row_format="Compact" Rows="613" Avg_row_length="106" Data_length="65536" Max_data_length="0" Index_length="0" Data_free="0" Auto_increment="589" Create_time="2012-02-22 08:47:30" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 7168 kB" />
 	</table_structure>
 	<table_data name="edition">
 	<row>
@@ -29597,11 +30465,11 @@
 		<field Field="version" Type="int(11)" Null="NO" Key="" Extra="" />
 		<field Field="data" Type="longtext" Null="YES" Key="" Extra="" />
 		<field Field="username" Type="varchar(255)" Null="YES" Key="MUL" Extra="" />
-		<key Table="ext_log_entries" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="2757" Null="" Index_type="BTREE" Comment="" />
-		<key Table="ext_log_entries" Non_unique="1" Key_name="log_class_lookup_idx" Seq_in_index="1" Column_name="object_class" Collation="A" Cardinality="6" Null="" Index_type="BTREE" Comment="" />
-		<key Table="ext_log_entries" Non_unique="1" Key_name="log_date_lookup_idx" Seq_in_index="1" Column_name="logged_at" Collation="A" Cardinality="2757" Null="" Index_type="BTREE" Comment="" />
-		<key Table="ext_log_entries" Non_unique="1" Key_name="log_user_lookup_idx" Seq_in_index="1" Column_name="username" Collation="A" Cardinality="16" Null="YES" Index_type="BTREE" Comment="" />
-		<options Name="ext_log_entries" Engine="InnoDB" Version="10" Row_format="Compact" Rows="3179" Avg_row_length="499" Data_length="1589248" Max_data_length="0" Index_length="360448" Data_free="0" Auto_increment="2730" Create_time="2012-02-10 23:18:07" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 6144 kB" />
+		<key Table="ext_log_entries" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="3026" Null="" Index_type="BTREE" Comment="" />
+		<key Table="ext_log_entries" Non_unique="1" Key_name="log_class_lookup_idx" Seq_in_index="1" Column_name="object_class" Collation="A" Cardinality="7" Null="" Index_type="BTREE" Comment="" />
+		<key Table="ext_log_entries" Non_unique="1" Key_name="log_date_lookup_idx" Seq_in_index="1" Column_name="logged_at" Collation="A" Cardinality="3026" Null="" Index_type="BTREE" Comment="" />
+		<key Table="ext_log_entries" Non_unique="1" Key_name="log_user_lookup_idx" Seq_in_index="1" Column_name="username" Collation="A" Cardinality="17" Null="YES" Index_type="BTREE" Comment="" />
+		<options Name="ext_log_entries" Engine="InnoDB" Version="10" Row_format="Compact" Rows="2956" Avg_row_length="537" Data_length="1589248" Max_data_length="0" Index_length="360448" Data_free="0" Auto_increment="2795" Create_time="2012-02-10 23:18:07" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 7168 kB" />
 	</table_structure>
 	<table_data name="ext_log_entries">
 	<row>
@@ -56905,6 +57773,656 @@ app.crit.) (am Original), F. Mitthof, ZPE 139 (2002), S. 140.&quot;;s:6:&quot;st
 		<field name="data">a:3:{s:8:&quot;position&quot;;s:1:&quot;1&quot;;s:11:&quot;description&quot;;s:82:&quot;περ[ὶ: viell. περ[ιπτύσσομαι, N. Gonis, ZPE 142 (2003), S. 167.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
 		<field name="username">cowey</field>
 	</row>
+	<row>
+		<field name="id">2730</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-02-21 12:42:14</field>
+		<field name="object_id">849</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:44:&quot;Enter correction into DDb through the editor&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">2731</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-02-21 12:42:14</field>
+		<field name="object_id">877</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:2:&quot;31&quot;;s:11:&quot;description&quot;;s:217:&quot;ἐ̣ὰ̣ν δὲ πά̣θ̣ῃ δ̣ι̣ὰ νυκτὸς χρ̣[ε]ί̣[α]ν → ἐ̣ὰ̣ν δέ πο̣τ̣ε δ̣ι̣ὰ νυκτὸς χρ̣[ῄζ]ῃ̣ (nach dem Photo), D. Hagedorn, ZPE 142 (2003), S. 145.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">2732</field>
+		<field name="action">update</field>
+		<field name="logged_at">2013-02-21 12:42:50</field>
+		<field name="object_id">877</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:0:{}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">2733</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-02-21 12:46:00</field>
+		<field name="object_id">850</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:44:&quot;Enter correction into DDb through the editor&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">2734</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-02-21 12:46:00</field>
+		<field name="object_id">878</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:2:&quot;23&quot;;s:11:&quot;description&quot;;s:87:&quot;χ[ρόνῳ] → ἔτ̣[ει] (nach dem Photo), D. Hagedorn, ZPE 142 (2003), S. 145.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">2735</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-02-21 12:47:20</field>
+		<field name="object_id">851</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:44:&quot;Enter correction into DDb through the editor&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">2736</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-02-21 12:47:20</field>
+		<field name="object_id">879</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:5:&quot;35-36&quot;;s:11:&quot;description&quot;;s:116:&quot;μετρου̣|[μέν]ω̣ν̣ → μετρούν|[τω]ν (nach dem Photo), D. Hagedorn, ZPE 142 (2003), S. 145.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">2737</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-02-21 12:50:26</field>
+		<field name="object_id">852</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:44:&quot;Enter correction into DDb through the editor&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">2738</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-02-21 12:50:26</field>
+		<field name="object_id">880</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:6:&quot;V° 14&quot;;s:11:&quot;description&quot;;s:129:&quot;σ̣χοινίον λά`κ´(ου) → σ̣χοινιοπλόκ(ῳ) (nach dem Photo), D. Hagedorn, ZPE 142 (2003), S. 146.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">2739</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-02-21 14:47:25</field>
+		<field name="object_id">853</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:44:&quot;Enter correction into DDb through the editor&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">2740</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-02-21 14:47:25</field>
+		<field name="object_id">881</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:1:&quot;6&quot;;s:11:&quot;description&quot;;s:71:&quot;[κώ]μην → [ὁρ]μήν, D. Hagedorn,  ZPE 142 (2003), S. 146.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">2741</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-02-21 14:52:44</field>
+		<field name="object_id">854</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:44:&quot;Enter correction into DDb through the editor&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">2742</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-02-21 14:52:44</field>
+		<field name="object_id">882</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:1:&quot;7&quot;;s:11:&quot;description&quot;;s:164:&quot;στρατηγῶν ἄριστε ist besser als Abschluß des vorgehenden als Beginn eines neuen Satzes aufzufassen, D. Hagedorn,  ZPE 142 (2003), S. 146, Anm. 11.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">2743</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-02-21 14:54:39</field>
+		<field name="object_id">855</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:44:&quot;Enter correction into DDb through the editor&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">2744</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-02-21 14:54:39</field>
+		<field name="object_id">883</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:2:&quot;14&quot;;s:11:&quot;description&quot;;s:239:&quot;κ̣[α]θέωρα τὸν τῶν δύο μερίδων σ̣τρατηγ̣ό̣ν̣ → κ̣[α]ὶ Θέωνα τὸν τῶν δύο μερίδων σ̣τρατηγ̣ό̣ν̣ (nach dem Photo), D. Hagedorn,  ZPE 142 (2003), S. 146.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">2745</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-02-21 15:08:55</field>
+		<field name="object_id">856</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:44:&quot;Enter correction into DDb through the editor&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">2746</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-02-21 15:08:55</field>
+		<field name="object_id">884</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:1:&quot;5&quot;;s:11:&quot;description&quot;;s:99:&quot;ἐπιστ(ατείας) → ἐπιστ(ολαφόρων), D. Hagedorn, ZPE 142 (2003), S. 145.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">2747</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-02-21 15:11:55</field>
+		<field name="object_id">857</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:44:&quot;Enter correction into DDb through the editor&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">2748</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-02-21 15:11:55</field>
+		<field name="object_id">885</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:3:&quot;4-7&quot;;s:11:&quot;description&quot;;s:351:&quot;πρὸ παντὸς πολλο̣ῦ̣ ἀσπά|ζομαι εὐχόμενος υἱαί|νειν ἐπὶ μήκιστᾳ χρό|νον → πρὸ παντὸς πολλά σε̣ ἀσπά|ζομαι εὐχόμενος υἱαί|νειν ἐπὶ μήκιστο̣ν χρό|νον (nach dem Photo), N. Gonis, ZPE 142 (2003), S. 167-168.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">2749</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-02-21 16:53:31</field>
+		<field name="object_id">858</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:44:&quot;Enter correction into DDb through the editor&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">2750</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-02-21 16:53:31</field>
+		<field name="object_id">886</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:1:&quot;9&quot;;s:11:&quot;description&quot;;s:136:&quot;→ [ἵνα] μὴ δόξω μηδὲ εἰς τοῦτό σε λυπεῖν (am Original), N. Gonis, ZPE 142 (2003), S. 164, Anm. 3.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">2751</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-02-21 16:57:59</field>
+		<field name="object_id">859</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:15:&quot;Already in HGV.&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">2752</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-02-21 16:57:59</field>
+		<field name="object_id">887</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;N;s:11:&quot;description&quot;;s:60:&quot;Zur Datierung vgl. Chr. Bennett, ZPE 142 (2003), S. 229-230.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">2753</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-02-21 16:59:06</field>
+		<field name="object_id">860</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:15:&quot;Already in HGV.&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">2754</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-02-21 16:59:06</field>
+		<field name="object_id">888</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;N;s:11:&quot;description&quot;;s:60:&quot;Zur Datierung vgl. Chr. Bennett, ZPE 142 (2003), S. 229-230.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">2755</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-02-21 17:22:30</field>
+		<field name="object_id">861</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:44:&quot;Enter correction into DDb through the editor&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">2756</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-02-21 17:22:30</field>
+		<field name="object_id">889</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:1:&quot;5&quot;;s:11:&quot;description&quot;;s:108:&quot;Ψενεσῖνος → Ψενοσίριος (nach dem Photo), D. Hagedorn, ZPE 142 (2003), S. 144, Anm. 3.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">2757</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-02-21 17:24:49</field>
+		<field name="object_id">862</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:15:&quot;Already in HGV.&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">2758</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-02-21 17:24:49</field>
+		<field name="object_id">863</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:33:&quot;Enter into DDb through the editor&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">2759</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-02-21 17:24:49</field>
+		<field name="object_id">890</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;N;s:11:&quot;description&quot;;s:72:&quot;Nd.: D. Hagedorn, ZPE 142 (2003), S. 144. Abdruck in S.B. 28 vorgesehen.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">2760</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-02-21 17:29:36</field>
+		<field name="object_id">864</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:44:&quot;Enter correction into DDb through the editor&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">2761</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-02-21 17:29:36</field>
+		<field name="object_id">891</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:1:&quot;2&quot;;s:11:&quot;description&quot;;s:182:&quot;Ἀντω(νίνου) Σεβαστ(οῦ) → Ἀντωνίνου Σεβαστοῦ und Φα(μενὼ)θ → Φαμενὼθ (nach dem Photo), D. Hagedorn, ZPE 142 (2003), S. 145.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">2762</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-02-21 17:31:11</field>
+		<field name="object_id">865</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:44:&quot;Enter correction into DDb through the editor&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">2763</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-02-21 17:31:11</field>
+		<field name="object_id">892</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:1:&quot;5&quot;;s:11:&quot;description&quot;;s:229:&quot;ε  ̣ ( ) = → ἐπ(ιστολαφόρων) = δεσμ(οφυλάκων) = (nach dem Photo). Zu Beginn der Zeile viell. ]β̣̅ (Reste eines Tagesdatums) statt  ̣ ( ), D. Hagedorn, ZPE 142 (2003), S. 145 mit Anm. 9&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">2764</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-02-21 17:37:52</field>
+		<field name="object_id">866</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:44:&quot;Enter correction into DDb through the editor&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">2765</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-02-21 17:37:52</field>
+		<field name="object_id">893</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:1:&quot;7&quot;;s:11:&quot;description&quot;;s:114:&quot;] φυλα( ) → ]  ̣  ̣  ᾿Ε̣[π]εὶφ κα  ̄ (nach dem Photo), D. Hagedorn, ZPE 142 (2003), S. 145.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">2766</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-02-21 17:40:53</field>
+		<field name="object_id">867</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:44:&quot;Enter correction into DDb through the editor&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">2767</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-02-21 17:40:53</field>
+		<field name="object_id">894</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:3:&quot;2-4&quot;;s:11:&quot;description&quot;;s:458:&quot;μὲ ἀγωνία περὶ ὑμῶν. ἐ̣π̣ὶ στρα̣|τευόμεθα, ἐν τῶι πλοίωι πεπύκ̣α̣μεν | ὀκτὼ ἡμέρας → μὲ (l. μὴ) ἀγωνία περὶ ὑμῶν (l. ἡ-) ὅ̣τ̣ι στρα̣|τευόμεθα. ἐν τῶι πλοίωι πεπύκ̣α̣μεν | ὀκτὼ ἡμέρας (nach dem Photo) (Vgl. S.B. 8, S. 361 und ed.pr., Anm. zur Z. 2), N. Gonis, ZPE 142 (2003), S. 169-170.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">2768</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-02-21 17:47:37</field>
+		<field name="object_id">868</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:44:&quot;Enter correction into DDb through the editor&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">2769</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-02-21 17:47:37</field>
+		<field name="object_id">895</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:3:&quot;6-7&quot;;s:11:&quot;description&quot;;s:99:&quot;ἐπιδ̣άν → ἐπὶ λ̣ί̣αν (nach dem Photo), N. Gonis, ZPE 142 (2003), S. 169-170.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">2770</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-02-21 18:08:37</field>
+		<field name="object_id">869</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:44:&quot;Enter correction into DDb through the editor&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">2771</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-02-21 18:08:37</field>
+		<field name="object_id">896</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:2:&quot;12&quot;;s:11:&quot;description&quot;;s:92:&quot;γνάφην → γναφήν (vgl. S.B. 13, S. 97), N. Gonis, ZPE 142 (2003), S. 169-170.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">2772</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-02-21 18:09:59</field>
+		<field name="object_id">870</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:44:&quot;Enter correction into DDb through the editor&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">2773</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-02-21 18:09:59</field>
+		<field name="object_id">897</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:2:&quot;15&quot;;s:11:&quot;description&quot;;s:91:&quot;ταχὺ ὡς → ταχύως (l. ταχέως), N. Gonis, ZPE 142 (2003), S. 169-170.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">2774</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-02-21 18:15:13</field>
+		<field name="object_id">871</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:44:&quot;Enter correction into DDb through the editor&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">2775</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-02-21 18:15:13</field>
+		<field name="object_id">898</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:2:&quot;16&quot;;s:11:&quot;description&quot;;s:93:&quot;Σεβατοῦ → Σεβαστοῦ (nach dem Photo), N. Gonis, ZPE 142 (2003), S. 169-170.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">2776</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-02-21 18:17:49</field>
+		<field name="object_id">872</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:44:&quot;Enter correction into DDb through the editor&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">2777</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-02-21 18:17:49</field>
+		<field name="object_id">899</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:2:&quot;11&quot;;s:11:&quot;description&quot;;s:188:&quot;εἴ τι λυπόν σοι διδοῖ ἀσφάλισ(ον) → εἴ τι λυπόν σοι διδοῖ, ἄφος (l. ἄφες) (nach dem Photo), N. Gonis, ZPE 142 (2003), S. 170.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">2778</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-02-21 18:18:39</field>
+		<field name="object_id">873</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:44:&quot;Enter correction into DDb through the editor&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">2779</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-02-21 18:18:39</field>
+		<field name="object_id">900</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:2:&quot;13&quot;;s:11:&quot;description&quot;;s:195:&quot;δώσωι τῶι ενυκιον εἴ τι  ̣  ̣ ἐάν → δώσωι τὼι ἐνύκιον (l. τὸ ἐνοίκιον). εἴ τι δὲ ἐάν, N. Gonis, ZPE 142 (2003), S. 170.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">2780</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-02-21 18:29:45</field>
+		<field name="object_id">874</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:15:&quot;Already in HGV.&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">2781</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-02-21 18:29:45</field>
+		<field name="object_id">901</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;N;s:11:&quot;description&quot;;s:60:&quot;Zur Datierung vgl. Chr. Bennett, ZPE 142 (2003), S. 228-229.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">2782</field>
+		<field name="action">update</field>
+		<field name="logged_at">2013-02-21 18:29:49</field>
+		<field name="object_id">874</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">2</field>
+		<field name="data">a:1:{s:7:&quot;cleared&quot;;O:8:&quot;DateTime&quot;:3:{s:4:&quot;date&quot;;s:19:&quot;2013-02-21 18:29:49&quot;;s:13:&quot;timezone_type&quot;;i:3;s:8:&quot;timezone&quot;;s:13:&quot;Europe/Berlin&quot;;}}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">2783</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-02-21 18:35:07</field>
+		<field name="object_id">875</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:44:&quot;Enter correction into DDb through the editor&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">2784</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-02-21 18:35:07</field>
+		<field name="object_id">902</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:1:&quot;3&quot;;s:11:&quot;description&quot;;s:101:&quot;τετρακ(ερατίου) → τετρακ(εράτου), J.-L. Fournet, ZPE 142 (2003), S. 194.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">2785</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-02-21 18:36:55</field>
+		<field name="object_id">876</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:44:&quot;Enter correction into DDb through the editor&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">2786</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-02-21 18:36:55</field>
+		<field name="object_id">903</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:1:&quot;1&quot;;s:11:&quot;description&quot;;s:102:&quot;Ἀγενῇ → Ἀγενη (undeklinierbar, vgl. Παυλη), J.-L. Fournet, ZPE 142 (2003), S. 194.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">2787</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-02-21 18:37:59</field>
+		<field name="object_id">877</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:44:&quot;Enter correction into DDb through the editor&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">2788</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-02-21 18:37:59</field>
+		<field name="object_id">904</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:1:&quot;2&quot;;s:11:&quot;description&quot;;s:218:&quot;ἐλ(αίου) ξ(έστας) δ, (γίνονται) τέσσαλας → ἐλ(αίου) ξ(έστας) δ , τέσσ(ερας) ἥμει(συ) (oder ἥμει[συ]), J.-L. Fournet, ZPE 142 (2003), S. 194.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">2789</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-02-21 18:49:44</field>
+		<field name="object_id">878</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:44:&quot;Enter correction into DDb through the editor&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">2790</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-02-21 18:49:44</field>
+		<field name="object_id">905</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:1:&quot;1&quot;;s:11:&quot;description&quot;;s:85:&quot;Ἀγενῇ → Ἀγενη (undeklinierbar), J.-L. Fournet, ZPE 142 (2003), S. 194.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">2791</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-02-21 18:52:48</field>
+		<field name="object_id">879</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:44:&quot;Enter correction into DDb through the editor&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">2792</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-02-21 18:52:48</field>
+		<field name="object_id">906</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:1:&quot;1&quot;;s:11:&quot;description&quot;;s:162:&quot;Φαμ(ενὼ)θ δ ιδ ἰ̣[ν]δ̣(ικτίωνος) · → Φαμ(ενὼ)θ δ ἰ(ν)δ(ικτίωνος) γ, J.-L. Fournet, ZPE 142 (2003), S. 194-195.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">2793</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-02-21 18:53:51</field>
+		<field name="object_id">880</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:44:&quot;Enter correction into DDb through the editor&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">2794</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-02-21 18:53:51</field>
+		<field name="object_id">907</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:1:&quot;2&quot;;s:11:&quot;description&quot;;s:283:&quot;ἁγία Μαρία μ( ) δ(ιπλᾶ) λ φορ(ά)δ(ος) δευ̣[τέ]|ρας → αναμαριαμ( ) (l. Ἄν&lt;ν&gt;α Μαριάμ(ου) oder ἄπ̣α Μαρίαμ(ος)) ἁλ(ὸς) φορ(ὰς) δ δέσ̣[σε]|ρας, J.-L. Fournet, ZPE 142 (2003), S. 194-195.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
 	</table_data>
 	<table_structure name="ext_translations">
 		<field Field="id" Type="int(11)" Null="NO" Key="PRI" Extra="auto_increment" />
@@ -56921,7 +58439,7 @@ app.crit.) (am Original), F. Mitthof, ZPE 139 (2002), S. 140.&quot;;s:6:&quot;st
 		<key Table="ext_translations" Non_unique="1" Key_name="translations_lookup_idx" Seq_in_index="1" Column_name="locale" Collation="A" Cardinality="0" Null="" Index_type="BTREE" Comment="" />
 		<key Table="ext_translations" Non_unique="1" Key_name="translations_lookup_idx" Seq_in_index="2" Column_name="object_class" Collation="A" Cardinality="0" Null="" Index_type="BTREE" Comment="" />
 		<key Table="ext_translations" Non_unique="1" Key_name="translations_lookup_idx" Seq_in_index="3" Column_name="foreign_key" Collation="A" Cardinality="0" Null="" Index_type="BTREE" Comment="" />
-		<options Name="ext_translations" Engine="InnoDB" Version="10" Row_format="Compact" Rows="0" Avg_row_length="0" Data_length="16384" Max_data_length="0" Index_length="32768" Data_free="0" Auto_increment="1" Create_time="2012-02-10 23:18:07" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 6144 kB" />
+		<options Name="ext_translations" Engine="InnoDB" Version="10" Row_format="Compact" Rows="0" Avg_row_length="0" Data_length="16384" Max_data_length="0" Index_length="32768" Data_free="0" Auto_increment="1" Create_time="2012-02-10 23:18:07" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 7168 kB" />
 	</table_structure>
 	<table_data name="ext_translations">
 	</table_data>
@@ -56933,7 +58451,7 @@ app.crit.) (am Original), F. Mitthof, ZPE 139 (2002), S. 140.&quot;;s:6:&quot;st
 		<field Field="phrase" Type="longtext" Null="NO" Key="" Extra="" />
 		<key Table="index_entry" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="25" Null="" Index_type="BTREE" Comment="" />
 		<key Table="index_entry" Non_unique="1" Key_name="IDX_D9E81DE694AE086B" Seq_in_index="1" Column_name="correction_id" Collation="A" Cardinality="25" Null="" Index_type="BTREE" Comment="" />
-		<options Name="index_entry" Engine="InnoDB" Version="10" Row_format="Compact" Rows="25" Avg_row_length="655" Data_length="16384" Max_data_length="0" Index_length="16384" Data_free="0" Auto_increment="34" Create_time="2012-03-14 14:57:46" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 6144 kB; (`correction_id`) REFER `bl/correction`(`id`)" />
+		<options Name="index_entry" Engine="InnoDB" Version="10" Row_format="Compact" Rows="25" Avg_row_length="655" Data_length="16384" Max_data_length="0" Index_length="16384" Data_free="0" Auto_increment="34" Create_time="2012-03-14 14:57:46" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 7168 kB; (`correction_id`) REFER `bl/correction`(`id`)" />
 	</table_structure>
 	<table_data name="index_entry">
 	<row>
@@ -57118,9 +58636,9 @@ app.crit.) (am Original), F. Mitthof, ZPE 139 (2002), S. 140.&quot;;s:6:&quot;st
 		<field Field="category" Type="varchar(64)" Null="NO" Key="" Extra="" />
 		<field Field="description" Type="longtext" Null="NO" Key="" Extra="" />
 		<field Field="cleared" Type="datetime" Null="YES" Key="" Extra="" />
-		<key Table="task" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="851" Null="" Index_type="BTREE" Comment="" />
-		<key Table="task" Non_unique="1" Key_name="IDX_527EDB2594AE086B" Seq_in_index="1" Column_name="correction_id" Collation="A" Cardinality="851" Null="" Index_type="BTREE" Comment="" />
-		<options Name="task" Engine="InnoDB" Version="10" Row_format="Compact" Rows="851" Avg_row_length="96" Data_length="81920" Max_data_length="0" Index_length="16384" Data_free="0" Auto_increment="849" Create_time="2012-02-22 09:27:05" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 6144 kB; (`correction_id`) REFER `bl/correction`(`id`)" />
+		<key Table="task" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="857" Null="" Index_type="BTREE" Comment="" />
+		<key Table="task" Non_unique="1" Key_name="IDX_527EDB2594AE086B" Seq_in_index="1" Column_name="correction_id" Collation="A" Cardinality="857" Null="" Index_type="BTREE" Comment="" />
+		<options Name="task" Engine="InnoDB" Version="10" Row_format="Compact" Rows="857" Avg_row_length="95" Data_length="81920" Max_data_length="0" Index_length="16384" Data_free="0" Auto_increment="881" Create_time="2012-02-22 09:27:05" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 7168 kB; (`correction_id`) REFER `bl/correction`(`id`)" />
 	</table_structure>
 	<table_data name="task">
 	<row>
@@ -62866,6 +64384,230 @@ app.crit.) (am Original), F. Mitthof, ZPE 139 (2002), S. 140.&quot;;s:6:&quot;st
 	<row>
 		<field name="id">848</field>
 		<field name="correction_id">876</field>
+		<field name="category">ddb</field>
+		<field name="description">Enter correction into DDb through the editor</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">849</field>
+		<field name="correction_id">877</field>
+		<field name="category">ddb</field>
+		<field name="description">Enter correction into DDb through the editor</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">850</field>
+		<field name="correction_id">878</field>
+		<field name="category">ddb</field>
+		<field name="description">Enter correction into DDb through the editor</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">851</field>
+		<field name="correction_id">879</field>
+		<field name="category">ddb</field>
+		<field name="description">Enter correction into DDb through the editor</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">852</field>
+		<field name="correction_id">880</field>
+		<field name="category">ddb</field>
+		<field name="description">Enter correction into DDb through the editor</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">853</field>
+		<field name="correction_id">881</field>
+		<field name="category">ddb</field>
+		<field name="description">Enter correction into DDb through the editor</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">854</field>
+		<field name="correction_id">882</field>
+		<field name="category">ddb</field>
+		<field name="description">Enter correction into DDb through the editor</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">855</field>
+		<field name="correction_id">883</field>
+		<field name="category">ddb</field>
+		<field name="description">Enter correction into DDb through the editor</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">856</field>
+		<field name="correction_id">884</field>
+		<field name="category">ddb</field>
+		<field name="description">Enter correction into DDb through the editor</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">857</field>
+		<field name="correction_id">885</field>
+		<field name="category">ddb</field>
+		<field name="description">Enter correction into DDb through the editor</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">858</field>
+		<field name="correction_id">886</field>
+		<field name="category">ddb</field>
+		<field name="description">Enter correction into DDb through the editor</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">859</field>
+		<field name="correction_id">887</field>
+		<field name="category">hgv</field>
+		<field name="description">Already in HGV.</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">860</field>
+		<field name="correction_id">888</field>
+		<field name="category">hgv</field>
+		<field name="description">Already in HGV.</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">861</field>
+		<field name="correction_id">889</field>
+		<field name="category">ddb</field>
+		<field name="description">Enter correction into DDb through the editor</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">862</field>
+		<field name="correction_id">890</field>
+		<field name="category">hgv</field>
+		<field name="description">Already in HGV.</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">863</field>
+		<field name="correction_id">890</field>
+		<field name="category">ddb</field>
+		<field name="description">Enter into DDb through the editor</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">864</field>
+		<field name="correction_id">891</field>
+		<field name="category">ddb</field>
+		<field name="description">Enter correction into DDb through the editor</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">865</field>
+		<field name="correction_id">892</field>
+		<field name="category">ddb</field>
+		<field name="description">Enter correction into DDb through the editor</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">866</field>
+		<field name="correction_id">893</field>
+		<field name="category">ddb</field>
+		<field name="description">Enter correction into DDb through the editor</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">867</field>
+		<field name="correction_id">894</field>
+		<field name="category">ddb</field>
+		<field name="description">Enter correction into DDb through the editor</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">868</field>
+		<field name="correction_id">895</field>
+		<field name="category">ddb</field>
+		<field name="description">Enter correction into DDb through the editor</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">869</field>
+		<field name="correction_id">896</field>
+		<field name="category">ddb</field>
+		<field name="description">Enter correction into DDb through the editor</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">870</field>
+		<field name="correction_id">897</field>
+		<field name="category">ddb</field>
+		<field name="description">Enter correction into DDb through the editor</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">871</field>
+		<field name="correction_id">898</field>
+		<field name="category">ddb</field>
+		<field name="description">Enter correction into DDb through the editor</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">872</field>
+		<field name="correction_id">899</field>
+		<field name="category">ddb</field>
+		<field name="description">Enter correction into DDb through the editor</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">873</field>
+		<field name="correction_id">900</field>
+		<field name="category">ddb</field>
+		<field name="description">Enter correction into DDb through the editor</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">874</field>
+		<field name="correction_id">901</field>
+		<field name="category">hgv</field>
+		<field name="description">Already in HGV.</field>
+		<field name="cleared">2013-02-21 18:29:49</field>
+	</row>
+	<row>
+		<field name="id">875</field>
+		<field name="correction_id">902</field>
+		<field name="category">ddb</field>
+		<field name="description">Enter correction into DDb through the editor</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">876</field>
+		<field name="correction_id">903</field>
+		<field name="category">ddb</field>
+		<field name="description">Enter correction into DDb through the editor</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">877</field>
+		<field name="correction_id">904</field>
+		<field name="category">ddb</field>
+		<field name="description">Enter correction into DDb through the editor</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">878</field>
+		<field name="correction_id">905</field>
+		<field name="category">ddb</field>
+		<field name="description">Enter correction into DDb through the editor</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">879</field>
+		<field name="correction_id">906</field>
+		<field name="category">ddb</field>
+		<field name="description">Enter correction into DDb through the editor</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">880</field>
+		<field name="correction_id">907</field>
 		<field name="category">ddb</field>
 		<field name="description">Enter correction into DDb through the editor</field>
 		<field name="cleared" xsi:nil="true" />
