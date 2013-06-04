@@ -10,7 +10,7 @@
 		<field Field="fascicle" Type="int(11)" Null="YES" Key="" Extra="" />
 		<field Field="title" Type="longtext" Null="NO" Key="" Extra="" />
 		<key Table="compilation" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="14" Null="" Index_type="BTREE" Comment="" />
-		<options Name="compilation" Engine="InnoDB" Version="10" Row_format="Compact" Rows="14" Avg_row_length="1170" Data_length="16384" Max_data_length="0" Index_length="0" Data_free="0" Auto_increment="15" Create_time="2012-02-15 17:44:52" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 21504 kB" />
+		<options Name="compilation" Engine="InnoDB" Version="10" Row_format="Compact" Rows="14" Avg_row_length="1170" Data_length="16384" Max_data_length="0" Index_length="0" Data_free="0" Auto_increment="15" Create_time="2012-02-15 17:44:52" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 22528 kB" />
 	</table_structure>
 	<table_data name="compilation">
 	<row>
@@ -167,10 +167,10 @@
 		<field Field="sortUser" Type="varchar(256)" Null="YES" Key="" Extra="" />
 		<field Field="sort" Type="varchar(256)" Null="NO" Key="" Extra="" />
 		<field Field="compilationPage" Type="varchar(64)" Null="YES" Key="" Extra="" />
-		<key Table="correction" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="944" Null="" Index_type="BTREE" Comment="" />
-		<key Table="correction" Non_unique="1" Key_name="IDX_A29DA1B874281A5E" Seq_in_index="1" Column_name="edition_id" Collation="A" Cardinality="472" Null="" Index_type="BTREE" Comment="" />
-		<key Table="correction" Non_unique="1" Key_name="IDX_A29DA1B8A5F8C840" Seq_in_index="1" Column_name="compilation_id" Collation="A" Cardinality="9" Null="" Index_type="BTREE" Comment="" />
-		<options Name="correction" Engine="InnoDB" Version="10" Row_format="Compact" Rows="1079" Avg_row_length="394" Data_length="425984" Max_data_length="0" Index_length="32768" Data_free="0" Auto_increment="1044" Create_time="2012-07-04 12:42:44" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 21504 kB; (`edition_id`) REFER `bl/edition`(`id`); (`compilation_id" />
+		<key Table="correction" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="1122" Null="" Index_type="BTREE" Comment="" />
+		<key Table="correction" Non_unique="1" Key_name="IDX_A29DA1B874281A5E" Seq_in_index="1" Column_name="edition_id" Collation="A" Cardinality="561" Null="" Index_type="BTREE" Comment="" />
+		<key Table="correction" Non_unique="1" Key_name="IDX_A29DA1B8A5F8C840" Seq_in_index="1" Column_name="compilation_id" Collation="A" Cardinality="10" Null="" Index_type="BTREE" Comment="" />
+		<options Name="correction" Engine="InnoDB" Version="10" Row_format="Compact" Rows="1047" Avg_row_length="422" Data_length="442368" Max_data_length="0" Index_length="32768" Data_free="0" Auto_increment="1084" Create_time="2012-07-04 12:42:44" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 22528 kB; (`edition_id`) REFER `bl/edition`(`id`); (`compilation_id" />
 	</table_structure>
 	<table_data name="correction">
 	<row>
@@ -28958,6 +28958,1126 @@
 		<field name="sort">e00312000t00000010p00000000s00f00000000c00000000l00000008</field>
 		<field name="compilationPage" xsi:nil="true" />
 	</row>
+	<row>
+		<field name="id">1044</field>
+		<field name="edition_id">138</field>
+		<field name="compilation_id">14</field>
+		<field name="text">40</field>
+		<field name="tm">41074</field>
+		<field name="folder">42</field>
+		<field name="hgv">41074</field>
+		<field name="ddb">cpr;10;40</field>
+		<field name="collection">cpr</field>
+		<field name="volume">10</field>
+		<field name="document">40</field>
+		<field name="position" xsi:nil="true" />
+		<field name="description">Zur Datierung vgl. K. A. Worp, ZPE 151 (2005), S. 155-8.</field>
+		<field name="source">74610</field>
+		<field name="status">unchecked</field>
+		<field name="creator">mirizio</field>
+		<field name="created">2013-06-03 15:39:53</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine" xsi:nil="true" />
+		<field name="sortSystem">e00317000t00000040p00000000s00f00000000c00000000l00000000</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00317000t00000040p00000000s00f00000000c00000000l00000000</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1045</field>
+		<field name="edition_id">8</field>
+		<field name="compilation_id">14</field>
+		<field name="text">142</field>
+		<field name="tm">21707</field>
+		<field name="folder">22</field>
+		<field name="hgv">21707</field>
+		<field name="ddb">p.amh;2;142</field>
+		<field name="collection">p.amh</field>
+		<field name="volume">2</field>
+		<field name="document">142</field>
+		<field name="position">16</field>
+		<field name="description">περατούρας: lies viell. πεδατούρας, K. A. Worp, ZPE 151 (2005), S. 147-8, Anm. 10.</field>
+		<field name="source">74609</field>
+		<field name="status">unchecked</field>
+		<field name="creator">mirizio</field>
+		<field name="created">2013-06-03 15:52:34</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">16</field>
+		<field name="sortSystem">e00036000t00000142p00000000s00f00000000c00000000l00000016</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00036000t00000142p00000000s00f00000000c00000000l00000016</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1046</field>
+		<field name="edition_id">68</field>
+		<field name="compilation_id">14</field>
+		<field name="text">67296</field>
+		<field name="tm">18423</field>
+		<field name="folder">19</field>
+		<field name="hgv">18423</field>
+		<field name="ddb">p.cair.masp;3;67296</field>
+		<field name="collection">p.cair.masp</field>
+		<field name="volume">3</field>
+		<field name="document">67296</field>
+		<field name="position">16</field>
+		<field name="description">πρεσβ(ύτερος) → πρεσβ(υτέρου); Φλ(αούιος) zu streichen: K. A. Worp, ZPE 151 (2005), S. 150.</field>
+		<field name="source">74609</field>
+		<field name="status">unchecked</field>
+		<field name="creator">mirizio</field>
+		<field name="created">2013-06-03 15:55:08</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">16</field>
+		<field name="sortSystem">e00177000t00067296p00000000s00f00000000c00000000l00000016</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00177000t00067296p00000000s00f00000000c00000000l00000016</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1047</field>
+		<field name="edition_id">119</field>
+		<field name="compilation_id">14</field>
+		<field name="text">244</field>
+		<field name="tm">40982</field>
+		<field name="folder">41</field>
+		<field name="hgv">40982</field>
+		<field name="ddb">p.col;8;244</field>
+		<field name="collection">p.col</field>
+		<field name="volume">8</field>
+		<field name="document">244</field>
+		<field name="position">21</field>
+		<field name="description">πρεσβυτέρου wohl kein Fehler für den Nominativ: K. A. Worp, ZPE 151 (2005), S. 146.</field>
+		<field name="source">74609</field>
+		<field name="status">unchecked</field>
+		<field name="creator">mirizio</field>
+		<field name="created">2013-06-03 15:57:24</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">21</field>
+		<field name="sortSystem">e00280000t00000244p00000000s00f00000000c00000000l00000021</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00280000t00000244p00000000s00f00000000c00000000l00000021</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1048</field>
+		<field name="edition_id">152</field>
+		<field name="compilation_id">14</field>
+		<field name="text">20</field>
+		<field name="tm">21607</field>
+		<field name="folder">22</field>
+		<field name="hgv">21607</field>
+		<field name="ddb">p.dubl;;20</field>
+		<field name="collection">p.dubl</field>
+		<field name="volume"></field>
+		<field name="document">20</field>
+		<field name="position">22</field>
+		<field name="description">Σεβαστοῦ → Αὐγούστου, K. A. Worp, ZPE 151 (2005), S. 154, Anm. 12.</field>
+		<field name="source">74610</field>
+		<field name="status">unchecked</field>
+		<field name="creator">mirizio</field>
+		<field name="created">2013-06-03 15:59:53</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">22</field>
+		<field name="sortSystem">e00339000t00000020p00000000s00f00000000c00000000l00000022</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00339000t00000020p00000000s00f00000000c00000000l00000022</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1049</field>
+		<field name="edition_id">163</field>
+		<field name="compilation_id">14</field>
+		<field name="text">38</field>
+		<field name="tm">39663</field>
+		<field name="folder">40</field>
+		<field name="hgv">39663</field>
+		<field name="ddb">p.flor;1;38</field>
+		<field name="collection">p.flor</field>
+		<field name="volume">1</field>
+		<field name="document">38</field>
+		<field name="position" xsi:nil="true" />
+		<field name="description">Zur Datierung vgl. K. A. Worp, ZPE 151 (2005), S. 155-8.</field>
+		<field name="source">74610</field>
+		<field name="status">unchecked</field>
+		<field name="creator">mirizio</field>
+		<field name="created">2013-06-03 16:01:59</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine" xsi:nil="true" />
+		<field name="sortSystem">e00375000t00000038p00000000s00f00000000c00000000l00000000</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00375000t00000038p00000000s00f00000000c00000000l00000000</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1050</field>
+		<field name="edition_id">165</field>
+		<field name="compilation_id">14</field>
+		<field name="text">323</field>
+		<field name="tm">19365</field>
+		<field name="folder">20</field>
+		<field name="hgv">19365</field>
+		<field name="ddb">p.flor;3;323</field>
+		<field name="collection">p.flor</field>
+		<field name="volume">3</field>
+		<field name="document">323</field>
+		<field name="position">22</field>
+		<field name="description">Φ̣λ̣α̣ύ̣ι(ος) Ἰωσὴφ Ἀκ̣ ̣ ̣ω̣ρίου: viell. Σιλβ̣α̣ν̣ό̣ς Ἡφαισ[τί]ωνος, K. A. Worp, ZPE 151 (2005), S. 150.</field>
+		<field name="source">74609</field>
+		<field name="status">unchecked</field>
+		<field name="creator">mirizio</field>
+		<field name="created">2013-06-03 16:04:48</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">22</field>
+		<field name="sortSystem">e00377000t00000323p00000000s00f00000000c00000000l00000022</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00377000t00000323p00000000s00f00000000c00000000l00000022</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1051</field>
+		<field name="edition_id">166</field>
+		<field name="compilation_id">14</field>
+		<field name="text">62</field>
+		<field name="tm">11197</field>
+		<field name="folder">12</field>
+		<field name="hgv">11197</field>
+		<field name="ddb">p.fouad;;62</field>
+		<field name="collection">p.fouad</field>
+		<field name="volume"></field>
+		<field name="document">62</field>
+		<field name="position" xsi:nil="true" />
+		<field name="description">Zu datieren: 26 April – 25 Mai 221 n.Chr.: J. David Thomas, ZPE 151 (2005), S. 144.</field>
+		<field name="source">74563</field>
+		<field name="status">unchecked</field>
+		<field name="creator">mirizio</field>
+		<field name="created">2013-06-03 16:08:15</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine" xsi:nil="true" />
+		<field name="sortSystem">e00380000t00000062p00000000s00f00000000c00000000l00000000</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00380000t00000062p00000000s00f00000000c00000000l00000000</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1052</field>
+		<field name="edition_id">200</field>
+		<field name="compilation_id">14</field>
+		<field name="text">236</field>
+		<field name="tm">15228</field>
+		<field name="folder">16</field>
+		<field name="hgv">15228</field>
+		<field name="ddb">p.harr;2;236</field>
+		<field name="collection">p.harr</field>
+		<field name="volume">2</field>
+		<field name="document">236</field>
+		<field name="position">2</field>
+		<field name="description">Σεβαστοῦ → Αὐγούστου, K. A. Worp, ZPE 151 (2005), S. 154, Anm. 11.</field>
+		<field name="source">74610</field>
+		<field name="status">unchecked</field>
+		<field name="creator">mirizio</field>
+		<field name="created">2013-06-03 16:10:42</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">2</field>
+		<field name="sortSystem">e00471000t00000236p00000000s00f00000000c00000000l00000002</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00471000t00000236p00000000s00f00000000c00000000l00000002</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1053</field>
+		<field name="edition_id">208</field>
+		<field name="compilation_id">14</field>
+		<field name="text">356</field>
+		<field name="tm">35096</field>
+		<field name="folder">36</field>
+		<field name="hgv">35096</field>
+		<field name="ddb">p.heid;5;356</field>
+		<field name="collection">p.heid</field>
+		<field name="volume">5</field>
+		<field name="document">356</field>
+		<field name="position">6</field>
+		<field name="description">Vgl. K. A. Worp, ZPE 151 (2005), S. 145-8.</field>
+		<field name="source">74609</field>
+		<field name="status">unchecked</field>
+		<field name="creator">mirizio</field>
+		<field name="created">2013-06-03 16:12:48</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">6</field>
+		<field name="sortSystem">e00484000t00000356p00000000s00f00000000c00000000l00000006</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00484000t00000356p00000000s00f00000000c00000000l00000006</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1054</field>
+		<field name="edition_id">209</field>
+		<field name="compilation_id">14</field>
+		<field name="text">363</field>
+		<field name="tm">3060</field>
+		<field name="folder">4</field>
+		<field name="hgv">3060</field>
+		<field name="ddb">p.heid;6;363</field>
+		<field name="collection">p.heid</field>
+		<field name="volume">6</field>
+		<field name="document">363</field>
+		<field name="position" xsi:nil="true" />
+		<field name="description">Vgl. D. Kaltsas, ZPE 151 (2005), S. 133-40.</field>
+		<field name="source">74242</field>
+		<field name="status">unchecked</field>
+		<field name="creator">mirizio</field>
+		<field name="created">2013-06-03 16:15:11</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine" xsi:nil="true" />
+		<field name="sortSystem">e00485000t00000363p00000000s00f00000000c00000000l00000000</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00485000t00000363p00000000s00f00000000c00000000l00000000</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1055</field>
+		<field name="edition_id">257</field>
+		<field name="compilation_id">14</field>
+		<field name="text">1719</field>
+		<field name="tm">19734</field>
+		<field name="folder">20</field>
+		<field name="hgv">19734</field>
+		<field name="ddb">p.lond;5;1719</field>
+		<field name="collection">p.lond</field>
+		<field name="volume">5</field>
+		<field name="document">1719</field>
+		<field name="position">3</field>
+		<field name="description">Vgl. K. A. Worp, ZPE 151 (2005), S. 145-8.</field>
+		<field name="source">74609</field>
+		<field name="status">unchecked</field>
+		<field name="creator">mirizio</field>
+		<field name="created">2013-06-03 16:20:01</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">3</field>
+		<field name="sortSystem">e00584000t00001719p00000000s00f00000000c00000000l00000003</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00584000t00001719p00000000s00f00000000c00000000l00000003</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1056</field>
+		<field name="edition_id">340</field>
+		<field name="compilation_id">14</field>
+		<field name="text">41</field>
+		<field name="tm">31338</field>
+		<field name="folder">32</field>
+		<field name="hgv">31338</field>
+		<field name="ddb">p.oxy;1;41</field>
+		<field name="collection">p.oxy</field>
+		<field name="volume">1</field>
+		<field name="document">41</field>
+		<field name="position" xsi:nil="true" />
+		<field name="description">Eher ins frühe 4. Jhd. zu datieren: K. A. Worp, ZPE 151 (2005), S. 153.</field>
+		<field name="source">74610</field>
+		<field name="status">unchecked</field>
+		<field name="creator">mirizio</field>
+		<field name="created">2013-06-04 09:38:33</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine" xsi:nil="true" />
+		<field name="sortSystem">e00750000t00000041p00000000s00f00000000c00000000l00000000</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00750000t00000041p00000000s00f00000000c00000000l00000000</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1057</field>
+		<field name="edition_id">372</field>
+		<field name="compilation_id">14</field>
+		<field name="text">3350</field>
+		<field name="tm">22465</field>
+		<field name="folder">23</field>
+		<field name="hgv">22465</field>
+		<field name="ddb">p.oxy;47;3350</field>
+		<field name="collection">p.oxy</field>
+		<field name="volume">47</field>
+		<field name="document">3350</field>
+		<field name="position">2</field>
+		<field name="description">[Σεβαστοῦ] → [Αὐγούστου], K. A. Worp, ZPE 151 (2005), S. 154, Anm. 11.</field>
+		<field name="source">74610</field>
+		<field name="status">unchecked</field>
+		<field name="creator">mirizio</field>
+		<field name="created">2013-06-04 09:40:50</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">2</field>
+		<field name="sortSystem">e00782000t00003350p00000000s00f00000000c00000000l00000002</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00782000t00003350p00000000s00f00000000c00000000l00000002</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1058</field>
+		<field name="edition_id">374</field>
+		<field name="compilation_id">14</field>
+		<field name="text">3513</field>
+		<field name="tm">45253</field>
+		<field name="folder">46</field>
+		<field name="hgv">45253</field>
+		<field name="ddb">p.oxy;49;3513</field>
+		<field name="collection">p.oxy</field>
+		<field name="volume">49</field>
+		<field name="document">3513</field>
+		<field name="position" xsi:nil="true" />
+		<field name="description">Datum: 25. Mai 260, J. D. Thomas, ZPE 151 (2005), S. 141-3.</field>
+		<field name="source">74562</field>
+		<field name="status">unchecked</field>
+		<field name="creator">mirizio</field>
+		<field name="created">2013-06-04 09:44:44</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine" xsi:nil="true" />
+		<field name="sortSystem">e00784000t00003513p00000000s00f00000000c00000000l00000000</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00784000t00003513p00000000s00f00000000c00000000l00000000</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1059</field>
+		<field name="edition_id">374</field>
+		<field name="compilation_id">14</field>
+		<field name="text">3514</field>
+		<field name="tm">45254</field>
+		<field name="folder">46</field>
+		<field name="hgv">45254</field>
+		<field name="ddb">p.oxy;49;3514</field>
+		<field name="collection">p.oxy</field>
+		<field name="volume">49</field>
+		<field name="document">3514</field>
+		<field name="position" xsi:nil="true" />
+		<field name="description">Datum: 25. Mai 260, J. D. Thomas, ZPE 151 (2005), S. 141-3.</field>
+		<field name="source">74562</field>
+		<field name="status">unchecked</field>
+		<field name="creator">mirizio</field>
+		<field name="created">2013-06-04 09:46:32</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine" xsi:nil="true" />
+		<field name="sortSystem">e00784000t00003514p00000000s00f00000000c00000000l00000000</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00784000t00003514p00000000s00f00000000c00000000l00000000</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1060</field>
+		<field name="edition_id">374</field>
+		<field name="compilation_id">14</field>
+		<field name="text">3515</field>
+		<field name="tm">45255</field>
+		<field name="folder">46</field>
+		<field name="hgv">45255</field>
+		<field name="ddb">p.oxy;49;3515</field>
+		<field name="collection">p.oxy</field>
+		<field name="volume">49</field>
+		<field name="document">3515</field>
+		<field name="position" xsi:nil="true" />
+		<field name="description">Datum: 25. Mai 260, J. D. Thomas, ZPE 151 (2005), S. 141-3.</field>
+		<field name="source">74562</field>
+		<field name="status">unchecked</field>
+		<field name="creator">mirizio</field>
+		<field name="created">2013-06-04 09:47:50</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine" xsi:nil="true" />
+		<field name="sortSystem">e00784000t00003515p00000000s00f00000000c00000000l00000000</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00784000t00003515p00000000s00f00000000c00000000l00000000</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1061</field>
+		<field name="edition_id">374</field>
+		<field name="compilation_id">14</field>
+		<field name="text">3516</field>
+		<field name="tm">45256</field>
+		<field name="folder">46</field>
+		<field name="hgv">45256</field>
+		<field name="ddb">p.oxy;49;3516</field>
+		<field name="collection">p.oxy</field>
+		<field name="volume">49</field>
+		<field name="document">3516</field>
+		<field name="position" xsi:nil="true" />
+		<field name="description">Datum: 25. Mai 260, J. D. Thomas, ZPE 151 (2005), S. 141-3.</field>
+		<field name="source">74562</field>
+		<field name="status">unchecked</field>
+		<field name="creator">mirizio</field>
+		<field name="created">2013-06-04 09:49:02</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine" xsi:nil="true" />
+		<field name="sortSystem">e00784000t00003516p00000000s00f00000000c00000000l00000000</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00784000t00003516p00000000s00f00000000c00000000l00000000</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1062</field>
+		<field name="edition_id">374</field>
+		<field name="compilation_id">14</field>
+		<field name="text">3517</field>
+		<field name="tm">45257</field>
+		<field name="folder">46</field>
+		<field name="hgv">45257</field>
+		<field name="ddb">p.oxy;49;3517</field>
+		<field name="collection">p.oxy</field>
+		<field name="volume">49</field>
+		<field name="document">3517</field>
+		<field name="position" xsi:nil="true" />
+		<field name="description">Datum: 25. Mai 260, J. D. Thomas, ZPE 151 (2005), S. 141-3.</field>
+		<field name="source">74562</field>
+		<field name="status">unchecked</field>
+		<field name="creator">mirizio</field>
+		<field name="created">2013-06-04 09:50:14</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine" xsi:nil="true" />
+		<field name="sortSystem">e00784000t00003517p00000000s00f00000000c00000000l00000000</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00784000t00003517p00000000s00f00000000c00000000l00000000</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1063</field>
+		<field name="edition_id">374</field>
+		<field name="compilation_id">14</field>
+		<field name="text">3518</field>
+		<field name="tm">45258</field>
+		<field name="folder">46</field>
+		<field name="hgv">45258</field>
+		<field name="ddb">p.oxy;49;3518</field>
+		<field name="collection">p.oxy</field>
+		<field name="volume">49</field>
+		<field name="document">3518</field>
+		<field name="position" xsi:nil="true" />
+		<field name="description">Datum: 25. Mai 260, J. D. Thomas, ZPE 151 (2005), S. 141-3.</field>
+		<field name="source">74562</field>
+		<field name="status">unchecked</field>
+		<field name="creator">mirizio</field>
+		<field name="created">2013-06-04 09:51:33</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine" xsi:nil="true" />
+		<field name="sortSystem">e00784000t00003518p00000000s00f00000000c00000000l00000000</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00784000t00003518p00000000s00f00000000c00000000l00000000</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1064</field>
+		<field name="edition_id">374</field>
+		<field name="compilation_id">14</field>
+		<field name="text">3519</field>
+		<field name="tm">45259</field>
+		<field name="folder">46</field>
+		<field name="hgv">45259</field>
+		<field name="ddb">p.oxy;49;3519</field>
+		<field name="collection">p.oxy</field>
+		<field name="volume">49</field>
+		<field name="document">3519</field>
+		<field name="position" xsi:nil="true" />
+		<field name="description">Datum: 25. Mai 260, J. D. Thomas, ZPE 151 (2005), S. 141-3.</field>
+		<field name="source">74562</field>
+		<field name="status">unchecked</field>
+		<field name="creator">mirizio</field>
+		<field name="created">2013-06-04 09:52:41</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine" xsi:nil="true" />
+		<field name="sortSystem">e00784000t00003519p00000000s00f00000000c00000000l00000000</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00784000t00003519p00000000s00f00000000c00000000l00000000</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1065</field>
+		<field name="edition_id">374</field>
+		<field name="compilation_id">14</field>
+		<field name="text">3520</field>
+		<field name="tm">15674</field>
+		<field name="folder">16</field>
+		<field name="hgv">15674</field>
+		<field name="ddb">p.oxy;49;3520</field>
+		<field name="collection">p.oxy</field>
+		<field name="volume">49</field>
+		<field name="document">3520</field>
+		<field name="position" xsi:nil="true" />
+		<field name="description">Datum: 16. Mai 260, J. D. Thomas, ZPE 151 (2005), S. 141-3.</field>
+		<field name="source">74562</field>
+		<field name="status">unchecked</field>
+		<field name="creator">mirizio</field>
+		<field name="created">2013-06-04 09:54:30</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine" xsi:nil="true" />
+		<field name="sortSystem">e00784000t00003520p00000000s00f00000000c00000000l00000000</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00784000t00003520p00000000s00f00000000c00000000l00000000</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1066</field>
+		<field name="edition_id">374</field>
+		<field name="compilation_id">14</field>
+		<field name="text">3521</field>
+		<field name="tm">45261</field>
+		<field name="folder">46</field>
+		<field name="hgv">45261</field>
+		<field name="ddb">p.oxy;49;3521</field>
+		<field name="collection">p.oxy</field>
+		<field name="volume">49</field>
+		<field name="document">3521</field>
+		<field name="position" xsi:nil="true" />
+		<field name="description">Datum: 16. Mai 260, J. D. Thomas, ZPE 151 (2005), S. 141-3.</field>
+		<field name="source">74562</field>
+		<field name="status">unchecked</field>
+		<field name="creator">mirizio</field>
+		<field name="created">2013-06-04 09:56:00</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine" xsi:nil="true" />
+		<field name="sortSystem">e00784000t00003521p00000000s00f00000000c00000000l00000000</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00784000t00003521p00000000s00f00000000c00000000l00000000</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1067</field>
+		<field name="edition_id">413</field>
+		<field name="compilation_id">14</field>
+		<field name="text">101</field>
+		<field name="tm">15435</field>
+		<field name="folder">16</field>
+		<field name="hgv">15435</field>
+		<field name="ddb">p.rain.cent;;101</field>
+		<field name="collection">p.rain.cent</field>
+		<field name="volume"></field>
+		<field name="document">101</field>
+		<field name="position">3</field>
+		<field name="description">Vgl. K. A. Worp, ZPE 151 (2005), S. 145-8.</field>
+		<field name="source">74609</field>
+		<field name="status">unchecked</field>
+		<field name="creator">mirizio</field>
+		<field name="created">2013-06-04 09:58:28</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">3</field>
+		<field name="sortSystem">e00860000t00000101p00000000s00f00000000c00000000l00000003</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00860000t00000101p00000000s00f00000000c00000000l00000003</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1068</field>
+		<field name="edition_id">472</field>
+		<field name="compilation_id">14</field>
+		<field name="text">131</field>
+		<field name="tm">13167</field>
+		<field name="folder">14</field>
+		<field name="hgv">13167</field>
+		<field name="ddb">p.stras;3;131</field>
+		<field name="collection">p.stras</field>
+		<field name="volume">3</field>
+		<field name="document">131</field>
+		<field name="position">1</field>
+		<field name="description">Σεβαστοῦ → Αὐγούστου, K. A. Worp, ZPE 151 (2005), S. 155.</field>
+		<field name="source">74610</field>
+		<field name="status">unchecked</field>
+		<field name="creator">mirizio</field>
+		<field name="created">2013-06-04 10:00:14</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">1</field>
+		<field name="sortSystem">e00997000t00000131p00000000s00f00000000c00000000l00000001</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00997000t00000131p00000000s00f00000000c00000000l00000001</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1069</field>
+		<field name="edition_id">473</field>
+		<field name="compilation_id">14</field>
+		<field name="text">245</field>
+		<field name="tm">13210</field>
+		<field name="folder">14</field>
+		<field name="hgv">13210</field>
+		<field name="ddb">p.stras;4;245</field>
+		<field name="collection">p.stras</field>
+		<field name="volume">4</field>
+		<field name="document">245</field>
+		<field name="position" xsi:nil="true" />
+		<field name="description">Vgl. D. Hagedorn, ZPE 151 (2005), S. 127, Anm. 3.</field>
+		<field name="source">74183</field>
+		<field name="status">unchecked</field>
+		<field name="creator">mirizio</field>
+		<field name="created">2013-06-04 10:02:55</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine" xsi:nil="true" />
+		<field name="sortSystem">e00998000t00000245p00000000s00f00000000c00000000l00000000</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00998000t00000245p00000000s00f00000000c00000000l00000000</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1070</field>
+		<field name="edition_id">1</field>
+		<field name="compilation_id">14</field>
+		<field name="text">755</field>
+		<field name="tm">16474</field>
+		<field name="folder">17</field>
+		<field name="hgv">16474</field>
+		<field name="ddb">p.stras;8;755</field>
+		<field name="collection">p.stras</field>
+		<field name="volume">8</field>
+		<field name="document">755</field>
+		<field name="position">22</field>
+		<field name="description">Vgl. K. A. Worp, ZPE 151 (2005), S. 145-8.</field>
+		<field name="source">74609</field>
+		<field name="status">unchecked</field>
+		<field name="creator">mirizio</field>
+		<field name="created">2013-06-04 10:06:18</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">22</field>
+		<field name="sortSystem">e00000000t00000755p00000000s00f00000000c00000000l00000022</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00000000t00000755p00000000s00f00000000c00000000l00000022</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1071</field>
+		<field name="edition_id">513</field>
+		<field name="compilation_id">14</field>
+		<field name="text">51</field>
+		<field name="tm">5530</field>
+		<field name="folder">6</field>
+		<field name="hgv">5530</field>
+		<field name="ddb">p.vars;;51</field>
+		<field name="collection">p.vars</field>
+		<field name="volume"></field>
+		<field name="document">51</field>
+		<field name="position">3</field>
+		<field name="description">ἐτησ(ίαν): viell. ἐγκυ(κλίου), J. M. S. Cowey, ZPE 151 (2005), S. 159-60.</field>
+		<field name="source">74012</field>
+		<field name="status">unchecked</field>
+		<field name="creator">mirizio</field>
+		<field name="created">2013-06-04 10:10:04</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">3</field>
+		<field name="sortSystem">e01095000t00000051p00000000s00f00000000c00000000l00000003</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e01095000t00000051p00000000s00f00000000c00000000l00000003</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1072</field>
+		<field name="edition_id">513</field>
+		<field name="compilation_id">14</field>
+		<field name="text">52</field>
+		<field name="tm">5531</field>
+		<field name="folder">6</field>
+		<field name="hgv">5531</field>
+		<field name="ddb">p.vars;;52</field>
+		<field name="collection">p.vars</field>
+		<field name="volume"></field>
+		<field name="document">52</field>
+		<field name="position" xsi:nil="true" />
+		<field name="description">Nd.: J. M. S. Cowey, ZPE 151 (2005), S. 161-2.</field>
+		<field name="source">74012</field>
+		<field name="status">unchecked</field>
+		<field name="creator">mirizio</field>
+		<field name="created">2013-06-04 10:11:27</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine" xsi:nil="true" />
+		<field name="sortSystem">e01095000t00000052p00000000s00f00000000c00000000l00000000</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e01095000t00000052p00000000s00f00000000c00000000l00000000</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1073</field>
+		<field name="edition_id">518</field>
+		<field name="compilation_id">14</field>
+		<field name="text">8</field>
+		<field name="tm">35967</field>
+		<field name="folder">36</field>
+		<field name="hgv">35967</field>
+		<field name="ddb">p.wash.univ;1;8</field>
+		<field name="collection">p.wash.univ</field>
+		<field name="volume">1</field>
+		<field name="document">8</field>
+		<field name="position">2</field>
+		<field name="description">τῶν ογ καὶ φμ → τῶν (μυριάδων) γ καὶ Δμ, D. Hagedorn, ZPE 151 (2005), S. 130-2.</field>
+		<field name="source">74183</field>
+		<field name="status">unchecked</field>
+		<field name="creator">mirizio</field>
+		<field name="created">2013-06-04 10:13:33</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">2</field>
+		<field name="sortSystem">e01120000t00000008p00000000s00f00000000c00000000l00000002</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e01120000t00000008p00000000s00f00000000c00000000l00000002</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1074</field>
+		<field name="edition_id">447</field>
+		<field name="compilation_id">14</field>
+		<field name="text">52</field>
+		<field name="tm">20129</field>
+		<field name="folder">21</field>
+		<field name="hgv">20129</field>
+		<field name="ddb">psi;1;52</field>
+		<field name="collection">psi</field>
+		<field name="volume">1</field>
+		<field name="document">52</field>
+		<field name="position" xsi:nil="true" />
+		<field name="description">Zur Datierung vgl.: K. A. Worp, ZPE 151 (2005), S. 155-8.</field>
+		<field name="source">74610</field>
+		<field name="status">unchecked</field>
+		<field name="creator">mirizio</field>
+		<field name="created">2013-06-04 10:15:37</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine" xsi:nil="true" />
+		<field name="sortSystem">e00945000t00000052p00000000s00f00000000c00000000l00000000</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00945000t00000052p00000000s00f00000000c00000000l00000000</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1075</field>
+		<field name="edition_id">429</field>
+		<field name="compilation_id">14</field>
+		<field name="text">4763</field>
+		<field name="tm">41335</field>
+		<field name="folder">42</field>
+		<field name="hgv">41335</field>
+		<field name="ddb">sb;1;4763</field>
+		<field name="collection">sb</field>
+		<field name="volume">1</field>
+		<field name="document">4763</field>
+		<field name="position" xsi:nil="true" />
+		<field name="description">Zur Datierung vgl.: K. A. Worp, ZPE 151 (2005), S. 155-8.</field>
+		<field name="source">74610</field>
+		<field name="status">unchecked</field>
+		<field name="creator">mirizio</field>
+		<field name="created">2013-06-04 10:17:56</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine" xsi:nil="true" />
+		<field name="sortSystem">e00905000t00004763p00000000s00f00000000c00000000l00000000</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00905000t00004763p00000000s00f00000000c00000000l00000000</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1076</field>
+		<field name="edition_id">429</field>
+		<field name="compilation_id">14</field>
+		<field name="text">5112</field>
+		<field name="tm">23153</field>
+		<field name="folder">24</field>
+		<field name="hgv">23153</field>
+		<field name="ddb">sb;1;5112</field>
+		<field name="collection">sb</field>
+		<field name="volume">1</field>
+		<field name="document">5112</field>
+		<field name="position">78</field>
+		<field name="description">πρ(εσβύτερος) → πρι(), K. A. Worp, ZPE 151 (2005), S. 150 (nach dem Photo).</field>
+		<field name="source">74609</field>
+		<field name="status">unchecked</field>
+		<field name="creator">mirizio</field>
+		<field name="created">2013-06-04 10:20:10</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">78</field>
+		<field name="sortSystem">e00905000t00005112p00000000s00f00000000c00000000l00000078</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00905000t00005112p00000000s00f00000000c00000000l00000078</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1077</field>
+		<field name="edition_id">431</field>
+		<field name="compilation_id">14</field>
+		<field name="text">7369</field>
+		<field name="tm">18036</field>
+		<field name="folder">19</field>
+		<field name="hgv">18036</field>
+		<field name="ddb">sb;4;7369</field>
+		<field name="collection">sb</field>
+		<field name="volume">4</field>
+		<field name="document">7369</field>
+		<field name="position">30</field>
+		<field name="description">πρεσβύτερ(ος) → πρεσβυτέρ(ου), . A. Worp, ZPE 151 (2005), S. 146, Anm. 3.</field>
+		<field name="source">74609</field>
+		<field name="status">unchecked</field>
+		<field name="creator">mirizio</field>
+		<field name="created">2013-06-04 10:22:13</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">30</field>
+		<field name="sortSystem">e00907000t00007369p00000000s00f00000000c00000000l00000030</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00907000t00007369p00000000s00f00000000c00000000l00000030</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1078</field>
+		<field name="edition_id">434</field>
+		<field name="compilation_id">14</field>
+		<field name="text">9775</field>
+		<field name="tm">41310</field>
+		<field name="folder">42</field>
+		<field name="hgv">41310</field>
+		<field name="ddb">sb;8;9775</field>
+		<field name="collection">sb</field>
+		<field name="volume">8</field>
+		<field name="document">9775</field>
+		<field name="position" xsi:nil="true" />
+		<field name="description">Zur Datierung vgl.: K. A. Worp, ZPE 151 (2005), S. 155-8.</field>
+		<field name="source">74610</field>
+		<field name="status">unchecked</field>
+		<field name="creator">mirizio</field>
+		<field name="created">2013-06-04 10:27:53</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine" xsi:nil="true" />
+		<field name="sortSystem">e00910000t00009775p00000000s00f00000000c00000000l00000000</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00910000t00009775p00000000s00f00000000c00000000l00000000</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1079</field>
+		<field name="edition_id">437</field>
+		<field name="compilation_id">14</field>
+		<field name="text">11348</field>
+		<field name="tm">27461</field>
+		<field name="folder">28</field>
+		<field name="hgv">27461</field>
+		<field name="ddb">sb;14;11348</field>
+		<field name="collection">sb</field>
+		<field name="volume">14</field>
+		<field name="document">11348</field>
+		<field name="position">5</field>
+		<field name="description">μηδὲ ἑλ{λ}όντων τοιούτων → μηδὲ ἄλλο τι τῶν τοιούτων, D. Hagedorn, ZPE 151 (2005), S. 132.</field>
+		<field name="source">74183</field>
+		<field name="status">unchecked</field>
+		<field name="creator">mirizio</field>
+		<field name="created">2013-06-04 10:30:03</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">5</field>
+		<field name="sortSystem">e00913000t00011348p00000000s00f00000000c00000000l00000005</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00913000t00011348p00000000s00f00000000c00000000l00000005</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1080</field>
+		<field name="edition_id">437</field>
+		<field name="compilation_id">14</field>
+		<field name="text">11908</field>
+		<field name="tm">30093</field>
+		<field name="folder">31</field>
+		<field name="hgv">30093</field>
+		<field name="ddb">sb;14;11908</field>
+		<field name="collection">sb</field>
+		<field name="volume">14</field>
+		<field name="document">11908</field>
+		<field name="position" xsi:nil="true" />
+		<field name="description">Vgl. zum Ort und zur Datierung: J. David Thomas, ZPE 151 (2005), S. 141-3.</field>
+		<field name="source">74562</field>
+		<field name="status">unchecked</field>
+		<field name="creator">mirizio</field>
+		<field name="created">2013-06-04 10:31:47</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine" xsi:nil="true" />
+		<field name="sortSystem">e00913000t00011908p00000000s00f00000000c00000000l00000000</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00913000t00011908p00000000s00f00000000c00000000l00000000</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1081</field>
+		<field name="edition_id">440</field>
+		<field name="compilation_id">14</field>
+		<field name="text">15092</field>
+		<field name="tm">39695</field>
+		<field name="folder">40</field>
+		<field name="hgv">39695</field>
+		<field name="ddb">sb;20;15092</field>
+		<field name="collection">sb</field>
+		<field name="volume">20</field>
+		<field name="document">15092</field>
+		<field name="position" xsi:nil="true" />
+		<field name="description">Zur Datierung vgl.: K. A. Worp, ZPE 151 (2005), S. 155-8.</field>
+		<field name="source">74610</field>
+		<field name="status">unchecked</field>
+		<field name="creator">mirizio</field>
+		<field name="created">2013-06-04 10:33:43</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine" xsi:nil="true" />
+		<field name="sortSystem">e00916000t00015092p00000000s00f00000000c00000000l00000000</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00916000t00015092p00000000s00f00000000c00000000l00000000</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1082</field>
+		<field name="edition_id">485</field>
+		<field name="compilation_id">14</field>
+		<field name="text">210</field>
+		<field name="tm">37057</field>
+		<field name="folder">38</field>
+		<field name="hgv">37057</field>
+		<field name="ddb">stud.pal;10;210</field>
+		<field name="collection">stud.pal</field>
+		<field name="volume">10</field>
+		<field name="document">210</field>
+		<field name="position">8</field>
+		<field name="description">Παρατουρ() → παρατουρ(ᾶς), K. A. Worp, ZPE 151 (2005), S. 148-9.</field>
+		<field name="source">74609</field>
+		<field name="status">unchecked</field>
+		<field name="creator">mirizio</field>
+		<field name="created">2013-06-04 10:35:58</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">8</field>
+		<field name="sortSystem">e01021000t00000210p00000000s00f00000000c00000000l00000008</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e01021000t00000210p00000000s00f00000000c00000000l00000008</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1083</field>
+		<field name="edition_id">485</field>
+		<field name="compilation_id">14</field>
+		<field name="text">210</field>
+		<field name="tm">37057</field>
+		<field name="folder">38</field>
+		<field name="hgv">37057</field>
+		<field name="ddb">stud.pal;10;210</field>
+		<field name="collection">stud.pal</field>
+		<field name="volume">10</field>
+		<field name="document">210</field>
+		<field name="position">9</field>
+		<field name="description">Παρ[ατουρ() → παρ[ατουρ(ᾶς), l.c., S. 148-9.</field>
+		<field name="source">74609</field>
+		<field name="status">unchecked</field>
+		<field name="creator">mirizio</field>
+		<field name="created">2013-06-04 10:37:48</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">9</field>
+		<field name="sortSystem">e01021000t00000210p00000000s00f00000000c00000000l00000009</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e01021000t00000210p00000000s00f00000000c00000000l00000009</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
 	</table_data>
 	<table_structure name="edition">
 		<field Field="id" Type="int(11)" Null="NO" Key="PRI" Extra="auto_increment" />
@@ -28968,7 +30088,7 @@
 		<field Field="volume" Type="longtext" Null="YES" Key="" Extra="" />
 		<field Field="remark" Type="longtext" Null="YES" Key="" Extra="" />
 		<key Table="edition" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="619" Null="" Index_type="BTREE" Comment="" />
-		<options Name="edition" Engine="InnoDB" Version="10" Row_format="Compact" Rows="619" Avg_row_length="105" Data_length="65536" Max_data_length="0" Index_length="0" Data_free="0" Auto_increment="591" Create_time="2012-02-22 08:47:30" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 21504 kB" />
+		<options Name="edition" Engine="InnoDB" Version="10" Row_format="Compact" Rows="619" Avg_row_length="105" Data_length="65536" Max_data_length="0" Index_length="0" Data_free="0" Auto_increment="591" Create_time="2012-02-22 08:47:30" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 22528 kB" />
 	</table_structure>
 	<table_data name="edition">
 	<row>
@@ -34291,11 +35411,11 @@
 		<field Field="version" Type="int(11)" Null="NO" Key="" Extra="" />
 		<field Field="data" Type="longtext" Null="YES" Key="" Extra="" />
 		<field Field="username" Type="varchar(255)" Null="YES" Key="MUL" Extra="" />
-		<key Table="ext_log_entries" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="2641" Null="" Index_type="BTREE" Comment="" />
-		<key Table="ext_log_entries" Non_unique="1" Key_name="log_class_lookup_idx" Seq_in_index="1" Column_name="object_class" Collation="A" Cardinality="3" Null="" Index_type="BTREE" Comment="" />
-		<key Table="ext_log_entries" Non_unique="1" Key_name="log_date_lookup_idx" Seq_in_index="1" Column_name="logged_at" Collation="A" Cardinality="2641" Null="" Index_type="BTREE" Comment="" />
-		<key Table="ext_log_entries" Non_unique="1" Key_name="log_user_lookup_idx" Seq_in_index="1" Column_name="username" Collation="A" Cardinality="1" Null="YES" Index_type="BTREE" Comment="" />
-		<options Name="ext_log_entries" Engine="InnoDB" Version="10" Row_format="Compact" Rows="2751" Avg_row_length="577" Data_length="1589248" Max_data_length="0" Index_length="393216" Data_free="0" Auto_increment="3128" Create_time="2012-02-10 23:18:07" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 21504 kB" />
+		<key Table="ext_log_entries" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="3368" Null="" Index_type="BTREE" Comment="" />
+		<key Table="ext_log_entries" Non_unique="1" Key_name="log_class_lookup_idx" Seq_in_index="1" Column_name="object_class" Collation="A" Cardinality="4" Null="" Index_type="BTREE" Comment="" />
+		<key Table="ext_log_entries" Non_unique="1" Key_name="log_date_lookup_idx" Seq_in_index="1" Column_name="logged_at" Collation="A" Cardinality="3368" Null="" Index_type="BTREE" Comment="" />
+		<key Table="ext_log_entries" Non_unique="1" Key_name="log_user_lookup_idx" Seq_in_index="1" Column_name="username" Collation="A" Cardinality="46" Null="YES" Index_type="BTREE" Comment="" />
+		<options Name="ext_log_entries" Engine="InnoDB" Version="10" Row_format="Compact" Rows="3529" Avg_row_length="450" Data_length="1589248" Max_data_length="0" Index_length="409600" Data_free="0" Auto_increment="3208" Create_time="2012-02-10 23:18:07" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 22528 kB" />
 	</table_structure>
 	<table_data name="ext_log_entries">
 	<row>
@@ -65579,6 +66699,806 @@ app.crit.) (am Original), F. Mitthof, ZPE 139 (2002), S. 140.&quot;;s:6:&quot;st
 		<field name="data">a:3:{s:8:&quot;position&quot;;s:3:&quot;8-9&quot;;s:11:&quot;description&quot;;s:138:&quot;διὰ παντὸς ist auf Αὔγουστος zu beziehen und die Übersetzung von lat. semper, D. Hagedorn, ZPE 151 (2005), S. 127-8.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
 		<field name="username">mirizio</field>
 	</row>
+	<row>
+		<field name="id">3128</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-03 15:39:53</field>
+		<field name="object_id">1019</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:14:&quot;already in HGV&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3129</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-03 15:39:53</field>
+		<field name="object_id">1044</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;N;s:11:&quot;description&quot;;s:56:&quot;Zur Datierung vgl. K. A. Worp, ZPE 151 (2005), S. 155-8.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3130</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-03 15:52:34</field>
+		<field name="object_id">1020</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:14:&quot;already in HGV&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3131</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-03 15:52:34</field>
+		<field name="object_id">1045</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:2:&quot;16&quot;;s:11:&quot;description&quot;;s:102:&quot;περατούρας: lies viell. πεδατούρας, K. A. Worp, ZPE 151 (2005), S. 147-8, Anm. 10.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3132</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-03 15:55:08</field>
+		<field name="object_id">1021</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:45:&quot;Enter this correction into DDB via the editor&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3133</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-03 15:55:08</field>
+		<field name="object_id">1046</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:2:&quot;16&quot;;s:11:&quot;description&quot;;s:123:&quot;πρεσβ(ύτερος) → πρεσβ(υτέρου); Φλ(αούιος) zu streichen: K. A. Worp, ZPE 151 (2005), S. 150.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3134</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-03 15:57:24</field>
+		<field name="object_id">1022</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:14:&quot;already in HGV&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3135</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-03 15:57:24</field>
+		<field name="object_id">1047</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:2:&quot;21&quot;;s:11:&quot;description&quot;;s:95:&quot;πρεσβυτέρου wohl kein Fehler für den Nominativ: K. A. Worp, ZPE 151 (2005), S. 146.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3136</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-03 15:59:54</field>
+		<field name="object_id">1023</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:14:&quot;already in HGV&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3137</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-03 15:59:54</field>
+		<field name="object_id">1024</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:45:&quot;Enter this correction into DDB via the editor&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3138</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-03 15:59:54</field>
+		<field name="object_id">1048</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:2:&quot;22&quot;;s:11:&quot;description&quot;;s:87:&quot;Σεβαστοῦ → Αὐγούστου, K. A. Worp, ZPE 151 (2005), S. 154, Anm. 12.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3139</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-03 16:01:59</field>
+		<field name="object_id">1025</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:14:&quot;already in HGV&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3140</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-03 16:01:59</field>
+		<field name="object_id">1049</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;N;s:11:&quot;description&quot;;s:56:&quot;Zur Datierung vgl. K. A. Worp, ZPE 151 (2005), S. 155-8.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3141</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-03 16:04:48</field>
+		<field name="object_id">1026</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:14:&quot;already in HGV&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3142</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-03 16:04:48</field>
+		<field name="object_id">1050</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:2:&quot;22&quot;;s:11:&quot;description&quot;;s:159:&quot;Φ̣λ̣α̣ύ̣ι(ος) Ἰωσὴφ Ἀκ̣ ̣ ̣ω̣ρίου: viell. Σιλβ̣α̣ν̣ό̣ς Ἡφαισ[τί]ωνος, K. A. Worp, ZPE 151 (2005), S. 150.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3143</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-03 16:08:15</field>
+		<field name="object_id">1027</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:14:&quot;already in HGV&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3144</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-03 16:08:15</field>
+		<field name="object_id">1051</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;N;s:11:&quot;description&quot;;s:85:&quot;Zu datieren: 26 April – 25 Mai 221 n.Chr.: J. David Thomas, ZPE 151 (2005), S. 144.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3145</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-03 16:10:42</field>
+		<field name="object_id">1028</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:45:&quot;Enter this correction into DDB via the editor&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3146</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-03 16:10:42</field>
+		<field name="object_id">1052</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:1:&quot;2&quot;;s:11:&quot;description&quot;;s:87:&quot;Σεβαστοῦ → Αὐγούστου, K. A. Worp, ZPE 151 (2005), S. 154, Anm. 11.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3147</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-03 16:12:48</field>
+		<field name="object_id">1029</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:14:&quot;already in HGV&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3148</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-03 16:12:48</field>
+		<field name="object_id">1053</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:1:&quot;6&quot;;s:11:&quot;description&quot;;s:42:&quot;Vgl. K. A. Worp, ZPE 151 (2005), S. 145-8.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3149</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-03 16:15:11</field>
+		<field name="object_id">1030</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:14:&quot;already in HGV&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3150</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-03 16:15:11</field>
+		<field name="object_id">1054</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;N;s:11:&quot;description&quot;;s:43:&quot;Vgl. D. Kaltsas, ZPE 151 (2005), S. 133-40.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3151</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-03 16:20:01</field>
+		<field name="object_id">1031</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:14:&quot;already in HGV&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3152</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-03 16:20:01</field>
+		<field name="object_id">1055</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:1:&quot;3&quot;;s:11:&quot;description&quot;;s:42:&quot;Vgl. K. A. Worp, ZPE 151 (2005), S. 145-8.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3153</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-04 09:38:34</field>
+		<field name="object_id">1032</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:14:&quot;already in HGV&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3154</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-04 09:38:34</field>
+		<field name="object_id">1056</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;N;s:11:&quot;description&quot;;s:72:&quot;Eher ins frühe 4. Jhd. zu datieren: K. A. Worp, ZPE 151 (2005), S. 153.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3155</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-04 09:40:50</field>
+		<field name="object_id">1033</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:45:&quot;Enter this correction into DDB via the editor&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3156</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-04 09:40:50</field>
+		<field name="object_id">1057</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:1:&quot;2&quot;;s:11:&quot;description&quot;;s:91:&quot;[Σεβαστοῦ] → [Αὐγούστου], K. A. Worp, ZPE 151 (2005), S. 154, Anm. 11.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3157</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-04 09:44:45</field>
+		<field name="object_id">1034</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:14:&quot;already in HGV&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3158</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-04 09:44:45</field>
+		<field name="object_id">1058</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;N;s:11:&quot;description&quot;;s:59:&quot;Datum: 25. Mai 260, J. D. Thomas, ZPE 151 (2005), S. 141-3.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3159</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-04 09:46:32</field>
+		<field name="object_id">1035</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:14:&quot;already in HGV&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3160</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-04 09:46:32</field>
+		<field name="object_id">1059</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;N;s:11:&quot;description&quot;;s:59:&quot;Datum: 25. Mai 260, J. D. Thomas, ZPE 151 (2005), S. 141-3.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3161</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-04 09:47:50</field>
+		<field name="object_id">1036</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:14:&quot;already in HGV&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3162</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-04 09:47:50</field>
+		<field name="object_id">1060</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;N;s:11:&quot;description&quot;;s:59:&quot;Datum: 25. Mai 260, J. D. Thomas, ZPE 151 (2005), S. 141-3.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3163</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-04 09:49:02</field>
+		<field name="object_id">1061</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;N;s:11:&quot;description&quot;;s:59:&quot;Datum: 25. Mai 260, J. D. Thomas, ZPE 151 (2005), S. 141-3.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3164</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-04 09:50:14</field>
+		<field name="object_id">1037</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:14:&quot;already in HGV&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3165</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-04 09:50:14</field>
+		<field name="object_id">1062</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;N;s:11:&quot;description&quot;;s:59:&quot;Datum: 25. Mai 260, J. D. Thomas, ZPE 151 (2005), S. 141-3.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3166</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-04 09:51:33</field>
+		<field name="object_id">1038</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:14:&quot;already in HGV&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3167</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-04 09:51:33</field>
+		<field name="object_id">1063</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;N;s:11:&quot;description&quot;;s:59:&quot;Datum: 25. Mai 260, J. D. Thomas, ZPE 151 (2005), S. 141-3.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3168</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-04 09:52:41</field>
+		<field name="object_id">1039</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:14:&quot;already in HGV&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3169</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-04 09:52:41</field>
+		<field name="object_id">1064</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;N;s:11:&quot;description&quot;;s:59:&quot;Datum: 25. Mai 260, J. D. Thomas, ZPE 151 (2005), S. 141-3.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3170</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-04 09:54:30</field>
+		<field name="object_id">1040</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:14:&quot;already in HGV&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3171</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-04 09:54:30</field>
+		<field name="object_id">1065</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;N;s:11:&quot;description&quot;;s:59:&quot;Datum: 16. Mai 260, J. D. Thomas, ZPE 151 (2005), S. 141-3.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3172</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-04 09:56:01</field>
+		<field name="object_id">1041</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:14:&quot;already in HGV&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3173</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-04 09:56:01</field>
+		<field name="object_id">1066</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;N;s:11:&quot;description&quot;;s:59:&quot;Datum: 16. Mai 260, J. D. Thomas, ZPE 151 (2005), S. 141-3.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3174</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-04 09:58:28</field>
+		<field name="object_id">1042</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:14:&quot;already in HGV&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3175</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-04 09:58:28</field>
+		<field name="object_id">1067</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:1:&quot;3&quot;;s:11:&quot;description&quot;;s:42:&quot;Vgl. K. A. Worp, ZPE 151 (2005), S. 145-8.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3176</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-04 10:00:14</field>
+		<field name="object_id">1043</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:45:&quot;Enter this correction into DDB via the editor&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3177</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-04 10:00:14</field>
+		<field name="object_id">1068</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:1:&quot;1&quot;;s:11:&quot;description&quot;;s:78:&quot;Σεβαστοῦ → Αὐγούστου, K. A. Worp, ZPE 151 (2005), S. 155.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3178</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-04 10:02:55</field>
+		<field name="object_id">1044</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:14:&quot;already in HGV&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3179</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-04 10:02:55</field>
+		<field name="object_id">1069</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;N;s:11:&quot;description&quot;;s:49:&quot;Vgl. D. Hagedorn, ZPE 151 (2005), S. 127, Anm. 3.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3180</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-04 10:06:18</field>
+		<field name="object_id">1045</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:14:&quot;already in HGV&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3181</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-04 10:06:18</field>
+		<field name="object_id">1070</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:2:&quot;22&quot;;s:11:&quot;description&quot;;s:42:&quot;Vgl. K. A. Worp, ZPE 151 (2005), S. 145-8.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3182</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-04 10:10:04</field>
+		<field name="object_id">1046</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:14:&quot;already in HGV&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3183</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-04 10:10:04</field>
+		<field name="object_id">1071</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:1:&quot;3&quot;;s:11:&quot;description&quot;;s:91:&quot;ἐτησ(ίαν): viell. ἐγκυ(κλίου), J. M. S. Cowey, ZPE 151 (2005), S. 159-60.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3184</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-04 10:11:27</field>
+		<field name="object_id">1047</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:14:&quot;already in HGV&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3185</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-04 10:11:27</field>
+		<field name="object_id">1072</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;N;s:11:&quot;description&quot;;s:46:&quot;Nd.: J. M. S. Cowey, ZPE 151 (2005), S. 161-2.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3186</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-04 10:13:34</field>
+		<field name="object_id">1048</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:45:&quot;Enter this correction into DDB via the editor&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3187</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-04 10:13:34</field>
+		<field name="object_id">1073</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:1:&quot;2&quot;;s:11:&quot;description&quot;;s:112:&quot;τῶν ογ καὶ φμ → τῶν (μυριάδων) γ καὶ Δμ, D. Hagedorn, ZPE 151 (2005), S. 130-2.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3188</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-04 10:15:37</field>
+		<field name="object_id">1049</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:14:&quot;already in HGV&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3189</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-04 10:15:37</field>
+		<field name="object_id">1074</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;N;s:11:&quot;description&quot;;s:57:&quot;Zur Datierung vgl.: K. A. Worp, ZPE 151 (2005), S. 155-8.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3190</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-04 10:17:56</field>
+		<field name="object_id">1050</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:14:&quot;already in HGV&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3191</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-04 10:17:56</field>
+		<field name="object_id">1075</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;N;s:11:&quot;description&quot;;s:57:&quot;Zur Datierung vgl.: K. A. Worp, ZPE 151 (2005), S. 155-8.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3192</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-04 10:20:10</field>
+		<field name="object_id">1051</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:45:&quot;Enter this correction into DDB via the editor&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3193</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-04 10:20:10</field>
+		<field name="object_id">1076</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:2:&quot;78&quot;;s:11:&quot;description&quot;;s:91:&quot;πρ(εσβύτερος) → πρι(), K. A. Worp, ZPE 151 (2005), S. 150 (nach dem Photo).&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3194</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-04 10:22:13</field>
+		<field name="object_id">1052</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:45:&quot;Enter this correction into DDB via the editor&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3195</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-04 10:22:13</field>
+		<field name="object_id">1077</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:2:&quot;30&quot;;s:11:&quot;description&quot;;s:97:&quot;πρεσβύτερ(ος) → πρεσβυτέρ(ου), . A. Worp, ZPE 151 (2005), S. 146, Anm. 3.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3196</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-04 10:27:53</field>
+		<field name="object_id">1053</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:14:&quot;already in HGV&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3197</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-04 10:27:53</field>
+		<field name="object_id">1078</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;N;s:11:&quot;description&quot;;s:57:&quot;Zur Datierung vgl.: K. A. Worp, ZPE 151 (2005), S. 155-8.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3198</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-04 10:30:03</field>
+		<field name="object_id">1054</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:45:&quot;Enter this correction into DDB via the editor&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3199</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-04 10:30:03</field>
+		<field name="object_id">1079</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:1:&quot;5&quot;;s:11:&quot;description&quot;;s:138:&quot;μηδὲ ἑλ{λ}όντων τοιούτων → μηδὲ ἄλλο τι τῶν τοιούτων, D. Hagedorn, ZPE 151 (2005), S. 132.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3200</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-04 10:31:47</field>
+		<field name="object_id">1055</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:14:&quot;already in HGV&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3201</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-04 10:31:47</field>
+		<field name="object_id">1080</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;N;s:11:&quot;description&quot;;s:74:&quot;Vgl. zum Ort und zur Datierung: J. David Thomas, ZPE 151 (2005), S. 141-3.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3202</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-04 10:33:43</field>
+		<field name="object_id">1056</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:14:&quot;already in HGV&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3203</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-04 10:33:43</field>
+		<field name="object_id">1081</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;N;s:11:&quot;description&quot;;s:57:&quot;Zur Datierung vgl.: K. A. Worp, ZPE 151 (2005), S. 155-8.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3204</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-04 10:35:58</field>
+		<field name="object_id">1057</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:45:&quot;Enter this correction into DDB via the editor&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3205</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-04 10:35:58</field>
+		<field name="object_id">1082</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:1:&quot;8&quot;;s:11:&quot;description&quot;;s:85:&quot;Παρατουρ() → παρατουρ(ᾶς), K. A. Worp, ZPE 151 (2005), S. 148-9.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3206</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-04 10:37:48</field>
+		<field name="object_id">1058</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:45:&quot;Enter this correction into DDB via the editor&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3207</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-04 10:37:48</field>
+		<field name="object_id">1083</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:1:&quot;9&quot;;s:11:&quot;description&quot;;s:65:&quot;Παρ[ατουρ() → παρ[ατουρ(ᾶς), l.c., S. 148-9.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">mirizio</field>
+	</row>
 	</table_data>
 	<table_structure name="ext_translations">
 		<field Field="id" Type="int(11)" Null="NO" Key="PRI" Extra="auto_increment" />
@@ -65595,7 +67515,7 @@ app.crit.) (am Original), F. Mitthof, ZPE 139 (2002), S. 140.&quot;;s:6:&quot;st
 		<key Table="ext_translations" Non_unique="1" Key_name="translations_lookup_idx" Seq_in_index="1" Column_name="locale" Collation="A" Cardinality="0" Null="" Index_type="BTREE" Comment="" />
 		<key Table="ext_translations" Non_unique="1" Key_name="translations_lookup_idx" Seq_in_index="2" Column_name="object_class" Collation="A" Cardinality="0" Null="" Index_type="BTREE" Comment="" />
 		<key Table="ext_translations" Non_unique="1" Key_name="translations_lookup_idx" Seq_in_index="3" Column_name="foreign_key" Collation="A" Cardinality="0" Null="" Index_type="BTREE" Comment="" />
-		<options Name="ext_translations" Engine="InnoDB" Version="10" Row_format="Compact" Rows="0" Avg_row_length="0" Data_length="16384" Max_data_length="0" Index_length="32768" Data_free="0" Auto_increment="1" Create_time="2012-02-10 23:18:07" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 21504 kB" />
+		<options Name="ext_translations" Engine="InnoDB" Version="10" Row_format="Compact" Rows="0" Avg_row_length="0" Data_length="16384" Max_data_length="0" Index_length="32768" Data_free="0" Auto_increment="1" Create_time="2012-02-10 23:18:07" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 22528 kB" />
 	</table_structure>
 	<table_data name="ext_translations">
 	</table_data>
@@ -65607,7 +67527,7 @@ app.crit.) (am Original), F. Mitthof, ZPE 139 (2002), S. 140.&quot;;s:6:&quot;st
 		<field Field="phrase" Type="longtext" Null="NO" Key="" Extra="" />
 		<key Table="index_entry" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="25" Null="" Index_type="BTREE" Comment="" />
 		<key Table="index_entry" Non_unique="1" Key_name="IDX_D9E81DE694AE086B" Seq_in_index="1" Column_name="correction_id" Collation="A" Cardinality="25" Null="" Index_type="BTREE" Comment="" />
-		<options Name="index_entry" Engine="InnoDB" Version="10" Row_format="Compact" Rows="25" Avg_row_length="655" Data_length="16384" Max_data_length="0" Index_length="16384" Data_free="0" Auto_increment="34" Create_time="2012-03-14 14:57:46" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 21504 kB; (`correction_id`) REFER `bl/correction`(`id`)" />
+		<options Name="index_entry" Engine="InnoDB" Version="10" Row_format="Compact" Rows="25" Avg_row_length="655" Data_length="16384" Max_data_length="0" Index_length="16384" Data_free="0" Auto_increment="34" Create_time="2012-03-14 14:57:46" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 22528 kB; (`correction_id`) REFER `bl/correction`(`id`)" />
 	</table_structure>
 	<table_data name="index_entry">
 	<row>
@@ -65792,9 +67712,9 @@ app.crit.) (am Original), F. Mitthof, ZPE 139 (2002), S. 140.&quot;;s:6:&quot;st
 		<field Field="category" Type="varchar(64)" Null="NO" Key="" Extra="" />
 		<field Field="description" Type="longtext" Null="NO" Key="" Extra="" />
 		<field Field="cleared" Type="datetime" Null="YES" Key="" Extra="" />
-		<key Table="task" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="1127" Null="" Index_type="BTREE" Comment="" />
-		<key Table="task" Non_unique="1" Key_name="IDX_527EDB2594AE086B" Seq_in_index="1" Column_name="correction_id" Collation="A" Cardinality="1127" Null="" Index_type="BTREE" Comment="" />
-		<options Name="task" Engine="InnoDB" Version="10" Row_format="Compact" Rows="1127" Avg_row_length="72" Data_length="81920" Max_data_length="0" Index_length="16384" Data_free="0" Auto_increment="1019" Create_time="2012-02-22 09:27:05" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 21504 kB; (`correction_id`) REFER `bl/correction`(`id`)" />
+		<key Table="task" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="1207" Null="" Index_type="BTREE" Comment="" />
+		<key Table="task" Non_unique="1" Key_name="IDX_527EDB2594AE086B" Seq_in_index="1" Column_name="correction_id" Collation="A" Cardinality="1207" Null="" Index_type="BTREE" Comment="" />
+		<options Name="task" Engine="InnoDB" Version="10" Row_format="Compact" Rows="1207" Avg_row_length="67" Data_length="81920" Max_data_length="0" Index_length="16384" Data_free="0" Auto_increment="1059" Create_time="2012-02-22 09:27:05" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 22528 kB; (`correction_id`) REFER `bl/correction`(`id`)" />
 	</table_structure>
 	<table_data name="task">
 	<row>
@@ -72711,6 +74631,286 @@ app.crit.) (am Original), F. Mitthof, ZPE 139 (2002), S. 140.&quot;;s:6:&quot;st
 		<field name="correction_id">1043</field>
 		<field name="category">hgv</field>
 		<field name="description">already in HGV</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1019</field>
+		<field name="correction_id">1044</field>
+		<field name="category">hgv</field>
+		<field name="description">already in HGV</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1020</field>
+		<field name="correction_id">1045</field>
+		<field name="category">hgv</field>
+		<field name="description">already in HGV</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1021</field>
+		<field name="correction_id">1046</field>
+		<field name="category">ddb</field>
+		<field name="description">Enter this correction into DDB via the editor</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1022</field>
+		<field name="correction_id">1047</field>
+		<field name="category">hgv</field>
+		<field name="description">already in HGV</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1023</field>
+		<field name="correction_id">1048</field>
+		<field name="category">hgv</field>
+		<field name="description">already in HGV</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1024</field>
+		<field name="correction_id">1048</field>
+		<field name="category">ddb</field>
+		<field name="description">Enter this correction into DDB via the editor</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1025</field>
+		<field name="correction_id">1049</field>
+		<field name="category">hgv</field>
+		<field name="description">already in HGV</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1026</field>
+		<field name="correction_id">1050</field>
+		<field name="category">hgv</field>
+		<field name="description">already in HGV</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1027</field>
+		<field name="correction_id">1051</field>
+		<field name="category">hgv</field>
+		<field name="description">already in HGV</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1028</field>
+		<field name="correction_id">1052</field>
+		<field name="category">ddb</field>
+		<field name="description">Enter this correction into DDB via the editor</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1029</field>
+		<field name="correction_id">1053</field>
+		<field name="category">hgv</field>
+		<field name="description">already in HGV</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1030</field>
+		<field name="correction_id">1054</field>
+		<field name="category">hgv</field>
+		<field name="description">already in HGV</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1031</field>
+		<field name="correction_id">1055</field>
+		<field name="category">hgv</field>
+		<field name="description">already in HGV</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1032</field>
+		<field name="correction_id">1056</field>
+		<field name="category">hgv</field>
+		<field name="description">already in HGV</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1033</field>
+		<field name="correction_id">1057</field>
+		<field name="category">ddb</field>
+		<field name="description">Enter this correction into DDB via the editor</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1034</field>
+		<field name="correction_id">1058</field>
+		<field name="category">hgv</field>
+		<field name="description">already in HGV</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1035</field>
+		<field name="correction_id">1059</field>
+		<field name="category">hgv</field>
+		<field name="description">already in HGV</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1036</field>
+		<field name="correction_id">1060</field>
+		<field name="category">hgv</field>
+		<field name="description">already in HGV</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1037</field>
+		<field name="correction_id">1062</field>
+		<field name="category">hgv</field>
+		<field name="description">already in HGV</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1038</field>
+		<field name="correction_id">1063</field>
+		<field name="category">hgv</field>
+		<field name="description">already in HGV</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1039</field>
+		<field name="correction_id">1064</field>
+		<field name="category">hgv</field>
+		<field name="description">already in HGV</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1040</field>
+		<field name="correction_id">1065</field>
+		<field name="category">hgv</field>
+		<field name="description">already in HGV</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1041</field>
+		<field name="correction_id">1066</field>
+		<field name="category">hgv</field>
+		<field name="description">already in HGV</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1042</field>
+		<field name="correction_id">1067</field>
+		<field name="category">hgv</field>
+		<field name="description">already in HGV</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1043</field>
+		<field name="correction_id">1068</field>
+		<field name="category">ddb</field>
+		<field name="description">Enter this correction into DDB via the editor</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1044</field>
+		<field name="correction_id">1069</field>
+		<field name="category">hgv</field>
+		<field name="description">already in HGV</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1045</field>
+		<field name="correction_id">1070</field>
+		<field name="category">hgv</field>
+		<field name="description">already in HGV</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1046</field>
+		<field name="correction_id">1071</field>
+		<field name="category">hgv</field>
+		<field name="description">already in HGV</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1047</field>
+		<field name="correction_id">1072</field>
+		<field name="category">hgv</field>
+		<field name="description">already in HGV</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1048</field>
+		<field name="correction_id">1073</field>
+		<field name="category">ddb</field>
+		<field name="description">Enter this correction into DDB via the editor</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1049</field>
+		<field name="correction_id">1074</field>
+		<field name="category">hgv</field>
+		<field name="description">already in HGV</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1050</field>
+		<field name="correction_id">1075</field>
+		<field name="category">hgv</field>
+		<field name="description">already in HGV</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1051</field>
+		<field name="correction_id">1076</field>
+		<field name="category">ddb</field>
+		<field name="description">Enter this correction into DDB via the editor</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1052</field>
+		<field name="correction_id">1077</field>
+		<field name="category">ddb</field>
+		<field name="description">Enter this correction into DDB via the editor</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1053</field>
+		<field name="correction_id">1078</field>
+		<field name="category">hgv</field>
+		<field name="description">already in HGV</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1054</field>
+		<field name="correction_id">1079</field>
+		<field name="category">ddb</field>
+		<field name="description">Enter this correction into DDB via the editor</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1055</field>
+		<field name="correction_id">1080</field>
+		<field name="category">hgv</field>
+		<field name="description">already in HGV</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1056</field>
+		<field name="correction_id">1081</field>
+		<field name="category">hgv</field>
+		<field name="description">already in HGV</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1057</field>
+		<field name="correction_id">1082</field>
+		<field name="category">ddb</field>
+		<field name="description">Enter this correction into DDB via the editor</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1058</field>
+		<field name="correction_id">1083</field>
+		<field name="category">ddb</field>
+		<field name="description">Enter this correction into DDB via the editor</field>
 		<field name="cleared" xsi:nil="true" />
 	</row>
 	</table_data>
