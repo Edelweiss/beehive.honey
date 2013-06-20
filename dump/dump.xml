@@ -167,10 +167,10 @@
 		<field Field="sortUser" Type="varchar(256)" Null="YES" Key="" Extra="" />
 		<field Field="sort" Type="varchar(256)" Null="NO" Key="" Extra="" />
 		<field Field="compilationPage" Type="varchar(64)" Null="YES" Key="" Extra="" />
-		<key Table="correction" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="1126" Null="" Index_type="BTREE" Comment="" />
-		<key Table="correction" Non_unique="1" Key_name="IDX_A29DA1B874281A5E" Seq_in_index="1" Column_name="edition_id" Collation="A" Cardinality="563" Null="" Index_type="BTREE" Comment="" />
-		<key Table="correction" Non_unique="1" Key_name="IDX_A29DA1B8A5F8C840" Seq_in_index="1" Column_name="compilation_id" Collation="A" Cardinality="9" Null="" Index_type="BTREE" Comment="" />
-		<options Name="correction" Engine="InnoDB" Version="10" Row_format="Compact" Rows="1126" Avg_row_length="451" Data_length="507904" Max_data_length="0" Index_length="98304" Data_free="0" Auto_increment="1242" Create_time="2012-07-04 12:42:44" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 23552 kB; (`edition_id`) REFER `bl/edition`(`id`); (`compilation_id" />
+		<key Table="correction" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="1279" Null="" Index_type="BTREE" Comment="" />
+		<key Table="correction" Non_unique="1" Key_name="IDX_A29DA1B874281A5E" Seq_in_index="1" Column_name="edition_id" Collation="A" Cardinality="639" Null="" Index_type="BTREE" Comment="" />
+		<key Table="correction" Non_unique="1" Key_name="IDX_A29DA1B8A5F8C840" Seq_in_index="1" Column_name="compilation_id" Collation="A" Cardinality="10" Null="" Index_type="BTREE" Comment="" />
+		<options Name="correction" Engine="InnoDB" Version="10" Row_format="Compact" Rows="1298" Avg_row_length="391" Data_length="507904" Max_data_length="0" Index_length="98304" Data_free="0" Auto_increment="1242" Create_time="2012-07-04 12:42:44" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 23552 kB; (`edition_id`) REFER `bl/edition`(`id`); (`compilation_id" />
 	</table_structure>
 	<table_data name="correction">
 	<row>
@@ -29363,9 +29363,9 @@
 		<field name="volume">49</field>
 		<field name="document">3513</field>
 		<field name="position" xsi:nil="true" />
-		<field name="description">Datum: 25. Mai 260, J. D. Thomas, ZPE 151 (2005), S. 141-3.</field>
+		<field name="description">Datum: 25. Mai 260, J. D. Thomas, ZPE 151 (2005), S. 142, Anm. 10.</field>
 		<field name="source">74562</field>
-		<field name="status">unchecked</field>
+		<field name="status">reviewed</field>
 		<field name="creator">mirizio</field>
 		<field name="created">2013-06-04 09:44:44</field>
 		<field name="sortPage" xsi:nil="true" />
@@ -29391,9 +29391,9 @@
 		<field name="volume">49</field>
 		<field name="document">3514</field>
 		<field name="position" xsi:nil="true" />
-		<field name="description">Datum: 25. Mai 260, J. D. Thomas, ZPE 151 (2005), S. 141-3.</field>
+		<field name="description">Datum: 25. Mai 260, J. D. Thomas, ZPE 151 (2005), S. 142, Anm. 10.</field>
 		<field name="source">74562</field>
-		<field name="status">unchecked</field>
+		<field name="status">reviewed</field>
 		<field name="creator">mirizio</field>
 		<field name="created">2013-06-04 09:46:32</field>
 		<field name="sortPage" xsi:nil="true" />
@@ -29419,9 +29419,9 @@
 		<field name="volume">49</field>
 		<field name="document">3515</field>
 		<field name="position" xsi:nil="true" />
-		<field name="description">Datum: 25. Mai 260, J. D. Thomas, ZPE 151 (2005), S. 141-3.</field>
+		<field name="description">Datum: 25. Mai 260, J. D. Thomas, ZPE 151 (2005), S. 142, Anm. 10.</field>
 		<field name="source">74562</field>
-		<field name="status">unchecked</field>
+		<field name="status">reviewed</field>
 		<field name="creator">mirizio</field>
 		<field name="created">2013-06-04 09:47:50</field>
 		<field name="sortPage" xsi:nil="true" />
@@ -29447,9 +29447,9 @@
 		<field name="volume">49</field>
 		<field name="document">3516</field>
 		<field name="position" xsi:nil="true" />
-		<field name="description">Datum: 25. Mai 260, J. D. Thomas, ZPE 151 (2005), S. 141-3.</field>
+		<field name="description">Datum: 25. Mai 260, J. D. Thomas, ZPE 151 (2005), S. 142, Anm. 10.</field>
 		<field name="source">74562</field>
-		<field name="status">unchecked</field>
+		<field name="status">reviewed</field>
 		<field name="creator">mirizio</field>
 		<field name="created">2013-06-04 09:49:02</field>
 		<field name="sortPage" xsi:nil="true" />
@@ -29475,9 +29475,9 @@
 		<field name="volume">49</field>
 		<field name="document">3517</field>
 		<field name="position" xsi:nil="true" />
-		<field name="description">Datum: 25. Mai 260, J. D. Thomas, ZPE 151 (2005), S. 141-3.</field>
+		<field name="description">Datum: 25. Mai 260, J. D. Thomas, ZPE 151 (2005), S. 142, Anm. 10.</field>
 		<field name="source">74562</field>
-		<field name="status">unchecked</field>
+		<field name="status">reviewed</field>
 		<field name="creator">mirizio</field>
 		<field name="created">2013-06-04 09:50:14</field>
 		<field name="sortPage" xsi:nil="true" />
@@ -29503,9 +29503,9 @@
 		<field name="volume">49</field>
 		<field name="document">3518</field>
 		<field name="position" xsi:nil="true" />
-		<field name="description">Datum: 25. Mai 260, J. D. Thomas, ZPE 151 (2005), S. 141-3.</field>
+		<field name="description">Datum: 25. Mai 260, J. D. Thomas, ZPE 151 (2005), S. 142, Anm. 10.</field>
 		<field name="source">74562</field>
-		<field name="status">unchecked</field>
+		<field name="status">reviewed</field>
 		<field name="creator">mirizio</field>
 		<field name="created">2013-06-04 09:51:33</field>
 		<field name="sortPage" xsi:nil="true" />
@@ -29531,9 +29531,9 @@
 		<field name="volume">49</field>
 		<field name="document">3519</field>
 		<field name="position" xsi:nil="true" />
-		<field name="description">Datum: 25. Mai 260, J. D. Thomas, ZPE 151 (2005), S. 141-3.</field>
+		<field name="description">Datum: 25. Mai 260, J. D. Thomas, ZPE 151 (2005), S. 142, Anm. 10.</field>
 		<field name="source">74562</field>
-		<field name="status">unchecked</field>
+		<field name="status">reviewed</field>
 		<field name="creator">mirizio</field>
 		<field name="created">2013-06-04 09:52:41</field>
 		<field name="sortPage" xsi:nil="true" />
@@ -29559,9 +29559,9 @@
 		<field name="volume">49</field>
 		<field name="document">3520</field>
 		<field name="position" xsi:nil="true" />
-		<field name="description">Datum: 16. Mai 260, J. D. Thomas, ZPE 151 (2005), S. 141-3.</field>
+		<field name="description">Datum: 16. Mai 260, J. D. Thomas, ZPE 151 (2005), S. 142, Anm. 10.</field>
 		<field name="source">74562</field>
-		<field name="status">unchecked</field>
+		<field name="status">reviewed</field>
 		<field name="creator">mirizio</field>
 		<field name="created">2013-06-04 09:54:30</field>
 		<field name="sortPage" xsi:nil="true" />
@@ -29587,9 +29587,9 @@
 		<field name="volume">49</field>
 		<field name="document">3521</field>
 		<field name="position" xsi:nil="true" />
-		<field name="description">Datum: 16. Mai 260, J. D. Thomas, ZPE 151 (2005), S. 141-3.</field>
+		<field name="description">Datum: 16. Mai 260, J. D. Thomas, ZPE 151 (2005), S. 142, Anm. 10.</field>
 		<field name="source">74562</field>
-		<field name="status">unchecked</field>
+		<field name="status">reviewed</field>
 		<field name="creator">mirizio</field>
 		<field name="created">2013-06-04 09:56:00</field>
 		<field name="sortPage" xsi:nil="true" />
@@ -30091,7 +30091,7 @@
 		<field name="volume">9</field>
 		<field name="document">1893</field>
 		<field name="position" xsi:nil="true" />
-		<field name="description">Vgl. Ruben Smolders, ZPE 150 (2004), S. 220.</field>
+		<field name="description">Vgl. R. Smolders, ZPE 150 (2004), S. 220.</field>
 		<field name="source">73647</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -30119,7 +30119,7 @@
 		<field name="volume">10</field>
 		<field name="document">114</field>
 		<field name="position" xsi:nil="true" />
-		<field name="description">Zur Datierung vgl. Dieter Hagedorn, ZPE 150 (2004), S. 158-9.</field>
+		<field name="description">Zur Datierung vgl. D. Hagedorn, ZPE 150 (2004), S. 158-9.</field>
 		<field name="source">73184</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -30147,7 +30147,7 @@
 		<field name="volume">14</field>
 		<field name="document">30</field>
 		<field name="position" xsi:nil="true" />
-		<field name="description">Die Berichtigung in BL X 55 wird abgelehnt: Nikolaos Gonis, ZPE 150 (2004), S. 187.</field>
+		<field name="description">Die Berichtigung in BL X 55 wird abgelehnt: N. Gonis, ZPE 150 (2004), S. 187.</field>
 		<field name="source">73153</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -30175,7 +30175,7 @@
 		<field name="volume">14</field>
 		<field name="document">31</field>
 		<field name="position" xsi:nil="true" />
-		<field name="description">Nd.: Nikolaos Gonis, ZPE 150 (2004), S. 187-9.</field>
+		<field name="description">Nd.: N. Gonis, ZPE 150 (2004), S. 187-9.</field>
 		<field name="source">73153</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -30203,7 +30203,7 @@
 		<field name="volume">19</field>
 		<field name="document">8</field>
 		<field name="position">4</field>
-		<field name="description">τικῆς τῷ  ̣ ̣[: viell. στρατιω]|τικῆς τάξ̣ε̣[ως,  Dieter Hagedorn, ZPE 150 (2004), S. 155.</field>
+		<field name="description">τικῆς τῷ  ̣ ̣[: viell. στρατιω]|τικῆς τάξ̣ε̣[ως,  D. Hagedorn, ZPE 150 (2004), S. 155.</field>
 		<field name="source">73184</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -30231,7 +30231,7 @@
 		<field name="volume">19</field>
 		<field name="document">11</field>
 		<field name="position">4</field>
-		<field name="description">Zu ergänzen wohl: [Ἀρσινοίου νομοῦ, Dieter Hagedorn, ZPE 150 (2004), S. 155.</field>
+		<field name="description">Zu ergänzen wohl: [Ἀρσινοίου νομοῦ, D. Hagedorn, ZPE 150 (2004), S. 155.</field>
 		<field name="source">73184</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -30259,7 +30259,7 @@
 		<field name="volume">19</field>
 		<field name="document">11</field>
 		<field name="position">9</field>
-		<field name="description">Zu ergänzen wohl: [αὐτῆς κώμης, Dieter Hagedorn, ZPE 150 (2004), S. 155.</field>
+		<field name="description">Zu ergänzen wohl: [αὐτῆς κώμης, D. Hagedorn, ZPE 150 (2004), S. 155.</field>
 		<field name="source">73184</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -30287,7 +30287,7 @@
 		<field name="volume">19</field>
 		<field name="document">16</field>
 		<field name="position">4</field>
-		<field name="description">τεσ]σ̣ερα〈και〉δεκάτης → δευ]τ̣έρᾳ δεκάτης; hierdurch ändert sich die Datierung auf das Jahr 591/2, Dieter Hagedorn, ZPE 150 (2004), S. 155 (nach dem Photo).</field>
+		<field name="description">τεσ]σ̣ερα〈και〉δεκάτης → δευ]τ̣έρᾳ δεκάτης; hierdurch ändert sich die Datierung auf das Jahr 591/2, D. Hagedorn, ZPE 150 (2004), S. 155 (nach dem Photo).</field>
 		<field name="source">73184</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -30315,7 +30315,7 @@
 		<field name="volume">19</field>
 		<field name="document">31</field>
 		<field name="position">6</field>
-		<field name="description">σο̣[ι π]α̣ρεχο̣ύσης → συ̣[ν]α̣ρεσά̣σης, Dieter Hagedorn, ZPE 150 (2004), S. 156.</field>
+		<field name="description">σο̣[ι π]α̣ρεχο̣ύσης → συ̣[ν]α̣ρεσά̣σης, D. Hagedorn, ZPE 150 (2004), S. 156.</field>
 		<field name="source">73184</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -30343,7 +30343,7 @@
 		<field name="volume">19</field>
 		<field name="document">33</field>
 		<field name="position">15-6</field>
-		<field name="description">πρὸς συμπλη|ρώσεως → πρὸ{ς} συμπλη|ρώσεως, Dieter Hagedorn, ZPE 150 (2004), S. 156.</field>
+		<field name="description">πρὸς συμπλη|ρώσεως → πρὸ{ς} συμπλη|ρώσεως, D. Hagedorn, ZPE 150 (2004), S. 156.</field>
 		<field name="source">73184</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -30371,7 +30371,7 @@
 		<field name="volume">19</field>
 		<field name="document">33</field>
 		<field name="position">20</field>
-		<field name="description">ὡμολ(όγησα) → ὡμ(ολόγησα), Dieter Hagedorn, ZPE 150 (2004), S. 156.</field>
+		<field name="description">ὡμολ(όγησα) → ὡμ(ολόγησα), D. Hagedorn, ZPE 150 (2004), S. 156.</field>
 		<field name="source">73184</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -30399,7 +30399,7 @@
 		<field name="volume">19</field>
 		<field name="document">33</field>
 		<field name="position">5</field>
-		<field name="description">[ἀ]ρ̣(χῇ) wird abgelehnt: Dieter Hagedorn, ZPE 150 (2004) , S. 156.</field>
+		<field name="description">[ἀ]ρ̣(χῇ) wird abgelehnt: D. Hagedorn, ZPE 150 (2004) , S. 156.</field>
 		<field name="source">73184</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -30427,7 +30427,7 @@
 		<field name="volume">19</field>
 		<field name="document">33</field>
 		<field name="position">5</field>
-		<field name="description">κγ: viell. auch κζ, κ̣α̣ oder κ̣θ̣, Dieter Hagedorn, ZPE 150 (2004) , S. 156.</field>
+		<field name="description">κγ: viell. auch κζ, κ̣α̣ oder κ̣θ̣, D. Hagedorn, ZPE 150 (2004) , S. 156.</field>
 		<field name="source">73184</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -30455,7 +30455,7 @@
 		<field name="volume">19</field>
 		<field name="document">36</field>
 		<field name="position">I 4, II 6</field>
-		<field name="description">λ(ίτραι) → λί(τραι), Dieter Hagedorn, ZPE 150 (2004), S. 156.</field>
+		<field name="description">λ(ίτραι) → λί(τραι), D. Hagedorn, ZPE 150 (2004), S. 156.</field>
 		<field name="source">73184</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -30567,7 +30567,7 @@
 		<field name="volume">19</field>
 		<field name="document">36</field>
 		<field name="position">II 3, 8, 9, 10, 12.</field>
-		<field name="description">(μετρητής) → ξ(έστης), Dieter Hagedorn, ZPE 150 (2004), S. 156.</field>
+		<field name="description">(μετρητής) → ξ(έστης), D. Hagedorn, ZPE 150 (2004), S. 156.</field>
 		<field name="source">73184</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -30595,7 +30595,7 @@
 		<field name="volume">19</field>
 		<field name="document">36</field>
 		<field name="position">II 6</field>
-		<field name="description">πίσσης → πήσσης (l. πίσσης), Dieter Hagedorn, ZPE 150 (2004), S. 156.</field>
+		<field name="description">πίσσης → πήσσης (l. πίσσης), D. Hagedorn, ZPE 150 (2004), S. 156.</field>
 		<field name="source">73184</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -30623,7 +30623,7 @@
 		<field name="volume">19</field>
 		<field name="document">36</field>
 		<field name="position">II 10, 12</field>
-		<field name="description">Am Ende der Zeile jeweils: ιβ– → β–, Dieter Hagedorn, ZPE 150 (2004), S. 156.</field>
+		<field name="description">Am Ende der Zeile jeweils: ιβ– → β–, D. Hagedorn, ZPE 150 (2004), S. 156.</field>
 		<field name="source">73184</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -30651,7 +30651,7 @@
 		<field name="volume">19</field>
 		<field name="document">36</field>
 		<field name="position">II 7</field>
-		<field name="description">ἰχιναχ̣ικ(οῦ): viell. ἰχιναλ̣ικ(οῦ) (l. ἐχιναλικοῦ); vgl. P. Horak 21,7, Dieter Hagedorn, ZPE 150 (2004), S. 156.</field>
+		<field name="description">ἰχιναχ̣ικ(οῦ): viell. ἰχιναλ̣ικ(οῦ) (l. ἐχιναλικοῦ); vgl. P. Horak 21,7, D. Hagedorn, ZPE 150 (2004), S. 156.</field>
 		<field name="source">73184</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -30679,7 +30679,7 @@
 		<field name="volume">19</field>
 		<field name="document">40r</field>
 		<field name="position" xsi:nil="true" />
-		<field name="description">Datierung aus paläographischen Gründen: 2. Hälfte des 7. Jhs. Dieter Hagedorn, ZPE 150 (2004), S. 157.</field>
+		<field name="description">Datierung aus paläographischen Gründen: 2. Hälfte des 7. Jhs. D. Hagedorn, ZPE 150 (2004), S. 157.</field>
 		<field name="source">73184</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -30707,7 +30707,7 @@
 		<field name="volume">19</field>
 		<field name="document">40r</field>
 		<field name="position">R°2, 4</field>
-		<field name="description">(ὑπὲρ) ς κερ(ατισμῶν) → ὑ(πὲρ) (ἑξα)κερ(άτου); vgl. BL V 49 und ZPE 142 (2003), S. 194, Dieter Hagedorn, ZPE 150 (2004), S. 157.</field>
+		<field name="description">(ὑπὲρ) ς κερ(ατισμῶν) → ὑ(πὲρ) (ἑξα)κερ(άτου); vgl. BL V 49 und ZPE 142 (2003), S. 194, D. Hagedorn, ZPE 150 (2004), S. 157.</field>
 		<field name="source">73184</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -30735,7 +30735,7 @@
 		<field name="volume">19</field>
 		<field name="document">44</field>
 		<field name="position">6</field>
-		<field name="description">ἀποχορ̣ι̣σ̣ο̣μ̣[ένου] → ἀποχα̣ρί̣σμ̣α̣τ̣ο̣ς̣, Dieter Hagedorn, ZPE 150 (2004), S. 157 (nach dem Photo).</field>
+		<field name="description">ἀποχορ̣ι̣σ̣ο̣μ̣[ένου] → ἀποχα̣ρί̣σμ̣α̣τ̣ο̣ς̣, D. Hagedorn, ZPE 150 (2004), S. 157 (nach dem Photo).</field>
 		<field name="source">73184</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -30763,7 +30763,7 @@
 		<field name="volume">19</field>
 		<field name="document">44</field>
 		<field name="position">6</field>
-		<field name="description">ὑ̣π̣[εθέμεθα → ἀ̣π̣ ̣ ̣[, Dieter Hagedorn, ZPE 150 (2004), S. 157.</field>
+		<field name="description">ὑ̣π̣[εθέμεθα → ἀ̣π̣ ̣ ̣[, D. Hagedorn, ZPE 150 (2004), S. 157.</field>
 		<field name="source">73184</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -30791,7 +30791,7 @@
 		<field name="volume">19</field>
 		<field name="document">46</field>
 		<field name="position">10</field>
-		<field name="description">τοῦ αὐτοῦ δεκ ̣ ̣ ̣ ̣ ̣ ̣ ̣ → τοῦ αὐτοῦ δεκα̣ετοῦς χρ̣[όνου, Dieter Hagedorn, ZPE 150 (2004), S. 157-8.</field>
+		<field name="description">τοῦ αὐτοῦ δεκ ̣ ̣ ̣ ̣ ̣ ̣ ̣ → τοῦ αὐτοῦ δεκα̣ετοῦς χρ̣[όνου, D. Hagedorn, ZPE 150 (2004), S. 157-8.</field>
 		<field name="source">73184</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -30819,7 +30819,7 @@
 		<field name="volume">19</field>
 		<field name="document">46</field>
 		<field name="position">V°</field>
-		<field name="description">] ̣μ Ὄφεως τοῦ Ἑρ(μοπολίτου) → [μί(σθωσις) τοῦ δεῖνος γεωργοῦ ἀπὸ κ]ώμ(ης) Ὄφεως κτλ., Dieter Hagedorn, ZPE 150 (2004), S. 158.</field>
+		<field name="description">] ̣μ Ὄφεως τοῦ Ἑρ(μοπολίτου) → [μί(σθωσις) τοῦ δεῖνος γεωργοῦ ἀπὸ κ]ώμ(ης) Ὄφεως κτλ., D. Hagedorn, ZPE 150 (2004), S. 158.</field>
 		<field name="source">73184</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -30847,7 +30847,7 @@
 		<field name="volume">19</field>
 		<field name="document">49</field>
 		<field name="position">1</field>
-		<field name="description">Μα̣γ̣δ̣ώλα̣[ς → Μα̣γ̣δ̣ώλω̣[ν, Dieter Hagedorn, ZPE 150 (2004), S. 158 (nach dem Photo).</field>
+		<field name="description">Μα̣γ̣δ̣ώλα̣[ς → Μα̣γ̣δ̣ώλω̣[ν, D. Hagedorn, ZPE 150 (2004), S. 158 (nach dem Photo).</field>
 		<field name="source">73184</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -30875,7 +30875,7 @@
 		<field name="volume">19</field>
 		<field name="document">49</field>
 		<field name="position">3</field>
-		<field name="description">Πουαμπ(ινούφεως): viell. Πουαμπ(ιμήνεως), Dieter Hagedorn, ZPE 150 (2004), S. 158.</field>
+		<field name="description">Πουαμπ(ινούφεως): viell. Πουαμπ(ιμήνεως), D. Hagedorn, ZPE 150 (2004), S. 158.</field>
 		<field name="source">73184</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -30903,7 +30903,7 @@
 		<field name="volume">19</field>
 		<field name="document">51</field>
 		<field name="position">5</field>
-		<field name="description">]τ̣ης ιβ∠γ/ → ]τ̣ης ιβϟ//; daher entweder 428/9 oder 443/4 zu datieren, Dieter Hagedorn, ZPE 150 (2004), S. 158.</field>
+		<field name="description">]τ̣ης ιβ∠γ/ → ]τ̣ης ιβϟ//; daher entweder 428/9 oder 443/4 zu datieren, D. Hagedorn, ZPE 150 (2004), S. 158.</field>
 		<field name="source">73184</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -30931,7 +30931,7 @@
 		<field name="volume">19</field>
 		<field name="document">51</field>
 		<field name="position">1</field>
-		<field name="description">δι’ Ἄπει(τος) → τραπεζ(ίτῃ), Dieter Hagedorn, ZPE 150 (2004), S. 158 (nach dem Photo).</field>
+		<field name="description">δι’ Ἄπει(τος) → τραπεζ(ίτῃ), D. Hagedorn, ZPE 150 (2004), S. 158 (nach dem Photo).</field>
 		<field name="source">73184</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -30959,7 +30959,7 @@
 		<field name="volume" xsi:nil="true" />
 		<field name="document" xsi:nil="true" />
 		<field name="position" xsi:nil="true" />
-		<field name="description">Recto und Verso wurden verwechselt,  Dieter Hagedorn, ZPE 150 (2004), S. 159.</field>
+		<field name="description">Recto und Verso wurden verwechselt,  D. Hagedorn, ZPE 150 (2004), S. 159.</field>
 		<field name="source">73184</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -30987,7 +30987,7 @@
 		<field name="volume">19</field>
 		<field name="document">52</field>
 		<field name="position">R°2</field>
-		<field name="description">εν αν  ̣ ἐ̣λ̣έου → ἕνα{ν} ξ(έστην) ἐ̣λ̣έου, Dieter Hagedorn, ZPE 150 (2004), S. 159.</field>
+		<field name="description">εν αν  ̣ ἐ̣λ̣έου → ἕνα{ν} ξ(έστην) ἐ̣λ̣έου, D. Hagedorn, ZPE 150 (2004), S. 159.</field>
 		<field name="source">73184</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -31015,7 +31015,7 @@
 		<field name="volume">19</field>
 		<field name="document">53</field>
 		<field name="position" xsi:nil="true" />
-		<field name="description">Aus paläographischen Gründen ins 4./5. Jhd. zu datieren, Dieter Hagedorn, ZPE 150 (2004), S. 159.</field>
+		<field name="description">Aus paläographischen Gründen ins 4./5. Jhd. zu datieren, D. Hagedorn, ZPE 150 (2004), S. 159.</field>
 		<field name="source">73184</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -31043,7 +31043,7 @@
 		<field name="volume">19</field>
 		<field name="document">53</field>
 		<field name="position">2-4</field>
-		<field name="description">(beginnend in Z. 3) † ̣ ̣ ̣ εχου | ἐγράφ(η) → ἐρ|ρῶσ̣θ̣(αί σε) εὔχομ̣(αι), | κ̣ύ̣ρ̣ι̣ε̣ ἄ̣δ̣ε̣λ̣φ(ε)., Dieter Hagedorn, ZPE 150 (2004) , S. 159.</field>
+		<field name="description">(beginnend in Z. 3) † ̣ ̣ ̣ εχου | ἐγράφ(η) → ἐρ|ρῶσ̣θ̣(αί σε) εὔχομ̣(αι), | κ̣ύ̣ρ̣ι̣ε̣ ἄ̣δ̣ε̣λ̣φ(ε)., D. Hagedorn, ZPE 150 (2004) , S. 159.</field>
 		<field name="source">73184</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -31071,7 +31071,7 @@
 		<field name="volume">19</field>
 		<field name="document">66</field>
 		<field name="position">49</field>
-		<field name="description">[ ἕ]ως κδ ἕως Φαρ(μοῦθι) η → [Φαμεν]ὼθ κδ ἕως Φαρ(μοῦθι) η, Dieter Hagedorn, ZPE 150 (2004), S. 159.</field>
+		<field name="description">[ ἕ]ως κδ ἕως Φαρ(μοῦθι) η → [Φαμεν]ὼθ κδ ἕως Φαρ(μοῦθι) η, D. Hagedorn, ZPE 150 (2004), S. 159.</field>
 		<field name="source">73184</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -31099,7 +31099,7 @@
 		<field name="volume">19</field>
 		<field name="document">67</field>
 		<field name="position">3</field>
-		<field name="description">πρὸς μὲν πάντων → πρό γε μὲν πάντων, Dieter Hagedorn, ZPE 150 (2004), S. 159.</field>
+		<field name="description">πρὸς μὲν πάντων → πρό γε μὲν πάντων, D. Hagedorn, ZPE 150 (2004), S. 159.</field>
 		<field name="source">73184</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -31127,7 +31127,7 @@
 		<field name="volume">19</field>
 		<field name="document">69</field>
 		<field name="position" xsi:nil="true" />
-		<field name="description">Zu datieren: 272/3 n. Chr., vgl. Dieter Hagedorn, ZPE 150 (2004), S. 160.</field>
+		<field name="description">Zu datieren: 272/3 n. Chr., vgl. D. Hagedorn, ZPE 150 (2004), S. 160.</field>
 		<field name="source">73184</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -31155,7 +31155,7 @@
 		<field name="volume"></field>
 		<field name="document">2</field>
 		<field name="position">4</field>
-		<field name="description">Παῦτος → Παχῶτος, Nikolaos Gonis, ZPE 150 (2004), S. 194.</field>
+		<field name="description">Παῦτος → Παχῶτος, N. Gonis, ZPE 150 (2004), S. 194.</field>
 		<field name="source">73150</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -31183,7 +31183,7 @@
 		<field name="volume"></field>
 		<field name="document">12</field>
 		<field name="position">1</field>
-		<field name="description">Ψ ̣η̣ ̣ω̣ς̣ → Ψενμ̣ῖ(νις), Nikolaos Gonis, ZPE 150 (2004), S. 194.</field>
+		<field name="description">Ψ ̣η̣ ̣ω̣ς̣ → Ψενμ̣ῖ(νις), N. Gonis, ZPE 150 (2004), S. 194.</field>
 		<field name="source">73150</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -31211,7 +31211,7 @@
 		<field name="volume"></field>
 		<field name="document">12</field>
 		<field name="position">2</field>
-		<field name="description">Ἀβῶ̣το(ς) Ὡρίωνος → Ἀβῶ̣ς̣ Ἑρ̣ιέ̣ω̣ς̣, Nikolaos Gonis, ZPE 150 (2004), S. 194.</field>
+		<field name="description">Ἀβῶ̣το(ς) Ὡρίωνος → Ἀβῶ̣ς̣ Ἑρ̣ιέ̣ω̣ς̣, N. Gonis, ZPE 150 (2004), S. 194.</field>
 		<field name="source">73150</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -31239,7 +31239,7 @@
 		<field name="volume"></field>
 		<field name="document">12</field>
 		<field name="position">5-6</field>
-		<field name="description">Ὀννώφρις Φαῶτο(ς) | Μ̣ε̣ο̣ ̣ ̣ ̣ ̣ → Ἰμο̣ύ̣(θου) Ὀννώφρ̣ι̣ο̣ς Ἰμού̣θ̣(ου) | μη(τρὸς) Σε̣νχώ̣(νσιος), Nikolaos Gonis, ZPE 150 (2004), S. 194.</field>
+		<field name="description">Ὀννώφρις Φαῶτο(ς) | Μ̣ε̣ο̣ ̣ ̣ ̣ ̣ → Ἰμο̣ύ̣(θου) Ὀννώφρ̣ι̣ο̣ς Ἰμού̣θ̣(ου) | μη(τρὸς) Σε̣νχώ̣(νσιος), N. Gonis, ZPE 150 (2004), S. 194.</field>
 		<field name="source">73150</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -31267,7 +31267,7 @@
 		<field name="volume"></field>
 		<field name="document">12</field>
 		<field name="position">6</field>
-		<field name="description">ἀπέσχ(ομεν) → ἀπέχ(ομεν), Nikolaos Gonis, ZPE 150 (2004), S. 194.</field>
+		<field name="description">ἀπέσχ(ομεν) → ἀπέχ(ομεν), N. Gonis, ZPE 150 (2004), S. 194.</field>
 		<field name="source">73150</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -31295,7 +31295,7 @@
 		<field name="volume"></field>
 		<field name="document">12</field>
 		<field name="position">2</field>
-		<field name="description">ἀπέσχο(μεν) → ἀπέχο(μεν), Nikolaos Gonis, ZPE 150 (2004), S. 194.</field>
+		<field name="description">ἀπέσχο(μεν) → ἀπέχο(μεν), N. Gonis, ZPE 150 (2004), S. 194.</field>
 		<field name="source">73150</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -31323,7 +31323,7 @@
 		<field name="volume"></field>
 		<field name="document">17</field>
 		<field name="position">5</field>
-		<field name="description">Am Ende der Zeile: δ, Nikolaos Gonis, ZPE 150 (2004), S. 195.</field>
+		<field name="description">Am Ende der Zeile: δ, N. Gonis, ZPE 150 (2004), S. 195.</field>
 		<field name="source">73150</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -31351,7 +31351,7 @@
 		<field name="volume"></field>
 		<field name="document">19</field>
 		<field name="position">3</field>
-		<field name="description">λ() → γ̣(εωμετρίας), Nikolaos Gonis, ZPE 150 (2004), S. 195.</field>
+		<field name="description">λ() → γ̣(εωμετρίας), N. Gonis, ZPE 150 (2004), S. 195.</field>
 		<field name="source">73150</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -31379,7 +31379,7 @@
 		<field name="volume"></field>
 		<field name="document">19</field>
 		<field name="position">2</field>
-		<field name="description">Παχ̣ῶς Ψεναν̣ούπ(ιος): viell. Πε̣τ̣ε̣χ̣ε̣σ̣π̣(οχράτης) Ψεναν̣ούπ(ιος),Nikolaos Gonis, ZPE 150 (2004), S. 195.</field>
+		<field name="description">Παχ̣ῶς Ψεναν̣ούπ(ιος): viell. Πε̣τ̣ε̣χ̣ε̣σ̣π̣(οχράτης) Ψεναν̣ούπ(ιος),N. Gonis, ZPE 150 (2004), S. 195.</field>
 		<field name="source">73150</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -31407,7 +31407,7 @@
 		<field name="volume"></field>
 		<field name="document">26</field>
 		<field name="position">5</field>
-		<field name="description">Πεν̣α() → Πανα(μέως), Nikolaos Gonis, ZPE 150 (2004), S. 195.</field>
+		<field name="description">Πεν̣α() → Πανα(μέως), N. Gonis, ZPE 150 (2004), S. 195.</field>
 		<field name="source">73150</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -31435,7 +31435,7 @@
 		<field name="volume"></field>
 		<field name="document">26</field>
 		<field name="position">6</field>
-		<field name="description">Πα ̣() → Πασ̣ή(μιος), Nikolaos Gonis, ZPE 150 (2004), S. 195.</field>
+		<field name="description">Πα ̣() → Πασ̣ή(μιος), N. Gonis, ZPE 150 (2004), S. 195.</field>
 		<field name="source">73150</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -31463,7 +31463,7 @@
 		<field name="volume"></field>
 		<field name="document">26</field>
 		<field name="position">8</field>
-		<field name="description">Πετ̣ε̣ύ̣ς → Πετεχ̣ε̣[σ]π(οχράτης), Nikolaos Gonis, ZPE 150 (2004) , S. 195.</field>
+		<field name="description">Πετ̣ε̣ύ̣ς → Πετεχ̣ε̣[σ]π(οχράτης), N. Gonis, ZPE 150 (2004) , S. 195.</field>
 		<field name="source">73150</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -31491,7 +31491,7 @@
 		<field name="volume"></field>
 		<field name="document">30</field>
 		<field name="position">2</field>
-		<field name="description">Παῦ(νι) → Παχώ(ν), Nikolaos Gonis, ZPE 150 (2004), S. 195.</field>
+		<field name="description">Παῦ(νι) → Παχώ(ν), N. Gonis, ZPE 150 (2004), S. 195.</field>
 		<field name="source">73150</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -31519,7 +31519,7 @@
 		<field name="volume"></field>
 		<field name="document">30</field>
 		<field name="position">3</field>
-		<field name="description">] Δε̣ιογ̣() → ]δ̣() καὶ οἱ ἀ(δελφοί), Nikolaos Gonis, ZPE 150 (2004) , S. 195.</field>
+		<field name="description">] Δε̣ιογ̣() → ]δ̣() καὶ οἱ ἀ(δελφοί), N. Gonis, ZPE 150 (2004) , S. 195.</field>
 		<field name="source">73150</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -31547,7 +31547,7 @@
 		<field name="volume"></field>
 		<field name="document">42</field>
 		<field name="position">3</field>
-		<field name="description">γ̣α̣[: viell. τα[κτομίσθου, Nikolaos Gonis, ZPE 150 (2004), S. 195.</field>
+		<field name="description">γ̣α̣[: viell. τα[κτομίσθου, N. Gonis, ZPE 150 (2004), S. 195.</field>
 		<field name="source">73150</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -31575,7 +31575,7 @@
 		<field name="volume"></field>
 		<field name="document">42</field>
 		<field name="position">7</field>
-		<field name="description">ψια ̣το[ → ψιλου[, Nikolaos Gonis, ZPE 150 (2004), S. 195.</field>
+		<field name="description">ψια ̣το[ → ψιλου[, N. Gonis, ZPE 150 (2004), S. 195.</field>
 		<field name="source">73150</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -31603,7 +31603,7 @@
 		<field name="volume"></field>
 		<field name="document">42</field>
 		<field name="position">8</field>
-		<field name="description">] ̣ω̣σ̣[ → ]π̣αχ[, Nikolaos Gonis, ZPE 150 (2004), S. 195.</field>
+		<field name="description">] ̣ω̣σ̣[ → ]π̣αχ[, N. Gonis, ZPE 150 (2004), S. 195.</field>
 		<field name="source">73150</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -31631,7 +31631,7 @@
 		<field name="volume"></field>
 		<field name="document">58</field>
 		<field name="position">2</field>
-		<field name="description">Ἡρακλείων → Ἡρακλείδης, Nikolaos Gonis, ZPE 150 (2004), S. 195.</field>
+		<field name="description">Ἡρακλείων → Ἡρακλείδης, N. Gonis, ZPE 150 (2004), S. 195.</field>
 		<field name="source">73150</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -31659,7 +31659,7 @@
 		<field name="volume"></field>
 		<field name="document">43</field>
 		<field name="position" xsi:nil="true" />
-		<field name="description">Wohl aus dem Oxyrynchites: Nikolaos Gonis, ZPE 150 (2004), S. 194.</field>
+		<field name="description">Wohl aus dem Oxyrynchites: N. Gonis, ZPE 150 (2004), S. 194.</field>
 		<field name="source">73150</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -31687,7 +31687,7 @@
 		<field name="volume"></field>
 		<field name="document">46</field>
 		<field name="position" xsi:nil="true" />
-		<field name="description">Wohl aus dem Oxyrynchites: Nikolaos Gonis, ZPE 150 (2004), S. 194.</field>
+		<field name="description">Wohl aus dem Oxyrynchites: N. Gonis, ZPE 150 (2004), S. 194.</field>
 		<field name="source">73150</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -31715,7 +31715,7 @@
 		<field name="volume"></field>
 		<field name="document">47</field>
 		<field name="position" xsi:nil="true" />
-		<field name="description">Wohl aus dem Oxyrynchites: Nikolaos Gonis, ZPE 150 (2004), S. 194.</field>
+		<field name="description">Wohl aus dem Oxyrynchites: N. Gonis, ZPE 150 (2004), S. 194.</field>
 		<field name="source">73150</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -31743,7 +31743,7 @@
 		<field name="volume"></field>
 		<field name="document">49</field>
 		<field name="position" xsi:nil="true" />
-		<field name="description">Wohl aus dem Oxyrynchites: Nikolaos Gonis, ZPE 150 (2004), S. 194.</field>
+		<field name="description">Wohl aus dem Oxyrynchites: N. Gonis, ZPE 150 (2004), S. 194.</field>
 		<field name="source">73150</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -31771,7 +31771,7 @@
 		<field name="volume"></field>
 		<field name="document">71</field>
 		<field name="position" xsi:nil="true" />
-		<field name="description">Wohl aus dem Oxyrynchites: Nikolaos Gonis, ZPE 150 (2004), S. 194.</field>
+		<field name="description">Wohl aus dem Oxyrynchites: N. Gonis, ZPE 150 (2004), S. 194.</field>
 		<field name="source">73150</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -31799,7 +31799,7 @@
 		<field name="volume"></field>
 		<field name="document">72</field>
 		<field name="position" xsi:nil="true" />
-		<field name="description">Wohl aus dem Oxyrynchites: Nikolaos Gonis, ZPE 150 (2004), S. 194.</field>
+		<field name="description">Wohl aus dem Oxyrynchites: N. Gonis, ZPE 150 (2004), S. 194.</field>
 		<field name="source">73150</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -31827,7 +31827,7 @@
 		<field name="volume"></field>
 		<field name="document">195</field>
 		<field name="position" xsi:nil="true" />
-		<field name="description">Wohl aus dem Oxyrynchites: Nikolaos Gonis, ZPE 150 (2004), S. 194.</field>
+		<field name="description">Wohl aus dem Oxyrynchites: N. Gonis, ZPE 150 (2004), S. 194.</field>
 		<field name="source">73150</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -31855,7 +31855,7 @@
 		<field name="volume"></field>
 		<field name="document">196</field>
 		<field name="position" xsi:nil="true" />
-		<field name="description">Wohl aus dem Oxyrynchites: Nikolaos Gonis, ZPE 150 (2004), S. 194.</field>
+		<field name="description">Wohl aus dem Oxyrynchites: N. Gonis, ZPE 150 (2004), S. 194.</field>
 		<field name="source">73150</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -31911,7 +31911,7 @@
 		<field name="volume"></field>
 		<field name="document">199</field>
 		<field name="position" xsi:nil="true" />
-		<field name="description">Wohl aus dem Oxyrynchites: Nikolaos Gonis, ZPE 150 (2004), S. 194.</field>
+		<field name="description">Wohl aus dem Oxyrynchites: N. Gonis, ZPE 150 (2004), S. 194.</field>
 		<field name="source">73150</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -31939,7 +31939,7 @@
 		<field name="volume"></field>
 		<field name="document">213</field>
 		<field name="position" xsi:nil="true" />
-		<field name="description">Wohl aus dem Oxyrynchites: Nikolaos Gonis, ZPE 150 (2004), S. 194.</field>
+		<field name="description">Wohl aus dem Oxyrynchites: N. Gonis, ZPE 150 (2004), S. 194.</field>
 		<field name="source">73150</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -31967,7 +31967,7 @@
 		<field name="volume"></field>
 		<field name="document">214</field>
 		<field name="position" xsi:nil="true" />
-		<field name="description">Wohl aus dem Oxyrynchites: Nikolaos Gonis, ZPE 150 (2004), S. 194.</field>
+		<field name="description">Wohl aus dem Oxyrynchites: N. Gonis, ZPE 150 (2004), S. 194.</field>
 		<field name="source">73150</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -31995,7 +31995,7 @@
 		<field name="volume"></field>
 		<field name="document">215</field>
 		<field name="position" xsi:nil="true" />
-		<field name="description">Wohl aus dem Oxyrynchites: Nikolaos Gonis, ZPE 150 (2004), S. 194.</field>
+		<field name="description">Wohl aus dem Oxyrynchites: N. Gonis, ZPE 150 (2004), S. 194.</field>
 		<field name="source">73150</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -32023,7 +32023,7 @@
 		<field name="volume"></field>
 		<field name="document">216</field>
 		<field name="position" xsi:nil="true" />
-		<field name="description">Wohl aus dem Oxyrynchites: Nikolaos Gonis, ZPE 150 (2004), S. 194.</field>
+		<field name="description">Wohl aus dem Oxyrynchites: N. Gonis, ZPE 150 (2004), S. 194.</field>
 		<field name="source">73150</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -32051,7 +32051,7 @@
 		<field name="volume"></field>
 		<field name="document">217</field>
 		<field name="position" xsi:nil="true" />
-		<field name="description">Wohl aus dem Oxyrynchites: Nikolaos Gonis, ZPE 150 (2004), S. 194.</field>
+		<field name="description">Wohl aus dem Oxyrynchites: N. Gonis, ZPE 150 (2004), S. 194.</field>
 		<field name="source">73150</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -32079,7 +32079,7 @@
 		<field name="volume"></field>
 		<field name="document">218</field>
 		<field name="position" xsi:nil="true" />
-		<field name="description">Wohl aus dem Oxyrynchites: Nikolaos Gonis, ZPE 150 (2004), S. 194 und 196.</field>
+		<field name="description">Wohl aus dem Oxyrynchites: N. Gonis, ZPE 150 (2004), S. 194 und 196.</field>
 		<field name="source">73150</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -32107,7 +32107,7 @@
 		<field name="volume"></field>
 		<field name="document">219</field>
 		<field name="position" xsi:nil="true" />
-		<field name="description">Wohl aus dem Oxyrynchites: Nikolaos Gonis, ZPE 150 (2004), S. 194.</field>
+		<field name="description">Wohl aus dem Oxyrynchites: N. Gonis, ZPE 150 (2004), S. 194.</field>
 		<field name="source">73150</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -32135,7 +32135,7 @@
 		<field name="volume"></field>
 		<field name="document">220</field>
 		<field name="position" xsi:nil="true" />
-		<field name="description">Wohl aus dem Oxyrynchites: Nikolaos Gonis, ZPE 150 (2004), S. 194.</field>
+		<field name="description">Wohl aus dem Oxyrynchites: N. Gonis, ZPE 150 (2004), S. 194.</field>
 		<field name="source">73150</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -32163,7 +32163,7 @@
 		<field name="volume"></field>
 		<field name="document">221</field>
 		<field name="position" xsi:nil="true" />
-		<field name="description">Wohl aus dem Oxyrynchites: Nikolaos Gonis, ZPE 150 (2004), S. 194.</field>
+		<field name="description">Wohl aus dem Oxyrynchites: N. Gonis, ZPE 150 (2004), S. 194.</field>
 		<field name="source">73150</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -32191,7 +32191,7 @@
 		<field name="volume"></field>
 		<field name="document">59</field>
 		<field name="position">2</field>
-		<field name="description">Σεσοῦρεις → Πεσούρεις, Nikolaos Gonis, ZPE 150 (2004), S. 195.</field>
+		<field name="description">Σεσοῦρεις → Πεσούρεις, N. Gonis, ZPE 150 (2004), S. 195.</field>
 		<field name="source">73150</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -32219,7 +32219,7 @@
 		<field name="volume"></field>
 		<field name="document">202</field>
 		<field name="position">1</field>
-		<field name="description">ἔτους δ, Μεσ̣ο̣ρ̣ή̣ → ἔτους δ, Μεσ̣ο̣(ρὴ) δ̣, Nikolaos Gonis, ZPE 150 (2004), S. 195.</field>
+		<field name="description">ἔτους δ, Μεσ̣ο̣ρ̣ή̣ → ἔτους δ, Μεσ̣ο̣(ρὴ) δ̣, N. Gonis, ZPE 150 (2004), S. 195.</field>
 		<field name="source">73150</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -32247,7 +32247,7 @@
 		<field name="volume"></field>
 		<field name="document">204</field>
 		<field name="position">3</field>
-		<field name="description">Das Ostrakon hat keine Zeile 4: Nikolaos Gonis, ZPE 150 (2004), S. 195.</field>
+		<field name="description">Das Ostrakon hat keine Zeile 4: N. Gonis, ZPE 150 (2004), S. 195.</field>
 		<field name="source">73150</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -32275,7 +32275,7 @@
 		<field name="volume"></field>
 		<field name="document">205</field>
 		<field name="position" xsi:nil="true" />
-		<field name="description">Nd.: Nikolaos Gonis, ZPE 150 (2004), S. 195-6.</field>
+		<field name="description">Nd.: N. Gonis, ZPE 150 (2004), S. 195-6.</field>
 		<field name="source">73150</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -32303,7 +32303,7 @@
 		<field name="volume"></field>
 		<field name="document">207</field>
 		<field name="position" xsi:nil="true" />
-		<field name="description">Phatres viell. identisch mit dem in O. Ont.Mus. II 159, Nikolaos Gonis, ZPE 150 (2004), S. 196.</field>
+		<field name="description">Phatres viell. identisch mit dem in O. Ont.Mus. II 159, N. Gonis, ZPE 150 (2004), S. 196.</field>
 		<field name="source">73150</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -32331,7 +32331,7 @@
 		<field name="volume"></field>
 		<field name="document">209</field>
 		<field name="position">4</field>
-		<field name="description">Ψε]νμ̣ώ(νθης) ν(εώτερος) Ὥρου, Nikolaos Gonis, ZPE 150 (2004), S. 196.</field>
+		<field name="description">Ψε]νμ̣ώ(νθης) ν(εώτερος) Ὥρου, N. Gonis, ZPE 150 (2004), S. 196.</field>
 		<field name="source">73150</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -32359,7 +32359,7 @@
 		<field name="volume"></field>
 		<field name="document">211</field>
 		<field name="position">1</field>
-		<field name="description">] ̄ καὶ δ (ἔτους), Ἁθὺρ ̣[ → ]/ ̣καὶ δϟ/, Ἁθύρ, ὀν̣[ό(ματος); am Anfang der Zeile: εϟ]/ oder ιβϟ/ ιαϟ]/, Nikolaos Gonis, ZPE 150 (2004), S. 196.</field>
+		<field name="description">] ̄ καὶ δ (ἔτους), Ἁθὺρ ̣[ → ]/ ̣καὶ δϟ/, Ἁθύρ, ὀν̣[ό(ματος); am Anfang der Zeile: εϟ]/ oder ιβϟ/ ιαϟ]/, N. Gonis, ZPE 150 (2004), S. 196.</field>
 		<field name="source">73150</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -32387,7 +32387,7 @@
 		<field name="volume"></field>
 		<field name="document">211</field>
 		<field name="position">2</field>
-		<field name="description">δεκα̣[, viell. δεκα[πρώτου, Nikolaos Gonis, ZPE 150 (2004), S. 196.</field>
+		<field name="description">δεκα̣[, viell. δεκα[πρώτου, N. Gonis, ZPE 150 (2004), S. 196.</field>
 		<field name="source">73150</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -32415,7 +32415,7 @@
 		<field name="volume"></field>
 		<field name="document">218</field>
 		<field name="position">3</field>
-		<field name="description">Θη̣χιε → θαλ(λία) ιε, Nikolaos Gonis, ZPE 150 (2004), S. 196 (nach dem Photo).</field>
+		<field name="description">Θη̣χιε → θαλ(λία) ιε, N. Gonis, ZPE 150 (2004), S. 196 (nach dem Photo).</field>
 		<field name="source">73150</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -32443,7 +32443,7 @@
 		<field name="volume"></field>
 		<field name="document">218</field>
 		<field name="position">4</field>
-		<field name="description">σί(των) → σί(του) (ἀρτάβας), Nikolaos Gonis, ZPE 150 (2004), S. 196 (nach dem Photo).</field>
+		<field name="description">σί(των) → σί(του) (ἀρτάβας), N. Gonis, ZPE 150 (2004), S. 196 (nach dem Photo).</field>
 		<field name="source">73150</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -32471,7 +32471,7 @@
 		<field name="volume"></field>
 		<field name="document">218</field>
 		<field name="position">5</field>
-		<field name="description">σίτων → ἀρτάβας, Nikolaos Gonis, ZPE 150 (2004) , S. 196 (nach dem Photo).</field>
+		<field name="description">σίτων → ἀρτάβας, N. Gonis, ZPE 150 (2004) , S. 196 (nach dem Photo).</field>
 		<field name="source">73150</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -32499,7 +32499,7 @@
 		<field name="volume"></field>
 		<field name="document">571</field>
 		<field name="position">2</field>
-		<field name="description">Φαρ(μοῦ)θ(ι) → Φαμ(ενω)θ; Datum daher: 9. 3. 720, Nikolaos Gonis, ZPE 150 (2004), S. 193 (nach dem Photo).</field>
+		<field name="description">Φαρ(μοῦ)θ(ι) → Φαμ(ενω)θ; Datum daher: 9. 3. 720, N. Gonis, ZPE 150 (2004), S. 193 (nach dem Photo).</field>
 		<field name="source">73153</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -32527,7 +32527,7 @@
 		<field name="volume"></field>
 		<field name="document">574</field>
 		<field name="position" xsi:nil="true" />
-		<field name="description">Datum: 2. 11. 727, Nikolaos Gonis, ZPE 150 (2004), S. 193.</field>
+		<field name="description">Datum: 2. 11. 727, N. Gonis, ZPE 150 (2004), S. 193.</field>
 		<field name="source">73153</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -32555,7 +32555,7 @@
 		<field name="volume">2</field>
 		<field name="document">158</field>
 		<field name="position">1</field>
-		<field name="description">κάτω μεριτ(ευομένοις ?) → κατωμερίτ(αις), Nikolaos Gonis, ZPE 150 (2004), S. 199.</field>
+		<field name="description">κάτω μεριτ(ευομένοις ?) → κατωμερίτ(αις), N. Gonis, ZPE 150 (2004), S. 199.</field>
 		<field name="source">73151</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -32583,7 +32583,7 @@
 		<field name="volume"></field>
 		<field name="document">81</field>
 		<field name="position">6-7</field>
-		<field name="description">συντ(ελῶν) → σὺν τ(αῖς) εἰς, Ruben Smolders, ZPE 150 (2004), S. 220.</field>
+		<field name="description">συντ(ελῶν) → σὺν τ(αῖς) εἰς, R. Smolders, ZPE 150 (2004), S. 220.</field>
 		<field name="source">73647</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -32611,7 +32611,7 @@
 		<field name="volume">3</field>
 		<field name="document">40</field>
 		<field name="position">4</field>
-		<field name="description">Πεσπρι̣βαψυ̣ίου → πες Προ̣βαθ̣ίου (l. παῖς Προβατίου); wahrscheinlich aus dem Oxyrhynchites, Nikolaos Gonis, ZPE 150 (2004), S. 197.</field>
+		<field name="description">Πεσπρι̣βαψυ̣ίου → πες Προ̣βαθ̣ίου (l. παῖς Προβατίου); wahrscheinlich aus dem Oxyrhynchites, N. Gonis, ZPE 150 (2004), S. 197.</field>
 		<field name="source">73151</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -32639,7 +32639,7 @@
 		<field name="volume">3</field>
 		<field name="document">40</field>
 		<field name="position">6</field>
-		<field name="description">Παπβοῦς: viell. Παπβα̣οῦς, Nikolaos Gonis, ZPE 150 (2004), S. 197.</field>
+		<field name="description">Παπβοῦς: viell. Παπβα̣οῦς, N. Gonis, ZPE 150 (2004), S. 197.</field>
 		<field name="source">73151</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -32667,7 +32667,7 @@
 		<field name="volume">3</field>
 		<field name="document">40</field>
 		<field name="position">8</field>
-		<field name="description">Ἀφιγκίου: e. Form von Ἀφύγγιος, Nikolaos Gonis, ZPE 150 (2004), S: 197.</field>
+		<field name="description">Ἀφιγκίου: e. Form von Ἀφύγγιος, N. Gonis, ZPE 150 (2004), S: 197.</field>
 		<field name="source">73151</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -32695,7 +32695,7 @@
 		<field name="volume">3</field>
 		<field name="document">50</field>
 		<field name="position">1</field>
-		<field name="description">τοῦτο [ → τοῦτον̣ [, Nikolaos Gonis, ZPE 150 (2004), S. 197.</field>
+		<field name="description">τοῦτο [ → τοῦτον̣ [, N. Gonis, ZPE 150 (2004), S. 197.</field>
 		<field name="source">73151</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -32723,7 +32723,7 @@
 		<field name="volume">3</field>
 		<field name="document">50</field>
 		<field name="position">2</field>
-		<field name="description">παρέσχετό μοι → ἀγορασθέντα παρ’ ἐμοῦ, Nikolaos Gonis, ZPE 150 (2004), S. 197 (vgl. P. Oxy. XVI 1988.23, 1989.17, 1990.24, 1991.28, 1985.16, I 197).</field>
+		<field name="description">παρέσχετό μοι → ἀγορασθέντα παρ’ ἐμοῦ, N. Gonis, ZPE 150 (2004), S. 197 (vgl. P. Oxy. XVI 1988.23, 1989.17, 1990.24, 1991.28, 1985.16, I 197).</field>
 		<field name="source">73151</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -32751,7 +32751,7 @@
 		<field name="volume">3</field>
 		<field name="document">159</field>
 		<field name="position">2</field>
-		<field name="description">(κεράτια) ς → ϙς’ (i.e. 1/96), Nikolaos Gonis, ZPE 150 (2004), S. 198.</field>
+		<field name="description">(κεράτια) ς → ϙς’ (i.e. 1/96), N. Gonis, ZPE 150 (2004), S. 198.</field>
 		<field name="source">73151</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -32779,7 +32779,7 @@
 		<field name="volume">15</field>
 		<field name="document">743</field>
 		<field name="position">12</field>
-		<field name="description">(παρὰ) κ(εράτια) τύο → ἰδ(ιωτικῷ) ζυγ(ῷ); Datum: 6-15. 12. 622, Nikolaos Gonis, ZPE 150 (2004), S. 198 (nach dem Photo).</field>
+		<field name="description">(παρὰ) κ(εράτια) τύο → ἰδ(ιωτικῷ) ζυγ(ῷ); Datum: 6-15. 12. 622, N. Gonis, ZPE 150 (2004), S. 198 (nach dem Photo).</field>
 		<field name="source">73151</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -32807,7 +32807,7 @@
 		<field name="volume">15</field>
 		<field name="document">748</field>
 		<field name="position">4</field>
-		<field name="description">Die Berichtigung in BL VIII 219-20 wird abgelehnt; außerdem zur Datierung:  Nikolaos Gonis, ZPE 150 (2004), S. 198-9.</field>
+		<field name="description">Die Berichtigung in BL VIII 219-20 wird abgelehnt; außerdem zur Datierung:  N. Gonis, ZPE 150 (2004), S. 198-9.</field>
 		<field name="source">73151</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -32835,7 +32835,7 @@
 		<field name="volume">1</field>
 		<field name="document">48</field>
 		<field name="position" xsi:nil="true" />
-		<field name="description">Nd.: Nikolaos Gonis, ZPE 150 (2004), S. 192.</field>
+		<field name="description">Nd.: N. Gonis, ZPE 150 (2004), S. 192.</field>
 		<field name="source">73153</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -32863,7 +32863,7 @@
 		<field name="volume">6</field>
 		<field name="document">993</field>
 		<field name="position" xsi:nil="true" />
-		<field name="description">Die Berichtigung in BL VII 133 wird abgelehnt; gehört zum Archiv der »Heiligen Kirche«; Datierung viell. Dezember/Januar 478/9 oder 493/4, Nikolaos Gonis, ZPE 150 (2004), S. 199-200.</field>
+		<field name="description">Die Berichtigung in BL VII 133 wird abgelehnt; gehört zum Archiv der »Heiligen Kirche«; Datierung viell. Dezember/Januar 478/9 oder 493/4, N. Gonis, ZPE 150 (2004), S. 199-200.</field>
 		<field name="source">73151</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -32891,7 +32891,7 @@
 		<field name="volume">16</field>
 		<field name="document">1980</field>
 		<field name="position">5</field>
-		<field name="description">Φ̣[λάουιο]ς̣ → [Αὐρήλιο]ς, Nikolaos Gonis, ZPE 150 (2004), S. 200 (am Original).</field>
+		<field name="description">Φ̣[λάουιο]ς̣ → [Αὐρήλιο]ς, N. Gonis, ZPE 150 (2004), S. 200 (am Original).</field>
 		<field name="source">73151</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -32919,7 +32919,7 @@
 		<field name="volume">16</field>
 		<field name="document">1980</field>
 		<field name="position">6</field>
-		<field name="description">̣ ̣ ̣της: viell. ἐ̣ρ̣γ̣άτης, Nikolaos Gonis, ZPE 150 (2004), S. 200.</field>
+		<field name="description">̣ ̣ ̣της: viell. ἐ̣ρ̣γ̣άτης, N. Gonis, ZPE 150 (2004), S. 200.</field>
 		<field name="source">73151</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -32947,7 +32947,7 @@
 		<field name="volume">16</field>
 		<field name="document">1980</field>
 		<field name="position">8</field>
-		<field name="description">̣ ̣ ̣ ̣ῃ: viell. [ἐ]π̣ι̣σ̣τά̣τῃ, Nikolaos Gonis, ZPE 150 (2004), S. 200.</field>
+		<field name="description">̣ ̣ ̣ ̣ῃ: viell. [ἐ]π̣ι̣σ̣τά̣τῃ, N. Gonis, ZPE 150 (2004), S. 200.</field>
 		<field name="source">73151</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -32975,7 +32975,7 @@
 		<field name="volume">16</field>
 		<field name="document">2045</field>
 		<field name="position" xsi:nil="true" />
-		<field name="description">Bisher nur als Beschreibung publiziert; teilweise Wiedergabe der Namen: Nikolaos Gonis, ZPE 150 (2004), S. 199.</field>
+		<field name="description">Bisher nur als Beschreibung publiziert; teilweise Wiedergabe der Namen: N. Gonis, ZPE 150 (2004), S. 199.</field>
 		<field name="source">73151</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -33003,7 +33003,7 @@
 		<field name="volume">16</field>
 		<field name="document">2057</field>
 		<field name="position">10</field>
-		<field name="description">Μηνᾶ κασκελ() (l. καγκελ(λαρίου)?) → Μηνᾶ Κασκελ, vgl. P. Oxy. XVI 2045, Nikolaos Gonis, ZPE 150 (2004), S. 199.</field>
+		<field name="description">Μηνᾶ κασκελ() (l. καγκελ(λαρίου)?) → Μηνᾶ Κασκελ, vgl. P. Oxy. XVI 2045, N. Gonis, ZPE 150 (2004), S. 199.</field>
 		<field name="source">73151</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -33031,7 +33031,7 @@
 		<field name="volume">18</field>
 		<field name="document">2197</field>
 		<field name="position">137</field>
-		<field name="description">Ψεσίου → Ψεείου, Nikolaos Gonis, ZPE 150 (2004), S. 200 (am Original).</field>
+		<field name="description">Ψεσίου → Ψεείου, N. Gonis, ZPE 150 (2004), S. 200 (am Original).</field>
 		<field name="source">73151</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -33059,7 +33059,7 @@
 		<field name="volume">22</field>
 		<field name="document">2350</field>
 		<field name="position">III 8-11</field>
-		<field name="description">Am Original neu gelesen: Nikolaos Gonis, ZPE 150 (2004), S. 201.</field>
+		<field name="description">Am Original neu gelesen: N. Gonis, ZPE 150 (2004), S. 201.</field>
 		<field name="source">73151</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -33087,7 +33087,7 @@
 		<field name="volume">36</field>
 		<field name="document">2799</field>
 		<field name="position" xsi:nil="true" />
-		<field name="description">Der δεσπότης ist wahrscheinlich Strategius II, Vater von Apion II; Reste einer Adresse auf der Rückseite, Nikolaos Gonis, ZPE 150 (2004), S. 202.</field>
+		<field name="description">Der δεσπότης ist wahrscheinlich Strategius II, Vater von Apion II; Reste einer Adresse auf der Rückseite, N. Gonis, ZPE 150 (2004), S. 202.</field>
 		<field name="source">73151</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -33115,7 +33115,7 @@
 		<field name="volume">67</field>
 		<field name="document">4607</field>
 		<field name="position">III 5</field>
-		<field name="description">Πτολεμ[α]ῖ[ος] → Πτολεμῖ[νος], Nikolaos Gonis, ZPE 150 (2004), S. 202 (am Original).</field>
+		<field name="description">Πτολεμ[α]ῖ[ος] → Πτολεμῖ[νος], N. Gonis, ZPE 150 (2004), S. 202 (am Original).</field>
 		<field name="source">73151</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -33143,7 +33143,7 @@
 		<field name="volume">67</field>
 		<field name="document">4607</field>
 		<field name="position">III 10</field>
-		<field name="description">̣ ̣[ ̣]βάτιος → Β̣α̣[ρ]βάτιος, Nikolaos Gonis, ZPE 150 (2004), S. 202 (am Original).</field>
+		<field name="description">̣ ̣[ ̣]βάτιος → Β̣α̣[ρ]βάτιος, N. Gonis, ZPE 150 (2004), S. 202 (am Original).</field>
 		<field name="source">73151</field>
 		<field name="status">unchecked</field>
 		<field name="creator">mirizio</field>
@@ -39835,11 +39835,11 @@
 		<field Field="version" Type="int(11)" Null="NO" Key="" Extra="" />
 		<field Field="data" Type="longtext" Null="YES" Key="" Extra="" />
 		<field Field="username" Type="varchar(255)" Null="YES" Key="MUL" Extra="" />
-		<key Table="ext_log_entries" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="3033" Null="" Index_type="BTREE" Comment="" />
+		<key Table="ext_log_entries" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="4006" Null="" Index_type="BTREE" Comment="" />
 		<key Table="ext_log_entries" Non_unique="1" Key_name="log_class_lookup_idx" Seq_in_index="1" Column_name="object_class" Collation="A" Cardinality="1" Null="" Index_type="BTREE" Comment="" />
-		<key Table="ext_log_entries" Non_unique="1" Key_name="log_date_lookup_idx" Seq_in_index="1" Column_name="logged_at" Collation="A" Cardinality="3033" Null="" Index_type="BTREE" Comment="" />
+		<key Table="ext_log_entries" Non_unique="1" Key_name="log_date_lookup_idx" Seq_in_index="1" Column_name="logged_at" Collation="A" Cardinality="4006" Null="" Index_type="BTREE" Comment="" />
 		<key Table="ext_log_entries" Non_unique="1" Key_name="log_user_lookup_idx" Seq_in_index="1" Column_name="username" Collation="A" Cardinality="1" Null="YES" Index_type="BTREE" Comment="" />
-		<options Name="ext_log_entries" Engine="InnoDB" Version="10" Row_format="Compact" Rows="3033" Avg_row_length="523" Data_length="1589248" Max_data_length="0" Index_length="425984" Data_free="0" Auto_increment="3557" Create_time="2012-02-10 23:18:07" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 23552 kB" />
+		<options Name="ext_log_entries" Engine="InnoDB" Version="10" Row_format="Compact" Rows="4169" Avg_row_length="381" Data_length="1589248" Max_data_length="0" Index_length="425984" Data_free="0" Auto_increment="3624" Create_time="2012-02-10 23:18:07" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 23552 kB" />
 	</table_structure>
 	<table_data name="ext_log_entries">
 	<row>
@@ -75413,6 +75413,676 @@ app.crit.) (am Original), F. Mitthof, ZPE 139 (2002), S. 140.&quot;;s:6:&quot;st
 		<field name="data">a:3:{s:8:&quot;position&quot;;s:5:&quot;10-11&quot;;s:11:&quot;description&quot;;s:158:&quot;ἡμέριον | [ ̣ ̣ ̣ ̣ ̣ ̣ ̣ ̣ ̣ ̣] → ἡμερου[σίως 9/10 ], L. Capron, C. Dumoulin, J.-L. Fournet, G. Husson ZPE 150 (2004), S. 213.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
 		<field name="username">mirizio</field>
 	</row>
+	<row>
+		<field name="id">3557</field>
+		<field name="action">update</field>
+		<field name="logged_at">2013-06-19 12:19:13</field>
+		<field name="object_id">1126</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:1:{s:11:&quot;description&quot;;s:80:&quot;ἀπέσχ(ομεν) → ἀπέχ(ομεν), N. Gonis, ZPE 150 (2004), S. 194.&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">3558</field>
+		<field name="action">update</field>
+		<field name="logged_at">2013-06-19 12:19:54</field>
+		<field name="object_id">1089</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:1:{s:11:&quot;description&quot;;s:89:&quot;Zu ergänzen wohl: [Ἀρσινοίου νομοῦ, D. Hagedorn, ZPE 150 (2004), S. 155.&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">3559</field>
+		<field name="action">update</field>
+		<field name="logged_at">2013-06-19 12:20:14</field>
+		<field name="object_id">1090</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:1:{s:11:&quot;description&quot;;s:81:&quot;Zu ergänzen wohl: [αὐτῆς κώμης, D. Hagedorn, ZPE 150 (2004), S. 155.&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">3560</field>
+		<field name="action">update</field>
+		<field name="logged_at">2013-06-19 12:20:29</field>
+		<field name="object_id">1092</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:1:{s:11:&quot;description&quot;;s:108:&quot;σο̣[ι π]α̣ρεχο̣ύσης → συ̣[ν]α̣ρεσά̣σης, D. Hagedorn, ZPE 150 (2004), S. 156.&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">3561</field>
+		<field name="action">update</field>
+		<field name="logged_at">2013-06-19 12:21:05</field>
+		<field name="object_id">1084</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:1:{s:11:&quot;description&quot;;s:41:&quot;Vgl. R. Smolders, ZPE 150 (2004), S. 220.&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">3562</field>
+		<field name="action">update</field>
+		<field name="logged_at">2013-06-19 12:22:02</field>
+		<field name="object_id">1173</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:1:{s:11:&quot;description&quot;;s:89:&quot;συντ(ελῶν) → σὺν τ(αῖς) εἰς, R. Smolders, ZPE 150 (2004), S. 220.&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">3563</field>
+		<field name="action">update</field>
+		<field name="logged_at">2013-06-19 12:23:14</field>
+		<field name="object_id">1085</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:1:{s:11:&quot;description&quot;;s:57:&quot;Zur Datierung vgl. D. Hagedorn, ZPE 150 (2004), S. 158-9.&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">3564</field>
+		<field name="action">update</field>
+		<field name="logged_at">2013-06-19 12:23:28</field>
+		<field name="object_id">1088</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:1:{s:11:&quot;description&quot;;s:118:&quot;τικῆς τῷ  ̣ ̣[: viell. στρατιω]|τικῆς τάξ̣ε̣[ως,  D. Hagedorn, ZPE 150 (2004), S. 155.&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">3565</field>
+		<field name="action">update</field>
+		<field name="logged_at">2013-06-19 12:23:41</field>
+		<field name="object_id">1091</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:1:{s:11:&quot;description&quot;;s:193:&quot;τεσ]σ̣ερα〈και〉δεκάτης → δευ]τ̣έρᾳ δεκάτης; hierdurch ändert sich die Datierung auf das Jahr 591/2, D. Hagedorn, ZPE 150 (2004), S. 155 (nach dem Photo).&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">3566</field>
+		<field name="action">update</field>
+		<field name="logged_at">2013-06-19 12:23:55</field>
+		<field name="object_id">1093</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:1:{s:11:&quot;description&quot;;s:115:&quot;πρὸς συμπλη|ρώσεως → πρὸ{ς} συμπλη|ρώσεως, D. Hagedorn, ZPE 150 (2004), S. 156.&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">3567</field>
+		<field name="action">update</field>
+		<field name="logged_at">2013-06-19 12:24:05</field>
+		<field name="object_id">1094</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:1:{s:11:&quot;description&quot;;s:85:&quot;ὡμολ(όγησα) → ὡμ(ολόγησα), D. Hagedorn, ZPE 150 (2004), S. 156.&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">3568</field>
+		<field name="action">update</field>
+		<field name="logged_at">2013-06-19 12:24:32</field>
+		<field name="object_id">1095</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:1:{s:11:&quot;description&quot;;s:70:&quot;[ἀ]ρ̣(χῇ) wird abgelehnt: D. Hagedorn, ZPE 150 (2004) , S. 156.&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">3569</field>
+		<field name="action">update</field>
+		<field name="logged_at">2013-06-19 12:24:51</field>
+		<field name="object_id">1096</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:1:{s:11:&quot;description&quot;;s:85:&quot;κγ: viell. auch κζ, κ̣α̣ oder κ̣θ̣, D. Hagedorn, ZPE 150 (2004) , S. 156.&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">3570</field>
+		<field name="action">update</field>
+		<field name="logged_at">2013-06-19 12:25:00</field>
+		<field name="object_id">1097</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:1:{s:11:&quot;description&quot;;s:71:&quot;λ(ίτραι) → λί(τραι), D. Hagedorn, ZPE 150 (2004), S. 156.&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">3571</field>
+		<field name="action">update</field>
+		<field name="logged_at">2013-06-19 12:25:10</field>
+		<field name="object_id">1102</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:1:{s:11:&quot;description&quot;;s:85:&quot;πίσσης → πήσσης (l. πίσσης), D. Hagedorn, ZPE 150 (2004), S. 156.&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">3572</field>
+		<field name="action">update</field>
+		<field name="logged_at">2013-06-19 12:25:23</field>
+		<field name="object_id">1101</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:1:{s:11:&quot;description&quot;;s:75:&quot;(μετρητής) → ξ(έστης), D. Hagedorn, ZPE 150 (2004), S. 156.&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">3573</field>
+		<field name="action">update</field>
+		<field name="logged_at">2013-06-19 12:25:35</field>
+		<field name="object_id">1104</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:1:{s:11:&quot;description&quot;;s:147:&quot;ἰχιναχ̣ικ(οῦ): viell. ἰχιναλ̣ικ(οῦ) (l. ἐχιναλικοῦ); vgl. P. Horak 21,7, D. Hagedorn, ZPE 150 (2004), S. 156.&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">3574</field>
+		<field name="action">update</field>
+		<field name="logged_at">2013-06-19 12:25:46</field>
+		<field name="object_id">1107</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:1:{s:11:&quot;description&quot;;s:142:&quot;ἀποχορ̣ι̣σ̣ο̣μ̣[ένου] → ἀποχα̣ρί̣σμ̣α̣τ̣ο̣ς̣, D. Hagedorn, ZPE 150 (2004), S. 157 (nach dem Photo).&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">3575</field>
+		<field name="action">update</field>
+		<field name="logged_at">2013-06-19 12:25:59</field>
+		<field name="object_id">1108</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:1:{s:11:&quot;description&quot;;s:83:&quot;ὑ̣π̣[εθέμεθα → ἀ̣π̣ ̣ ̣[, D. Hagedorn, ZPE 150 (2004), S. 157.&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">3576</field>
+		<field name="action">update</field>
+		<field name="logged_at">2013-06-19 12:26:13</field>
+		<field name="object_id">1111</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:1:{s:11:&quot;description&quot;;s:110:&quot;Μα̣γ̣δ̣ώλα̣[ς → Μα̣γ̣δ̣ώλω̣[ν, D. Hagedorn, ZPE 150 (2004), S. 158 (nach dem Photo).&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">3577</field>
+		<field name="action">update</field>
+		<field name="logged_at">2013-06-19 12:26:21</field>
+		<field name="object_id">1114</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:1:{s:11:&quot;description&quot;;s:106:&quot;δι’ Ἄπει(τος) → τραπεζ(ίτῃ), D. Hagedorn, ZPE 150 (2004), S. 158 (nach dem Photo).&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">3578</field>
+		<field name="action">update</field>
+		<field name="logged_at">2013-06-19 12:26:44</field>
+		<field name="object_id">1103</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:1:{s:11:&quot;description&quot;;s:82:&quot;Am Ende der Zeile jeweils: ιβ– → β–, D. Hagedorn, ZPE 150 (2004), S. 156.&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">3579</field>
+		<field name="action">update</field>
+		<field name="logged_at">2013-06-19 12:26:57</field>
+		<field name="object_id">1105</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:1:{s:11:&quot;description&quot;;s:101:&quot;Datierung aus paläographischen Gründen: 2. Hälfte des 7. Jhs. D. Hagedorn, ZPE 150 (2004), S. 157.&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">3580</field>
+		<field name="action">update</field>
+		<field name="logged_at">2013-06-19 12:27:06</field>
+		<field name="object_id">1106</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:1:{s:11:&quot;description&quot;;s:161:&quot;(ὑπὲρ) ς κερ(ατισμῶν) → ὑ(πὲρ) (ἑξα)κερ(άτου); vgl. BL V 49 und ZPE 142 (2003), S. 194, D. Hagedorn, ZPE 150 (2004), S. 157.&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">3581</field>
+		<field name="action">update</field>
+		<field name="logged_at">2013-06-19 12:27:14</field>
+		<field name="object_id">1109</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:1:{s:11:&quot;description&quot;;s:151:&quot;τοῦ αὐτοῦ δεκ ̣ ̣ ̣ ̣ ̣ ̣ ̣ → τοῦ αὐτοῦ δεκα̣ετοῦς χρ̣[όνου, D. Hagedorn, ZPE 150 (2004), S. 157-8.&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">3582</field>
+		<field name="action">update</field>
+		<field name="logged_at">2013-06-19 12:27:31</field>
+		<field name="object_id">1121</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:1:{s:11:&quot;description&quot;;s:69:&quot;Zu datieren: 272/3 n. Chr., vgl. D. Hagedorn, ZPE 150 (2004), S. 160.&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">3583</field>
+		<field name="action">update</field>
+		<field name="logged_at">2013-06-19 12:27:39</field>
+		<field name="object_id">1120</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:1:{s:11:&quot;description&quot;;s:105:&quot;πρὸς μὲν πάντων → πρό γε μὲν πάντων, D. Hagedorn, ZPE 150 (2004), S. 159.&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">3584</field>
+		<field name="action">update</field>
+		<field name="logged_at">2013-06-19 12:27:48</field>
+		<field name="object_id">1117</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:1:{s:11:&quot;description&quot;;s:95:&quot;Aus paläographischen Gründen ins 4./5. Jhd. zu datieren, D. Hagedorn, ZPE 150 (2004), S. 159.&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">3585</field>
+		<field name="action">update</field>
+		<field name="logged_at">2013-06-19 12:27:59</field>
+		<field name="object_id">1115</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:1:{s:11:&quot;description&quot;;s:73:&quot;Recto und Verso wurden verwechselt,  D. Hagedorn, ZPE 150 (2004), S. 159.&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">3586</field>
+		<field name="action">update</field>
+		<field name="logged_at">2013-06-19 12:28:17</field>
+		<field name="object_id">1119</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:1:{s:11:&quot;description&quot;;s:142:&quot;[ ἕ]ως κδ ἕως Φαρ(μοῦθι) η → [Φαμεν]ὼθ κδ ἕως Φαρ(μοῦθι) η, D. Hagedorn, ZPE 150 (2004), S. 159.&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">3587</field>
+		<field name="action">update</field>
+		<field name="logged_at">2013-06-19 12:28:25</field>
+		<field name="object_id">1118</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:1:{s:11:&quot;description&quot;;s:202:&quot;(beginnend in Z. 3) † ̣ ̣ ̣ εχου | ἐγράφ(η) → ἐρ|ρῶσ̣θ̣(αί σε) εὔχομ̣(αι), | κ̣ύ̣ρ̣ι̣ε̣ ἄ̣δ̣ε̣λ̣φ(ε)., D. Hagedorn, ZPE 150 (2004) , S. 159.&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">3588</field>
+		<field name="action">update</field>
+		<field name="logged_at">2013-06-19 12:28:34</field>
+		<field name="object_id">1116</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:1:{s:11:&quot;description&quot;;s:114:&quot;εν αν  ̣ ἐ̣λ̣έου → ἕνα{ν} ξ(έστην) ἐ̣λ̣έου, D. Hagedorn, ZPE 150 (2004), S. 159.&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">3589</field>
+		<field name="action">update</field>
+		<field name="logged_at">2013-06-19 12:28:43</field>
+		<field name="object_id">1113</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:1:{s:11:&quot;description&quot;;s:126:&quot;]τ̣ης ιβ∠γ/ → ]τ̣ης ιβϟ//; daher entweder 428/9 oder 443/4 zu datieren, D. Hagedorn, ZPE 150 (2004), S. 158.&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">3590</field>
+		<field name="action">update</field>
+		<field name="logged_at">2013-06-19 12:28:57</field>
+		<field name="object_id">1112</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:1:{s:11:&quot;description&quot;;s:105:&quot;Πουαμπ(ινούφεως): viell. Πουαμπ(ιμήνεως), D. Hagedorn, ZPE 150 (2004), S. 158.&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">3591</field>
+		<field name="action">update</field>
+		<field name="logged_at">2013-06-19 12:29:06</field>
+		<field name="object_id">1110</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:1:{s:11:&quot;description&quot;;s:195:&quot;] ̣μ Ὄφεως τοῦ Ἑρ(μοπολίτου) → [μί(σθωσις) τοῦ δεῖνος γεωργοῦ ἀπὸ κ]ώμ(ης) Ὄφεως κτλ., D. Hagedorn, ZPE 150 (2004), S. 158.&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">3592</field>
+		<field name="action">update</field>
+		<field name="logged_at">2013-06-19 12:36:30</field>
+		<field name="object_id">1122</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:1:{s:11:&quot;description&quot;;s:68:&quot;Παῦτος → Παχῶτος, N. Gonis, ZPE 150 (2004), S. 194.&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">3593</field>
+		<field name="action">update</field>
+		<field name="logged_at">2013-06-19 12:36:37</field>
+		<field name="object_id">1124</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:1:{s:11:&quot;description&quot;;s:110:&quot;Ἀβῶ̣το(ς) Ὡρίωνος → Ἀβῶ̣ς̣ Ἑρ̣ιέ̣ω̣ς̣, N. Gonis, ZPE 150 (2004), S. 194.&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">3594</field>
+		<field name="action">update</field>
+		<field name="logged_at">2013-06-19 14:05:40</field>
+		<field name="object_id">1058</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:1:{s:6:&quot;status&quot;;s:8:&quot;reviewed&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">3595</field>
+		<field name="action">update</field>
+		<field name="logged_at">2013-06-19 14:05:46</field>
+		<field name="object_id">1034</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">2</field>
+		<field name="data">a:1:{s:7:&quot;cleared&quot;;O:8:&quot;DateTime&quot;:3:{s:4:&quot;date&quot;;s:19:&quot;2013-06-19 14:05:46&quot;;s:13:&quot;timezone_type&quot;;i:3;s:8:&quot;timezone&quot;;s:13:&quot;Europe/Berlin&quot;;}}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">3596</field>
+		<field name="action">update</field>
+		<field name="logged_at">2013-06-19 14:07:58</field>
+		<field name="object_id">1059</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:1:{s:11:&quot;description&quot;;s:66:&quot;Datum: 25. Mai 260, J. D. Thomas, ZPE 151 (2005), S. 142, Anm. 10.&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">3597</field>
+		<field name="action">update</field>
+		<field name="logged_at">2013-06-19 14:08:01</field>
+		<field name="object_id">1035</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">2</field>
+		<field name="data">a:1:{s:7:&quot;cleared&quot;;O:8:&quot;DateTime&quot;:3:{s:4:&quot;date&quot;;s:19:&quot;2013-06-19 14:08:01&quot;;s:13:&quot;timezone_type&quot;;i:3;s:8:&quot;timezone&quot;;s:13:&quot;Europe/Berlin&quot;;}}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">3598</field>
+		<field name="action">update</field>
+		<field name="logged_at">2013-06-19 14:08:04</field>
+		<field name="object_id">1059</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">3</field>
+		<field name="data">a:1:{s:6:&quot;status&quot;;s:8:&quot;reviewed&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">3599</field>
+		<field name="action">update</field>
+		<field name="logged_at">2013-06-19 14:08:31</field>
+		<field name="object_id">1058</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">3</field>
+		<field name="data">a:1:{s:11:&quot;description&quot;;s:66:&quot;Datum: 25. Mai 260, J. D. Thomas, ZPE 151 (2005), S. 142, Anm. 10.&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">3600</field>
+		<field name="action">update</field>
+		<field name="logged_at">2013-06-19 14:10:41</field>
+		<field name="object_id">1060</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:1:{s:11:&quot;description&quot;;s:66:&quot;Datum: 25. Mai 260, J. D. Thomas, ZPE 151 (2005), S. 142, Anm. 10.&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">3601</field>
+		<field name="action">update</field>
+		<field name="logged_at">2013-06-19 14:10:46</field>
+		<field name="object_id">1060</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">3</field>
+		<field name="data">a:1:{s:6:&quot;status&quot;;s:8:&quot;reviewed&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">3602</field>
+		<field name="action">update</field>
+		<field name="logged_at">2013-06-19 14:10:50</field>
+		<field name="object_id">1036</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">2</field>
+		<field name="data">a:1:{s:7:&quot;cleared&quot;;O:8:&quot;DateTime&quot;:3:{s:4:&quot;date&quot;;s:19:&quot;2013-06-19 14:10:50&quot;;s:13:&quot;timezone_type&quot;;i:3;s:8:&quot;timezone&quot;;s:13:&quot;Europe/Berlin&quot;;}}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">3603</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-19 14:11:38</field>
+		<field name="object_id">1215</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:15:&quot;Already in HGV.&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">3604</field>
+		<field name="action">update</field>
+		<field name="logged_at">2013-06-19 14:11:55</field>
+		<field name="object_id">1215</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">2</field>
+		<field name="data">a:1:{s:7:&quot;cleared&quot;;O:8:&quot;DateTime&quot;:3:{s:4:&quot;date&quot;;s:19:&quot;2013-06-19 14:11:55&quot;;s:13:&quot;timezone_type&quot;;i:3;s:8:&quot;timezone&quot;;s:13:&quot;Europe/Berlin&quot;;}}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">3605</field>
+		<field name="action">update</field>
+		<field name="logged_at">2013-06-19 14:12:01</field>
+		<field name="object_id">1061</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:1:{s:6:&quot;status&quot;;s:8:&quot;reviewed&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">3606</field>
+		<field name="action">update</field>
+		<field name="logged_at">2013-06-19 14:12:20</field>
+		<field name="object_id">1061</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">3</field>
+		<field name="data">a:1:{s:11:&quot;description&quot;;s:66:&quot;Datum: 25. Mai 260, J. D. Thomas, ZPE 151 (2005), S. 142, Anm. 10.&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">3607</field>
+		<field name="action">update</field>
+		<field name="logged_at">2013-06-19 14:14:13</field>
+		<field name="object_id">1037</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">2</field>
+		<field name="data">a:1:{s:7:&quot;cleared&quot;;O:8:&quot;DateTime&quot;:3:{s:4:&quot;date&quot;;s:19:&quot;2013-06-19 14:14:13&quot;;s:13:&quot;timezone_type&quot;;i:3;s:8:&quot;timezone&quot;;s:13:&quot;Europe/Berlin&quot;;}}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">3608</field>
+		<field name="action">update</field>
+		<field name="logged_at">2013-06-19 14:14:16</field>
+		<field name="object_id">1062</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:1:{s:6:&quot;status&quot;;s:8:&quot;reviewed&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">3609</field>
+		<field name="action">update</field>
+		<field name="logged_at">2013-06-19 14:14:21</field>
+		<field name="object_id">1062</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">3</field>
+		<field name="data">a:1:{s:11:&quot;description&quot;;s:66:&quot;Datum: 25. Mai 260, J. D. Thomas, ZPE 151 (2005), S. 142, Anm. 10.&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">3610</field>
+		<field name="action">update</field>
+		<field name="logged_at">2013-06-19 14:15:08</field>
+		<field name="object_id">1215</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">3</field>
+		<field name="data">a:1:{s:11:&quot;description&quot;;s:15:&quot;already in HGV.&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">3611</field>
+		<field name="action">update</field>
+		<field name="logged_at">2013-06-19 14:43:33</field>
+		<field name="object_id">1034</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">3</field>
+		<field name="data">a:1:{s:7:&quot;cleared&quot;;O:8:&quot;DateTime&quot;:3:{s:4:&quot;date&quot;;s:19:&quot;2013-06-19 14:43:33&quot;;s:13:&quot;timezone_type&quot;;i:3;s:8:&quot;timezone&quot;;s:13:&quot;Europe/Berlin&quot;;}}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">3612</field>
+		<field name="action">update</field>
+		<field name="logged_at">2013-06-19 14:44:18</field>
+		<field name="object_id">1063</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:1:{s:11:&quot;description&quot;;s:66:&quot;Datum: 25. Mai 260, J. D. Thomas, ZPE 151 (2005), S. 142, Anm. 10.&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">3613</field>
+		<field name="action">update</field>
+		<field name="logged_at">2013-06-19 14:44:24</field>
+		<field name="object_id">1063</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">3</field>
+		<field name="data">a:1:{s:6:&quot;status&quot;;s:8:&quot;reviewed&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">3614</field>
+		<field name="action">update</field>
+		<field name="logged_at">2013-06-19 14:44:29</field>
+		<field name="object_id">1038</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">2</field>
+		<field name="data">a:1:{s:7:&quot;cleared&quot;;O:8:&quot;DateTime&quot;:3:{s:4:&quot;date&quot;;s:19:&quot;2013-06-19 14:44:29&quot;;s:13:&quot;timezone_type&quot;;i:3;s:8:&quot;timezone&quot;;s:13:&quot;Europe/Berlin&quot;;}}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">3615</field>
+		<field name="action">update</field>
+		<field name="logged_at">2013-06-19 14:45:30</field>
+		<field name="object_id">1064</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:1:{s:11:&quot;description&quot;;s:66:&quot;Datum: 25. Mai 260, J. D. Thomas, ZPE 151 (2005), S. 142, Anm. 10.&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">3616</field>
+		<field name="action">update</field>
+		<field name="logged_at">2013-06-19 14:45:37</field>
+		<field name="object_id">1064</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">3</field>
+		<field name="data">a:1:{s:6:&quot;status&quot;;s:8:&quot;reviewed&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">3617</field>
+		<field name="action">update</field>
+		<field name="logged_at">2013-06-19 14:45:41</field>
+		<field name="object_id">1039</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">2</field>
+		<field name="data">a:1:{s:7:&quot;cleared&quot;;O:8:&quot;DateTime&quot;:3:{s:4:&quot;date&quot;;s:19:&quot;2013-06-19 14:45:41&quot;;s:13:&quot;timezone_type&quot;;i:3;s:8:&quot;timezone&quot;;s:13:&quot;Europe/Berlin&quot;;}}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">3618</field>
+		<field name="action">update</field>
+		<field name="logged_at">2013-06-19 14:47:15</field>
+		<field name="object_id">1065</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:1:{s:11:&quot;description&quot;;s:66:&quot;Datum: 16. Mai 260, J. D. Thomas, ZPE 151 (2005), S. 142, Anm. 10.&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">3619</field>
+		<field name="action">update</field>
+		<field name="logged_at">2013-06-19 14:47:22</field>
+		<field name="object_id">1065</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">3</field>
+		<field name="data">a:1:{s:6:&quot;status&quot;;s:8:&quot;reviewed&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">3620</field>
+		<field name="action">update</field>
+		<field name="logged_at">2013-06-19 14:47:28</field>
+		<field name="object_id">1040</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">2</field>
+		<field name="data">a:1:{s:7:&quot;cleared&quot;;O:8:&quot;DateTime&quot;:3:{s:4:&quot;date&quot;;s:19:&quot;2013-06-19 14:47:28&quot;;s:13:&quot;timezone_type&quot;;i:3;s:8:&quot;timezone&quot;;s:13:&quot;Europe/Berlin&quot;;}}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">3621</field>
+		<field name="action">update</field>
+		<field name="logged_at">2013-06-19 15:07:01</field>
+		<field name="object_id">1066</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:1:{s:11:&quot;description&quot;;s:66:&quot;Datum: 16. Mai 260, J. D. Thomas, ZPE 151 (2005), S. 142, Anm. 10.&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">3622</field>
+		<field name="action">update</field>
+		<field name="logged_at">2013-06-19 15:07:05</field>
+		<field name="object_id">1066</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">3</field>
+		<field name="data">a:1:{s:6:&quot;status&quot;;s:8:&quot;reviewed&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">3623</field>
+		<field name="action">update</field>
+		<field name="logged_at">2013-06-19 15:07:08</field>
+		<field name="object_id">1041</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">2</field>
+		<field name="data">a:1:{s:7:&quot;cleared&quot;;O:8:&quot;DateTime&quot;:3:{s:4:&quot;date&quot;;s:19:&quot;2013-06-19 15:07:08&quot;;s:13:&quot;timezone_type&quot;;i:3;s:8:&quot;timezone&quot;;s:13:&quot;Europe/Berlin&quot;;}}</field>
+		<field name="username">cowey</field>
+	</row>
 	</table_data>
 	<table_structure name="ext_translations">
 		<field Field="id" Type="int(11)" Null="NO" Key="PRI" Extra="auto_increment" />
@@ -75626,9 +76296,9 @@ app.crit.) (am Original), F. Mitthof, ZPE 139 (2002), S. 140.&quot;;s:6:&quot;st
 		<field Field="category" Type="varchar(64)" Null="NO" Key="" Extra="" />
 		<field Field="description" Type="longtext" Null="NO" Key="" Extra="" />
 		<field Field="cleared" Type="datetime" Null="YES" Key="" Extra="" />
-		<key Table="task" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="79" Null="" Index_type="BTREE" Comment="" />
-		<key Table="task" Non_unique="1" Key_name="IDX_527EDB2594AE086B" Seq_in_index="1" Column_name="correction_id" Collation="A" Cardinality="79" Null="" Index_type="BTREE" Comment="" />
-		<options Name="task" Engine="InnoDB" Version="10" Row_format="Compact" Rows="79" Avg_row_length="1451" Data_length="114688" Max_data_length="0" Index_length="16384" Data_free="0" Auto_increment="1215" Create_time="2012-02-22 09:27:05" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 23552 kB; (`correction_id`) REFER `bl/correction`(`id`)" />
+		<key Table="task" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="1663" Null="" Index_type="BTREE" Comment="" />
+		<key Table="task" Non_unique="1" Key_name="IDX_527EDB2594AE086B" Seq_in_index="1" Column_name="correction_id" Collation="A" Cardinality="1663" Null="" Index_type="BTREE" Comment="" />
+		<options Name="task" Engine="InnoDB" Version="10" Row_format="Compact" Rows="1663" Avg_row_length="68" Data_length="114688" Max_data_length="0" Index_length="16384" Data_free="0" Auto_increment="1216" Create_time="2012-02-22 09:27:05" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 23552 kB; (`correction_id`) REFER `bl/correction`(`id`)" />
 	</table_structure>
 	<table_data name="task">
 	<row>
@@ -82657,56 +83327,56 @@ app.crit.) (am Original), F. Mitthof, ZPE 139 (2002), S. 140.&quot;;s:6:&quot;st
 		<field name="correction_id">1058</field>
 		<field name="category">hgv</field>
 		<field name="description">already in HGV</field>
-		<field name="cleared" xsi:nil="true" />
+		<field name="cleared">2013-06-19 14:43:33</field>
 	</row>
 	<row>
 		<field name="id">1035</field>
 		<field name="correction_id">1059</field>
 		<field name="category">hgv</field>
 		<field name="description">already in HGV</field>
-		<field name="cleared" xsi:nil="true" />
+		<field name="cleared">2013-06-19 14:08:01</field>
 	</row>
 	<row>
 		<field name="id">1036</field>
 		<field name="correction_id">1060</field>
 		<field name="category">hgv</field>
 		<field name="description">already in HGV</field>
-		<field name="cleared" xsi:nil="true" />
+		<field name="cleared">2013-06-19 14:10:50</field>
 	</row>
 	<row>
 		<field name="id">1037</field>
 		<field name="correction_id">1062</field>
 		<field name="category">hgv</field>
 		<field name="description">already in HGV</field>
-		<field name="cleared" xsi:nil="true" />
+		<field name="cleared">2013-06-19 14:14:13</field>
 	</row>
 	<row>
 		<field name="id">1038</field>
 		<field name="correction_id">1063</field>
 		<field name="category">hgv</field>
 		<field name="description">already in HGV</field>
-		<field name="cleared" xsi:nil="true" />
+		<field name="cleared">2013-06-19 14:44:29</field>
 	</row>
 	<row>
 		<field name="id">1039</field>
 		<field name="correction_id">1064</field>
 		<field name="category">hgv</field>
 		<field name="description">already in HGV</field>
-		<field name="cleared" xsi:nil="true" />
+		<field name="cleared">2013-06-19 14:45:41</field>
 	</row>
 	<row>
 		<field name="id">1040</field>
 		<field name="correction_id">1065</field>
 		<field name="category">hgv</field>
 		<field name="description">already in HGV</field>
-		<field name="cleared" xsi:nil="true" />
+		<field name="cleared">2013-06-19 14:47:28</field>
 	</row>
 	<row>
 		<field name="id">1041</field>
 		<field name="correction_id">1066</field>
 		<field name="category">hgv</field>
 		<field name="description">already in HGV</field>
-		<field name="cleared" xsi:nil="true" />
+		<field name="cleared">2013-06-19 15:07:08</field>
 	</row>
 	<row>
 		<field name="id">1042</field>
@@ -83918,6 +84588,13 @@ app.crit.) (am Original), F. Mitthof, ZPE 139 (2002), S. 140.&quot;;s:6:&quot;st
 		<field name="category">ddb</field>
 		<field name="description">Enter this correction into DDB via the editor</field>
 		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1215</field>
+		<field name="correction_id">1061</field>
+		<field name="category">hgv</field>
+		<field name="description">already in HGV.</field>
+		<field name="cleared">2013-06-19 14:11:55</field>
 	</row>
 	</table_data>
 </database>
