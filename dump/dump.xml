@@ -167,10 +167,10 @@
 		<field Field="sortUser" Type="varchar(256)" Null="YES" Key="" Extra="" />
 		<field Field="sort" Type="varchar(256)" Null="NO" Key="" Extra="" />
 		<field Field="compilationPage" Type="varchar(64)" Null="YES" Key="" Extra="" />
-		<key Table="correction" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="1279" Null="" Index_type="BTREE" Comment="" />
-		<key Table="correction" Non_unique="1" Key_name="IDX_A29DA1B874281A5E" Seq_in_index="1" Column_name="edition_id" Collation="A" Cardinality="639" Null="" Index_type="BTREE" Comment="" />
-		<key Table="correction" Non_unique="1" Key_name="IDX_A29DA1B8A5F8C840" Seq_in_index="1" Column_name="compilation_id" Collation="A" Cardinality="10" Null="" Index_type="BTREE" Comment="" />
-		<options Name="correction" Engine="InnoDB" Version="10" Row_format="Compact" Rows="1298" Avg_row_length="391" Data_length="507904" Max_data_length="0" Index_length="98304" Data_free="0" Auto_increment="1242" Create_time="2012-07-04 12:42:44" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 23552 kB; (`edition_id`) REFER `bl/edition`(`id`); (`compilation_id" />
+		<key Table="correction" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="1186" Null="" Index_type="BTREE" Comment="" />
+		<key Table="correction" Non_unique="1" Key_name="IDX_A29DA1B874281A5E" Seq_in_index="1" Column_name="edition_id" Collation="A" Cardinality="593" Null="" Index_type="BTREE" Comment="" />
+		<key Table="correction" Non_unique="1" Key_name="IDX_A29DA1B8A5F8C840" Seq_in_index="1" Column_name="compilation_id" Collation="A" Cardinality="9" Null="" Index_type="BTREE" Comment="" />
+		<options Name="correction" Engine="InnoDB" Version="10" Row_format="Compact" Rows="1231" Avg_row_length="412" Data_length="507904" Max_data_length="0" Index_length="98304" Data_free="0" Auto_increment="1270" Create_time="2012-07-04 12:42:44" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 23552 kB; (`edition_id`) REFER `bl/edition`(`id`); (`compilation_id" />
 	</table_structure>
 	<table_data name="correction">
 	<row>
@@ -29057,7 +29057,7 @@
 		<field name="position">21</field>
 		<field name="description">πρεσβυτέρου wohl kein Fehler für den Nominativ: K. A. Worp, ZPE 151 (2005), S. 146, Anm. 3.</field>
 		<field name="source">74609</field>
-		<field name="status">unchecked</field>
+		<field name="status">reviewed</field>
 		<field name="creator">mirizio</field>
 		<field name="created">2013-06-03 15:57:24</field>
 		<field name="sortPage" xsi:nil="true" />
@@ -29113,7 +29113,7 @@
 		<field name="position" xsi:nil="true" />
 		<field name="description">Zur Datierung vgl. K. A. Worp, ZPE 151 (2005), S. 155-8.</field>
 		<field name="source">74610</field>
-		<field name="status">unchecked</field>
+		<field name="status">reviewed</field>
 		<field name="creator">mirizio</field>
 		<field name="created">2013-06-03 16:01:59</field>
 		<field name="sortPage" xsi:nil="true" />
@@ -29141,7 +29141,7 @@
 		<field name="position">22</field>
 		<field name="description">Φ̣λ̣α̣ύ̣ι(ος) Ἰωσὴφ Ἀκ̣ ̣ ̣ω̣ρίου: viell. Σιλβ̣α̣ν̣ό̣ς Ἡφαισ[τί]ωνος, K. A. Worp, ZPE 151 (2005), S. 150.</field>
 		<field name="source">74609</field>
-		<field name="status">unchecked</field>
+		<field name="status">reviewed</field>
 		<field name="creator">mirizio</field>
 		<field name="created">2013-06-03 16:04:48</field>
 		<field name="sortPage" xsi:nil="true" />
@@ -29197,7 +29197,7 @@
 		<field name="position">2</field>
 		<field name="description">Σεβαστοῦ → Αὐγούστου, K. A. Worp, ZPE 151 (2005), S. 154, Anm. 11.</field>
 		<field name="source">74610</field>
-		<field name="status">unchecked</field>
+		<field name="status">reviewed</field>
 		<field name="creator">mirizio</field>
 		<field name="created">2013-06-03 16:10:42</field>
 		<field name="sortPage" xsi:nil="true" />
@@ -29307,9 +29307,9 @@
 		<field name="volume">1</field>
 		<field name="document">41</field>
 		<field name="position" xsi:nil="true" />
-		<field name="description">Eher ins frühe 4. Jhd. zu datieren: K. A. Worp, ZPE 151 (2005), S. 153.</field>
+		<field name="description">Eher ins frühe 4. Jhd. zu datieren: K. A. Worp, ZPE 151 (2005), S. 153, Anm. 3.</field>
 		<field name="source">74610</field>
-		<field name="status">unchecked</field>
+		<field name="status">reviewed</field>
 		<field name="creator">mirizio</field>
 		<field name="created">2013-06-04 09:38:33</field>
 		<field name="sortPage" xsi:nil="true" />
@@ -29337,7 +29337,7 @@
 		<field name="position">2</field>
 		<field name="description">[Σεβαστοῦ] → [Αὐγούστου], K. A. Worp, ZPE 151 (2005), S. 154, Anm. 11.</field>
 		<field name="source">74610</field>
-		<field name="status">unchecked</field>
+		<field name="status">reviewed</field>
 		<field name="creator">mirizio</field>
 		<field name="created">2013-06-04 09:40:50</field>
 		<field name="sortPage" xsi:nil="true" />
@@ -29645,7 +29645,7 @@
 		<field name="position">1</field>
 		<field name="description">Σεβαστοῦ → Αὐγούστου, K. A. Worp, ZPE 151 (2005), S. 155.</field>
 		<field name="source">74610</field>
-		<field name="status">unchecked</field>
+		<field name="status">reviewed</field>
 		<field name="creator">mirizio</field>
 		<field name="created">2013-06-04 10:00:14</field>
 		<field name="sortPage" xsi:nil="true" />
@@ -29813,7 +29813,7 @@
 		<field name="position" xsi:nil="true" />
 		<field name="description">Zur Datierung vgl.: K. A. Worp, ZPE 151 (2005), S. 155-8.</field>
 		<field name="source">74610</field>
-		<field name="status">unchecked</field>
+		<field name="status">reviewed</field>
 		<field name="creator">mirizio</field>
 		<field name="created">2013-06-04 10:15:37</field>
 		<field name="sortPage" xsi:nil="true" />
@@ -29841,7 +29841,7 @@
 		<field name="position" xsi:nil="true" />
 		<field name="description">Zur Datierung vgl.: K. A. Worp, ZPE 151 (2005), S. 155-8.</field>
 		<field name="source">74610</field>
-		<field name="status">unchecked</field>
+		<field name="status">reviewed</field>
 		<field name="creator">mirizio</field>
 		<field name="created">2013-06-04 10:17:56</field>
 		<field name="sortPage" xsi:nil="true" />
@@ -29897,7 +29897,7 @@
 		<field name="position">30</field>
 		<field name="description">πρεσβύτερ(ος) → πρεσβυτέρ(ου), K. A. Worp, ZPE 151 (2005), S. 146, Anm. 3.</field>
 		<field name="source">74609</field>
-		<field name="status">unchecked</field>
+		<field name="status">reviewed</field>
 		<field name="creator">mirizio</field>
 		<field name="created">2013-06-04 10:22:13</field>
 		<field name="sortPage" xsi:nil="true" />
@@ -29925,7 +29925,7 @@
 		<field name="position" xsi:nil="true" />
 		<field name="description">Zur Datierung vgl.: K. A. Worp, ZPE 151 (2005), S. 155-8.</field>
 		<field name="source">74610</field>
-		<field name="status">unchecked</field>
+		<field name="status">reviewed</field>
 		<field name="creator">mirizio</field>
 		<field name="created">2013-06-04 10:27:53</field>
 		<field name="sortPage" xsi:nil="true" />
@@ -30009,7 +30009,7 @@
 		<field name="position" xsi:nil="true" />
 		<field name="description">Zur Datierung vgl.: K. A. Worp, ZPE 151 (2005), S. 155-8.</field>
 		<field name="source">74610</field>
-		<field name="status">unchecked</field>
+		<field name="status">reviewed</field>
 		<field name="creator">mirizio</field>
 		<field name="created">2013-06-04 10:33:43</field>
 		<field name="sortPage" xsi:nil="true" />
@@ -30037,7 +30037,7 @@
 		<field name="position">8</field>
 		<field name="description">Παρατουρ() → παρατουρ(ᾶς), K. A. Worp, ZPE 151 (2005), S. 148-9.</field>
 		<field name="source">74609</field>
-		<field name="status">unchecked</field>
+		<field name="status">reviewed</field>
 		<field name="creator">mirizio</field>
 		<field name="created">2013-06-04 10:35:58</field>
 		<field name="sortPage" xsi:nil="true" />
@@ -30063,9 +30063,9 @@
 		<field name="volume">10</field>
 		<field name="document">210</field>
 		<field name="position">9</field>
-		<field name="description">Παρ[ατουρ() → παρ[ατουρ(ᾶς), l.c., S. 148-9.</field>
+		<field name="description">Παρ[ατουρ() → παρ[ατουρ(ᾶς), K. A. Worp, ZPE 151 (2005), S. 148-9.</field>
 		<field name="source">74609</field>
-		<field name="status">unchecked</field>
+		<field name="status">reviewed</field>
 		<field name="creator">mirizio</field>
 		<field name="created">2013-06-04 10:37:48</field>
 		<field name="sortPage" xsi:nil="true" />
@@ -34500,6 +34500,790 @@
 		<field name="sortSystem">e00871000t00000108p00000000s00f00000000c00000000l00000010</field>
 		<field name="sortUser" xsi:nil="true" />
 		<field name="sort">e00871000t00000108p00000000s00f00000000c00000000l00000010</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1242</field>
+		<field name="edition_id">417</field>
+		<field name="compilation_id">14</field>
+		<field name="text">111</field>
+		<field name="tm">12878</field>
+		<field name="folder">13</field>
+		<field name="hgv">12878</field>
+		<field name="ddb">p.rein;2;111</field>
+		<field name="collection">p.rein</field>
+		<field name="volume">2</field>
+		<field name="document">111</field>
+		<field name="position">1</field>
+		<field name="description">Kein vacat zwischen π(αρὰ) und Ἀπιανοῦ, L. Capron, C. Dumoulin, J.-L. Fournet, G. Husson ZPE 150 (2004), S. 208.</field>
+		<field name="source">72978</field>
+		<field name="status">unchecked</field>
+		<field name="creator">mirizio</field>
+		<field name="created">2013-06-20 16:56:23</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">1</field>
+		<field name="sortSystem">e00871000t00000111p00000000s00f00000000c00000000l00000001</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00871000t00000111p00000000s00f00000000c00000000l00000001</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1243</field>
+		<field name="edition_id">417</field>
+		<field name="compilation_id">14</field>
+		<field name="text">111</field>
+		<field name="tm">12878</field>
+		<field name="folder">13</field>
+		<field name="hgv">12878</field>
+		<field name="ddb">p.rein;2;111</field>
+		<field name="collection">p.rein</field>
+		<field name="volume">2</field>
+		<field name="document">111</field>
+		<field name="position">2</field>
+		<field name="description">ἀπόλ|υσον → ἀπό|λυσον, L. Capron, C. Dumoulin, J.-L. Fournet, G. Husson ZPE 150 (2004), S. 208.</field>
+		<field name="source">72978</field>
+		<field name="status">unchecked</field>
+		<field name="creator">mirizio</field>
+		<field name="created">2013-06-20 16:57:44</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">2</field>
+		<field name="sortSystem">e00871000t00000111p00000000s00f00000000c00000000l00000002</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00871000t00000111p00000000s00f00000000c00000000l00000002</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1244</field>
+		<field name="edition_id">417</field>
+		<field name="compilation_id">14</field>
+		<field name="text">111</field>
+		<field name="tm">12878</field>
+		<field name="folder">13</field>
+		<field name="hgv">12878</field>
+		<field name="ddb">p.rein;2;111</field>
+		<field name="collection">p.rein</field>
+		<field name="volume">2</field>
+		<field name="document">111</field>
+		<field name="position">3</field>
+		<field name="description">φρον|τ(ιστῇ) → φρον|ˋτˊ(ιστῇ), L. Capron, C. Dumoulin, J.-L. Fournet, G. Husson ZPE 150 (2004), S. 208.</field>
+		<field name="source">72978</field>
+		<field name="status">unchecked</field>
+		<field name="creator">mirizio</field>
+		<field name="created">2013-06-20 16:58:55</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">3</field>
+		<field name="sortSystem">e00871000t00000111p00000000s00f00000000c00000000l00000003</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00871000t00000111p00000000s00f00000000c00000000l00000003</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1245</field>
+		<field name="edition_id">417</field>
+		<field name="compilation_id">14</field>
+		<field name="text">111</field>
+		<field name="tm">12878</field>
+		<field name="folder">13</field>
+		<field name="hgv">12878</field>
+		<field name="ddb">p.rein;2;111</field>
+		<field name="collection">p.rein</field>
+		<field name="volume">2</field>
+		<field name="document">111</field>
+		<field name="position">4</field>
+		<field name="description">[τὰ] → [τ]ὰ, L. Capron, C. Dumoulin, J.-L. Fournet, G. Husson ZPE 150 (2004), S. 208.</field>
+		<field name="source">72978</field>
+		<field name="status">unchecked</field>
+		<field name="creator">mirizio</field>
+		<field name="created">2013-06-20 17:00:03</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">4</field>
+		<field name="sortSystem">e00871000t00000111p00000000s00f00000000c00000000l00000004</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00871000t00000111p00000000s00f00000000c00000000l00000004</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1246</field>
+		<field name="edition_id">417</field>
+		<field name="compilation_id">14</field>
+		<field name="text">111</field>
+		<field name="tm">12878</field>
+		<field name="folder">13</field>
+		<field name="hgv">12878</field>
+		<field name="ddb">p.rein;2;111</field>
+		<field name="collection">p.rein</field>
+		<field name="volume">2</field>
+		<field name="document">111</field>
+		<field name="position">4</field>
+		<field name="description">[ἀ]ν[α-] → ἀνα-, L. Capron, C. Dumoulin, J.-L. Fournet, G. Husson ZPE 150 (2004), S. 208.</field>
+		<field name="source">72978</field>
+		<field name="status">unchecked</field>
+		<field name="creator">mirizio</field>
+		<field name="created">2013-06-20 17:01:13</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">4</field>
+		<field name="sortSystem">e00871000t00000111p00000000s00f00000000c00000000l00000004</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00871000t00000111p00000000s00f00000000c00000000l00000004</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1247</field>
+		<field name="edition_id">417</field>
+		<field name="compilation_id">14</field>
+		<field name="text">111</field>
+		<field name="tm">12878</field>
+		<field name="folder">13</field>
+		<field name="hgv">12878</field>
+		<field name="ddb">p.rein;2;111</field>
+		<field name="collection">p.rein</field>
+		<field name="volume">2</field>
+		<field name="document">111</field>
+		<field name="position">5</field>
+		<field name="description">λώ[μα]|τα → -λώμ|ατα, L. Capron, C. Dumoulin, J.-L. Fournet, G. Husson ZPE 150 (2004), S. 208.</field>
+		<field name="source">72978</field>
+		<field name="status">unchecked</field>
+		<field name="creator">mirizio</field>
+		<field name="created">2013-06-20 17:02:29</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">5</field>
+		<field name="sortSystem">e00871000t00000111p00000000s00f00000000c00000000l00000005</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00871000t00000111p00000000s00f00000000c00000000l00000005</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1248</field>
+		<field name="edition_id">417</field>
+		<field name="compilation_id">14</field>
+		<field name="text">111</field>
+		<field name="tm">12878</field>
+		<field name="folder">13</field>
+		<field name="hgv">12878</field>
+		<field name="ddb">p.rein;2;111</field>
+		<field name="collection">p.rein</field>
+		<field name="volume">2</field>
+		<field name="document">111</field>
+		<field name="position">6</field>
+		<field name="description">λαμβάνων im Sinne von »bekommen«, nicht »einfordern«, L. Capron, C. Dumoulin, J.-L. Fournet, G. Husson ZPE 150 (2004), S. 208.</field>
+		<field name="source">72978</field>
+		<field name="status">unchecked</field>
+		<field name="creator">mirizio</field>
+		<field name="created">2013-06-20 17:03:39</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">6</field>
+		<field name="sortSystem">e00871000t00000111p00000000s00f00000000c00000000l00000006</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00871000t00000111p00000000s00f00000000c00000000l00000006</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1249</field>
+		<field name="edition_id">417</field>
+		<field name="compilation_id">14</field>
+		<field name="text">111</field>
+		<field name="tm">12878</field>
+		<field name="folder">13</field>
+		<field name="hgv">12878</field>
+		<field name="ddb">p.rein;2;111</field>
+		<field name="collection">p.rein</field>
+		<field name="volume">2</field>
+		<field name="document">111</field>
+		<field name="position">9</field>
+		<field name="description">Die Lesung κερά̣[μια wird abgelehnt, vgl. BL I 151, L. Capron, C. Dumoulin, J.-L. Fournet, G. Husson ZPE 150 (2004), S. 208.</field>
+		<field name="source">72978</field>
+		<field name="status">unchecked</field>
+		<field name="creator">mirizio</field>
+		<field name="created">2013-06-20 17:04:50</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">9</field>
+		<field name="sortSystem">e00871000t00000111p00000000s00f00000000c00000000l00000009</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00871000t00000111p00000000s00f00000000c00000000l00000009</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1250</field>
+		<field name="edition_id">417</field>
+		<field name="compilation_id">14</field>
+		<field name="text">111</field>
+		<field name="tm">12878</field>
+		<field name="folder">13</field>
+		<field name="hgv">12878</field>
+		<field name="ddb">p.rein;2;111</field>
+		<field name="collection">p.rein</field>
+		<field name="volume">2</field>
+		<field name="document">111</field>
+		<field name="position">10</field>
+		<field name="description">ΗΡΩΝΙΝΩΙ Φρ= → Ἡρωνίνῳ φρ(οντιστῇ), L. Capron, C. Dumoulin, J.-L. Fournet, G. Husson ZPE 150 (2004), S. 208.</field>
+		<field name="source">72978</field>
+		<field name="status">unchecked</field>
+		<field name="creator">mirizio</field>
+		<field name="created">2013-06-20 17:06:44</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">10</field>
+		<field name="sortSystem">e00871000t00000111p00000000s00f00000000c00000000l00000010</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00871000t00000111p00000000s00f00000000c00000000l00000010</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1251</field>
+		<field name="edition_id">417</field>
+		<field name="compilation_id">14</field>
+		<field name="text">111</field>
+		<field name="tm">12878</field>
+		<field name="folder">13</field>
+		<field name="hgv">12878</field>
+		<field name="ddb">p.rein;2;111</field>
+		<field name="collection">p.rein</field>
+		<field name="volume">2</field>
+		<field name="document">111</field>
+		<field name="position">11</field>
+		<field name="description">Nicht auf der Rückseite, sondern Vorderseite nach einem vacat von ca. 3,5cm, L. Capron, C. Dumoulin, J.-L. Fournet, G. Husson ZPE 150 (2004), S. 208 (nach einem Photo).</field>
+		<field name="source">72978</field>
+		<field name="status">unchecked</field>
+		<field name="creator">mirizio</field>
+		<field name="created">2013-06-20 17:08:16</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">11</field>
+		<field name="sortSystem">e00871000t00000111p00000000s00f00000000c00000000l00000011</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00871000t00000111p00000000s00f00000000c00000000l00000011</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1252</field>
+		<field name="edition_id">417</field>
+		<field name="compilation_id">14</field>
+		<field name="text">112</field>
+		<field name="tm">40825</field>
+		<field name="folder">41</field>
+		<field name="hgv">40825</field>
+		<field name="ddb">p.rein;2;112</field>
+		<field name="collection">p.rein</field>
+		<field name="volume">2</field>
+		<field name="document">112</field>
+		<field name="position">2</field>
+		<field name="description">φιλ(τάτω) → φιˋλˊ(τάτῳ), L. Capron, C. Dumoulin, J.-L. Fournet, G. Husson ZPE 150 (2004), S. 208.</field>
+		<field name="source">72978</field>
+		<field name="status">unchecked</field>
+		<field name="creator">mirizio</field>
+		<field name="created">2013-06-20 17:10:01</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">2</field>
+		<field name="sortSystem">e00871000t00000112p00000000s00f00000000c00000000l00000002</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00871000t00000112p00000000s00f00000000c00000000l00000002</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1253</field>
+		<field name="edition_id">417</field>
+		<field name="compilation_id">14</field>
+		<field name="text">112</field>
+		<field name="tm">40825</field>
+		<field name="folder">41</field>
+		<field name="hgv">40825</field>
+		<field name="ddb">p.rein;2;112</field>
+		<field name="collection">p.rein</field>
+		<field name="volume">2</field>
+		<field name="document">112</field>
+		<field name="position">4</field>
+		<field name="description">φρ(οντιστῇ) → φρˋοˊ(ντιστῇ), L. Capron, C. Dumoulin, J.-L. Fournet, G. Husson ZPE 150 (2004), S. 208.</field>
+		<field name="source">72978</field>
+		<field name="status">unchecked</field>
+		<field name="creator">mirizio</field>
+		<field name="created">2013-06-20 17:11:09</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">4</field>
+		<field name="sortSystem">e00871000t00000112p00000000s00f00000000c00000000l00000004</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00871000t00000112p00000000s00f00000000c00000000l00000004</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1254</field>
+		<field name="edition_id">417</field>
+		<field name="compilation_id">14</field>
+		<field name="text">112</field>
+		<field name="tm">40825</field>
+		<field name="folder">41</field>
+		<field name="hgv">40825</field>
+		<field name="ddb">p.rein;2;112</field>
+		<field name="collection">p.rein</field>
+		<field name="volume">2</field>
+		<field name="document">112</field>
+		<field name="position">6</field>
+		<field name="description">ὄξους → ὄξου̣ς̣, L. Capron, C. Dumoulin, J.-L. Fournet, G. Husson ZPE 150 (2004), S: 208.</field>
+		<field name="source">72978</field>
+		<field name="status">unchecked</field>
+		<field name="creator">mirizio</field>
+		<field name="created">2013-06-20 17:12:15</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">6</field>
+		<field name="sortSystem">e00871000t00000112p00000000s00f00000000c00000000l00000006</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00871000t00000112p00000000s00f00000000c00000000l00000006</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1255</field>
+		<field name="edition_id">417</field>
+		<field name="compilation_id">14</field>
+		<field name="text">112</field>
+		<field name="tm">40825</field>
+		<field name="folder">41</field>
+		<field name="hgv">40825</field>
+		<field name="ddb">p.rein;2;112</field>
+		<field name="collection">p.rein</field>
+		<field name="volume">2</field>
+		<field name="document">112</field>
+		<field name="position">8</field>
+		<field name="description">αγν̣ ̣ ̣ αιο: viell. ατη  ̣ ̣αις,), L. Capron, C. Dumoulin, J.-L. Fournet, G. Husson ZPE 150 (2004), S. 208.</field>
+		<field name="source">72978</field>
+		<field name="status">unchecked</field>
+		<field name="creator">mirizio</field>
+		<field name="created">2013-06-20 17:13:26</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">8</field>
+		<field name="sortSystem">e00871000t00000112p00000000s00f00000000c00000000l00000008</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00871000t00000112p00000000s00f00000000c00000000l00000008</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1256</field>
+		<field name="edition_id">417</field>
+		<field name="compilation_id">14</field>
+		<field name="text">112</field>
+		<field name="tm">40825</field>
+		<field name="folder">41</field>
+		<field name="hgv">40825</field>
+		<field name="ddb">p.rein;2;112</field>
+		<field name="collection">p.rein</field>
+		<field name="volume">2</field>
+		<field name="document">112</field>
+		<field name="position">9</field>
+		<field name="description">λόγ(ον) → λόγˋοˊ(ν), ), L. Capron, C. Dumoulin, J.-L. Fournet, G. Husson ZPE 150 (2004), S. 208.</field>
+		<field name="source">72978</field>
+		<field name="status">unchecked</field>
+		<field name="creator">mirizio</field>
+		<field name="created">2013-06-20 17:14:21</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">9</field>
+		<field name="sortSystem">e00871000t00000112p00000000s00f00000000c00000000l00000009</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00871000t00000112p00000000s00f00000000c00000000l00000009</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1257</field>
+		<field name="edition_id">417</field>
+		<field name="compilation_id">14</field>
+		<field name="text">113</field>
+		<field name="tm">12879</field>
+		<field name="folder">13</field>
+		<field name="hgv">12879</field>
+		<field name="ddb">p.rein;2;113</field>
+		<field name="collection">p.rein</field>
+		<field name="volume">2</field>
+		<field name="document">113</field>
+		<field name="position">7</field>
+		<field name="description">ὑπηρετεῖν → ὑ̈πηρετεῖν, L. Capron, C. Dumoulin, J.-L. Fournet, G. Husson ZPE 150 (2004), S. 208.</field>
+		<field name="source">72978</field>
+		<field name="status">unchecked</field>
+		<field name="creator">mirizio</field>
+		<field name="created">2013-06-20 17:16:08</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">7</field>
+		<field name="sortSystem">e00871000t00000113p00000000s00f00000000c00000000l00000007</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00871000t00000113p00000000s00f00000000c00000000l00000007</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1258</field>
+		<field name="edition_id">417</field>
+		<field name="compilation_id">14</field>
+		<field name="text">113</field>
+		<field name="tm">12879</field>
+		<field name="folder">13</field>
+		<field name="hgv">12879</field>
+		<field name="ddb">p.rein;2;113</field>
+		<field name="collection">p.rein</field>
+		<field name="volume">2</field>
+		<field name="document">113</field>
+		<field name="position">12</field>
+		<field name="description">ἵνα → ἵ̈να, L. Capron, C. Dumoulin, J.-L. Fournet, G. Husson ZPE 150 (2004), S. 208.</field>
+		<field name="source">72978</field>
+		<field name="status">unchecked</field>
+		<field name="creator">mirizio</field>
+		<field name="created">2013-06-20 17:17:35</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">12</field>
+		<field name="sortSystem">e00871000t00000113p00000000s00f00000000c00000000l00000012</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00871000t00000113p00000000s00f00000000c00000000l00000012</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1259</field>
+		<field name="edition_id">417</field>
+		<field name="compilation_id">14</field>
+		<field name="text">113</field>
+		<field name="tm">12879</field>
+		<field name="folder">13</field>
+		<field name="hgv">12879</field>
+		<field name="ddb">p.rein;2;113</field>
+		<field name="collection">p.rein</field>
+		<field name="volume">2</field>
+		<field name="document">113</field>
+		<field name="position">14</field>
+		<field name="description">Am Ende der Zeile wiederherzustellen: ἐξ ἔθους oder κατὰ τὸ ἔθος, L. Capron, C. Dumoulin, J.-L. Fournet, G. Husson ZPE 150 (2004), S. 208.</field>
+		<field name="source">72978</field>
+		<field name="status">unchecked</field>
+		<field name="creator">mirizio</field>
+		<field name="created">2013-06-20 17:18:53</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">14</field>
+		<field name="sortSystem">e00871000t00000113p00000000s00f00000000c00000000l00000014</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00871000t00000113p00000000s00f00000000c00000000l00000014</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1260</field>
+		<field name="edition_id">417</field>
+		<field name="compilation_id">14</field>
+		<field name="text">113</field>
+		<field name="tm">12879</field>
+		<field name="folder">13</field>
+		<field name="hgv">12879</field>
+		<field name="ddb">p.rein;2;113</field>
+		<field name="collection">p.rein</field>
+		<field name="volume">2</field>
+		<field name="document">113</field>
+		<field name="position">15</field>
+		<field name="description">̣ ̣ ̣ ̣ ̣ ἄνευ̣ π̣ρ̣α̣[ → διὸ ἐὰν εὖ π̣ρα̣[, L. Capron, C. Dumoulin, J.-L. Fournet, G. Husson ZPE 150 (2004), S. 208.</field>
+		<field name="source">72978</field>
+		<field name="status">unchecked</field>
+		<field name="creator">mirizio</field>
+		<field name="created">2013-06-20 17:20:13</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">15</field>
+		<field name="sortSystem">e00871000t00000113p00000000s00f00000000c00000000l00000015</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00871000t00000113p00000000s00f00000000c00000000l00000015</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1261</field>
+		<field name="edition_id">417</field>
+		<field name="compilation_id">14</field>
+		<field name="text">113</field>
+		<field name="tm">12879</field>
+		<field name="folder">13</field>
+		<field name="hgv">12879</field>
+		<field name="ddb">p.rein;2;113</field>
+		<field name="collection">p.rein</field>
+		<field name="volume">2</field>
+		<field name="document">113</field>
+		<field name="position">16-7</field>
+		<field name="description">[ ̣ ̣ ̣] |  ̣εως → ε̣ὐ̣|θ̣έως, L. Capron, C. Dumoulin, J.-L. Fournet, G. Husson ZPE 150 (2004), S. 208.</field>
+		<field name="source">72978</field>
+		<field name="status">unchecked</field>
+		<field name="creator">mirizio</field>
+		<field name="created">2013-06-20 17:21:15</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">16</field>
+		<field name="sortSystem">e00871000t00000113p00000000s00f00000000c00000000l00000016</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00871000t00000113p00000000s00f00000000c00000000l00000016</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1262</field>
+		<field name="edition_id">417</field>
+		<field name="compilation_id">14</field>
+		<field name="text">115</field>
+		<field name="tm">12881</field>
+		<field name="folder">13</field>
+		<field name="hgv">12881</field>
+		<field name="ddb">p.rein;2;115</field>
+		<field name="collection">p.rein</field>
+		<field name="volume">2</field>
+		<field name="document">115</field>
+		<field name="position">20</field>
+		<field name="description">(ἔτους) θ̣ → (ἔτους) ε, L. Capron, C. Dumoulin, J.-L. Fournet, G. Husson ZPE 150 (2004), S. 208-9.</field>
+		<field name="source">72978</field>
+		<field name="status">unchecked</field>
+		<field name="creator">mirizio</field>
+		<field name="created">2013-06-20 17:23:02</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">20</field>
+		<field name="sortSystem">e00871000t00000115p00000000s00f00000000c00000000l00000020</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00871000t00000115p00000000s00f00000000c00000000l00000020</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1263</field>
+		<field name="edition_id">417</field>
+		<field name="compilation_id">14</field>
+		<field name="text">118</field>
+		<field name="tm">32063</field>
+		<field name="folder">33</field>
+		<field name="hgv">32063</field>
+		<field name="ddb">p.rein;2;118</field>
+		<field name="collection">p.rein</field>
+		<field name="volume">2</field>
+		<field name="document">118</field>
+		<field name="position">5</field>
+		<field name="description">Ἐπὶ Ταήσι(ο)ν → Ἔπιτα (l. Ἔπειτα) ἠὰν, L. Capron, C. Dumoulin, J.-L. Fournet, G. Husson ZPE 150 (2004), S. 209.</field>
+		<field name="source">72978</field>
+		<field name="status">unchecked</field>
+		<field name="creator">mirizio</field>
+		<field name="created">2013-06-20 17:25:11</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">5</field>
+		<field name="sortSystem">e00871000t00000118p00000000s00f00000000c00000000l00000005</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00871000t00000118p00000000s00f00000000c00000000l00000005</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1264</field>
+		<field name="edition_id">417</field>
+		<field name="compilation_id">14</field>
+		<field name="text">118</field>
+		<field name="tm">32063</field>
+		<field name="folder">33</field>
+		<field name="hgv">32063</field>
+		<field name="ddb">p.rein;2;118</field>
+		<field name="collection">p.rein</field>
+		<field name="volume">2</field>
+		<field name="document">118</field>
+		<field name="position">6-7</field>
+		<field name="description">λι|νά(ρ)ια → λινάρα, L. Capron, C. Dumoulin, J.-L. Fournet, G. Husson ZPE 150 (2004), S. 209.</field>
+		<field name="source">72978</field>
+		<field name="status">unchecked</field>
+		<field name="creator">mirizio</field>
+		<field name="created">2013-06-20 17:26:22</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">6</field>
+		<field name="sortSystem">e00871000t00000118p00000000s00f00000000c00000000l00000006</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00871000t00000118p00000000s00f00000000c00000000l00000006</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1265</field>
+		<field name="edition_id">417</field>
+		<field name="compilation_id">14</field>
+		<field name="text">118</field>
+		<field name="tm">32063</field>
+		<field name="folder">33</field>
+		<field name="hgv">32063</field>
+		<field name="ddb">p.rein;2;118</field>
+		<field name="collection">p.rein</field>
+		<field name="volume">2</field>
+		<field name="document">118</field>
+		<field name="position">9</field>
+		<field name="description">τέμνω → τέμω, L. Capron, C. Dumoulin, J.-L. Fournet, G. Husson ZPE 150 (2004), S. 209.</field>
+		<field name="source">72978</field>
+		<field name="status">unchecked</field>
+		<field name="creator">mirizio</field>
+		<field name="created">2013-06-20 17:27:18</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">9</field>
+		<field name="sortSystem">e00871000t00000118p00000000s00f00000000c00000000l00000009</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00871000t00000118p00000000s00f00000000c00000000l00000009</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1266</field>
+		<field name="edition_id">417</field>
+		<field name="compilation_id">14</field>
+		<field name="text">118</field>
+		<field name="tm">32063</field>
+		<field name="folder">33</field>
+		<field name="hgv">32063</field>
+		<field name="ddb">p.rein;2;118</field>
+		<field name="collection">p.rein</field>
+		<field name="volume">2</field>
+		<field name="document">118</field>
+		<field name="position">10</field>
+		<field name="description">Κυρίλλ[ης] → Κυρίλλο̣υ̣  ̣, L. Capron, C. Dumoulin, J.-L. Fournet, G. Husson ZPE 150 (2004), S. 209.</field>
+		<field name="source">72978</field>
+		<field name="status">unchecked</field>
+		<field name="creator">mirizio</field>
+		<field name="created">2013-06-20 17:28:29</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">10</field>
+		<field name="sortSystem">e00871000t00000118p00000000s00f00000000c00000000l00000010</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00871000t00000118p00000000s00f00000000c00000000l00000010</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1267</field>
+		<field name="edition_id">417</field>
+		<field name="compilation_id">14</field>
+		<field name="text">118</field>
+		<field name="tm">32063</field>
+		<field name="folder">33</field>
+		<field name="hgv">32063</field>
+		<field name="ddb">p.rein;2;118</field>
+		<field name="collection">p.rein</field>
+		<field name="volume">2</field>
+		<field name="document">118</field>
+		<field name="position">13</field>
+		<field name="description">καὶ → κὲ, L. Capron, C. Dumoulin, J.-L. Fournet, G. Husson ZPE 150 (2004), S. 209.</field>
+		<field name="source">72978</field>
+		<field name="status">unchecked</field>
+		<field name="creator">mirizio</field>
+		<field name="created">2013-06-20 17:29:33</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">13</field>
+		<field name="sortSystem">e00871000t00000118p00000000s00f00000000c00000000l00000013</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00871000t00000118p00000000s00f00000000c00000000l00000013</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1268</field>
+		<field name="edition_id">417</field>
+		<field name="compilation_id">14</field>
+		<field name="text">118</field>
+		<field name="tm">32063</field>
+		<field name="folder">33</field>
+		<field name="hgv">32063</field>
+		<field name="ddb">p.rein;2;118</field>
+		<field name="collection">p.rein</field>
+		<field name="volume">2</field>
+		<field name="document">118</field>
+		<field name="position">17-21</field>
+		<field name="description">Die Restauration Collarts wird abgelehnt, L. Capron, C. Dumoulin, J.-L. Fournet, G. Husson ZPE 150 (2004), S. 209.</field>
+		<field name="source">72978</field>
+		<field name="status">unchecked</field>
+		<field name="creator">mirizio</field>
+		<field name="created">2013-06-20 17:30:38</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine">17</field>
+		<field name="sortSystem">e00871000t00000118p00000000s00f00000000c00000000l00000017</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00871000t00000118p00000000s00f00000000c00000000l00000017</field>
+		<field name="compilationPage" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1269</field>
+		<field name="edition_id">471</field>
+		<field name="compilation_id">14</field>
+		<field name="text">88</field>
+		<field name="tm">105</field>
+		<field name="folder">1</field>
+		<field name="hgv">105</field>
+		<field name="ddb">p.stras;2;88</field>
+		<field name="collection">p.stras</field>
+		<field name="volume">2</field>
+		<field name="document">88</field>
+		<field name="position" xsi:nil="true" />
+		<field name="description">Neues Fragment: B. Laudenbach ZPE 150 (2004), S. 215-8.</field>
+		<field name="source">73317</field>
+		<field name="status">unchecked</field>
+		<field name="creator">mirizio</field>
+		<field name="created">2013-06-21 11:14:36</field>
+		<field name="sortPage" xsi:nil="true" />
+		<field name="sortSide" xsi:nil="true" />
+		<field name="sortFragment" xsi:nil="true" />
+		<field name="sortColumn" xsi:nil="true" />
+		<field name="sortLine" xsi:nil="true" />
+		<field name="sortSystem">e00996000t00000088p00000000s00f00000000c00000000l00000000</field>
+		<field name="sortUser" xsi:nil="true" />
+		<field name="sort">e00996000t00000088p00000000s00f00000000c00000000l00000000</field>
 		<field name="compilationPage" xsi:nil="true" />
 	</row>
 	</table_data>
@@ -39835,11 +40619,11 @@
 		<field Field="version" Type="int(11)" Null="NO" Key="" Extra="" />
 		<field Field="data" Type="longtext" Null="YES" Key="" Extra="" />
 		<field Field="username" Type="varchar(255)" Null="YES" Key="MUL" Extra="" />
-		<key Table="ext_log_entries" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="4006" Null="" Index_type="BTREE" Comment="" />
+		<key Table="ext_log_entries" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="3016" Null="" Index_type="BTREE" Comment="" />
 		<key Table="ext_log_entries" Non_unique="1" Key_name="log_class_lookup_idx" Seq_in_index="1" Column_name="object_class" Collation="A" Cardinality="1" Null="" Index_type="BTREE" Comment="" />
-		<key Table="ext_log_entries" Non_unique="1" Key_name="log_date_lookup_idx" Seq_in_index="1" Column_name="logged_at" Collation="A" Cardinality="4006" Null="" Index_type="BTREE" Comment="" />
+		<key Table="ext_log_entries" Non_unique="1" Key_name="log_date_lookup_idx" Seq_in_index="1" Column_name="logged_at" Collation="A" Cardinality="3016" Null="" Index_type="BTREE" Comment="" />
 		<key Table="ext_log_entries" Non_unique="1" Key_name="log_user_lookup_idx" Seq_in_index="1" Column_name="username" Collation="A" Cardinality="1" Null="YES" Index_type="BTREE" Comment="" />
-		<options Name="ext_log_entries" Engine="InnoDB" Version="10" Row_format="Compact" Rows="4169" Avg_row_length="381" Data_length="1589248" Max_data_length="0" Index_length="425984" Data_free="0" Auto_increment="3624" Create_time="2012-02-10 23:18:07" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 23552 kB" />
+		<options Name="ext_log_entries" Engine="InnoDB" Version="10" Row_format="Compact" Rows="2974" Avg_row_length="534" Data_length="1589248" Max_data_length="0" Index_length="425984" Data_free="0" Auto_increment="3709" Create_time="2012-02-10 23:18:07" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 23552 kB" />
 	</table_structure>
 	<table_data name="ext_log_entries">
 	<row>
@@ -76083,6 +76867,856 @@ app.crit.) (am Original), F. Mitthof, ZPE 139 (2002), S. 140.&quot;;s:6:&quot;st
 		<field name="data">a:1:{s:7:&quot;cleared&quot;;O:8:&quot;DateTime&quot;:3:{s:4:&quot;date&quot;;s:19:&quot;2013-06-19 15:07:08&quot;;s:13:&quot;timezone_type&quot;;i:3;s:8:&quot;timezone&quot;;s:13:&quot;Europe/Berlin&quot;;}}</field>
 		<field name="username">cowey</field>
 	</row>
+	<row>
+		<field name="id">3624</field>
+		<field name="action">update</field>
+		<field name="logged_at">2013-06-20 12:14:00</field>
+		<field name="object_id">1047</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">3</field>
+		<field name="data">a:1:{s:6:&quot;status&quot;;s:8:&quot;reviewed&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">3625</field>
+		<field name="action">update</field>
+		<field name="logged_at">2013-06-20 12:17:23</field>
+		<field name="object_id">1025</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">2</field>
+		<field name="data">a:1:{s:7:&quot;cleared&quot;;O:8:&quot;DateTime&quot;:3:{s:4:&quot;date&quot;;s:19:&quot;2013-06-20 12:17:23&quot;;s:13:&quot;timezone_type&quot;;i:3;s:8:&quot;timezone&quot;;s:13:&quot;Europe/Berlin&quot;;}}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">3626</field>
+		<field name="action">update</field>
+		<field name="logged_at">2013-06-20 12:17:27</field>
+		<field name="object_id">1049</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:1:{s:6:&quot;status&quot;;s:8:&quot;reviewed&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">3627</field>
+		<field name="action">update</field>
+		<field name="logged_at">2013-06-20 12:18:54</field>
+		<field name="object_id">1028</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">2</field>
+		<field name="data">a:1:{s:7:&quot;cleared&quot;;O:8:&quot;DateTime&quot;:3:{s:4:&quot;date&quot;;s:19:&quot;2013-06-20 12:18:54&quot;;s:13:&quot;timezone_type&quot;;i:3;s:8:&quot;timezone&quot;;s:13:&quot;Europe/Berlin&quot;;}}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">3628</field>
+		<field name="action">update</field>
+		<field name="logged_at">2013-06-20 12:18:56</field>
+		<field name="object_id">1052</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:1:{s:6:&quot;status&quot;;s:8:&quot;reviewed&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">3629</field>
+		<field name="action">update</field>
+		<field name="logged_at">2013-06-20 12:24:04</field>
+		<field name="object_id">1056</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:1:{s:11:&quot;description&quot;;s:80:&quot;Eher ins frühe 4. Jhd. zu datieren: K. A. Worp, ZPE 151 (2005), S. 153, Anm. 3.&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">3630</field>
+		<field name="action">update</field>
+		<field name="logged_at">2013-06-20 12:24:11</field>
+		<field name="object_id">1056</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">3</field>
+		<field name="data">a:1:{s:6:&quot;status&quot;;s:8:&quot;reviewed&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">3631</field>
+		<field name="action">update</field>
+		<field name="logged_at">2013-06-20 12:24:17</field>
+		<field name="object_id">1032</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">2</field>
+		<field name="data">a:1:{s:7:&quot;cleared&quot;;O:8:&quot;DateTime&quot;:3:{s:4:&quot;date&quot;;s:19:&quot;2013-06-20 12:24:17&quot;;s:13:&quot;timezone_type&quot;;i:3;s:8:&quot;timezone&quot;;s:13:&quot;Europe/Berlin&quot;;}}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">3632</field>
+		<field name="action">update</field>
+		<field name="logged_at">2013-06-20 12:33:43</field>
+		<field name="object_id">1057</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:1:{s:6:&quot;status&quot;;s:8:&quot;reviewed&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">3633</field>
+		<field name="action">update</field>
+		<field name="logged_at">2013-06-20 12:33:49</field>
+		<field name="object_id">1033</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">2</field>
+		<field name="data">a:1:{s:7:&quot;cleared&quot;;O:8:&quot;DateTime&quot;:3:{s:4:&quot;date&quot;;s:19:&quot;2013-06-20 12:33:49&quot;;s:13:&quot;timezone_type&quot;;i:3;s:8:&quot;timezone&quot;;s:13:&quot;Europe/Berlin&quot;;}}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">3634</field>
+		<field name="action">update</field>
+		<field name="logged_at">2013-06-20 12:35:29</field>
+		<field name="object_id">1075</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:1:{s:6:&quot;status&quot;;s:8:&quot;reviewed&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">3635</field>
+		<field name="action">update</field>
+		<field name="logged_at">2013-06-20 12:35:36</field>
+		<field name="object_id">1050</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">2</field>
+		<field name="data">a:1:{s:7:&quot;cleared&quot;;O:8:&quot;DateTime&quot;:3:{s:4:&quot;date&quot;;s:19:&quot;2013-06-20 12:35:36&quot;;s:13:&quot;timezone_type&quot;;i:3;s:8:&quot;timezone&quot;;s:13:&quot;Europe/Berlin&quot;;}}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">3636</field>
+		<field name="action">update</field>
+		<field name="logged_at">2013-06-20 14:01:26</field>
+		<field name="object_id">1078</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:1:{s:6:&quot;status&quot;;s:8:&quot;reviewed&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">3637</field>
+		<field name="action">update</field>
+		<field name="logged_at">2013-06-20 14:01:29</field>
+		<field name="object_id">1053</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">2</field>
+		<field name="data">a:1:{s:7:&quot;cleared&quot;;O:8:&quot;DateTime&quot;:3:{s:4:&quot;date&quot;;s:19:&quot;2013-06-20 14:01:29&quot;;s:13:&quot;timezone_type&quot;;i:3;s:8:&quot;timezone&quot;;s:13:&quot;Europe/Berlin&quot;;}}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">3638</field>
+		<field name="action">update</field>
+		<field name="logged_at">2013-06-20 14:02:29</field>
+		<field name="object_id">1081</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:1:{s:6:&quot;status&quot;;s:8:&quot;reviewed&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">3639</field>
+		<field name="action">update</field>
+		<field name="logged_at">2013-06-20 14:02:32</field>
+		<field name="object_id">1056</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">2</field>
+		<field name="data">a:1:{s:7:&quot;cleared&quot;;O:8:&quot;DateTime&quot;:3:{s:4:&quot;date&quot;;s:19:&quot;2013-06-20 14:02:32&quot;;s:13:&quot;timezone_type&quot;;i:3;s:8:&quot;timezone&quot;;s:13:&quot;Europe/Berlin&quot;;}}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">3640</field>
+		<field name="action">update</field>
+		<field name="logged_at">2013-06-20 14:03:12</field>
+		<field name="object_id">1074</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:1:{s:6:&quot;status&quot;;s:8:&quot;reviewed&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">3641</field>
+		<field name="action">update</field>
+		<field name="logged_at">2013-06-20 14:03:15</field>
+		<field name="object_id">1049</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">2</field>
+		<field name="data">a:1:{s:7:&quot;cleared&quot;;O:8:&quot;DateTime&quot;:3:{s:4:&quot;date&quot;;s:19:&quot;2013-06-20 14:03:15&quot;;s:13:&quot;timezone_type&quot;;i:3;s:8:&quot;timezone&quot;;s:13:&quot;Europe/Berlin&quot;;}}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">3642</field>
+		<field name="action">update</field>
+		<field name="logged_at">2013-06-20 14:05:08</field>
+		<field name="object_id">1068</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:1:{s:6:&quot;status&quot;;s:8:&quot;reviewed&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">3643</field>
+		<field name="action">update</field>
+		<field name="logged_at">2013-06-20 14:05:12</field>
+		<field name="object_id">1043</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">2</field>
+		<field name="data">a:1:{s:7:&quot;cleared&quot;;O:8:&quot;DateTime&quot;:3:{s:4:&quot;date&quot;;s:19:&quot;2013-06-20 14:05:12&quot;;s:13:&quot;timezone_type&quot;;i:3;s:8:&quot;timezone&quot;;s:13:&quot;Europe/Berlin&quot;;}}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">3644</field>
+		<field name="action">update</field>
+		<field name="logged_at">2013-06-20 14:10:56</field>
+		<field name="object_id">1050</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:1:{s:6:&quot;status&quot;;s:8:&quot;reviewed&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">3645</field>
+		<field name="action">update</field>
+		<field name="logged_at">2013-06-20 14:10:58</field>
+		<field name="object_id">1026</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">2</field>
+		<field name="data">a:1:{s:7:&quot;cleared&quot;;O:8:&quot;DateTime&quot;:3:{s:4:&quot;date&quot;;s:19:&quot;2013-06-20 14:10:58&quot;;s:13:&quot;timezone_type&quot;;i:3;s:8:&quot;timezone&quot;;s:13:&quot;Europe/Berlin&quot;;}}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">3646</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-20 16:56:23</field>
+		<field name="object_id">1216</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:14:&quot;already in HGV&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3647</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-20 16:56:23</field>
+		<field name="object_id">1242</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:1:&quot;1&quot;;s:11:&quot;description&quot;;s:126:&quot;Kein vacat zwischen π(αρὰ) und Ἀπιανοῦ, L. Capron, C. Dumoulin, J.-L. Fournet, G. Husson ZPE 150 (2004), S. 208.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3648</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-20 16:57:44</field>
+		<field name="object_id">1217</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:45:&quot;Enter this correction into DDB via the editor&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3649</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-20 16:57:44</field>
+		<field name="object_id">1243</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:1:&quot;2&quot;;s:11:&quot;description&quot;;s:115:&quot;ἀπόλ|υσον → ἀπό|λυσον, L. Capron, C. Dumoulin, J.-L. Fournet, G. Husson ZPE 150 (2004), S. 208.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3650</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-20 16:58:55</field>
+		<field name="object_id">1218</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:45:&quot;Enter this correction into DDB via the editor&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3651</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-20 16:58:55</field>
+		<field name="object_id">1244</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:1:&quot;3&quot;;s:11:&quot;description&quot;;s:127:&quot;φρον|τ(ιστῇ) → φρον|ˋτˊ(ιστῇ), L. Capron, C. Dumoulin, J.-L. Fournet, G. Husson ZPE 150 (2004), S. 208.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3652</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-20 17:00:03</field>
+		<field name="object_id">1219</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:45:&quot;Enter this correction into DDB via the editor&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3653</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-20 17:00:03</field>
+		<field name="object_id">1245</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:1:&quot;4&quot;;s:11:&quot;description&quot;;s:93:&quot;[τὰ] → [τ]ὰ, L. Capron, C. Dumoulin, J.-L. Fournet, G. Husson ZPE 150 (2004), S. 208.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3654</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-20 17:01:13</field>
+		<field name="object_id">1220</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:45:&quot;Enter this correction into DDB via the editor&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3655</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-20 17:01:13</field>
+		<field name="object_id">1246</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:1:&quot;4&quot;;s:11:&quot;description&quot;;s:99:&quot;[ἀ]ν[α-] → ἀνα-, L. Capron, C. Dumoulin, J.-L. Fournet, G. Husson ZPE 150 (2004), S. 208.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3656</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-20 17:02:29</field>
+		<field name="object_id">1221</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:45:&quot;Enter this correction into DDB via the editor&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3657</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-20 17:02:29</field>
+		<field name="object_id">1247</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:1:&quot;5&quot;;s:11:&quot;description&quot;;s:108:&quot;λώ[μα]|τα → -λώμ|ατα, L. Capron, C. Dumoulin, J.-L. Fournet, G. Husson ZPE 150 (2004), S. 208.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3658</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-20 17:03:39</field>
+		<field name="object_id">1222</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:14:&quot;already in HGV&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3659</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-20 17:03:39</field>
+		<field name="object_id">1248</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:1:&quot;6&quot;;s:11:&quot;description&quot;;s:138:&quot;λαμβάνων im Sinne von »bekommen«, nicht »einfordern«, L. Capron, C. Dumoulin, J.-L. Fournet, G. Husson ZPE 150 (2004), S. 208.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3660</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-20 17:04:50</field>
+		<field name="object_id">1223</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:14:&quot;already in HGV&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3661</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-20 17:04:50</field>
+		<field name="object_id">1249</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:1:&quot;9&quot;;s:11:&quot;description&quot;;s:132:&quot;Die Lesung κερά̣[μια wird abgelehnt, vgl. BL I 151, L. Capron, C. Dumoulin, J.-L. Fournet, G. Husson ZPE 150 (2004), S. 208.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3662</field>
+		<field name="action">update</field>
+		<field name="logged_at">2013-06-20 17:06:21</field>
+		<field name="object_id">1077</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">3</field>
+		<field name="data">a:1:{s:6:&quot;status&quot;;s:8:&quot;reviewed&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">3663</field>
+		<field name="action">update</field>
+		<field name="logged_at">2013-06-20 17:06:26</field>
+		<field name="object_id">1052</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">2</field>
+		<field name="data">a:1:{s:7:&quot;cleared&quot;;O:8:&quot;DateTime&quot;:3:{s:4:&quot;date&quot;;s:19:&quot;2013-06-20 17:06:26&quot;;s:13:&quot;timezone_type&quot;;i:3;s:8:&quot;timezone&quot;;s:13:&quot;Europe/Berlin&quot;;}}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">3664</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-20 17:06:44</field>
+		<field name="object_id">1224</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:45:&quot;Enter this correction into DDB via the editor&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3665</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-20 17:06:44</field>
+		<field name="object_id">1250</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:2:&quot;10&quot;;s:11:&quot;description&quot;;s:139:&quot;ΗΡΩΝΙΝΩΙ Φρ= → Ἡρωνίνῳ φρ(οντιστῇ), L. Capron, C. Dumoulin, J.-L. Fournet, G. Husson ZPE 150 (2004), S. 208.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3666</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-20 17:08:16</field>
+		<field name="object_id">1225</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:14:&quot;already in HGV&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3667</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-20 17:08:16</field>
+		<field name="object_id">1251</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:2:&quot;11&quot;;s:11:&quot;description&quot;;s:169:&quot;Nicht auf der Rückseite, sondern Vorderseite nach einem vacat von ca. 3,5cm, L. Capron, C. Dumoulin, J.-L. Fournet, G. Husson ZPE 150 (2004), S. 208 (nach einem Photo).&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3668</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-20 17:10:01</field>
+		<field name="object_id">1226</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:45:&quot;Enter this correction into DDB via the editor&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3669</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-20 17:10:01</field>
+		<field name="object_id">1252</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:1:&quot;2&quot;;s:11:&quot;description&quot;;s:116:&quot;φιλ(τάτω) → φιˋλˊ(τάτῳ), L. Capron, C. Dumoulin, J.-L. Fournet, G. Husson ZPE 150 (2004), S. 208.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3670</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-20 17:11:09</field>
+		<field name="object_id">1227</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:45:&quot;Enter this correction into DDB via the editor&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3671</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-20 17:11:09</field>
+		<field name="object_id">1253</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:1:&quot;4&quot;;s:11:&quot;description&quot;;s:125:&quot;φρ(οντιστῇ) → φρˋοˊ(ντιστῇ), L. Capron, C. Dumoulin, J.-L. Fournet, G. Husson ZPE 150 (2004), S. 208.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3672</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-20 17:12:15</field>
+		<field name="object_id">1228</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:45:&quot;Enter this correction into DDB via the editor&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3673</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-20 17:12:15</field>
+		<field name="object_id">1254</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:1:&quot;6&quot;;s:11:&quot;description&quot;;s:105:&quot;ὄξους → ὄξου̣ς̣, L. Capron, C. Dumoulin, J.-L. Fournet, G. Husson ZPE 150 (2004), S: 208.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3674</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-20 17:13:26</field>
+		<field name="object_id">1229</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:14:&quot;already in HGV&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3675</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-20 17:13:26</field>
+		<field name="object_id">1255</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:1:&quot;8&quot;;s:11:&quot;description&quot;;s:125:&quot;αγν̣ ̣ ̣ αιο: viell. ατη  ̣ ̣αις,), L. Capron, C. Dumoulin, J.-L. Fournet, G. Husson ZPE 150 (2004), S. 208.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3676</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-20 17:14:21</field>
+		<field name="object_id">1230</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:45:&quot;Enter this correction into DDB via the editor&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3677</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-20 17:14:21</field>
+		<field name="object_id">1256</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:1:&quot;9&quot;;s:11:&quot;description&quot;;s:110:&quot;λόγ(ον) → λόγˋοˊ(ν), ), L. Capron, C. Dumoulin, J.-L. Fournet, G. Husson ZPE 150 (2004), S. 208.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3678</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-20 17:16:08</field>
+		<field name="object_id">1231</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:45:&quot;Enter this correction into DDB via the editor&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3679</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-20 17:16:08</field>
+		<field name="object_id">1257</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:1:&quot;7&quot;;s:11:&quot;description&quot;;s:121:&quot;ὑπηρετεῖν → ὑ̈πηρετεῖν, L. Capron, C. Dumoulin, J.-L. Fournet, G. Husson ZPE 150 (2004), S. 208.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3680</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-20 17:17:35</field>
+		<field name="object_id">1232</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:45:&quot;Enter this correction into DDB via the editor&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3681</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-20 17:17:35</field>
+		<field name="object_id">1258</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:2:&quot;12&quot;;s:11:&quot;description&quot;;s:95:&quot;ἵνα → ἵ̈να, L. Capron, C. Dumoulin, J.-L. Fournet, G. Husson ZPE 150 (2004), S. 208.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3682</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-20 17:18:53</field>
+		<field name="object_id">1233</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:45:&quot;Enter this correction into DDB via the editor&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3683</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-20 17:18:53</field>
+		<field name="object_id">1259</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:2:&quot;14&quot;;s:11:&quot;description&quot;;s:160:&quot;Am Ende der Zeile wiederherzustellen: ἐξ ἔθους oder κατὰ τὸ ἔθος, L. Capron, C. Dumoulin, J.-L. Fournet, G. Husson ZPE 150 (2004), S. 208.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3684</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-20 17:20:13</field>
+		<field name="object_id">1234</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:45:&quot;Enter this correction into DDB via the editor&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3685</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-20 17:20:13</field>
+		<field name="object_id">1260</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:2:&quot;15&quot;;s:11:&quot;description&quot;;s:153:&quot;̣ ̣ ̣ ̣ ̣ ἄνευ̣ π̣ρ̣α̣[ → διὸ ἐὰν εὖ π̣ρα̣[, L. Capron, C. Dumoulin, J.-L. Fournet, G. Husson ZPE 150 (2004), S. 208.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3686</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-20 17:21:15</field>
+		<field name="object_id">1235</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:45:&quot;Enter this correction into DDB via the editor&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3687</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-20 17:21:15</field>
+		<field name="object_id">1261</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:4:&quot;16-7&quot;;s:11:&quot;description&quot;;s:122:&quot;[ ̣ ̣ ̣] |  ̣εως → ε̣ὐ̣|θ̣έως, L. Capron, C. Dumoulin, J.-L. Fournet, G. Husson ZPE 150 (2004), S. 208.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3688</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-20 17:23:02</field>
+		<field name="object_id">1236</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:45:&quot;Enter this correction into DDB via the editor&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3689</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-20 17:23:02</field>
+		<field name="object_id">1262</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:2:&quot;20&quot;;s:11:&quot;description&quot;;s:115:&quot;(ἔτους) θ̣ → (ἔτους) ε, L. Capron, C. Dumoulin, J.-L. Fournet, G. Husson ZPE 150 (2004), S. 208-9.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3690</field>
+		<field name="action">update</field>
+		<field name="logged_at">2013-06-20 17:24:43</field>
+		<field name="object_id">1083</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:1:{s:11:&quot;description&quot;;s:87:&quot;Παρ[ατουρ() → παρ[ατουρ(ᾶς), K. A. Worp, ZPE 151 (2005), S. 148-9.&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">3691</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-20 17:25:11</field>
+		<field name="object_id">1237</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:45:&quot;Enter this correction into DDB via the editor&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3692</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-20 17:25:11</field>
+		<field name="object_id">1263</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:1:&quot;5&quot;;s:11:&quot;description&quot;;s:143:&quot;Ἐπὶ Ταήσι(ο)ν → Ἔπιτα (l. Ἔπειτα) ἠὰν, L. Capron, C. Dumoulin, J.-L. Fournet, G. Husson ZPE 150 (2004), S. 209.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3693</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-20 17:26:22</field>
+		<field name="object_id">1238</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:45:&quot;Enter this correction into DDB via the editor&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3694</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-20 17:26:22</field>
+		<field name="object_id">1264</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:3:&quot;6-7&quot;;s:11:&quot;description&quot;;s:108:&quot;λι|νά(ρ)ια → λινάρα, L. Capron, C. Dumoulin, J.-L. Fournet, G. Husson ZPE 150 (2004), S. 209.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3695</field>
+		<field name="action">update</field>
+		<field name="logged_at">2013-06-20 17:27:08</field>
+		<field name="object_id">1082</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">2</field>
+		<field name="data">a:1:{s:6:&quot;status&quot;;s:8:&quot;reviewed&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">3696</field>
+		<field name="action">update</field>
+		<field name="logged_at">2013-06-20 17:27:15</field>
+		<field name="object_id">1057</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">2</field>
+		<field name="data">a:1:{s:7:&quot;cleared&quot;;O:8:&quot;DateTime&quot;:3:{s:4:&quot;date&quot;;s:19:&quot;2013-06-20 17:27:15&quot;;s:13:&quot;timezone_type&quot;;i:3;s:8:&quot;timezone&quot;;s:13:&quot;Europe/Berlin&quot;;}}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">3697</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-20 17:27:18</field>
+		<field name="object_id">1239</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:45:&quot;Enter this correction into DDB via the editor&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3698</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-20 17:27:18</field>
+		<field name="object_id">1265</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:1:&quot;9&quot;;s:11:&quot;description&quot;;s:97:&quot;τέμνω → τέμω, L. Capron, C. Dumoulin, J.-L. Fournet, G. Husson ZPE 150 (2004), S. 209.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3699</field>
+		<field name="action">update</field>
+		<field name="logged_at">2013-06-20 17:27:41</field>
+		<field name="object_id">1083</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">3</field>
+		<field name="data">a:1:{s:6:&quot;status&quot;;s:8:&quot;reviewed&quot;;}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">3700</field>
+		<field name="action">update</field>
+		<field name="logged_at">2013-06-20 17:27:44</field>
+		<field name="object_id">1058</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">2</field>
+		<field name="data">a:1:{s:7:&quot;cleared&quot;;O:8:&quot;DateTime&quot;:3:{s:4:&quot;date&quot;;s:19:&quot;2013-06-20 17:27:44&quot;;s:13:&quot;timezone_type&quot;;i:3;s:8:&quot;timezone&quot;;s:13:&quot;Europe/Berlin&quot;;}}</field>
+		<field name="username">cowey</field>
+	</row>
+	<row>
+		<field name="id">3701</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-20 17:28:29</field>
+		<field name="object_id">1240</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:45:&quot;Enter this correction into DDB via the editor&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3702</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-20 17:28:29</field>
+		<field name="object_id">1266</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:2:&quot;10&quot;;s:11:&quot;description&quot;;s:121:&quot;Κυρίλλ[ης] → Κυρίλλο̣υ̣  ̣, L. Capron, C. Dumoulin, J.-L. Fournet, G. Husson ZPE 150 (2004), S. 209.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3703</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-20 17:29:33</field>
+		<field name="object_id">1241</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:45:&quot;Enter this correction into DDB via the editor&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3704</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-20 17:29:33</field>
+		<field name="object_id">1267</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:2:&quot;13&quot;;s:11:&quot;description&quot;;s:91:&quot;καὶ → κὲ, L. Capron, C. Dumoulin, J.-L. Fournet, G. Husson ZPE 150 (2004), S. 209.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3705</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-20 17:30:38</field>
+		<field name="object_id">1242</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:14:&quot;already in HGV&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3706</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-20 17:30:38</field>
+		<field name="object_id">1268</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;s:5:&quot;17-21&quot;;s:11:&quot;description&quot;;s:114:&quot;Die Restauration Collarts wird abgelehnt, L. Capron, C. Dumoulin, J.-L. Fournet, G. Husson ZPE 150 (2004), S. 209.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3707</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-21 11:14:37</field>
+		<field name="object_id">1243</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Task</field>
+		<field name="version">1</field>
+		<field name="data">a:2:{s:11:&quot;description&quot;;s:14:&quot;already in HGV&quot;;s:7:&quot;cleared&quot;;N;}</field>
+		<field name="username">mirizio</field>
+	</row>
+	<row>
+		<field name="id">3708</field>
+		<field name="action">create</field>
+		<field name="logged_at">2013-06-21 11:14:37</field>
+		<field name="object_id">1269</field>
+		<field name="object_class">Papyrillio\BeehiveBundle\Entity\Correction</field>
+		<field name="version">1</field>
+		<field name="data">a:3:{s:8:&quot;position&quot;;N;s:11:&quot;description&quot;;s:55:&quot;Neues Fragment: B. Laudenbach ZPE 150 (2004), S. 215-8.&quot;;s:6:&quot;status&quot;;s:9:&quot;unchecked&quot;;}</field>
+		<field name="username">mirizio</field>
+	</row>
 	</table_data>
 	<table_structure name="ext_translations">
 		<field Field="id" Type="int(11)" Null="NO" Key="PRI" Extra="auto_increment" />
@@ -76296,9 +77930,9 @@ app.crit.) (am Original), F. Mitthof, ZPE 139 (2002), S. 140.&quot;;s:6:&quot;st
 		<field Field="category" Type="varchar(64)" Null="NO" Key="" Extra="" />
 		<field Field="description" Type="longtext" Null="NO" Key="" Extra="" />
 		<field Field="cleared" Type="datetime" Null="YES" Key="" Extra="" />
-		<key Table="task" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="1663" Null="" Index_type="BTREE" Comment="" />
-		<key Table="task" Non_unique="1" Key_name="IDX_527EDB2594AE086B" Seq_in_index="1" Column_name="correction_id" Collation="A" Cardinality="1663" Null="" Index_type="BTREE" Comment="" />
-		<options Name="task" Engine="InnoDB" Version="10" Row_format="Compact" Rows="1663" Avg_row_length="68" Data_length="114688" Max_data_length="0" Index_length="16384" Data_free="0" Auto_increment="1216" Create_time="2012-02-22 09:27:05" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 23552 kB; (`correction_id`) REFER `bl/correction`(`id`)" />
+		<key Table="task" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="931" Null="" Index_type="BTREE" Comment="" />
+		<key Table="task" Non_unique="1" Key_name="IDX_527EDB2594AE086B" Seq_in_index="1" Column_name="correction_id" Collation="A" Cardinality="931" Null="" Index_type="BTREE" Comment="" />
+		<options Name="task" Engine="InnoDB" Version="10" Row_format="Compact" Rows="931" Avg_row_length="123" Data_length="114688" Max_data_length="0" Index_length="49152" Data_free="0" Auto_increment="1244" Create_time="2012-02-22 09:27:05" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 23552 kB; (`correction_id`) REFER `bl/correction`(`id`)" />
 	</table_structure>
 	<table_data name="task">
 	<row>
@@ -83264,14 +84898,14 @@ app.crit.) (am Original), F. Mitthof, ZPE 139 (2002), S. 140.&quot;;s:6:&quot;st
 		<field name="correction_id">1049</field>
 		<field name="category">hgv</field>
 		<field name="description">already in HGV</field>
-		<field name="cleared" xsi:nil="true" />
+		<field name="cleared">2013-06-20 12:17:23</field>
 	</row>
 	<row>
 		<field name="id">1026</field>
 		<field name="correction_id">1050</field>
 		<field name="category">hgv</field>
 		<field name="description">already in HGV</field>
-		<field name="cleared" xsi:nil="true" />
+		<field name="cleared">2013-06-20 14:10:58</field>
 	</row>
 	<row>
 		<field name="id">1027</field>
@@ -83285,7 +84919,7 @@ app.crit.) (am Original), F. Mitthof, ZPE 139 (2002), S. 140.&quot;;s:6:&quot;st
 		<field name="correction_id">1052</field>
 		<field name="category">ddb</field>
 		<field name="description">Enter this correction into DDB via the editor</field>
-		<field name="cleared" xsi:nil="true" />
+		<field name="cleared">2013-06-20 12:18:54</field>
 	</row>
 	<row>
 		<field name="id">1029</field>
@@ -83313,14 +84947,14 @@ app.crit.) (am Original), F. Mitthof, ZPE 139 (2002), S. 140.&quot;;s:6:&quot;st
 		<field name="correction_id">1056</field>
 		<field name="category">hgv</field>
 		<field name="description">already in HGV</field>
-		<field name="cleared" xsi:nil="true" />
+		<field name="cleared">2013-06-20 12:24:17</field>
 	</row>
 	<row>
 		<field name="id">1033</field>
 		<field name="correction_id">1057</field>
 		<field name="category">ddb</field>
 		<field name="description">Enter this correction into DDB via the editor</field>
-		<field name="cleared" xsi:nil="true" />
+		<field name="cleared">2013-06-20 12:33:49</field>
 	</row>
 	<row>
 		<field name="id">1034</field>
@@ -83390,7 +85024,7 @@ app.crit.) (am Original), F. Mitthof, ZPE 139 (2002), S. 140.&quot;;s:6:&quot;st
 		<field name="correction_id">1068</field>
 		<field name="category">ddb</field>
 		<field name="description">Enter this correction into DDB via the editor</field>
-		<field name="cleared" xsi:nil="true" />
+		<field name="cleared">2013-06-20 14:05:12</field>
 	</row>
 	<row>
 		<field name="id">1044</field>
@@ -83432,14 +85066,14 @@ app.crit.) (am Original), F. Mitthof, ZPE 139 (2002), S. 140.&quot;;s:6:&quot;st
 		<field name="correction_id">1074</field>
 		<field name="category">hgv</field>
 		<field name="description">already in HGV</field>
-		<field name="cleared" xsi:nil="true" />
+		<field name="cleared">2013-06-20 14:03:15</field>
 	</row>
 	<row>
 		<field name="id">1050</field>
 		<field name="correction_id">1075</field>
 		<field name="category">hgv</field>
 		<field name="description">already in HGV</field>
-		<field name="cleared" xsi:nil="true" />
+		<field name="cleared">2013-06-20 12:35:36</field>
 	</row>
 	<row>
 		<field name="id">1051</field>
@@ -83453,14 +85087,14 @@ app.crit.) (am Original), F. Mitthof, ZPE 139 (2002), S. 140.&quot;;s:6:&quot;st
 		<field name="correction_id">1077</field>
 		<field name="category">ddb</field>
 		<field name="description">Enter this correction into DDB via the editor</field>
-		<field name="cleared" xsi:nil="true" />
+		<field name="cleared">2013-06-20 17:06:26</field>
 	</row>
 	<row>
 		<field name="id">1053</field>
 		<field name="correction_id">1078</field>
 		<field name="category">hgv</field>
 		<field name="description">already in HGV</field>
-		<field name="cleared" xsi:nil="true" />
+		<field name="cleared">2013-06-20 14:01:29</field>
 	</row>
 	<row>
 		<field name="id">1054</field>
@@ -83481,21 +85115,21 @@ app.crit.) (am Original), F. Mitthof, ZPE 139 (2002), S. 140.&quot;;s:6:&quot;st
 		<field name="correction_id">1081</field>
 		<field name="category">hgv</field>
 		<field name="description">already in HGV</field>
-		<field name="cleared" xsi:nil="true" />
+		<field name="cleared">2013-06-20 14:02:32</field>
 	</row>
 	<row>
 		<field name="id">1057</field>
 		<field name="correction_id">1082</field>
 		<field name="category">ddb</field>
 		<field name="description">Enter this correction into DDB via the editor</field>
-		<field name="cleared" xsi:nil="true" />
+		<field name="cleared">2013-06-20 17:27:15</field>
 	</row>
 	<row>
 		<field name="id">1058</field>
 		<field name="correction_id">1083</field>
 		<field name="category">ddb</field>
 		<field name="description">Enter this correction into DDB via the editor</field>
-		<field name="cleared" xsi:nil="true" />
+		<field name="cleared">2013-06-20 17:27:44</field>
 	</row>
 	<row>
 		<field name="id">1059</field>
@@ -84595,6 +86229,202 @@ app.crit.) (am Original), F. Mitthof, ZPE 139 (2002), S. 140.&quot;;s:6:&quot;st
 		<field name="category">hgv</field>
 		<field name="description">already in HGV.</field>
 		<field name="cleared">2013-06-19 14:11:55</field>
+	</row>
+	<row>
+		<field name="id">1216</field>
+		<field name="correction_id">1242</field>
+		<field name="category">hgv</field>
+		<field name="description">already in HGV</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1217</field>
+		<field name="correction_id">1243</field>
+		<field name="category">ddb</field>
+		<field name="description">Enter this correction into DDB via the editor</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1218</field>
+		<field name="correction_id">1244</field>
+		<field name="category">ddb</field>
+		<field name="description">Enter this correction into DDB via the editor</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1219</field>
+		<field name="correction_id">1245</field>
+		<field name="category">ddb</field>
+		<field name="description">Enter this correction into DDB via the editor</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1220</field>
+		<field name="correction_id">1246</field>
+		<field name="category">ddb</field>
+		<field name="description">Enter this correction into DDB via the editor</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1221</field>
+		<field name="correction_id">1247</field>
+		<field name="category">ddb</field>
+		<field name="description">Enter this correction into DDB via the editor</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1222</field>
+		<field name="correction_id">1248</field>
+		<field name="category">hgv</field>
+		<field name="description">already in HGV</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1223</field>
+		<field name="correction_id">1249</field>
+		<field name="category">hgv</field>
+		<field name="description">already in HGV</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1224</field>
+		<field name="correction_id">1250</field>
+		<field name="category">ddb</field>
+		<field name="description">Enter this correction into DDB via the editor</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1225</field>
+		<field name="correction_id">1251</field>
+		<field name="category">hgv</field>
+		<field name="description">already in HGV</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1226</field>
+		<field name="correction_id">1252</field>
+		<field name="category">ddb</field>
+		<field name="description">Enter this correction into DDB via the editor</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1227</field>
+		<field name="correction_id">1253</field>
+		<field name="category">ddb</field>
+		<field name="description">Enter this correction into DDB via the editor</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1228</field>
+		<field name="correction_id">1254</field>
+		<field name="category">ddb</field>
+		<field name="description">Enter this correction into DDB via the editor</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1229</field>
+		<field name="correction_id">1255</field>
+		<field name="category">hgv</field>
+		<field name="description">already in HGV</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1230</field>
+		<field name="correction_id">1256</field>
+		<field name="category">ddb</field>
+		<field name="description">Enter this correction into DDB via the editor</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1231</field>
+		<field name="correction_id">1257</field>
+		<field name="category">ddb</field>
+		<field name="description">Enter this correction into DDB via the editor</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1232</field>
+		<field name="correction_id">1258</field>
+		<field name="category">ddb</field>
+		<field name="description">Enter this correction into DDB via the editor</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1233</field>
+		<field name="correction_id">1259</field>
+		<field name="category">ddb</field>
+		<field name="description">Enter this correction into DDB via the editor</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1234</field>
+		<field name="correction_id">1260</field>
+		<field name="category">ddb</field>
+		<field name="description">Enter this correction into DDB via the editor</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1235</field>
+		<field name="correction_id">1261</field>
+		<field name="category">ddb</field>
+		<field name="description">Enter this correction into DDB via the editor</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1236</field>
+		<field name="correction_id">1262</field>
+		<field name="category">ddb</field>
+		<field name="description">Enter this correction into DDB via the editor</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1237</field>
+		<field name="correction_id">1263</field>
+		<field name="category">ddb</field>
+		<field name="description">Enter this correction into DDB via the editor</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1238</field>
+		<field name="correction_id">1264</field>
+		<field name="category">ddb</field>
+		<field name="description">Enter this correction into DDB via the editor</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1239</field>
+		<field name="correction_id">1265</field>
+		<field name="category">ddb</field>
+		<field name="description">Enter this correction into DDB via the editor</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1240</field>
+		<field name="correction_id">1266</field>
+		<field name="category">ddb</field>
+		<field name="description">Enter this correction into DDB via the editor</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1241</field>
+		<field name="correction_id">1267</field>
+		<field name="category">ddb</field>
+		<field name="description">Enter this correction into DDB via the editor</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1242</field>
+		<field name="correction_id">1268</field>
+		<field name="category">hgv</field>
+		<field name="description">already in HGV</field>
+		<field name="cleared" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">1243</field>
+		<field name="correction_id">1269</field>
+		<field name="category">hgv</field>
+		<field name="description">already in HGV</field>
+		<field name="cleared" xsi:nil="true" />
 	</row>
 	</table_data>
 </database>
