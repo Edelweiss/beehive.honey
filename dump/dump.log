@@ -1,14 +1,13 @@
-Wed Aug 28 12:08:00 CEST 2013
+Thu Aug 29 12:08:00 CEST 2013
 ---- initialise
 PATH: /usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin
 CLASSPATH: :/Users/Admin/Library/saxon/saxon9he.jar
-today: 2013.08.28
+today: 2013.08.29
 sql: /Users/Admin/beehive.data/dump/dump.sql
 xml: /Users/Admin/beehive.data/dump/dump.xml
 database: bl
 user: bl
 ---- git fetch
-Warning: Permanently added the RSA host key for IP address '192.30.252.131' to the list of known hosts.
 ---- git merge
 Already up-to-date.
 ---- mysqldump sql
