@@ -1,15 +1,13 @@
-Mon Oct 14 12:08:00 CEST 2013
+Tue Oct 15 12:08:00 CEST 2013
 ---- initialise
 PATH: /usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin
 CLASSPATH: :/Users/Admin/Library/saxon/saxon9he.jar
-today: 2013.10.14
+today: 2013.10.15
 sql: /Users/Admin/beehive.data/dump/dump.sql
 xml: /Users/Admin/beehive.data/dump/dump.xml
 database: bl
 user: bl
 ---- git fetch
-ssh_exchange_identification: Connection closed by remote host
-fatal: The remote end hung up unexpectedly
 ---- git merge
 Already up-to-date.
 ---- mysqldump sql
