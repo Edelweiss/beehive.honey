@@ -1,15 +1,13 @@
-Fri Mar 27 12:08:00 CET 2015
+Sat Mar 28 12:08:00 CET 2015
 ---- initialise
 PATH: /usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin
 CLASSPATH: :/Users/Admin/Library/saxon/saxon9he.jar
-today: 2015.03.27
+today: 2015.03.28
 sql: /Users/Admin/beehive.data/dump/dump.sql
 xml: /Users/Admin/beehive.data/dump/dump.xml
 database: bl
 user: bl
 ---- git fetch
-ssh: connect to host github.com port 22: Operation timed out
-fatal: The remote end hung up unexpectedly
 ---- git merge
 Already up-to-date.
 ---- mysqldump sql
