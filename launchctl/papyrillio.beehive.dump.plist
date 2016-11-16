@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>papyrillio.beehive.dump</string>
+	<key>Program</key>
+	<string>[...]/beehive.data/dump/dump.sh</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>dump.sh</string>
+	</array>
+	<key>StartCalendarInterval</key>
+	<dict>
+		<key>Hour</key>
+		<integer>23</integer>
+		<key>Minute</key>
+		<integer>42</integer>
+	</dict>
+</dict>
+</plist>
