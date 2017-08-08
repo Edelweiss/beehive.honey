@@ -1,8 +1,8 @@
-Mon Aug  7 12:08:00 CEST 2017
+Tue Aug  8 12:08:00 CEST 2017
 ---- initialise
 PATH: /usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin
 CLASSPATH: :/Users/Admin/Library/saxon/saxon9he.jar
-today: 2017.08.07
+today: 2017.08.08
 sql: /Users/Admin/beehive.data/dump/dump.sql
 xml: /Users/Admin/beehive.data/dump/dump.xml
 database: bl
