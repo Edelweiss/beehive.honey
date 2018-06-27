@@ -1,11 +1,16 @@
-== dump ==
+dump
+====
 
 dump - this directory contains xml and sql data as retrieved from database via mysqldump 
 
 
-== post_publishing ==
+post_publishing
+===============
 
-ACHTUNG: Immer die Skripte an die aktuell zu importierende BL-Nummer anpassen. Beginnt mit XIII…
+ACHTUNG: Folgende Skripte an die aktuell zu importierende BL-Nummer anpassen (z.B. 'XIII'):
+
+* bl_bibliography_export.sql
+* compilation_page_export.sql
 
 After the print release the actual page numbers can be exported in order to import them into Aquila HGV (and then form there into FileMaker HGV and EpiDoc HGV)
 
