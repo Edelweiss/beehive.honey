@@ -1,0 +1,7 @@
+repo         = /…/beehive.data
+database     = bl
+user         = bl
+password     = …
+database_hgv = hgv
+user_hgv     = hgv
+password_hgv = …
