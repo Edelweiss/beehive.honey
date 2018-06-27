@@ -16,12 +16,19 @@ echo "today: $today"
 echo "database: $database"
 echo "user: $user"
 
-echo "---- export (nur lesen)"
-
+echo "---- export compilation page from bl mysql"
 mysql -u $user_bl -p $gloin_bl < compilation_page_export.sql > compilation_page_import.sql
 
-echo "---- import"
-
+echo "---- import compilation page into hgv mysql"
 mysql $database_hgv -u $user_hgv -p $gloin_hgv < compilation_page_import.sql
+
+echo "---- export bl bibliography from hgv mysql"
+mysql $database_hgv -u $user_hgv -p $gloin_hgv < bl_bibliography_export.sql > bl_bibliography_import.csv
+
+echo "---- import bl bibliography into hgv FileMaker"
+echo "must be done manually, see README"
+
+echo "---- import bl bibliography into hgv EpiDoc idp.data"
+echo "YTBD"
 
 exit 0
