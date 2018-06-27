@@ -3,7 +3,7 @@
 export PATH=$PATH:/usr/local/bin:/usr/local/git/bin
 export CLASSPATH=$CLASSPATH:$HOME/Library/saxon/saxon9he.jar
 
-ini="$(dirname $0)/dump.ini"
+ini="$(dirname $0)/../environment.ini"
 repo=$(sed -n 's/.*repo *= *\([^ ]*.*\)/\1/p' < $ini)
 log="$repo/dump/dump.log"
 
