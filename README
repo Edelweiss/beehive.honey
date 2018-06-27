@@ -1,11 +1,8 @@
-dump
-====
+# dump
 
 dump - this directory contains xml and sql data as retrieved from database via mysqldump 
 
-
-post_publishing
-===============
+# post_publishing
 
 ACHTUNG: Folgende Skripte an die aktuell zu importierende BL-Nummer anpassen (z.B. 'XIII'):
 
