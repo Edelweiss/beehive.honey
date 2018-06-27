@@ -32,7 +32,7 @@ echo "user: $user" >> $log
 echo "---- git fetch" >> $log
 git --git-dir "$repo/.git" fetch >> $log 2>&1
 echo "---- git merge" >> $log
-git --git-dir "$repo/.git" merge origin/master >> $log 2>&1
+git --git-dir "$repo/.git" merge edelweiss/master >> $log 2>&1
 echo "---- mysqldump sql" >> $log
 mysqldump --single-transaction --password=$gloin --user=$user --ignore-table=$database.user $database > $sql
 echo "---- mysqldump xml" >> $log
@@ -45,7 +45,7 @@ git --git-dir "$repo/.git" commit -m "auto save $today" >> $log 2>&1
 echo "---- git gc" >> $log
 git --git-dir "$repo/.git" gc >> $log 2>&1
 echo "---- git push" >> $log
-git --git-dir "$repo/.git" push origin master:master >> $log 2>&1
+git --git-dir "$repo/.git" push edelweiss master:master >> $log 2>&1
 
 date >> $log
 
