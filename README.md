@@ -1,8 +1,10 @@
-# dump
+dump
+====
 
 dump - this directory contains xml and sql data as retrieved from database via mysqldump 
 
-# post_publishing
+post_publishing
+===============
 
 ACHTUNG: Folgende Skripte an die aktuell zu importierende BL-Nummer anpassen (z.B. 'XIII'):
 
@@ -11,7 +13,7 @@ ACHTUNG: Folgende Skripte an die aktuell zu importierende BL-Nummer anpassen (z.
 
 After the print release the actual page numbers can be exported in order to import them into Aquila HGV (and then form there into FileMaker HGV and EpiDoc HGV)
 
-(a) Just go to
+(a) Go to
 
 cd /Users/Admin/beehive.data/post_publishing
 
@@ -22,6 +24,8 @@ cd /Users/Admin/beehive.data/post_publishing
 (c) Import into FileMaker manually
 
 see point (4) below
+
+___
 
 The script comprises the following steps:
 
@@ -53,10 +57,10 @@ bl_bibliography_import.csv
 
 Dann
 
-Bestehende Datensätze Abgleichen
-Erste Zeile ignorieren, enthält Feldnamen
-TMNr_plus_texLett = Abgleichfeld
-BL = einziges Importfeld
+* Bestehende Datensätze Abgleichen
+* Erste Zeile ignorieren, enthält Feldnamen
+* TMNr_plus_texLett = Abgleichfeld
+* BL = einziges Importfeld
 
 Go!
 
