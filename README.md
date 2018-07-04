@@ -15,11 +15,15 @@ After the print release the actual page numbers can be exported in order to impo
 
 (a) Go to
 
+```
 cd /Users/Admin/beehive.data/post_publishing
+```
 
 (b) and call script
 
+```
 ./compilation_page_export_import.sh
+```
 
 (c) Import into FileMaker manually
 
@@ -29,23 +33,31 @@ ___
 
 The script comprises the following steps:
 
-(1) Export page numbers from production database ‘bl’
+(1) Export page numbers from production database **bl**
 
+```
 mysql -u bl -p < compilation_page_export.sql > compilation_page_import.sql
+```
 
-(2.1) Import into Aquila HGV development
+(2.1) Import into **Aquila HGV development**
 
+```
 mysql hgv_dev -u hgv -p < compilation_page_import.sql
+```
 
-(2.2) respectively, import into Aquila HGV production
+(2.2) respectively, import into **Aquila HGV production**
 
+```
 mysql hgv -u hgv -p < compilation_page_import.sql
+```
 
-(3) Export bl bibliography from mysql HGV
+(3) Export bl bibliography from mysql **hgv** (field **bl**)
 
+```
 mysql -u bl -p < bl_bibliography_export.sql > bl_bibliography_import.csv
+```
 
-(4) Manually import bl bibliography into HGV FileMaker
+(4) Manually import bl bibliography into **HGV FileMaker**
 
 In
 
@@ -53,9 +65,11 @@ Menu > Ablage/File > Datensätze importieren/Import > Datei/From File
 
 choose
 
+```
 bl_bibliography_import.csv
+```
 
-Dann
+Dann verwende folgende Einstellungen:
 
 * Bestehende Datensätze Abgleichen
 * Erste Zeile ignorieren, enthält Feldnamen
@@ -64,4 +78,4 @@ Dann
 
 Go!
 
-Danach nicht vergessen, die Datensätze als aktualisiert zu markieren
+Danach nicht vergessen, die Datensätze als aktualisiert zu markieren (Feld **last_modified**)
