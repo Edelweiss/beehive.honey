@@ -1,13 +1,14 @@
-Mon Aug 12 12:08:00 CEST 2019
+Tue Aug 13 12:08:00 CEST 2019
 ---- initialise
 PATH: /usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin
 CLASSPATH: :/Users/Admin/Library/saxon/saxon9he.jar
-today: 2019.08.12
+today: 2019.08.13
 sql: /Users/Admin/beehive.data/dump/dump.sql
 xml: /Users/Admin/beehive.data/dump/dump.xml
 database: bl
 user: bl
 ---- git fetch
+Warning: Permanently added the RSA host key for IP address '140.82.113.3' to the list of known hosts.
 ---- git merge
 Already up-to-date.
 ---- mysqldump sql
