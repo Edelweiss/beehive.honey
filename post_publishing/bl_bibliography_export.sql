@@ -5,4 +5,6 @@ SELECT
 FROM
   `hgv`
 WHERE
-  bl LIKE '%XIII, %'
+  bl IS NOT NULL
+  AND NOT bl = ''
+  AND (bl LIKE '%XII, %' OR bl LIKE '%XIII, %')
