@@ -94,6 +94,7 @@ Danach nicht vergessen, die Datensätze als aktualisiert zu markieren (Feld **la
 
 * TMNr_plus_texLett
 * BL
+* blOnline
 
 Use FMP XML file format for the export file.
 
@@ -127,6 +128,8 @@ git push papyri xwalk_ossiriand:xwalk
 ```
 
 * run script #52
+
+DIESES SKRIPT MUSS NOCH ANGEPASST WERDEN, damit es sowohl neue Seitenzahlen und BL-Korrekturen als auch das BL-Online-Flag in EpiDoc schreibt
 
 ```
 cd ~/projects/idp.data
