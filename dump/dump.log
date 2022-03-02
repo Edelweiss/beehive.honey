@@ -1,7 +1,5 @@
-Wed Mar  2 17:12:01 UTC 2022
+Wed Mar  2 17:20:55 UTC 2022
 ---- initialise
-PATH: /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
-CLASSPATH: 
 today: 2022.03.02
 sql: /home/ubuntu/beehive.honey/dump/dump.sql
 xml: /home/ubuntu/beehive.honey/dump/dump.xml
@@ -13,9 +11,3 @@ Already up to date.
 ---- mysqldump sql
 ---- mysqldump xml
 ---- git add
----- git commit
-fatal: cannot update the ref 'HEAD': unable to append to '/home/ubuntu/beehive.honey/.git/logs/HEAD': Permission denied
----- git gc
----- git push
-Everything up-to-date
-Wed Mar  2 17:12:11 UTC 2022
