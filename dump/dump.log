@@ -1,4 +1,4 @@
-Wed Mar  2 17:06:12 UTC 2022
+Wed Mar  2 17:07:18 UTC 2022
 ---- initialise
 PATH: /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
 CLASSPATH: 
@@ -9,7 +9,7 @@ database: beehive
 user: beehive
 ---- git fetch
 ---- git merge
-merge: edelweiss/master - not something we can merge
+Already up to date.
 ---- mysqldump sql
 ---- mysqldump xml
 ---- git add
