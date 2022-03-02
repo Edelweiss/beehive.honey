@@ -1,15 +1,15 @@
-Thu Feb 24 12:08:00 CET 2022
+Wed Mar  2 17:06:12 UTC 2022
 ---- initialise
-PATH: /usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin
-CLASSPATH: :/Users/Admin/Library/saxon/saxon9he.jar
-today: 2022.02.24
-sql: /Users/Admin/beehive.data/dump/dump.sql
-xml: /Users/Admin/beehive.data/dump/dump.xml
-database: bl
-user: bl
+PATH: /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+CLASSPATH: 
+today: 2022.03.02
+sql: /home/ubuntu/beehive.honey/dump/dump.sql
+xml: /home/ubuntu/beehive.honey/dump/dump.xml
+database: beehive
+user: beehive
 ---- git fetch
 ---- git merge
-Already up-to-date.
+merge: edelweiss/master - not something we can merge
 ---- mysqldump sql
 ---- mysqldump xml
 ---- git add
