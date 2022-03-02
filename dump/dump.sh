@@ -1,8 +1,5 @@
 #!/usr/bin/env bash
 
-#export PATH=$PATH:/usr/local/bin:/usr/local/git/bin
-#export CLASSPATH=$CLASSPATH:$HOME/Library/saxon/saxon9he.jar
-
 ini="$(dirname $0)/../environment.ini"
 repo=$(sed -n 's/.*repo *= *\([^ ]*.*\)/\1/p' < $ini)
 log="$repo/dump/dump.log"
@@ -12,9 +9,6 @@ echo $log
 date > $log
 
 echo "---- initialise" >> $log
-
-echo "PATH: $PATH" >> $log
-echo "CLASSPATH: $CLASSPATH" >> $log
 
 today=`date +%Y.%m.%d`
 sql="$repo/dump/dump.sql"
