@@ -1,13 +1,25 @@
-Wed Mar  2 17:20:55 UTC 2022
+Thu Mar  3 12:08:00 CET 2022
 ---- initialise
-today: 2022.03.02
-sql: /home/ubuntu/beehive.honey/dump/dump.sql
-xml: /home/ubuntu/beehive.honey/dump/dump.xml
-database: beehive
-user: beehive
+PATH: /usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin
+CLASSPATH: :/Users/Admin/Library/saxon/saxon9he.jar
+today: 2022.03.03
+sql: /Users/Admin/beehive.data/dump/dump.sql
+xml: /Users/Admin/beehive.data/dump/dump.xml
+database: bl
+user: bl
 ---- git fetch
+From github.com:Edelweiss/beehive.honey
+   41b79d0..f17e070  master     -> edelweiss/master
 ---- git merge
-Already up to date.
+Updating 41b79d0..f17e070
+Fast-forward
+ dump/dump.log       |   16 ++--
+ dump/dump.sh        |   10 +--
+ dump/dump.sql       |  168 ++++++++++++++++++---------------
+ dump/dump.xml       |  262 +++++++++++++++++++++++++-------------------------
+ dump/dump_macosx.sh |   52 ++++++++++
+ 5 files changed, 283 insertions(+), 225 deletions(-)
+ create mode 100755 dump/dump_macosx.sh
 ---- mysqldump sql
 ---- mysqldump xml
 ---- git add
