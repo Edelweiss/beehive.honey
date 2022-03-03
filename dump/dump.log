@@ -1,11 +1,16 @@
-Wed Mar  2 17:20:55 UTC 2022
+Thu Mar  3 12:47:39 UTC 2022
 ---- initialise
-today: 2022.03.02
+today: 2022.03.03
 sql: /home/ubuntu/beehive.honey/dump/dump.sql
 xml: /home/ubuntu/beehive.honey/dump/dump.xml
 database: beehive
 user: beehive
 ---- git fetch
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
 ---- git merge
 Already up to date.
 ---- mysqldump sql
