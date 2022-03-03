@@ -11,8 +11,3 @@ fatal: Could not read from remote repository.
 
 Please make sure you have the correct access rights
 and the repository exists.
----- git merge
-Already up to date.
----- mysqldump sql
----- mysqldump xml
----- git add
