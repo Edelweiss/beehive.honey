@@ -49,4 +49,6 @@ git --git-dir "$repo/.git" push edelweiss master:master >> $log 2>&1
 
 date >> $log
 
+cat $log
+
 exit 0
