@@ -29,23 +29,25 @@ echo "xml: $xml" >> $log
 echo "database: $database" >> $log
 echo "user: $user" >> $log
 
+sudo -i -u ubuntu
+
 echo "---- git fetch" >> $log
-sudo git --git-dir "$repo/.git" fetch >> $log 2>&1
+git --git-dir "$repo/.git" fetch >> $log 2>&1
 echo "---- git merge" >> $log
-sudo git --git-dir "$repo/.git" merge edelweiss/master >> $log 2>&1
+git --git-dir "$repo/.git" merge edelweiss/master >> $log 2>&1
 echo "---- mysqldump sql" >> $log
 mysqldump --single-transaction --password=$gloin --user=$user --ignore-table=$database.user $database > $sql
 echo "---- mysqldump xml" >> $log
 mysqldump --single-transaction --password=$gloin --user=$user --ignore-table=$database.user --xml $database > $xml
 echo "---- git add" >> $log
 cd $repo
-sudo git add dump >> $log 2>&1
+git add dump >> $log 2>&1
 echo "---- git commit" >> $log
-sudo git --git-dir "$repo/.git" commit -m "auto save $today" >> $log 2>&1
+git --git-dir "$repo/.git" commit -m "auto save $today" >> $log 2>&1
 echo "---- git gc" >> $log
-sudo git --git-dir "$repo/.git" gc >> $log 2>&1
+git --git-dir "$repo/.git" gc >> $log 2>&1
 echo "---- git push" >> $log
-sudo git --git-dir "$repo/.git" push edelweiss master:master >> $log 2>&1
+git --git-dir "$repo/.git" push edelweiss master:master >> $log 2>&1
 
 date >> $log
 
