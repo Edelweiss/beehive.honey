@@ -9,7 +9,7 @@ set -x
 export PATH=$PATH:/usr/local/bin:/usr/local/git/bin
 export CLASSPATH=$CLASSPATH:$HOME/Library/saxon/saxon9he.jar
 
-#### in welchem Verzeichnis muß dieses Skript gestartet werden?   : /home/ubuntu/beehive.honey/dump/dump.sh ???
+#### in welchem Verzeichnis muß dieses Skript gestartet werden?   : egal, es wechselt => /home/ubuntu/beehive.honey
 #### von welchem User?   : ubuntu
 #### mit welchen git-credentials?   : 
 
