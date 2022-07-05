@@ -9,7 +9,7 @@ set -x
 export PATH=$PATH:/usr/local/bin:/usr/local/git/bin
 export CLASSPATH=$CLASSPATH:$HOME/Library/saxon/saxon9he.jar
 
-#### in welchem Verzeichnis muß dieses Skript gestartet werden?   : 
+#### in welchem Verzeichnis muß dieses Skript gestartet werden?   : /home/ubuntu/beehive.honey/dump/dump.sh ???
 #### von welchem User?   : ubuntu
 #### mit welchen git-credentials?   : 
 
@@ -25,11 +25,11 @@ echo "uid=`whoami`  pwd=`pwd`  ini=$ini  repo=$repo  log=$log"  ### Verbosity
 
 date --iso=s > $log
 
-echo "---- initialize: This is $0 running as $USER on $HOST in $PWD" >> $log
+echo "---- initialize: This is $0 running as $USER on $(hostname -f) in $PWD" >> $log
 echo "PATH: $PATH" >> $log
 echo "CLASSPATH: $CLASSPATH" >> $log
 
-today=`date +%Y.%m.%d`   ### Warum nicht date --iso ? wird das log automatisch ausgewertet später?
+today=`date --iso=s`
 sql="$repo/dump/dump.sql"
 xml="$repo/dump/dump.xml"
 database=$(sed -n 's/.*database *= *\([^ ]*.*\)/\1/p' < $ini)
@@ -37,12 +37,10 @@ user=$(sed -n 's/.*user *= *\([^ ]*.*\)/\1/p' < $ini)
 gloin=$(sed -n 's/.*password *= *\([^ ]*.*\)/\1/p' < $ini)
 
 echo "today: $today" >> $log  ### Diese 5 Echos passen auf eine Zeile.
-echo "sql: $sql" >> $log
-echo "xml: $xml" >> $log
-echo "database: $database" >> $log
-echo "user: $user" >> $log
+echo "sql: $sql  xml: $xml  database: $database  user: $user" >> $log
 
-### !!! ### sudo -i -u ubuntu  ### Warum eine Login-shell? Das bleibt hängen bzw. wird interaktiv, wozu?
+### !!! ### sudo -i -u ubuntu  ### Warum eine Login-shell? Das bleibt hängen bzw. wird interaktiv.
+### wozu sudo -u ubuntu? für root's crontab? => umziehen in ubuntu's crontab!
 
 echo "---- git fetch" >> $log
 git --git-dir "$repo/.git" fetch >> $log 2>&1
@@ -65,10 +63,10 @@ git --git-dir "$repo/.git" push edelweiss master:master >> $log 2>&1
 
 date --iso=s >> $log  ### Tipp: Das Kommando 'time <name of command or script>' zeigt auch die benötigte Zeit an.
 
-cat $log  ### Debugging? Unnötig wenn von cron aus gestartet wird.
+### cat $log  ### Debugging? Unnötig wenn von cron aus gestartet wird.
 
-git status  ### Verbosity
-git log|head  ### Verbosity
-echo "uid=`whoami`  pwd=`pwd`  ini=$ini  repo=$repo  log=$log"  ### Verbosity
+### git status  ### Verbosity
+### git log|head  ### Verbosity
+### echo "uid=`whoami`  pwd=`pwd`  ini=$ini  repo=$repo  log=$log"  ### Verbosity
 
 exit 0
