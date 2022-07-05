@@ -17,8 +17,8 @@ ini="$(dirname $0)/../environment.ini"
 repo=$(sed -n 's/.*repo *= *\([^ ]*.*\)/\1/p' < $ini)
 log="$repo/dump/dump.log"
 
-if [[ -f $log ]]  ### vorhandenes log umbenennen:
-   then mv $log ${log}.old
+if [[ -f $log ]]  ### vorhandenes Log umbenennen:
+   then mv -f $log ${log}.old  ### noch älteres Log wird überschrieben.
 fi
 
 echo "uid=`whoami`  pwd=`pwd`  ini=$ini  repo=$repo  log=$log"  ### Verbosity
@@ -42,8 +42,7 @@ echo "xml: $xml" >> $log
 echo "database: $database" >> $log
 echo "user: $user" >> $log
 
-sudo -i -u ubuntu
-echo "user: $user" ### Verbosity
+### !!! ### sudo -i -u ubuntu  ### Warum eine Login-shell? Das bleibt hängen bzw. wird interaktiv, wozu?
 
 echo "---- git fetch" >> $log
 git --git-dir "$repo/.git" fetch >> $log 2>&1
@@ -53,8 +52,8 @@ echo "---- mysqldump sql" >> $log
 mysqldump --single-transaction --password=$gloin --user=$user --ignore-table=$database.user $database > $sql
 echo "---- mysqldump xml" >> $log
 mysqldump --single-transaction --password=$gloin --user=$user --ignore-table=$database.user --xml $database > $xml
-echo "---- git add" >> $log
 
+echo "---- git add" >> $log
 cd $repo
 git add dump >> $log 2>&1
 echo "---- git commit" >> $log
@@ -66,6 +65,6 @@ git --git-dir "$repo/.git" push edelweiss master:master >> $log 2>&1
 
 date --iso=s >> $log  ### Tipp: Das Kommando 'time <name of command or script>' zeigt auch die benötigte Zeit an.
 
-cat $log ### Verbosity
+cat $log ### Verbosity, unnötig wenn von cron aus gestartet wird.
 
-logout  ### logout again after sudo -i
+exit 0
