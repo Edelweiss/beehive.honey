@@ -65,6 +65,10 @@ git --git-dir "$repo/.git" push edelweiss master:master >> $log 2>&1
 
 date --iso=s >> $log  ### Tipp: Das Kommando 'time <name of command or script>' zeigt auch die benötigte Zeit an.
 
-cat $log ### Verbosity, unnötig wenn von cron aus gestartet wird.
+cat $log  ### Debugging? Unnötig wenn von cron aus gestartet wird.
+
+git status  ### Verbosity
+git log|head  ### Verbosity
+echo "uid=`whoami`  pwd=`pwd`  ini=$ini  repo=$repo  log=$log"  ### Verbosity
 
 exit 0

@@ -1,4 +1,4 @@
-2022-07-05T10:31:07+02:00
+2022-07-05T10:54:42+02:00
 ---- initialize: This is /home/ubuntu/beehive.honey/dump/dump.sh running as ubuntu on  in /home/ubuntu
 PATH: /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/bin:/usr/local/git/bin
 CLASSPATH: :/home/ubuntu/Library/saxon/saxon9he.jar
@@ -14,11 +14,11 @@ Already up to date.
 ---- mysqldump xml
 ---- git add
 ---- git commit
-[master dc7e8c0b] auto save 2022.07.05
- 4 files changed, 47 insertions(+), 19 deletions(-)
- create mode 100644 dump/dump.log.old
+[master 2ba6869c] auto save 2022.07.05
+ 5 files changed, 17 insertions(+), 12 deletions(-)
+ create mode 100644 dump/.dump.sh.swp
 ---- git gc
 ---- git push
 To github.com:Edelweiss/beehive.honey.git
-   b0464091..dc7e8c0b  master -> master
-2022-07-05T10:32:03+02:00
+   dc7e8c0b..2ba6869c  master -> master
+2022-07-05T10:54:56+02:00
