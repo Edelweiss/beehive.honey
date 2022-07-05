@@ -1,18 +1,13 @@
-Wed Apr 13 18:30:01 CEST 2022
----- initialise
-PATH: /usr/bin:/bin:/usr/local/bin:/usr/local/git/bin
-CLASSPATH: :/root/Library/saxon/saxon9he.jar
-today: 2022.04.13
+2022-07-05T10:31:07+02:00
+---- initialize: This is /home/ubuntu/beehive.honey/dump/dump.sh running as ubuntu on  in /home/ubuntu
+PATH: /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/bin:/usr/local/git/bin
+CLASSPATH: :/home/ubuntu/Library/saxon/saxon9he.jar
+today: 2022.07.05
 sql: /home/ubuntu/beehive.honey/dump/dump.sql
 xml: /home/ubuntu/beehive.honey/dump/dump.xml
 database: beehive
 user: beehive
 ---- git fetch
-git@github.com: Permission denied (publickey).
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
 ---- git merge
 Already up to date.
 ---- mysqldump sql

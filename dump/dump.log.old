@@ -1,0 +1,18 @@
+Tue Jul  5 09:51:05 CEST 2022
+---- initialise
+PATH: /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/bin:/usr/local/git/bin
+CLASSPATH: :/home/ubuntu/Library/saxon/saxon9he.jar
+today: 2022.07.05
+sql: /home/ubuntu/beehive.honey/dump/dump.sql
+xml: /home/ubuntu/beehive.honey/dump/dump.xml
+database: beehive
+user: beehive
+---- git fetch
+---- git merge
+Already up to date.
+---- mysqldump sql
+---- mysqldump xml
+---- git add
+---- git commit
+fatal: cannot update the ref 'HEAD': unable to append to '/home/ubuntu/beehive.honey/.git/logs/HEAD': Permission denied
+---- git gc
