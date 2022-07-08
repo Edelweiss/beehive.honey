@@ -1,10 +1,10 @@
 ---
-Starting log: 2022-07-06T13:19:32+02:00
+Starting log: 2022-07-07T03:33:02+02:00
 ---- initialize: This is /home/ubuntu/beehive.honey/dump/dump.sh running as ubuntu on aquila.zaw.uni-heidelberg.de in /home/ubuntu,
 ---- with variables:  ini=/home/ubuntu/beehive.honey/dump/../environment.ini  repo=/home/ubuntu/beehive.honey  log=/home/ubuntu/beehive.honey/dump/dump.log
-PATH: /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/bin
+PATH: /usr/bin:/bin:/usr/local/bin
 CLASSPATH: :/home/ubuntu/Library/saxon/saxon9he.jar
----- and variables:  today: 2022-07-06T13:19:33+02:00  sql: /home/ubuntu/beehive.honey/dump/dump.sql  xml: /home/ubuntu/beehive.honey/dump/dump.xml  database: beehive  user: beehive
+---- and variables:  today: 2022-07-07T03:33:02+02:00  sql: /home/ubuntu/beehive.honey/dump/dump.sql  xml: /home/ubuntu/beehive.honey/dump/dump.xml  database: beehive  user: beehive
 ---- git fetch
 ---- git merge
 Already up to date.
@@ -12,12 +12,12 @@ Already up to date.
 ---- mysqldump xml
 ---- git add
 ---- git commit
-[master b36ac0f3] auto save 2022-07-06T13:19:33+02:00
- 5 files changed, 53 insertions(+), 36 deletions(-)
- create mode 100644 dump/dump-in-progress.lock
+[master 5c82dab3] auto save 2022-07-07T03:33:02+02:00
+ 3 files changed, 27 insertions(+), 26 deletions(-)
+ rewrite dump/dump.log.old (64%)
 ---- git gc
 ---- git push
 To github.com:Edelweiss/beehive.honey.git
-   ebe9e1ac..b36ac0f3  master -> master
-Finishing log: 2022-07-06T13:20:04+02:00
+   b36ac0f3..5c82dab3  master -> master
+Finishing log: 2022-07-07T03:33:25+02:00
 ...
