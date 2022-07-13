@@ -23,10 +23,9 @@ touch $(dirname $0)/dump-in-progress.lock
 
 
 export PATH=$PATH:/usr/local/bin
-export CLASSPATH=$CLASSPATH:$HOME/Library/saxon/saxon9he.jar
 
-ini="$(dirname $0)/../environment.ini"
-repo=$(sed -n 's/.*repo *= *\([^ ]*.*\)/\1/p' < $ini)
+ini="$(dirname $0)/../environment.ini" ### Ort von repo, Datenbankverbindungdaten
+repo=$(sed -n 's/.*repo *= *\([^ ]*.*\)/\1/p' < $ini) ### Ort von beehive.honey, z.B. /home/ubuntu/beehive.honey
 log="$repo/dump/dump.log"
 
 if [[ -f $log ]]  ### vorhandenes Log umbenennen:
