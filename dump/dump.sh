@@ -14,8 +14,8 @@
 ### Postconditions:
 
 set -e   ### DEBUGGING: Fail on any error! (AKA: exit immediately on non-zero return)
-# set -x ### DEBUGGING: eXplizitly echo commands before executing (AKA: print command trace)
-
+set -x ### DEBUGGING: eXplizitly echo commands before executing (AKA: print command trace)
+###!!!###
 
 # check and set lock file or exit:
 if [[ -f $(dirname $0)/dump-in-progress.lock ]]; then exit 1; fi
@@ -39,6 +39,11 @@ echo "---- initialize: This is $0 running as $(whoami) on $(hostname -f) in ${PW
 echo "---- with variables:  ini=$ini  repo=$repo  log=$log" >> $log
 echo "PATH: $PATH" >> $log
 echo "CLASSPATH: $CLASSPATH" >> $log
+
+echo $log
+tail $log
+###!!!###
+
 
 today=`date --iso=s`
 sql="$repo/dump/dump.sql"
