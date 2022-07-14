@@ -1,10 +1,10 @@
 ---
-Starting log: 2022-07-13T10:13:05+02:00
----- initialize: This is /home/ubuntu/beehive.honey/dump/dump.sh running as ubuntu on aquila.zaw.uni-heidelberg.de in /home/ubuntu,
+Starting log: 2022-07-13T10:20:14+02:00
+---- initialize: This is /home/ubuntu/beehive.honey/dump/dump.sh running as ubuntu on aquila.zaw.uni-heidelberg.de in /home/ubuntu/navigator,
 ---- with variables:  ini=/home/ubuntu/beehive.honey/dump/../environment.ini  repo=/home/ubuntu/beehive.honey  log=/home/ubuntu/beehive.honey/dump/dump.log
 PATH: /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/bin
 CLASSPATH: 
----- and variables:  today: 2022-07-13T10:13:05+02:00  sql: /home/ubuntu/beehive.honey/dump/dump.sql  xml: /home/ubuntu/beehive.honey/dump/dump.xml  database: beehive  user: beehive
+---- and variables:  today: 2022-07-13T10:20:14+02:00  sql: /home/ubuntu/beehive.honey/dump/dump.sql  xml: /home/ubuntu/beehive.honey/dump/dump.xml  database: beehive  user: beehive
 ---- git fetch
 ---- git merge
 Already up to date.
@@ -12,11 +12,11 @@ Already up to date.
 ---- mysqldump xml
 ---- git add
 ---- git commit
-[master fc354d4c] auto save 2022-07-13T10:13:05+02:00
- 3 files changed, 11 insertions(+), 11 deletions(-)
+[master 9a14eda3] auto save 2022-07-13T10:20:14+02:00
+ 4 files changed, 18 insertions(+), 13 deletions(-)
 ---- git gc
 ---- git push
 To github.com:Edelweiss/beehive.honey.git
-   0a55aeb4..fc354d4c  master -> master
-Finishing log: 2022-07-13T10:13:16+02:00
+   fc354d4c..9a14eda3  master -> master
+Finishing log: 2022-07-13T10:20:24+02:00
 ...
