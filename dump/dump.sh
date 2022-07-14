@@ -14,8 +14,7 @@
 ### Postconditions:
 
 set -e   ### DEBUGGING: Fail on any error! (AKA: exit immediately on non-zero return)
-set -x ### DEBUGGING: eXplizitly echo commands before executing (AKA: print command trace)
-###!!!###
+###set -x ### DEBUGGING: eXplizitly echo commands before executing (AKA: print command trace)
 
 # check and set lock file or exit:
 if [[ -f $(dirname $0)/dump-in-progress.lock ]]; then exit 1; fi
@@ -32,17 +31,16 @@ if [[ -f $log ]]  ### vorhandenes Log umbenennen:
    then mv -f $log ${log}.old  ### noch älteres Log wird überschrieben.
 fi
 
+###!!!### Verbosity:
+echo "---- initialize: This is $0 running as $(whoami) on $(hostname -f) in ${PWD}, with variables:  ini=$ini  repo=$repo  log=$log ."
+###!!!###
+
 ### start new log file:
 echo -e "---\nStarting log: $(date --iso=s)" > $log
-
 echo "---- initialize: This is $0 running as $(whoami) on $(hostname -f) in ${PWD}," >> $log
 echo "---- with variables:  ini=$ini  repo=$repo  log=$log" >> $log
 echo "PATH: $PATH" >> $log
 echo "CLASSPATH: $CLASSPATH" >> $log
-
-echo $log
-tail $log
-###!!!###
 
 
 today=`date --iso=s`
