@@ -36,7 +36,7 @@ then
    echo "${0}: aborting now. Read the log ${log}, fix issues and remove lock-file $(dirname $0)/dump-in-progress.lock , Sorry =(^_^)= "
    exit 1
 else
-   lockfile=$(dirname $0)/dump-in-progress.lock
+   lockfile=$(dirname $0)/dump-in-progress.lock; echo $lockfile
    touch $lockfile
 fi
 
