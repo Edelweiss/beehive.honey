@@ -36,7 +36,7 @@ then
    echo "${0}: aborting now. Read the log ${log}, fix issues and remove lock-file $(dirname $0)/dump-in-progress.lock , Sorry =(^_^)= "
    exit 1
 else
-   lockfile=$(dirname $0)/dump-in-progress.lock; echo $lockfile; pwd
+   lockfile=$(pwd)/dump-in-progress.lock
    touch $lockfile
 fi
 
@@ -97,7 +97,6 @@ echo -e "Finishing ${0}: $(date --iso=s)\n..." | tee -a $log
 
 
 # remove lock file:
-pwd
 rm -f $lockfile
 
 exit 0
