@@ -1,10 +1,10 @@
 ---
-Starting log: 2022-07-18T17:44:40+02:00
----- initialize: This is ./dump.sh running as ubuntu on aquila.zaw.uni-heidelberg.de in /home/ubuntu/beehive.honey/dump,
----- with variables:  ini=./../environment.ini  repo=/home/ubuntu/beehive.honey  log=/home/ubuntu/beehive.honey/dump/dump.log
-PATH: /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/bin
+Starting log: 2022-07-19T03:33:02+02:00
+---- initialize: This is /home/ubuntu/beehive.honey/dump/dump.sh running as ubuntu on aquila.zaw.uni-heidelberg.de in /home/ubuntu,
+---- with variables:  ini=/home/ubuntu/beehive.honey/dump/../environment.ini  repo=/home/ubuntu/beehive.honey  log=/home/ubuntu/beehive.honey/dump/dump.log
+PATH: /usr/bin:/bin:/usr/local/bin
 CLASSPATH: 
----- and variables:  today: 2022-07-18T17:44:40+02:00  sql: /home/ubuntu/beehive.honey/dump/dump.sql  xml: /home/ubuntu/beehive.honey/dump/dump.xml  database: beehive  user: beehive
+---- and variables:  today: 2022-07-19T03:33:02+02:00  sql: /home/ubuntu/beehive.honey/dump/dump.sql  xml: /home/ubuntu/beehive.honey/dump/dump.xml  database: beehive  user: beehive
 ---- git fetch
 ---- git merge
 Already up to date.
@@ -12,11 +12,14 @@ Already up to date.
 ---- mysqldump xml
 ---- git add
 ---- git commit
-[master 2013ddfe] auto save 2022-07-18T17:44:40+02:00
- 4 files changed, 10 insertions(+), 11 deletions(-)
+[master d6ea29c9] auto save 2022-07-19T03:33:02+02:00
+ 4 files changed, 23 insertions(+), 14 deletions(-)
+ delete mode 100644 dump/dump-in-progress.lock
+ rewrite dump/dump.log (66%)
+ copy dump/{dump.log => dump.log.old} (71%)
 ---- git gc
 ---- git push
 To github.com:Edelweiss/beehive.honey.git
-   04513981..2013ddfe  master -> master
-Finishing ./dump.sh: 2022-07-18T17:44:49+02:00
+   2013ddfe..d6ea29c9  master -> master
+Finishing /home/ubuntu/beehive.honey/dump/dump.sh: 2022-07-19T03:33:20+02:00
 ...
