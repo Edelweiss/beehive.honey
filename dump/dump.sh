@@ -30,15 +30,15 @@ then
 fi
 
 # check and set lock file or exit:
-if [[ -f $(dirname $0)/dump-in-progress.lock ]]
-then
-   echo "Error: lock-file exists, either because $0 is already running or was aborted earlier."
-   echo "${0}: aborting now. Read the log ${log}, fix issues and remove lock-file $(dirname $0)/dump-in-progress.lock , Sorry =(^_^)= "
-   exit 1
-else
-   lockfile=$(pwd)/dump-in-progress.lock
-   touch $lockfile
-fi
+#if [[ -f $(dirname $0)/dump-in-progress.lock ]]
+#then
+#   echo "Error: lock-file exists, either because $0 is already running or was aborted earlier."
+#   echo "${0}: aborting now. Read the log ${log}, fix issues and remove lock-file $(dirname $0)/dump-in-progress.lock , Sorry =(^_^)= "
+#   exit 1
+#else
+#   lockfile=$(pwd)/dump-in-progress.lock
+#   touch $lockfile
+#fi
 
 export PATH=$PATH:/usr/local/bin
 
@@ -48,9 +48,9 @@ fi
 
 
 ### start new log file:
-echo -e "---\nStarting log: $(date --iso=s)" | tee $log
-echo "---- initialize: This is $0 running as $(whoami) on $(hostname -f) in ${PWD}," | tee -a $log
-echo "---- with variables:  ini=$ini  repo=$repo  log=$log" | tee -a $log
+echo -e "---\nStarting log: $(date --iso=s)" > $log
+echo "---- initialize: This is $0 running as $(whoami) on $(hostname -f) in ${PWD}," >> $log
+echo "---- with variables:  ini=$ini  repo=$repo  log=$log" >> $log
 echo "PATH: $PATH" >> $log
 echo "CLASSPATH: $CLASSPATH" >> $log
 
@@ -61,7 +61,7 @@ xml="$repo/dump/dump.xml"
 database=$(sed -n 's/.*database *= *\([^ ]*.*\)/\1/p' < $ini)
 user=$(sed -n 's/.*user *= *\([^ ]*.*\)/\1/p' < $ini)
 gloin=$(sed -n 's/.*password *= *\([^ ]*.*\)/\1/p' < $ini)
-echo "---- and variables:  today: $today  sql: $sql  xml: $xml  database: $database  user: $user" | tee -a $log
+echo "---- and variables:  today: $today  sql: $sql  xml: $xml  database: $database  user: $user" >> $log
 
 
 # Git going!
@@ -93,10 +93,10 @@ echo "---- git push" >> $log
 git --git-dir "$repo/.git" push edelweiss master:master >> $log 2>&1
 
 
-echo -e "Finishing ${0}: $(date --iso=s)\n..." | tee -a $log
+echo -e "Finishing ${0}: $(date --iso=s)\n..." >> $log 2>&1
 
 
 # remove lock file:
-rm -f $lockfile
+#rm -f $lockfile
 
 exit 0
