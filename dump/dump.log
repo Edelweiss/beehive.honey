@@ -1,10 +1,10 @@
 ---
-Starting log: 2022-09-21T03:33:01+02:00
+Starting log: 2022-09-22T03:33:01+02:00
 ---- initialize: This is /home/ubuntu/beehive.honey/dump/dump.sh running as ubuntu on aquila-maxima in /home/ubuntu,
 ---- with variables:  ini=/home/ubuntu/beehive.honey/dump/../environment.ini  repo=/home/ubuntu/beehive.honey  log=/home/ubuntu/beehive.honey/dump/dump.log
 PATH: /usr/bin:/bin:/usr/local/bin
 CLASSPATH: 
----- and variables:  today: 2022-09-21T03:33:01+02:00  sql: /home/ubuntu/beehive.honey/dump/dump.sql  xml: /home/ubuntu/beehive.honey/dump/dump.xml  database: beehive  user: beehive
+---- and variables:  today: 2022-09-22T03:33:01+02:00  sql: /home/ubuntu/beehive.honey/dump/dump.sql  xml: /home/ubuntu/beehive.honey/dump/dump.xml  database: beehive  user: beehive
 ---- git fetch
 ---- git merge
 Already up to date.
