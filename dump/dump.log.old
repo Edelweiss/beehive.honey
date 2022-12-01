@@ -1,10 +1,10 @@
 ---
-Starting log: 2022-11-29T03:33:01+01:00
+Starting log: 2022-11-30T03:33:01+01:00
 ---- initialize: This is /home/ubuntu/beehive.honey/dump/dump.sh running as ubuntu on aquila-maxima in /home/ubuntu,
 ---- with variables:  ini=/home/ubuntu/beehive.honey/dump/../environment.ini  repo=/home/ubuntu/beehive.honey  log=/home/ubuntu/beehive.honey/dump/dump.log
 PATH: /usr/bin:/bin:/usr/local/bin
 CLASSPATH: 
----- and variables:  today: 2022-11-29T03:33:01+01:00  sql: /home/ubuntu/beehive.honey/dump/dump.sql  xml: /home/ubuntu/beehive.honey/dump/dump.xml  database: beehive  user: beehive
+---- and variables:  today: 2022-11-30T03:33:01+01:00  sql: /home/ubuntu/beehive.honey/dump/dump.sql  xml: /home/ubuntu/beehive.honey/dump/dump.xml  database: beehive  user: beehive
 ---- git fetch
 ---- git merge
 Already up to date.
@@ -12,11 +12,11 @@ Already up to date.
 ---- mysqldump xml
 ---- git add
 ---- git commit
-[master a9d98fdd] auto save 2022-11-29T03:33:01+01:00
- 3 files changed, 9 insertions(+), 12 deletions(-)
+[master b1f7ab9d] auto save 2022-11-30T03:33:01+01:00
+ 3 files changed, 9 insertions(+), 9 deletions(-)
 ---- git gc
 ---- git push
 To github.com:Edelweiss/beehive.honey.git
-   6c005120..a9d98fdd  master -> master
-Finishing /home/ubuntu/beehive.honey/dump/dump.sh: 2022-11-29T03:33:21+01:00
+   a9d98fdd..b1f7ab9d  master -> master
+Finishing /home/ubuntu/beehive.honey/dump/dump.sh: 2022-11-30T03:33:13+01:00
 ...
