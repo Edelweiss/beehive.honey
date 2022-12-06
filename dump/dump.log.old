@@ -1,10 +1,10 @@
 ---
-Starting log: 2022-12-02T03:33:01+01:00
+Starting log: 2022-12-05T03:33:01+01:00
 ---- initialize: This is /home/ubuntu/beehive.honey/dump/dump.sh running as ubuntu on aquila-maxima in /home/ubuntu,
 ---- with variables:  ini=/home/ubuntu/beehive.honey/dump/../environment.ini  repo=/home/ubuntu/beehive.honey  log=/home/ubuntu/beehive.honey/dump/dump.log
 PATH: /usr/bin:/bin:/usr/local/bin
 CLASSPATH: 
----- and variables:  today: 2022-12-02T03:33:01+01:00  sql: /home/ubuntu/beehive.honey/dump/dump.sql  xml: /home/ubuntu/beehive.honey/dump/dump.xml  database: beehive  user: beehive
+---- and variables:  today: 2022-12-05T03:33:01+01:00  sql: /home/ubuntu/beehive.honey/dump/dump.sql  xml: /home/ubuntu/beehive.honey/dump/dump.xml  database: beehive  user: beehive
 ---- git fetch
 ---- git merge
 Already up to date.
@@ -12,11 +12,14 @@ Already up to date.
 ---- mysqldump xml
 ---- git add
 ---- git commit
-[master 5d6f75ef] auto save 2022-12-02T03:33:01+01:00
- 3 files changed, 8 insertions(+), 8 deletions(-)
+[master 9ff5da9b] auto save 2022-12-05T03:33:01+01:00
+ 4 files changed, 23 insertions(+), 23 deletions(-)
 ---- git gc
 ---- git push
+remote: warning: See http://git.io/iEPt8g for more information.        
+remote: warning: File dump/dump.xml is 57.90 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB        
+remote: warning: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.        
 To github.com:Edelweiss/beehive.honey.git
-   bbb06025..5d6f75ef  master -> master
-Finishing /home/ubuntu/beehive.honey/dump/dump.sh: 2022-12-02T03:33:28+01:00
+   5d6f75ef..9ff5da9b  master -> master
+Finishing /home/ubuntu/beehive.honey/dump/dump.sh: 2022-12-05T03:33:41+01:00
 ...
